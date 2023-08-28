@@ -1,0 +1,8 @@
+.grid_2_cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    /*gap: 64px;*/
+    align-items: center;
+    justify-items: center;
+}
+

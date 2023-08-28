@@ -1,0 +1,50 @@
+{
+    "title": "A PRIMER ON CLASSICAL MUSIC",
+    "greeting": [ [
+           "Yo, mad love!",
+           "Big up for hittin' up our site, fam!"
+        ]
+    ],
+    "mix_intro": [ [
+            "We're here to break down that classical music for you in a lit way.",
+            "Buckle up, dude!",
+            "We're kickin' it off with a sick mix of dope classical tracks.",
+            "Go for it, bro. Hit that play button!"
+            ]
+    ],
+    "compositions_intro": [ [
+            "Yo, how we gettin' into this classical music stuff, man? What's the move?"
+        ], [
+            "We ain't about to bore you with a bunch of textbook talk.",
+            "Nah, we goin' straight to the real stuff.",
+            "Down below, we got some bangers for ya.",
+            "Just click on one and we'll break it down, tellin' ya all about the composer and the track.",
+            "We even got a lil' ear test for ya.",
+            "Take a sec to vibe with those OG tunes, man.",
+            "We got some tips to help you really feel it."
+        ]
+    ],
+    "genre_headers": {
+        "serenade": "Savoring Sweet Serenades",
+        "piano": "Parading Piano Pounders",
+        "wals": "Wooing Wavy Waltzes",
+        "suite": "Sipping Solid Suites",
+        "opera": "Orbiting Oozing Operas",
+        "symfonisch gedicht": "Snacking Symphonic Stories",
+        "symfonie": "Slaying Snazzy Symphonies",
+        "orgel": "Owning Outlandish Organscape",
+        "concerto": "Chowing Crisp Concertos",
+        "koor": "Copping Cushy Choirs",
+        "ballet": "Binging Banging Ballets",
+        "mars": "Munching Melodious Marches",
+        "operette": "Ogling Opulent Operettes",
+        "kamermuziek": "Preeshing Parlour Performances"
+    },
+    "genres_per_column": [ 
+        [ "piano", "serenade", "symfonisch gedicht", "walsss", "opera", "suite" ],
+        [ "symfonie", "orgel", "concerto", "koor", "ballet", "operette", "kamermuziek" ],
+        []
+    ]
+}
+
+
