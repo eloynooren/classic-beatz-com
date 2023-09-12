@@ -1,0 +1,22 @@
+.audioButton {
+    color: #fd7e14;
+    background-color: transparant;
+    font-size: 48px;
+}
+
+.audioPlayer {
+    margin-top: 0;
+}
+
+.oneButtonAudioPlayer {
+    margin: 0;
+    width: 48px;
+}
+
+.annotation {
+    font-weight: 200;
+    white-space: nowrap;
+    color: gray;
+    margin-bottom: 10px;
+    font-style: italic;
+}

@@ -1,50 +1,43 @@
-import * as React from "react"
-import data from '../data/index.json'
-import Paragraphs from "../components/paragraphs";
-import Layout from "../components/layout";
-import Title from "../components/title";
-import Grid from "../components/grid";
-import Square from "../components/square";
-import Image from "../components/image";
-import rappers from "../images/rappers-playing-strings.png";
-import rapperPlayingCello from "../images/rapper-playing-cello.png";
-import AudioPlayer from "../components/audio_player";
+import React from "react";
+import {StaticImage} from "gatsby-plugin-image";
+import {Layout} from "../components/Layout";
+import {MixSection} from "../components/MixPage";
+import {ArrayOfDictionaries} from "../utils/ArrayOfDictionaries"
+import "./index.css";
+import data from "../data/index.json"
+import t1 from "../data/compositions/mozart-eine-kleine-musik.json"
+import t2 from "../data/compositions/beethoven-fur-elise.json"
+import t3 from "../data/compositions/vivaldi-spring-four-seasons.json"
+import t4 from "../data/compositions/bach-toccata-and-fugue-in-d-minor.json"
+import t5 from "../data/compositions/handel-hallelujah.json"
+import t6 from "../data/compositions/tchaikovsky-piano-concerto-no-1.json"
+import t7 from "../data/compositions/verdi-aida.json"
+import c1 from "../data/composers/mozart.json";
+import c2 from "../data/composers/beethoven.json";
+import c3 from "../data/composers/vivaldi.json";
+import c4 from "../data/composers/bach.json";
+import c5 from "../data/composers/händel.json";
+import c6 from "../data/composers/tchaikovsky.json";
+import c7 from "../data/composers/verdi.json";
 
-console.log(data)
-
-let tracks = [
-    {
-        src: 'https://docs.google.com/uc?export=open&id=1O-bNa08YbtwhXqSzpFjDnfpbjMBW37ea',
-        title: 'Mozart: Eine kleine Nachtmusik',
-        url: '/composition/mozart-eine-kleine-nachtmusik'
-    }
-]
+const imageElement = (
+    <StaticImage
+        key="image-1"
+        src="../images/female-rapper-playing-a-cello.jpg"
+        alt="Female rapper playing a cello'"
+    />
+)
 
 
 function Page() {
+    console.log(data)
+    data.tracks = new ArrayOfDictionaries([t1, t2, t3, t4, t5, t6, t7]).get()
+    data.composers = new ArrayOfDictionaries([c1,c2,c3,c4,c5,c6,c7], ["annotations"]).getAsSingleDictionary("composer")
+    console.log(data)
+
     return (
-        <Layout pageTitle="Classic Beatz">
-            <Title title={data.title}/>
-            <Grid>
-                <Square>
-                    <Paragraphs paragraphs={data.greeting} variant="firstParagraphBold"/>
-                    <Paragraphs paragraphs={data.mix_intro}/>
-                </Square>
-                <Square>
-                    <AudioPlayer tracks={tracks} template='TITLE'/>
-                </Square>
-                <Square>
-                    <Image image={rappers}/>
-                </Square>
-                <Square>
-                    <Paragraphs paragraphs={data.compositions_intro}  variant="firstParagraphBold"/>
-                </Square>
-                <Square>
-                </Square>
-                <Square>
-                    <Image image={rapperPlayingCello}/>
-                </Square>
-            </Grid>
+        <Layout pageTitle="Classical Beatz" headerTitle={data.title} pageLabel="Home">
+           <MixSection data={data} imageElement={imageElement}/>
         </Layout>
     )
 }

@@ -1,0 +1,34 @@
+
+.tab-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fd7e14 !important;
+    padding: 0 30px 0 30px  !important;
+
+}
+
+
+.selected-tab {
+    background-color: #fd7e14 !important;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 10px !important;
+}
+
+.tab-list-0 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fd7e14 !important;
+    padding: 0 30px 0 30px  !important;
+
+}
+
+.selected-tab-0 {
+    color: #fd7e14 !important;
+    background-color: white !important;
+    border: 1px solid #fd7e14 !important;
+    font-weight: 700;
+    border-radius: 10px !important;
+}
