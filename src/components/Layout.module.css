@@ -178,6 +178,10 @@ h3 {
 
 }
 
+.layout-filler {
+    height: 100px;
+}
+
 .top-menu {
     display: flex;
     justify-content: flex-end;

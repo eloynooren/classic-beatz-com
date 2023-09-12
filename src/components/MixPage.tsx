@@ -4,6 +4,7 @@ import {AudioPlayer} from "../components/Audio";
 import TrackList from "../components/TrackList";
 import {QuizMaker} from "../utils/QuizMaker";
 import Quiz from "../components/Quiz";
+import GoogleAd from "../components/GoogleAd"
 import makeTrackTitle from "../utils/makeTrackTitle";
 
 interface MixSectionProps {
@@ -27,6 +28,9 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
     return (
         <Flex>
             <Cell>
+                {imageElement[0]}
+            </Cell>
+            <Cell>
                 <Paragraphs paragraphs={data.greeting} classNames="firstBold"/>
                 <Paragraphs paragraphs={data.mix_intro}/>
             </Cell>
@@ -34,7 +38,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <AudioPlayer tracks={data.tracks}/>
             </Cell>
             <Cell>
-                {imageElement}
+                {imageElement[1]}
             </Cell>
             <Cell>
                 <Paragraphs paragraphs={data.compositions_intro}  classNames="firstBold secondItalic secondGray"/>
@@ -43,7 +47,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <TrackList tracks={data.tracks}/>
             </Cell>
             <Cell>
-                GOOGLE AD
+                <GoogleAd/>
             </Cell>
             <Cell>
                 <Paragraphs paragraphs={data.quiz_intro}  classNames="firstBold"/>

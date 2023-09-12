@@ -266,6 +266,7 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
                 <h1>{headerTitle.map((part, index) => [part.toUpperCase(), <wbr key={index}/>, ' ']).flat().slice(0, -2)}</h1>
                 {/* device-width={deviceWidth} window-width={windowWidth} --> */}
                 <div className={styles.layoutContent}>{children}</div>
+                <div className={styles.layoutFiller}/>
                 {deviceWidth < 768 && <BottomMenu/>}
             </main>
 

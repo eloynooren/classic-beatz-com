@@ -20,13 +20,23 @@ import c5 from "../data/composers/händel.json";
 import c6 from "../data/composers/tchaikovsky.json";
 import c7 from "../data/composers/verdi.json";
 
-const imageElement = (
+const imageElement = [
+    <StaticImage
+        key="image-6"
+        src="../images/female-rapper-playing-a-cello.jpg"
+        alt="Female rapper playing classical music on a cello'"
+    />,
+    <StaticImage
+        key="image-2"
+        src="../images/couple-playing-classical-music-on-piano.jpg"
+        alt="Couple playing classical music om piano.jpg"
+    />,
     <StaticImage
         key="image-1"
-        src="../images/female-rapper-playing-a-cello.jpg"
+        src="../images/3-female-rappers-playing-classical-music-on-violin.jpg"
         alt="Female rapper playing a cello'"
-    />
-)
+    />,
+]
 
 
 function Page() {
