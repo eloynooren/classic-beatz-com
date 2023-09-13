@@ -48,15 +48,10 @@
         "A Quick Riff on Mozart's",
         "Eine kleine Nachtmusik"
     ],
-    "sections": [
-        "fragments",
-        "composition",
-        "1",
-        "2",
-        "3",
-        "4"
-    ],
-    "movements": {
+    "buttonLabels": {
+        "fragments": "Buzz Moments",
+        "composition": "Backstory",
+        "movements": "Movements",
         "1": "Allegro",
         "2": "Romanze: Andante",
         "3": "Menuetto: Allegretto",
@@ -69,11 +64,11 @@
     },
     "images": [
         {
-            "section": "buzz-moments",
+            "section": "fragments",
             "location": "before"
         },
         {
-            "section": "basics",
+            "section": "composition",
             "location": "before"
         },
         {
@@ -93,102 +88,113 @@
             "location": "before"
         }
     ],
-    "buzz-moments": [
-        [
-            "### Three Must-Hear Moments in \"Eine kleine Nachtmusik\""
+    "article": {
+        "fragments": [
+            [
+                "### Three Must-Hear Moments in \"Eine kleine Nachtmusik\""
+            ],
+            [
+                "Before we delve into the captivating world of Mozart's \"Eine kleine Nachtmusik,\" let's spotlight three fragments that exemplify the genius of this timeless piece.",
+                "These aren't just highlights; they're the soul of the composition condensed into moments lasting no more than 60 seconds each.",
+                "\ud83d\udd52 So, let's take a sneak peek:"
+            ],
+            [
+                "#### 1.",
+                "Allegro - The Opening Charge (0:00 - 0:45) \ud83d\ude80"
+            ],
+            [
+                "Right from the first bar, the Allegro grabs you and doesn't let go.",
+                "It's a vibrant parade of strings, setting the pace for the entire piece.",
+                "In essence, this opening is Mozart's way of rolling out the red carpet, ensuring you know you're in for a grand musical journey."
+            ],
+            [
+                "#### 2.",
+                "Romanze: Andante - The Emotional Core (1:15 - 1:40) \ud83d\udc96"
+            ],
+            [
+                "Nested within the Romanze's serene landscape is a 25-second jewel that stands out for its emotive power.",
+                "The strings and winds interact in a sort of whispered dialogue that pulls at the heartstrings.",
+                "If the Allegro is a call to adventure, this moment is the emotional fulcrum that adds depth to the narrative."
+            ],
+            [
+                "#### 3.",
+                "Rondo: Allegro - The Final Flourish (0:20 - 0:50) \ud83c\udf89"
+            ],
+            [
+                "And just when you thought it couldn't get better, the Rondo serves up a delightful crescendo.",
+                "Around 20 seconds in, a lively passage unfolds, displaying Mozart's knack for balancing complexity and sheer enjoyment.",
+                "It's like the composer is giving us a taste of the grand finale, a final fireworks display that captivates the imagination."
+            ],
+            [
+                "Feeling intrigued?",
+                "These moments serve as the perfect teaser for what's to come, so get ready to hit that play button and dive into the full experience!",
+                "\ud83c\udfb6"
+            ]
         ],
-        [
-            "Before we delve into the captivating world of Mozart's \"Eine kleine Nachtmusik,\" let's spotlight three fragments that exemplify the genius of this timeless piece.",
-            "These aren't just highlights; they're the soul of the composition condensed into moments lasting no more than 60 seconds each.",
-            "\ud83d\udd52 So, let's take a sneak peek:"
+        "composition": [
+            [
+                "###The Real Deal: Names and Aliases",
+                "Hey, music aficionados!",
+                "Get this, we're diving into one of the most iconic jams ever\u2014Mozart's \"Eine kleine Nachtmusik.\" And if you're puzzled by the German, it just means \"A Little Night Music.\" But hang on, this masterpiece has even more credentials.",
+                "It's also known as \"Serenade No.",
+                "13 for strings in G major\" and \"K.",
+                "525.\" That's right; it's got more aliases than a secret agent.",
+                "Why all these names?",
+                "Well, hold that thought; we'll get to it."
+            ],
+            [
+                "###What's in a Number: K.525 Deconstructed",
+                "You might be scratching your head, asking, \"What's the deal with K.",
+                "525?\" To keep it a hundred, you're not alone.",
+                "K.",
+                "525 is basically the VIP badge that this piece wears in the Mozart universe.",
+                "In simpler terms, it's a unique catalog number that helps us identify exactly where this piece fits into Mozart's epic playlist of compositions.",
+                "Think of it like a unique username; no one else in the Mozart world gets to use it.",
+                "So when you hear K.",
+                "525, just know, it's code for this exact jam\u2014no imposters allowed."
+            ],
+            [
+                "###String Squad: The Musicians Behind the Magic",
+                "Now, back to why this tune is no ordinary track: it's scored for a chamber ensemble of strings.",
+                "That means we got first and second violins, viola, cello, and double bass\u2014each adding their own unique flair.",
+                "It's like the Avengers of the music world, every instrument stepping up to make the squad complete."
+            ],
+            [
+                "###The Movements, aka the \"Sections\"",
+                "Now, let's break it down\u2014this jam is made up of different sections, called \"movements\" in classical talk.",
+                "Think of movements like tracks on an album or scenes in a movie; each one is its own little universe.",
+                "We start with \"Allegro,\" a straight-up banger that snatches your soul.",
+                "Next, \"Romanze: Andante\" mellows the mood, filling the air with lovey-dovey feels.",
+                "But hold up, we're not done yet.",
+                "The third part, \"Menuetto: Allegretto,\" is a bop that makes you wanna nod along.",
+                "And then \"Rondo: Allegro\" comes in hot, wrapping it all up like the grand finale of a fireworks show."
+            ],
+            [
+                "###Quick and Lit",
+                "If you're worried this classical joyride will drag, don't.",
+                "This whole masterpiece only takes about 17 to 25 minutes, start to finish.",
+                "Yep, it's a quickie, but it packs some heat.",
+                "When Mozart was juggling life and this piece back in 1787, he was also working on another biggie\u2014his opera \"Don Giovanni.\" Dude was a multitasking legend."
+            ],
+            [
+                "###The Missing Premiere",
+                "Alright, you won't believe this, but there's no official record of this bad boy ever being played while Mozart was alive.",
+                "It got its big break 40 years after Mozart peaced out, and since then, it's been nothing short of iconic."
+            ],
+            [
+                "###Legacy and All That Jazz",
+                "The cool thing about \"Eine kleine Nachtmusik\" is that it's more than just a string ensemble piece.",
+                "It's been rearranged for different types of orchestras and has found its way into everything from commercials to movies.",
+                "It's a gateway drug for classical newbies and is even used in educational settings.",
+                "And it's been adapted for dances, making it a hit that crosses boundaries."
+            ],
+            [
+                "###Wrap-Up Vibes",
+                "So there you have it.",
+                "\"Eine kleine Nachtmusik\" isn't just a tune\u2014it's a lifestyle, a vibe, and an eternal mood.",
+                "Now that you know what's what, give it a listen and feel the timeless magic for yourself."
+            ]
         ],
-        [
-            "#### 1.",
-            "Allegro - The Opening Charge (0:00 - 0:45) \ud83d\ude80"
-        ],
-        [
-            "Right from the first bar, the Allegro grabs you and doesn't let go.",
-            "It's a vibrant parade of strings, setting the pace for the entire piece.",
-            "In essence, this opening is Mozart's way of rolling out the red carpet, ensuring you know you're in for a grand musical journey."
-        ],
-        [
-            "#### 2.",
-            "Romanze: Andante - The Emotional Core (1:15 - 1:40) \ud83d\udc96"
-        ],
-        [
-            "Nested within the Romanze's serene landscape is a 25-second jewel that stands out for its emotive power.",
-            "The strings and winds interact in a sort of whispered dialogue that pulls at the heartstrings.",
-            "If the Allegro is a call to adventure, this moment is the emotional fulcrum that adds depth to the narrative."
-        ],
-        [
-            "#### 3.",
-            "Rondo: Allegro - The Final Flourish (0:20 - 0:50) \ud83c\udf89"
-        ],
-        [
-            "And just when you thought it couldn't get better, the Rondo serves up a delightful crescendo.",
-            "Around 20 seconds in, a lively passage unfolds, displaying Mozart's knack for balancing complexity and sheer enjoyment.",
-            "It's like the composer is giving us a taste of the grand finale, a final fireworks display that captivates the imagination."
-        ],
-        [
-            "Feeling intrigued?",
-            "These moments serve as the perfect teaser for what's to come, so get ready to hit that play button and dive into the full experience!",
-            "\ud83c\udfb6"
-        ]
-    ],
-    "basics": [
-        [
-            "//### Mozart's Nachtmusik: A Sonic Joyride \ud83c\udfbb"
-        ],
-        [
-            "Yo, gather 'round, music lovers and vibe chasers!",
-            "\ud83c\udfb6 We're diving deep into one of the most iconic jams ever, Mozart's \"Eine kleine Nachtmusik,\" officially known as \"Serenade No.",
-            "13 for strings in G major.",
-            "\" With its catalog number K.",
-            "525, this masterpiece is scored for a chamber ensemble of strings\u2014first and second violins, viola, cello, and double bass.",
-            "It's the real deal."
-        ],
-        [
-            "The title \"Eine kleine Nachtmusik\" translates to \"A Little Night Music,\" giving you a taste of its playful and light character \ud83c\udf19.",
-            "We're talking four parts, each a unique musical journey.",
-            "The opening act is **Allegro**, a certified banger that grabs you by the soul and doesn't let go.",
-            "Then we move into **Romanze: Andante**, which is like the sweet after-party where everyone's feeling the love \ud83d\udc95."
-        ],
-        [
-            "The third movement, **Menuetto: Allegretto**, ain't no snoozer \ud83d\udd7a.",
-            "It's got rhythm, it's got style, it's the part where you can't help but nod your head.",
-            "And for the grand finale, **Rondo: Allegro** seals the deal, wrapping everything up in a high-energy bow, leaving you absolutely electrified \u26a1."
-        ],
-        [
-            "But here's the kicker: This joyride is like a roller coaster \ud83c\udfa2; it's over before you know it\u2014lasting only 17 to 25 minutes!",
-            "It's the perfect length for a musical quickie that still packs a punch.",
-            "When Mozart composed this in 1787, he was also juggling another iconic project: his opera \"Don Giovanni.",
-            "\" Yeah, the guy was a beast, facing life's struggles head-on and still churning out hits \ud83c\udf1f."
-        ],
-        [
-            "As for its premiere?",
-            "Total enigma \ud83e\udd14.",
-            "There is actually no confirmed record of the piece being performed during Mozart's lifetime.",
-            "It didn\u2019t even get its proper publishing respect until 1827, 40 years after Mozart left this world.",
-            "But since then, it's gained GOAT status in the classical scene, and let's be real\u2014it's not just a \"classical\" gem.",
-            "This tune pops up in commercials, blockbuster films, and even ringtones \ud83d\udcf1."
-        ],
-        [
-            "This piece is often performed in various arrangements, not just for string ensemble but also for string orchestra or even full orchestras \ud83c\udfad.",
-            "Despite its chamber ensemble roots, its robust and energetic style makes it sound grander than the small number of musicians performing it.",
-            "It's one of the most frequently performed and universally recognized pieces in the classical repertoire, making it a go-to for anyone looking to dive into classical music \ud83c\udfb5."
-        ],
-        [
-            "Beyond that, it serves as a classical intro for many young listeners, features heavily in educational settings \ud83c\udf93, and has been adapted for all kinds of ensembles and genres.",
-            "You'll also catch it setting the scene in films and TV shows, offering a quick dose of elegance or irony.",
-            "The piece has even been choreographed, making it a multidisciplinary hit that escapes the confines of the concert hall \ud83c\udfac."
-        ],
-        [
-            "This piece transcends generations and genres; it\u2019s got that universal appeal \ud83d\udc4f.",
-            "So, sit back and tune in, 'cause \"Eine kleine Nachtmusik\" ain't just any tune.",
-            "It\u2019s a cultural phenomenon, a vibe, a lifestyle, and most importantly, an everlasting mood \ud83d\ude0e."
-        ]
-    ],
-    "details": {
         "1": [
             [
                 "### Allegro: The Ultimate Party Starter"

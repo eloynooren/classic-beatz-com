@@ -8,6 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import {Tab, TabList, TabPanel} from "react-tabs";
 import {Section} from "./Section";
 import {IoAdd, IoMan, IoHome, IoMusicalNote, IoMusicalNotes} from "react-icons/io5";
+import {clearCurrentlyHandledPendingQueryRuns} from "gatsby/dist/state-machines/query-running/actions";
 
 
 interface ButtonProps {
@@ -63,51 +64,44 @@ export const Cell: React.FC<CellProps> = ({children}) => {
 }
 
 interface ParagraphProps {
-    lines: string[]
+    sentences: string[]
     classNames?: string
 }
 
-function textFormatter(text: string): React.ReactNode {
-    if (text.startsWith('####')) {
-        return <h3>{text.slice(4).trim()}</h3>;
-    } else if (text.startsWith('###')) {
-        return <h2>{text.slice(3).trim()}</h2>;
+function textFormatter(sentences: string[]): string {
+    let sentences_ = []
+
+    for (let sentence of sentences) {
+        console.log(typeof(sentence), sentence)
+        let sentence_ = sentence.replace(/####(.*?($|\n))/g, function(_, title) {
+                                     return `<h3>${title.trim()}</h3>`})
+                                .replace(/###(.*?($|\n))/g, function(_, title) {
+                                     return `<h2>${title.trim()}</h2>`})
+                                .replace(/:::(.*?)$/, (_, match) => match.replace(/ /g, '&nbsp;'));
+
+        sentences_.push(sentence_)
     }
 
-    const parts = text.split(/(\*\*.+?\*\*)/g);
+    console.log(sentences_)
 
-    return (
-        <span>
-          {parts.map((part, index) =>
-              part.startsWith('**') && part.endsWith('**')
-                  ? <strong key={index}>{part.slice(2, -2)}</strong>
-                  : part
-          )}
-        </span>
-    );
+    return sentences_.join(' ')
+                     .replace(/\*\*(.*?)\*\*/g, function(_, segment) {
+                         return `<strong>${segment.trim()}</strong>`})
+                     .replace(/\n/g, "<br/>")
 }
 
 
-export const Paragraph: React.FC<ParagraphProps> = ({lines, classNames}) => {
+export const Paragraph: React.FC<ParagraphProps> = ({sentences, classNames}) => {
     let className = [styles.paragraph]
 
     if (classNames) {
-        if (classNames.includes('paragraphBold')) {
-            className.push(styles.paragraphBold)
-        }
-        if (classNames.includes('paragraphItalic')) {
-            className.push(styles.paragraphItalic)
-        }
         if (classNames.includes('paragraphLeftAlign')) {
             className.push(styles.paragraphLeftAlign)
         }
     }
 
-    return (
-        <div className={className.join(' ')}>
-            {textFormatter(lines.join(' '))}
-        </div>
-    )
+    const html = textFormatter(sentences)
+    return <div className={className.join(' ')} dangerouslySetInnerHTML={{ __html: html }}/>
 }
 
 export interface ParagraphsProps {
@@ -141,7 +135,7 @@ export const Paragraphs: React.FC<ParagraphsProps> = ({paragraphs, classNames}) 
     return (
         <div className={outerClassName}>
             {paragraphs.map((paragraph,index) => (
-                <Paragraph key={index} lines={paragraph} classNames={innerClassNames[index]}/>
+                <Paragraph key={index} sentences={paragraph} classNames={innerClassNames[index]}/>
             ))}
         </div>
     )
@@ -189,12 +183,12 @@ interface TopMenuProps {
 }
 
 const TopMenu: React.FC<TopMenuProps> = ({ current }) => {
-    console.log("TopMenu", current)
     return (
         <div className={styles.topMenu}>
             <Link url={'/'}>
                 <div className={current === 'Home' ? styles.topMenuActive : ""}>Home</div>
             </Link>
+{/*
             <Link url={'/Composers'}>
                 <div className={current === 'Composers' ? styles.topMenuActive : ""}>Composers</div>
             </Link>
@@ -204,6 +198,7 @@ const TopMenu: React.FC<TopMenuProps> = ({ current }) => {
             <Link url={'/Medleys'}>
                 <div className={current === 'Medleys' ? styles.topMenuActive : ""}>Medleys</div>
             </Link>
+*/}
         </div>
     )
 }
@@ -215,6 +210,7 @@ export const BottomMenu = () => {
                 <div className={styles.bottomMenuIcon}><IoHome/></div>
                 <div className={styles.bottomMenuLabel}>Home</div>
             </Link>
+            {/*
             <Link url={'/composers'}>
                 <div className={styles.bottomMenuIcon}><IoMan/></div>
                 <div className={styles.bottomMenuLabel}
@@ -228,6 +224,7 @@ export const BottomMenu = () => {
                 <div className={styles.bottomMenuIcon}><IoMusicalNote/><IoAdd/></div>
                 <div className={styles.bottomMenuLabel}>Medleys</div>
             </Link>
+*/}
         </div>
     )
 }
@@ -240,7 +237,6 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabel, children }) => {
-    console.log("Layout", pageLabel)
     const [deviceWidth, windowWidth] = useDeviceWidth();
 
     return (

@@ -14,37 +14,40 @@ interface SectionProps {
 export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images}) => {
     let numImages = 0
 
+    const Image = (image: ReactElement) => {
+        return <div className={styles.imageContainer}>{image}</div>
+    }
+
     const renderLines = () => {
-        console.log(images)
         const elements = [];
 
-        elements.push(images['before'])
+        elements.push(Image(images['before']))
 
         for (let i = 0; i < paragraphs.length; i++) {
-            const lines = paragraphs[i];
-            if (type === 'fragments' && lines.length && /^#+\s?\d+/.test(lines[0]) && audio) {
+            const sentences = paragraphs[i];
+            if (type === 'fragments' && sentences.length && /^#+\s?\d+/.test(sentences[0]) && audio) {
                 // Strip leading hashes and spaces
-                const heading = lines.join(" ").replace(/^#*\s*\d\.*\s*/, '')
+                const heading = sentences.join(" ").replace(/^#*\s*\d\.*\s*/, '')
                 const number = parseInt(heading.match(/\d+/)[0], 10); // Extract the number
                 elements.push(
                     <AudioFragment
                         key={`audio-fragment-${i}`}
-                        heading={[heading]}
+                        heading={heading}
                         text={paragraphs[i + 1]}
                         src={"fragment-" + audio[number]}
                     />
                 );
                 i++; // Skip the next sentence in iteration as it's used in AudioFragment
             } else {
-                if (lines && !lines[0].startsWith('//')) {
+                if (sentences && !sentences[0].startsWith('//')) {
                     elements.push(
-                        <Paragraph key={`paragraph-${i}`} lines={lines} classNames="paragraphLeftAlign"/>
+                        <Paragraph key={`paragraph-${i}`} sentences={sentences} classNames="paragraphLeftAlign"/>
                     );
                 }
             }
-            elements.push(images[i.toString()])
+            elements.push(Image(images[(i+1).toString()]))
         }
-        elements.push(images['after'])
+        elements.push(Image(images['after']))
         return elements;
     };
 

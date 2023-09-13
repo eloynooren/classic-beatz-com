@@ -15,8 +15,8 @@ export const AudioFragment: React.FC<AudioFragmentProps> = ({heading, text, src}
         <div className={styles.container}>
             <OneButtonAudioPlayer src={src}/>
             <div className={styles.text}>
-                <Paragraph lines={[heading]} classNames="paragraphLeftAlign paragraphBold" />
-                <Paragraph lines={text} classNames="paragraphLeftAlign" />
+                <Paragraph sentences={[heading]} classNames="paragraphLeftAlign paragraphBold" />
+                <Paragraph sentences={text} classNames="paragraphLeftAlign" />
             </div>
         </div>
     )

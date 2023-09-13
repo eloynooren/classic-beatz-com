@@ -18,7 +18,6 @@ export class Images {
     private imageData: ImageDataSpec = {}
 
     constructor(locationSpecs: LocationSpec[], elements: ReactElement[]) {
-        console.log(locationSpecs)
         locationSpecs.forEach((spec, i) => {
             if (spec.section && spec.location) {
                 if (!this.imageData[spec.section]) {
@@ -27,12 +26,10 @@ export class Images {
                 this.imageData[spec.section][spec.location] = elements[i];
             }
         });
-        console.log(this.imageData)
     }
 
     public get(section: string): ImageSpec {
         let rv =  section in this.imageData ? this.imageData[section] : {}
-        console.log(section, rv)
         return rv
     }
 

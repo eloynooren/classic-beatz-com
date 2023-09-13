@@ -75,15 +75,7 @@ export class QuizMaker {
     }
 
     getItems(): QuizItem[] {
-        console.log(this._quizItems)
         let items = shuffleArray(this._quizItems)
-
-        // First item cannot be an audio track
-        while (items[0].type === 'audio') {
-            const first = items[0]
-            items = [...items.slice(1), first]
-        }
-
         return items
     }
     

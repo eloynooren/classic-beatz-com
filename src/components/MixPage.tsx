@@ -1,5 +1,5 @@
 import React, {ReactElement} from 'react';
-import {Layout, Paragraphs, Flex, Cell}  from "../components/Layout";
+import {Layout, Paragraph, Flex, Cell}  from "../components/Layout";
 import {AudioPlayer} from "../components/Audio";
 import TrackList from "../components/TrackList";
 import {QuizMaker} from "../utils/QuizMaker";
@@ -13,8 +13,6 @@ interface MixSectionProps {
 }
 
 export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
-    console.log(data)
-    console.log(imageElement)
 
     for (const track of data.tracks) {
         track.title = makeTrackTitle(track)
@@ -31,8 +29,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 {imageElement[0]}
             </Cell>
             <Cell>
-                <Paragraphs paragraphs={data.greeting} classNames="firstBold"/>
-                <Paragraphs paragraphs={data.mix_intro}/>
+                <Paragraph sentences={data.mix_intro}/>
             </Cell>
             <Cell>
                 <AudioPlayer tracks={data.tracks}/>
@@ -41,7 +38,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 {imageElement[1]}
             </Cell>
             <Cell>
-                <Paragraphs paragraphs={data.compositions_intro}  classNames="firstBold secondItalic secondGray"/>
+                <Paragraph sentences={data.compositions_intro}/>
             </Cell>
             <Cell>
                 <TrackList tracks={data.tracks}/>
@@ -50,10 +47,10 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <GoogleAd/>
             </Cell>
             <Cell>
-                <Paragraphs paragraphs={data.quiz_intro}  classNames="firstBold"/>
+                <Paragraph sentences={data.quiz_intro}/>
             </Cell>
             <Cell>
-                <Quiz items={quizItems} annotationTemplates={annotationTemplates}/>
+                <Quiz quizItems={quizItems} annotationTemplates={annotationTemplates}/>
             </Cell>
         </Flex>
     )

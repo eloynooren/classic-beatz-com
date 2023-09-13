@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     color: #fd7e14 !important;
-    padding: 0 30px 0 30px  !important;
-
+    padding: 0  !important;
+    margin: 0 !important;
 }
 
 
@@ -21,7 +21,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     color: #fd7e14 !important;
-    padding: 0 30px 0 30px  !important;
+    padding: 0  !important;
+    margin: 0 !important;
 
 }
 

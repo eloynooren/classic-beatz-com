@@ -99,7 +99,7 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
 
 
 interface QuizProps {
-    items: QuizItem[];
+    quizItems: QuizItem[];
     annotationTemplates: any;
 }
 
@@ -143,9 +143,10 @@ function composeAnnotations(subjects: string[]|undefined, annotationTemplates: a
 
 
 
-const Quiz: React.FC<QuizProps> = ({ items, annotationTemplates}) => {
+const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
+    const [items, setItems] = useState(quizItems)
     const [currentItemIndex, setCurrentItemIndex] = useState(0)
-    const [running, setRunning] = useState(true)
+    const [state, setState] = useState('idle')
     const ticks = useRef(0)
     const [score, setScore] = useState(0)
     const [question, setQuestion] = useState(composeQuestion(items[currentItemIndex].question))
@@ -162,32 +163,33 @@ const Quiz: React.FC<QuizProps> = ({ items, annotationTemplates}) => {
             let newCurrentItemIndex = currentItemIndex + 1
 
             if (newCurrentItemIndex == items.length) {
-                items = shuffleArray(items)
-                console.log(items)
+                setItems(shuffleArray(items))
                 newCurrentItemIndex = 0
-                setRunning(false)
+                setState('finished')
             }
 
             setCurrentItemIndex(newCurrentItemIndex)
-            setQuestion(composeQuestion(items[newCurrentItemIndex].question))
-            setQuestionAnnotation(composeAnnotation(items[newCurrentItemIndex].questionAnnotation, annotationTemplates))
-            setAnswerAnnotations(composeAnnotations(items[newCurrentItemIndex].answerAnnotations, annotationTemplates))
         }
 
         if (event == 'incorrect') {
             setScore((prevScore) => prevScore > 50 ? prevScore - 50 : 0)
         }
 
-        if (event == 'tick') {
+        if (event == 'tick' && state == 'running') {
             setScore((prevScore) => prevScore ? prevScore - 1 : 0)
             ticks.current += 1
 
-            if (ticks % 2 === 0) {
+            if (ticks.current % 2 === 0) {
                 setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
             }
         }
-
     }
+
+    useEffect(() => {
+        setQuestion(composeQuestion(items[currentItemIndex].question))
+        setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
+        setAnswerAnnotations(composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates))
+    }, [currentItemIndex]);
 
     const generateAnnotationForScore = () => {
         const end_score = Math.max(score, 0)
@@ -218,57 +220,60 @@ const Quiz: React.FC<QuizProps> = ({ items, annotationTemplates}) => {
         return [score_jibe, rank_line, cheer]
     }
 
+    const startQuiz = () => {
+        setState('running')
+    }
+
     const resetQuiz = () => {
+        ticks.current = 0
         setScore(0)
-        setRunning(true)
+        setState('running')
     }
 
-    if (currentItemIndex < items.length) {
-        const currentItem = items[currentItemIndex];
-
-        return (
-            <div className={styles.quiz}>
-                {running ? (
-                    <div>
-                        <div className={styles.score}>
-                            <span className={styles.score_label}>Score: </span>
-                            <span className={styles.score_value}>{score < 0 ? 0 : score}</span>
-                        </div>
-                        <div className={styles.questionAnnotation}>
-                            -- {questionAnnotation}{currentItem.link && <IoVolumeMediumOutline className={styles.speaker}/>} --
-                        </div>
-                        <div className={styles.question}>
-                            <span dangerouslySetInnerHTML={{ __html: question }} />
-                        </div>
-                        <QuizAnswerHandler
-                            answers={currentItem.answers}
-                            answerAnnotations={answerAnnotations}
-                            type={currentItem.type}
-                            link={currentItem.link}
-                            reportEvent={reportEvent}
-                        />
+    return (
+        <div className={styles.quiz}>
+            {state == 'idle' ? (
+                <div>
+                    <Button action={startQuiz}>Start Quiz</Button>
+                </div>
+            ) : (state == 'running' ? (
+                <div>
+                    <div className={styles.score}>
+                        <span className={styles.score_label}>Score: </span>
+                        <span className={styles.score_value}>{score < 0 ? 0 : score}</span>
                     </div>
-                ) : (
-                    <Flex className='flex-column-space-around'>
-                        <div>
-                            <div className={styles.endOfQuizLabel}>QUIZ COMPLETED</div>
-                            <div>Score: {Math.max(score, 0)}</div>
-                            <div className={styles.endOfQuizAnnotations}>
-                                {generateAnnotationForScore().map((line, index) => (
-                                    <div key={index} className={styles.endOfQuizAnnotation}>{line}</div>
-                                ))}
-                            </div>
+                    <div className={styles.questionAnnotation}>
+                        -- {questionAnnotation}{items[currentItemIndex].link && <IoVolumeMediumOutline className={styles.speaker}/>} --
+                    </div>
+                    <div className={styles.question}>
+                        <span dangerouslySetInnerHTML={{ __html: question }} />
+                    </div>
+                    <QuizAnswerHandler
+                        answers={items[currentItemIndex].answers}
+                        answerAnnotations={answerAnnotations}
+                        type={items[currentItemIndex].type}
+                        link={items[currentItemIndex].link}
+                        reportEvent={reportEvent}
+                    />
+                </div>
+            ) : (
+                <Flex className='flex-column-space-around'>
+                    <div>
+                        <div className={styles.endOfQuizLabel}>QUIZ COMPLETED</div>
+                        <div>Score: {Math.max(score, 0)}</div>
+                        <div className={styles.endOfQuizAnnotations}>
+                            {generateAnnotationForScore().map((line, index) => (
+                                <div key={index} className={styles.endOfQuizAnnotation}>{line}</div>
+                            ))}
                         </div>
-                        <div>
-                            <Button action={resetQuiz}>Retake Quiz</Button>
-                        </div>
-                    </Flex>
-                )}
-            </div>
-        )
-    } else {
-        return (<h2>Final Score: {score}</h2>)
-    }
+                    </div>
+                    <div>
+                        <Button action={resetQuiz}>Retake Quiz</Button>
+                    </div>
+                </Flex>
+            ))}
+        </div>
+    )
 };
 
 export default Quiz
