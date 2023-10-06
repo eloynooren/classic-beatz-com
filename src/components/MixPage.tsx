@@ -3,6 +3,7 @@ import {Layout, Paragraph, Flex, Cell}  from "../components/Layout";
 import {AudioPlayer} from "../components/Audio";
 import TrackList from "../components/TrackList";
 import {QuizMaker} from "../utils/QuizMaker";
+import {PairsMaker} from "../utils/PairsMaker";
 import Quiz from "../components/Quiz";
 import GoogleAd from "../components/GoogleAd"
 import makeTrackTitle from "../utils/makeTrackTitle";
@@ -20,7 +21,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
 
     let obj = new QuizMaker()
     obj.addTrackLists(data.tracks, data.composers, data.quiz_item_types)
-    const quizItems = obj.getItems().slice(0, 2)
+    const quizItems = obj.getItems()
     const annotationTemplates = obj.getAnnotationTemplates()
 
     return (
@@ -29,7 +30,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 {imageElement[0]}
             </Cell>
             <Cell>
-                <Paragraph sentences={data.mix_intro}/>
+                <Paragraph sentences={data.mixIntro}/>
             </Cell>
             <Cell>
                 <AudioPlayer tracks={data.tracks}/>
@@ -38,7 +39,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 {imageElement[1]}
             </Cell>
             <Cell>
-                <Paragraph sentences={data.compositions_intro}/>
+                <Paragraph sentences={data.compositionsIntro}/>
             </Cell>
             <Cell>
                 <TrackList tracks={data.tracks}/>
@@ -47,10 +48,16 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <GoogleAd/>
             </Cell>
             <Cell>
-                <Paragraph sentences={data.quiz_intro}/>
+                <Paragraph sentences={data.quizIntro}/>
             </Cell>
             <Cell>
-                <Quiz quizItems={quizItems} annotationTemplates={annotationTemplates}/>
+                <Quiz buttonLabel={data.quizStartButtonLabel} quizItems={quizItems} annotationTemplates={annotationTemplates}/>
+            </Cell>
+            <Cell>
+                <Paragraph sentences={data.matchCompositionIntro}/>
+            </Cell>
+            <Cell>
+                <Paragraph sentences={data.matchComposerIntro}/>
             </Cell>
         </Flex>
     )

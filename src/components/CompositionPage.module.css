@@ -1,3 +1,6 @@
+.tabs {
+    width: 100%;
+}
 
 .tab-list {
     display: flex;
@@ -6,30 +9,46 @@
     color: #fd7e14 !important;
     padding: 0  !important;
     margin: 0 !important;
+    width: 100%;
+}
+
+.tab {
+    border: 1px solid transparent;
+    list-style: none;
+    padding: 6px 12px;
 }
 
 
 .selected-tab {
     background-color: #fd7e14 !important;
     color: white !important;
-    font-weight: 700;
+    #font-weight: 700;
     border-radius: 10px !important;
 }
 
+.tab-0 {
+    border: 1px solid transparent;
+    list-style: none;
+    padding: 6px 12px;
+}
 .tab-list-0 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     color: #fd7e14 !important;
-    padding: 0  !important;
-    margin: 0 !important;
-
+    padding: 2px  !important;
+    margin: 0 0 25px 0 !important;
 }
 
 .selected-tab-0 {
     color: #fd7e14 !important;
     background-color: white !important;
     border: 1px solid #fd7e14 !important;
-    font-weight: 700;
+    #font-weight: 700;
     border-radius: 10px !important;
+    bottom: 0;
+}
+
+.image-container  {
+    margin: 50px 0;
 }

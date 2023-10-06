@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef, useState, useCallback} from 'react';
 import {QuizItem} from '../types/QuizItem'
 import pickRandom from '../utils/pickRandom'
 import { IoVolumeMediumOutline } from 'react-icons/io5';
@@ -81,16 +81,16 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
     return (
         <div>
             {shuffledAnswerIndices.current.map((index) => (
-                <div key={index}>
-                    <div className={styles.row} onClick={() => handleAnswerClick(index)}>
-                        <div className={styles.icon}>
-                            {selectedAnswerIndices.includes(index) ? <IoClose /> : <IoEllipseOutline />}
-                        </div>
-                        <div className={styles.answerAndAnnotation}>
-                            <div className={styles.answer}>{answers[index]}</div>
+                <div key={index} className={styles.row} onClick={() => handleAnswerClick(index)}>
+                    {selectedAnswerIndices.includes(index) ? <IoClose className={styles.icon}/> : <IoEllipseOutline className={styles.icon}/>}
+                    {answerAnnotations ?
+                        <div className={styles.answer}>
+                            <div className={styles.answerWithAnnotation}>{answers[index]}</div>
                             <div className={styles.annotation}>-- {answerAnnotations[index]}</div>
                         </div>
-                    </div>
+                    :
+                        <div className={styles.answer}>{answers[index]}</div>
+                    }
                 </div>
             ))}
         </div>
@@ -99,6 +99,7 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
 
 
 interface QuizProps {
+    buttonLabel: string
     quizItems: QuizItem[];
     annotationTemplates: any;
 }
@@ -122,8 +123,9 @@ function composeQuestion(question: string|[string, {[key: string]: string}]) {
 }
 
 function composeAnnotation(subject: string|undefined, annotationTemplates: any) {
+    console.log('subject', subject)
     if (subject) {
-        if (subject in annotationTemplates) {
+        if (annotationTemplates && subject in annotationTemplates) {
             return pickRandom(annotationTemplates[subject])
         }
 
@@ -131,29 +133,29 @@ function composeAnnotation(subject: string|undefined, annotationTemplates: any) 
             return pickRandom(templates['annotations'][subject])
         }
     }
-    return '&nbsp'
+    return undefined
 }
 
 function composeAnnotations(subjects: string[]|undefined, annotationTemplates: any) {
-    if (subjects) {
-        return subjects.map((subject) => composeAnnotation(subject, annotationTemplates))
-    }
+    //if (subjects && annotationTemplates) {
+    //    return subjects.map((subject) => composeAnnotation(subject, annotationTemplates))
+    //}
     return undefined
 }
 
 
 
-const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
+const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizItems, annotationTemplates}) => {
     const [items, setItems] = useState(quizItems)
     const [currentItemIndex, setCurrentItemIndex] = useState(0)
     const [state, setState] = useState('idle')
-    const ticks = useRef(0)
+    const [ticks, setTicks] = useState(0)
     const [score, setScore] = useState(0)
-    const [question, setQuestion] = useState(composeQuestion(items[currentItemIndex].question))
-    const [questionAnnotation, setQuestionAnnotation] = useState(
+    const [question, setQuestion] = useState(() => composeQuestion(quizItems[currentItemIndex].question))
+    const [questionAnnotation, setQuestionAnnotation] = useState(() =>
         composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)
     )
-    const [answerAnnotations, setAnswerAnnotations] = useState(
+    const [answerAnnotations, setAnswerAnnotations] = useState(() =>
         composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates)
     )
 
@@ -168,6 +170,7 @@ const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
                 setState('finished')
             }
 
+            setTicks(0)
             setCurrentItemIndex(newCurrentItemIndex)
         }
 
@@ -177,15 +180,19 @@ const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
 
         if (event == 'tick' && state == 'running') {
             setScore((prevScore) => prevScore ? prevScore - 1 : 0)
-            ticks.current += 1
-
-            if (ticks.current % 2 === 0) {
-                setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
-            }
+            setTicks((prevTicks) => prevTicks + 1)
         }
     }
 
     useEffect(() => {
+        if (ticks && ticks % 2 === 0) {
+            console.log('currentItemIndex', currentItemIndex)
+            setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
+        }
+    }, [ticks]);
+
+    useEffect(() => {
+        console.log('currentItemIndex', currentItemIndex)
         setQuestion(composeQuestion(items[currentItemIndex].question))
         setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
         setAnswerAnnotations(composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates))
@@ -225,7 +232,7 @@ const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
     }
 
     const resetQuiz = () => {
-        ticks.current = 0
+        setTicks(0)
         setScore(0)
         setState('running')
     }
@@ -234,7 +241,7 @@ const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
         <div className={styles.quiz}>
             {state == 'idle' ? (
                 <div>
-                    <Button action={startQuiz}>Start Quiz</Button>
+                    <Button action={startQuiz}>{buttonLabel}</Button>
                 </div>
             ) : (state == 'running' ? (
                 <div>
@@ -242,9 +249,11 @@ const Quiz: React.FC<QuizProps> = ({ quizItems, annotationTemplates}) => {
                         <span className={styles.score_label}>Score: </span>
                         <span className={styles.score_value}>{score < 0 ? 0 : score}</span>
                     </div>
-                    <div className={styles.questionAnnotation}>
-                        -- {questionAnnotation}{items[currentItemIndex].link && <IoVolumeMediumOutline className={styles.speaker}/>} --
-                    </div>
+                    {questionAnnotation &&
+                        <div className={styles.questionAnnotation}>
+                            -- {questionAnnotation}{items[currentItemIndex].link && <IoVolumeMediumOutline className={styles.speaker}/>} --
+                        </div>
+                    }
                     <div className={styles.question}>
                         <span dangerouslySetInnerHTML={{ __html: question }} />
                     </div>

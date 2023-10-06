@@ -2,6 +2,7 @@ import  {QuizItem} from '../types/QuizItem'
 import  {Track} from '../types/Track'
 import shuffleArray from './shuffleArray'
 import makeTrackTitle from './makeTrackTitle'
+import pickRandom from './pickRandom'
 
 export class QuizMaker {
     private  _quizItems : QuizItem[] = []
@@ -64,10 +65,33 @@ export class QuizMaker {
             }
             
             if (include_composition_annotation) {
-                this._annotationTemplates[title] = track.annotations
+                this._annotationTemplates[title] = Object.keys(track.annotations)
+            }
+
+            if (include_composer_annotation) {
                 this._annotationTemplates[track.composer] = composerDict[track.composer].annotations
             }
         }
+    }
+
+    addAliasQuestions(alias: string, numOptions: number, correctAnswers: string[], incorrectAnswers: string[]) {
+        for (let correctAnswer of correctAnswers) {
+            this._quizItems.push({
+                question: ['ALIAS', {'SUBJECT': alias}],
+                answers:  [correctAnswer, ...pickRandom(incorrectAnswers, numOptions - 1)],
+                type: 'text'
+            })
+        }
+    }
+
+    addWhatNameQuestions(numOptions: number, subjectsAndAnswers: { [key: string]: string }) {
+        Object.entries(subjectsAndAnswers).forEach(([subject, answer]) => {
+            this._quizItems.push({
+                question: ['WHAT-NAME', {'SUBJECT': subject}],
+                answers:  [answer, ...Object.values(subjectsAndAnswers).filter(a => a !== answer)],
+                type: 'text'
+            })
+        })
     }
 
     addItems(items: QuizItem[]) {

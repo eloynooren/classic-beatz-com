@@ -1,6 +1,6 @@
 {
     "title": ["A PRIMER ON CLASSICAL MUSIC"],
-    "mix_intro": [
+    "mixIntro": [
         "### Yo, mad love! Big up for hittin' up our site, fam!",
         "We're here to break down that classical music for you in a lit way.",
         "Buckle up, dude!\n",
@@ -8,7 +8,7 @@
         ":::Go for it, bro.",
         ":::Hit that play button!"
     ],
-    "compositions_intro": [
+    "compositionsIntro": [
         "### Liking the setlist? Feelin' it? Quiz's on the way. Down for some quiz prep?",
         "Below is a rundown of all the jams you just heard.",
         "Give 'em a spin before you jump on that quiz.",
@@ -16,10 +16,24 @@
         "Got the feels for a particular track?",
         "Tap that boy, and we'll slide you right to a page full of deets."
     ],
-    "quiz_intro": [
+    "quizIntro": [
         "### Aight, time to flex them brain muscles, fam.",
         "Smash that quiz and show 'em you ain't no dummy."
     ],
+    "matchCompositionIntro": [
+        "### Yo, wanna know more about the tunes we chatted about? Fancy learning the fun way?",
+        "We got you! Check out our match'em game.",
+        "You'll be pairing up tracks with some cool notes about 'em.",
+        "Go on, give it a shot."
+    ],
+    "matchComposerIntro": [
+        "### Now, how 'bout we dive into the minds behind the music?",
+        "Up next in the match'em game: link up composers with some dope tidbits about 'em.",
+        "Think you can handle? Let's get it!"
+    ],
+    "quizStartButtonLabel": "Go Quiz!",
+    "compositionMatchStartButtonLabel": "Match that Melody!",
+    "composerMatchStartButtonLabel": "Match the Maestros!",
     "quiz_item_types" : [ "WHAT-HEAR", "WHICH-COMPOSER", "WHICH-COMPOSITION" ],
     "image": {
         "image": "https://photos.app.goo.gl/zLXi38xZjBmWVyvA8",

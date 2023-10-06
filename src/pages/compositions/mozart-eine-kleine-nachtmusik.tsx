@@ -1,7 +1,8 @@
 import React from 'react';
 import CompositionPage from "../../components/CompositionPage";
 import { StaticImage } from "gatsby-plugin-image";
-import data from "../../data/compositions/mozart-eine-kleine-musik.json";
+import data from "../../data/compositions/mozart-eine-kleine-nachtmusik.json";
+import {QuizMaker} from "../../utils/QuizMaker";
 
 const imageElements = [
     <StaticImage
@@ -33,18 +34,19 @@ const imageElements = [
         key="image-6"
         src="../../images/male-playing-classical-music-on-violin.jpg"
         alt="Male playing classical music on violin."
-    />,
-    <StaticImage
-        key="image-7"
-        src="../../images/violin.jpg"
-        alt="Violin"
-        width="100"
-    />,
+    />
 
 ]
 
 function Page() {
-    return <CompositionPage data={data} imageElements={imageElements}/>
+    let quiz = new QuizMaker()
+    quiz.addAliasQuestions('Eine kleine Nachtmusik', 4,
+        ['K.525', 'A Little Night Music', 'Serenade No. 13 for strings in G major'],
+        ['K.225', 'K.252', 'K.255', 'K.522', 'K.552', 'Serenade No. 13 for strings in C major',
+            'Serenade No. 31 for strings in G major', 'Serenade No. 31 for strings in C major',
+            'Serenade No. 13 for strings in C minor', 'Serenade No. 13 for strings in G minor'])
+
+    return <CompositionPage data={data} imageElements={imageElements} quiz={quiz}/>
 }
 
 export default Page

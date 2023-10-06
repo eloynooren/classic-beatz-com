@@ -5,7 +5,7 @@ import {MixSection} from "../components/MixPage";
 import {ArrayOfDictionaries} from "../utils/ArrayOfDictionaries"
 import "./index.css";
 import data from "../data/index.json"
-import t1 from "../data/compositions/mozart-eine-kleine-musik.json"
+import t1 from "../data/compositions/mozart-eine-kleine-nachtmusik.json"
 import t2 from "../data/compositions/beethoven-fur-elise.json"
 import t3 from "../data/compositions/vivaldi-spring-four-seasons.json"
 import t4 from "../data/compositions/bach-toccata-and-fugue-in-d-minor.json"
@@ -22,7 +22,7 @@ import c7 from "../data/composers/verdi.json";
 
 const imageElement = [
     <StaticImage
-        key="image-6"
+        key="image-1"
         src="../images/female-rapper-playing-a-cello.jpg"
         alt="Female rapper playing classical music on a cello'"
     />,
@@ -32,7 +32,7 @@ const imageElement = [
         alt="Couple playing classical music om piano.jpg"
     />,
     <StaticImage
-        key="image-1"
+        key="image-3"
         src="../images/3-female-rappers-playing-classical-music-on-violin.jpg"
         alt="Female rapper playing a cello'"
     />,

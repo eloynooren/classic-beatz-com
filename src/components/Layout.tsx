@@ -70,19 +70,53 @@ interface ParagraphProps {
 
 function textFormatter(sentences: string[]): string {
     let sentences_ = []
+    let bullet_list_active = false
+    let bullet_active = false
 
     for (let sentence of sentences) {
-        console.log(typeof(sentence), sentence)
         let sentence_ = sentence.replace(/####(.*?($|\n))/g, function(_, title) {
                                      return `<h3>${title.trim()}</h3>`})
                                 .replace(/###(.*?($|\n))/g, function(_, title) {
                                      return `<h2>${title.trim()}</h2>`})
                                 .replace(/:::(.*?)$/, (_, match) => match.replace(/ /g, '&nbsp;'));
 
+        if (sentence_.startsWith('* ')) {
+            if (!bullet_list_active) {
+                bullet_list_active = true
+                sentence_ = "<ul><li>" + sentence_.slice(2)
+            } else {
+                if (bullet_active) {
+                    sentence_ = "</li><li>" + sentence_.slice(2)
+                } else {
+                    sentence_ = '<li>' + sentence_.slice(2)
+                }
+            }
+
+            bullet_active = true
+        } else {
+            if (bullet_list_active && !bullet_active) {
+                bullet_list_active = false
+                sentence_ = '</ul>' + sentence_
+            }
+        }
+
+        if (sentence_.endsWith("\n")) {
+            if (bullet_active) {
+                sentence_ = sentence_.slice(0, -1) + "</li>"
+                bullet_active = false
+            }
+        }
+
         sentences_.push(sentence_)
     }
 
-    console.log(sentences_)
+    if (bullet_active) {
+        sentences[sentences.length - 1] += "</li>"
+    }
+
+    if (bullet_list_active) {
+        sentences[sentences.length - 1] += "</ul>"
+    }
 
     return sentences_.join(' ')
                      .replace(/\*\*(.*?)\*\*/g, function(_, segment) {
@@ -95,10 +129,13 @@ export const Paragraph: React.FC<ParagraphProps> = ({sentences, classNames}) => 
     let className = [styles.paragraph]
 
     if (classNames) {
-        if (classNames.includes('paragraphLeftAlign')) {
-            className.push(styles.paragraphLeftAlign)
+        if (classNames.includes('paragraphJustify')) {
+            className.push(styles.paragraphJustify)
         }
-    }
+
+        if (classNames.includes('paragraphSpaceOutVertically')) {
+            className.push(styles.paragraphSpaceOutVertically)
+        }    }
 
     const html = textFormatter(sentences)
     return <div className={className.join(' ')} dangerouslySetInnerHTML={{ __html: html }}/>

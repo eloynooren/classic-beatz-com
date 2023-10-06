@@ -13,11 +13,9 @@ interface AudioFragmentProps {
 export const AudioFragment: React.FC<AudioFragmentProps> = ({heading, text, src}) => {
     return (
         <div className={styles.container}>
+            <Paragraph sentences={[heading]}/>
             <OneButtonAudioPlayer src={src}/>
-            <div className={styles.text}>
-                <Paragraph sentences={[heading]} classNames="paragraphLeftAlign paragraphBold" />
-                <Paragraph sentences={text} classNames="paragraphLeftAlign" />
-            </div>
+            <Paragraph sentences={text} classNames={'paragraphJustify'}/>
         </div>
     )
 }

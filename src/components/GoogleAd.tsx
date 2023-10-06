@@ -1,5 +1,5 @@
 import React from "react";
-import AdSense from 'react-adsense'
+//import AdSense from 'react-adsense'
 import * as styles from './GoogleAd.module.css'
 
 export const GoogleAd = () => {

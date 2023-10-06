@@ -1,24 +1,24 @@
 
 .row {
-    display: grid;
-    grid-template-columns: 48px 1fr;
+    display: flex;
     font-size: 16px;
     align-items: center;
-    justify-items: left;
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 54px;
+    justify-content: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
     width: 100%;
     text-align: left;
     gap: 16px;
-}
-
-.answer-and-annotation {
+    line-height: 1.4;
 }
 
 .answer {
+}
+
+.answer-with-annotation {
     font-weight: 700;
 }
+
 
 .annotation {
     font-style: italic;
@@ -35,7 +35,8 @@
     font-size: 48px;
     white-space: nowrap;
     text-align: left;
-    margin-right: 10px;
+    align-self: center;
+    vertical-align: middle;
 }
 
 .question-annotation {
@@ -84,7 +85,7 @@
 
 .quiz {
     max-width: 480px;
-    height: 520px;
+    #height: 520px;
     width: 100%;
     justify-self: center;
     min-width: 480px;

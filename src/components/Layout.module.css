@@ -123,6 +123,7 @@ h3 {
 }
 
 .paragraph {
+    min-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -137,9 +138,13 @@ h3 {
     display: block;
 }
 
-.paragraph-left-align {
-    justify-content: flex-start;
-    text-align: left;
+.paragraph-justify {
+    text-align: justify;
+}
+
+.paragraph-space-out-vertically {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .link {

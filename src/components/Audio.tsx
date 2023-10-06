@@ -83,7 +83,7 @@ interface AudioPlayerProps {
 
 function composeAnnotation(track: Track|undefined) {
     if (track && track.annotations) {
-        return '-- ' + pickRandom(track.annotations) + ' --'
+        return '-- ' + pickRandom(Object.keys(track.annotations)) + ' --'
     }
     return '&nbsp'
 }
