@@ -1,26 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import * as styles from './Pairs.module.css';
+import {Button, Flex} from "./Layout";
+import {Pair} from "../types/Pair.ts"
 
 
-interface PairsProps {
-    pairs: {
-        indexA: number;
-        indexB: number;
-        a: string;
-        b: string;
-        explanation: string;
-    }[][];
-}
-
-
-const Pairs: React.FC<PairsProps> = ({ pairs }) => {
+const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
     const [timer, setTimer] = useState<number | null>(null);
     const [score, setScore] = useState(0);
     const [round, setRound] = useState(0);
     const [state, setState] = useState('idle')
+    const pairs = useRef(pairsMakerObj.get(7))
     const [states, setStates] = useState({
-        'A': new Array(pairs[0].length).fill('inactive'),
-        'B': new Array(pairs[0].length).fill('inactive'),
+        'A': new Array(pairs.current[0].length).fill('inactive'),
+        'B': new Array(pairs.current[0].length).fill('inactive'),
         'current': 'inactive'
     })
 
@@ -34,23 +26,24 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
         'match': styles.buttonMatch
     }
 
-    const refs = { 'A': new Array(pairs[round].length).fill(-1), 'B': new Array(pairs[round].length).fill(-1) }
+    const refs = { 'A': new Array(pairs.current[round].length).fill(-1), 'B': new Array(pairs.current[round].length).fill(-1) }
 
-    pairs[round].forEach((dict, index) => {
+    pairs.current[round].forEach((dict, index) => {
         refs['A'][dict.indexA] = index;
         refs['B'][dict.indexB] = index;
     });
 
     const isRoundFinished = () => {
+        console.log("states['A']", states['A'])
         return states['A'].findIndex(state => state != 'match' && state != 'disabled') === -1
     }
 
     const handleFinishedRound = () => {
-        const isLast = round + 1 == pairs.length
+        const isLast = round + 1 == pairs.current.length
 
         setStates({
-            'A': new Array(pairs[isLast ? 0 : round + 1].length).fill('inactive'),
-            'B': new Array(pairs[round].length).fill('inactive'),
+            'A': new Array(pairs.current[isLast ? 0 : round + 1].length).fill('inactive'),
+            'B': new Array(pairs.current[round].length).fill('inactive'),
             'current': 'inactive'
         })
 
@@ -79,15 +72,13 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
     const handleTimerExpiry = () => {
         stopTimer()
 
-        if (isRoundFinished) {
+        if (isRoundFinished()) {
             handleFinishedRound()
         } else {
             let newStates = {...states}
             newStates['A'] = newStates['A'].map(prevState => prevState === 'match' ? 'disabled' : prevState)
             newStates['B'] = newStates['B'].map(prevState => prevState === 'match' ? 'disabled' : prevState)
             newStates['current'] = 'inactive'
-            console.log('before x', states)
-            console.log('after x', newStates)
             setStates(newStates)
         }
     }
@@ -106,7 +97,7 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
     }, []);
 
     const handleAreaClick = () => {
-        if (isRoundFinished) {
+        if (isRoundFinished()) {
             handleFinishedRound()
         } else if (states['A'].findIndex(state => state == 'match') !== -1) {
             setStates(prevStates => ({
@@ -131,7 +122,6 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
 
         event.stopPropagation()
         
-        console.log('handleButtonClick', type, index)
         let newStates = {...states}
 
         if (states['current'] === 'match') {
@@ -163,7 +153,7 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
                 let otherType = (type == 'A') ? 'B' : 'A'
                 let otherIndex = states[otherType].findIndex(state => state == 'selected')
                 if (refs[type][index] === refs[otherType][otherIndex]) {
-                    setExplanations(prev => [pairs[round][refs[type][index]], ...prev])
+                    setExplanations(prev => [pairs.current[round][refs[type][index]], ...prev])
                     newStates[type][index] = 'match'
                     newStates[otherType][otherIndex] = 'match'
                     newStates['current'] = 'match'
@@ -181,65 +171,102 @@ const Pairs: React.FC<PairsProps> = ({ pairs }) => {
             newStates['current'] = 'selected'
             newStates['current'] = 'selected'
         }
-        console.log('pairs[round]', pairs[round])
-        console.log('refs', refs)
-        console.log('before', states)
-        console.log('after', newStates)
 
         setStates(newStates)
 
     }
 
+    const start = () => {
+        setState('running')
+    }
+
+    const reset = () => {
+        startTimer()
+        pairs.current = pairsMakerObj.get()
+        setScore(0)
+        setState('running')
+    }
     return (
-        <div className={styles.container} onClick={() => handleAreaClick()}>
-            <div className={styles.stats}>
-                <div>
-                    <span className={styles.statsLabel}>Round: </span>
-                    <span className={styles.statsValue}>{round+1}</span>
-                </div>
-                <div>
-                    <span className={styles.statsLabel}>Score: </span>
-                    <span className={styles.statsValue}>{score}</span>
-                </div>
+        (state === 'idle') ? (
+            <div>
+                <Button action={start}>{buttonLabel}</Button>
             </div>
-            <div className={`${styles.areas}`}>
-                <div className={`${styles.area}`}>
-                    {refs['A'].map((_, index) => (
-                        <div
-                            key={index}
-                            className={`${styles.button} ${classes[states['A'][index]]}`}
-                            onClick={(e) => handleButtonClick(e, 'A', index)}
-                        >
-                            {pairs[round][refs['A'][index]].a}
-                        </div>
-                    ))}
+        ) : (state == 'running' ? (
+            <div className={styles.container} onClick={() => handleAreaClick()}>
+                <div className={styles.stats}>
+                    <div>
+                        <span className={styles.statsLabel}>Round: </span>
+                        <span className={styles.statsValue}>{round+1}</span>
+                    </div>
+                    <div>
+                        <span className={styles.statsLabel}>Score: </span>
+                        <span className={styles.statsValue}>{score}</span>
+                    </div>
+                </div>
+                <div className={`${styles.areas}`}>
+                    <div className={`${styles.area}`}>
+                        {refs['A'].map((_, index) => (
+                            <div
+                                key={index}
+                                className={`${styles.button} ${classes[states['A'][index]]}`}
+                                onClick={(e) => handleButtonClick(e, 'A', index)}
+                            >
+                                {pairs.current[round][refs['A'][index]].a}
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className={`${styles.area}`}>
+                        {refs['B'].map((_, index) => (
+                            <div
+                                key={index}
+                                className={`${styles.button} ${classes[states['B'][index]]}`}
+                                onClick={(e) => handleButtonClick(e, 'B', index)}
+                            >
+                                {pairs.current[round][refs['B'][index]].b}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
-                <div className={`${styles.area}`}>
-                    {refs['B'].map((_, index) => (
-                        <div
-                            key={index}
-                            className={`${styles.button} ${classes[states['B'][index]]}`}
-                            onClick={(e) => handleButtonClick(e, 'B', index)}
-                        >
-                            {pairs[round][refs['B'][index]].b}
-                        </div>
-                    ))}
+                <div className={`${styles.explanations}`}>
+                    {explanations.length > 0 &&
+                    <div>-- Explanations --
+                    <ul className={`${styles.explanationList}`}>
+                           {explanations.map((e, index) => (
+                               <li key={index}><b>{e.a}</b> and <b>{e.b}</b>: {e.explanation}</li>
+                                   ))}
+                    </ul>
+                    </div>}
                 </div>
             </div>
-
-            <div className={`${styles.explanations}`}>
-                {explanations.length > 0 &&
-                <div>-- Explanations --
-                <ul className={`${styles.explanationList}`}>
-                       {explanations.map((e, index) => (
-                           <li key={index}><b>{e.a}</b> and <b>{e.b}</b>: {e.explanation}</li>
-                               ))}
-                </ul>
-                </div>}
-            </div>
-        </div>
+        ) : (
+            <Flex className='flex-column-space-around'>
+                <div>
+                    <div className={styles.endOfQuizLabel}>QUIZ COMPLETED</div>
+                    <div>Score: {Math.max(score, 0)}</div>
+                    <div className={styles.endOfQuizAnnotations}>
+                        {generateAnnotationForScore().map((line, index) => (
+                            <div key={index} className={styles.endOfQuizAnnotation}>{line}</div>
+                        ))}
+                    </div>
+                </div>
+                <div>
+                    <Button action={reset}>Try Again</Button>
+                </div>
+                <div className={`${styles.explanations}`}>
+                    {explanations.length > 0 &&
+                    <div>-- Explanations --
+                        <ul className={`${styles.explanationList}`}>
+                            {explanations.map((e, index) => (
+                                <li key={index}><b>{e.a}</b> and <b>{e.b}</b>: {e.explanation}</li>
+                            ))}
+                        </ul>
+                    </div>}
+                </div>
+            </Flex>
+        ))
     );
-};
+}
 
 export default Pairs;

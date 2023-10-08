@@ -1,10 +1,11 @@
-import React, {ReactElement} from 'react';
+import React, {ReactElement, useState, useEffect} from 'react';
 import {Layout, Paragraph, Flex, Cell}  from "../components/Layout";
 import {AudioPlayer} from "../components/Audio";
 import TrackList from "../components/TrackList";
 import {QuizMaker} from "../utils/QuizMaker";
 import {PairsMaker} from "../utils/PairsMaker";
 import Quiz from "../components/Quiz";
+import Pairs from "../components/Pairs";
 import GoogleAd from "../components/GoogleAd"
 import makeTrackTitle from "../utils/makeTrackTitle";
 
@@ -14,15 +15,39 @@ interface MixSectionProps {
 }
 
 export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
-
     for (const track of data.tracks) {
         track.title = makeTrackTitle(track)
     }
 
-    let obj = new QuizMaker()
-    obj.addTrackLists(data.tracks, data.composers, data.quiz_item_types)
-    const quizItems = obj.getItems()
-    const annotationTemplates = obj.getAnnotationTemplates()
+    const compositionPairsMakerObj = useState(() => {
+        const obj = new PairsMaker()
+
+        for (let t of data.tracks) {
+            obj.add(0, t.composition, t.annotations)
+        }
+
+        return obj
+    })
+
+    const composerPairsMakerObj = useState(() => {
+        const obj = new PairsMaker()
+
+        for (let c in data.composers) {
+            obj.add(0, c, data.composers[c].annotations)
+        }
+
+        return obj
+    })
+
+    const quizMakerObj = useState(() => {
+        const obj = new QuizMaker()
+        obj.addTrackLists(data.tracks, data.composers, data.quizItemTypes)
+        return obj
+    })
+
+    for (const track of data.tracks) {
+        track.title = makeTrackTitle(track)
+    }
 
     return (
         <Flex>
@@ -51,13 +76,25 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <Paragraph sentences={data.quizIntro}/>
             </Cell>
             <Cell>
-                <Quiz buttonLabel={data.quizStartButtonLabel} quizItems={quizItems} annotationTemplates={annotationTemplates}/>
+                <Quiz buttonLabel={data.quizStartButtonLabel} quizMakerObj={quizMakerObj[0]}/>
             </Cell>
             <Cell>
-                <Paragraph sentences={data.matchCompositionIntro}/>
+                <GoogleAd/>
             </Cell>
             <Cell>
-                <Paragraph sentences={data.matchComposerIntro}/>
+                <Paragraph sentences={data.pairCompositionIntro}/>
+            </Cell>
+            <Cell>
+                 <Pairs buttonLabel={data.pairCompositionStartButtonLabel} pairsMakerObj={compositionPairsMakerObj[0]}/>
+            </Cell>
+            <Cell>
+                <GoogleAd/>
+            </Cell>
+            <Cell>
+                <Paragraph sentences={data.pairComposerIntro}/>
+            </Cell>
+            <Cell>
+                <Pairs buttonLabel={data.pairComposerStartButtonLabel} pairsMakerObj={composerPairsMakerObj[0]}/>
             </Cell>
         </Flex>
     )

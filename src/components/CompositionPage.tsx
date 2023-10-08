@@ -6,9 +6,8 @@ import {Section} from "../components/Section";
 import {Images} from "../utils/Images"
 import * as styles from './CompositionPage.module.css'
 import {QuizMaker} from "../utils/QuizMaker";
+import {PairsMaker} from "../utils/PairsMaker";
 import {Track} from "../types/Track"
-import pickRandom from "../utils/pickRandom";
-import shuffleArray from "../utils/shuffleArray";
 
 
 
@@ -64,10 +63,10 @@ interface CompositionPageProps {
 export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElements, quiz}) => {
     const images = new Images(data.images, imageElements)
     quiz = complete_quiz(data, quiz)
-    pairMaker = PairMaker(7)
+    const pairsMaker = new PairsMaker()
 
     for (let m in data.movements) {
-        pairMaker.add(0, data.movements[m].title, data.movements[m].annotations)
+        pairsMaker.add(0, data.movements[m].title, data.movements[m].annotations)
     }
 
     return (
@@ -119,7 +118,7 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                                 <Section quizIntro={data.quizIntro} quiz={quiz}/>
                             </TabPanel>
                             <TabPanel>
-                                <Section pairsIntro={data.pairsIntro} pairs={pairMaker.get()}/>
+                                <Section pairsIntro={data.pairsIntro} pairs={pairsMaker}/>
                             </TabPanel>
                         </Tabs>
                     </TabPanel>

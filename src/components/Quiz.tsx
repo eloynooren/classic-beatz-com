@@ -1,5 +1,6 @@
 import React, {useEffect, useRef, useState, useCallback} from 'react';
 import {QuizItem} from '../types/QuizItem'
+import {QuizMaker} from '../utils/QuizMaker'
 import pickRandom from '../utils/pickRandom'
 import { IoVolumeMediumOutline } from 'react-icons/io5';
 import {Button, Flex} from "./Layout";
@@ -100,8 +101,7 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
 
 interface QuizProps {
     buttonLabel: string
-    quizItems: QuizItem[];
-    annotationTemplates: any;
+    quizMakerObj: QuizMaker;
 }
 
 function composeQuestion(question: string|[string, {[key: string]: string}]) {
@@ -123,7 +123,6 @@ function composeQuestion(question: string|[string, {[key: string]: string}]) {
 }
 
 function composeAnnotation(subject: string|undefined, annotationTemplates: any) {
-    console.log('subject', subject)
     if (subject) {
         if (annotationTemplates && subject in annotationTemplates) {
             return pickRandom(annotationTemplates[subject])
@@ -145,13 +144,14 @@ function composeAnnotations(subjects: string[]|undefined, annotationTemplates: a
 
 
 
-const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizItems, annotationTemplates}) => {
-    const [items, setItems] = useState(quizItems)
+const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
+    const annotationTemplates = quizMakerObj.getAnnotationTemplates()
+    const [items, setItems] = useState(() => quizMakerObj.getItems())
     const [currentItemIndex, setCurrentItemIndex] = useState(0)
     const [state, setState] = useState('idle')
     const [ticks, setTicks] = useState(0)
     const [score, setScore] = useState(0)
-    const [question, setQuestion] = useState(() => composeQuestion(quizItems[currentItemIndex].question))
+    const [question, setQuestion] = useState(() => composeQuestion(items[currentItemIndex].question))
     const [questionAnnotation, setQuestionAnnotation] = useState(() =>
         composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)
     )
@@ -186,13 +186,11 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizItems, annotationTemplates
 
     useEffect(() => {
         if (ticks && ticks % 2 === 0) {
-            console.log('currentItemIndex', currentItemIndex)
             setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
         }
     }, [ticks]);
 
     useEffect(() => {
-        console.log('currentItemIndex', currentItemIndex)
         setQuestion(composeQuestion(items[currentItemIndex].question))
         setQuestionAnnotation(composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates))
         setAnswerAnnotations(composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates))
