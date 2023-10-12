@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import * as styles from './Pairs.module.css';
 import {Button, Flex} from "./Layout";
 import {Pair} from "../types/Pair.ts"
+import {generateAnnotationForScore} from "../utils/generateAnnotationForScore"
 
 
 const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
@@ -9,7 +10,9 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
     const [score, setScore] = useState(0);
     const [round, setRound] = useState(0);
     const [state, setState] = useState('idle')
-    const pairs = useRef(pairsMakerObj.get(7))
+    const pairs = useRef(pairsMakerObj.get(1))
+    const numPairs = pairs.current.reduce((acc, curr) => acc + curr.length, 0);
+
     const [states, setStates] = useState({
         'A': new Array(pairs.current[0].length).fill('inactive'),
         'B': new Array(pairs.current[0].length).fill('inactive'),
@@ -85,7 +88,9 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setScore(prevScore => prevScore > 0 ? prevScore - 1 : 0)
+            if (state === 'running') {
+                setScore(prevScore => prevScore > 0 ? prevScore - 1 : 0)
+            }
         }, 1000);
         return () => {
             clearInterval(interval);
@@ -157,13 +162,13 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
                     newStates[type][index] = 'match'
                     newStates[otherType][otherIndex] = 'match'
                     newStates['current'] = 'match'
-                    setScore(prevScore => prevScore + 10)
+                    setScore(prevScore => prevScore + 100)
                     startTimer()
                 } else {
                     newStates[type][index] = 'mismatch'
                     newStates[otherType][otherIndex] = 'mismatch'
                     newStates['current'] = 'mismatch'
-                    setScore(prevScore => prevScore > 5 ? prevScore - 5 : 0)
+                    setScore(prevScore => prevScore > 50 ? prevScore - 50 : 0)
                 }
             }
         } else {
@@ -189,7 +194,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
     return (
         (state === 'idle') ? (
             <div>
-                <Button action={start}>{buttonLabel}</Button>
+                <Button action={start}>{buttonLabel ? buttonLabel : 'Pair the Pieces'}</Button>
             </div>
         ) : (state == 'running' ? (
             <div className={styles.container} onClick={() => handleAreaClick()}>
@@ -203,8 +208,8 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
                         <span className={styles.statsValue}>{score}</span>
                     </div>
                 </div>
-                <div className={`${styles.areas}`}>
-                    <div className={`${styles.area}`}>
+                <div className={styles.areas}>
+                    <div className={styles.area}>
                         {refs['A'].map((_, index) => (
                             <div
                                 key={index}
@@ -216,7 +221,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
                         ))}
                     </div>
 
-                    <div className={`${styles.area}`}>
+                    <div className={styles.area}>
                         {refs['B'].map((_, index) => (
                             <div
                                 key={index}
@@ -229,10 +234,10 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
                     </div>
                 </div>
 
-                <div className={`${styles.explanations}`}>
+                <div className={styles.explanations}>
                     {explanations.length > 0 &&
                     <div>-- Explanations --
-                    <ul className={`${styles.explanationList}`}>
+                    <ul className={styles.explanationList}>
                            {explanations.map((e, index) => (
                                <li key={index}><b>{e.a}</b> and <b>{e.b}</b>: {e.explanation}</li>
                                    ))}
@@ -243,11 +248,11 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
         ) : (
             <Flex className='flex-column-space-around'>
                 <div>
-                    <div className={styles.endOfQuizLabel}>QUIZ COMPLETED</div>
+                    <div className={styles.endOfPairMatchingLabel}>PAIR MATCHING COMPLETED</div>
                     <div>Score: {Math.max(score, 0)}</div>
-                    <div className={styles.endOfQuizAnnotations}>
-                        {generateAnnotationForScore().map((line, index) => (
-                            <div key={index} className={styles.endOfQuizAnnotation}>{line}</div>
+                    <div className={styles.endOfPairMatchingAnnotations}>
+                        {generateAnnotationForScore(score, numPairs * 100).map((line, index) => (
+                            <div key={index} className={styles.endOfPairMatchingAnnotation}>{line}</div>
                         ))}
                     </div>
                 </div>

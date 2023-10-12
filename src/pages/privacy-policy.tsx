@@ -1,13 +1,14 @@
 import * as React from "react"
 import {Layout, Flex, Cell, Paragraphs, Button, Link} from "../components/Layout";
-import data from '../data/404.json'
+import data from '../data/privacy-policy.json'
+import {Section} from "../components/Section";
 
 const PrivacyPolicyPage = () => {
     return (
       <Layout pageTitle="Classic Beatz" headerTitle={data.title}>
           <Flex>
               <Cell>
-                  <Paragraphs paragraphs={data.text} classNames="firstBold"/>
+                  <Section paragraphs={data.text}/>
               </Cell>
               <Cell>
                   <Link url="/">

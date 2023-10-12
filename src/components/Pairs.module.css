@@ -5,6 +5,7 @@
 }
 
 .stats {
+    width: 100%;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
@@ -84,7 +85,20 @@
 
 }
 
-.explanationList {
+.explanation-list {
     text-align: left;
 }
 
+.end-of-pair-matching-label {
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.end-of-pair-matching-annotations {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.end-of-pair-matching-annotation {
+    font-style: italic;
+}

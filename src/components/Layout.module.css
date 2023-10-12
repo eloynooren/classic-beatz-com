@@ -96,7 +96,6 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     border-radius: 10px;
-
     background-color: #fd7e14;
     border: 2px solid #fd7e14;
     color: #fff
@@ -120,6 +119,9 @@ h3 {
 .cell {
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .paragraph {
@@ -140,6 +142,10 @@ h3 {
 
 .paragraph-justify {
     text-align: justify;
+}
+
+.paragraph-center {
+    text-align: center;
 }
 
 .paragraph-space-out-vertically {

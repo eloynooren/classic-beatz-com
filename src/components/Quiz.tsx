@@ -9,8 +9,7 @@ import { IoEllipseOutline, IoClose } from 'react-icons/io5';
 import shuffleArray from '../utils/shuffleArray';
 import createIndexArray from "../utils/createIndexArray";
 import * as styles from './Quiz.module.css'
-
-
+import {generateAnnotationForScore} from "../utils/generateAnnotationForScore"
 
 interface QuizAnswerHandlerProps {
     answers: string[];
@@ -152,8 +151,9 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
     const [ticks, setTicks] = useState(0)
     const [score, setScore] = useState(0)
     const [question, setQuestion] = useState(() => composeQuestion(items[currentItemIndex].question))
-    const [questionAnnotation, setQuestionAnnotation] = useState(() =>
-        composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)
+    const [questionAnnotation, setQuestionAnnotation] = useState(() => {
+        console.log(items[currentItemIndex])
+        composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)}
     )
     const [answerAnnotations, setAnswerAnnotations] = useState(() =>
         composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates)
@@ -196,35 +196,6 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
         setAnswerAnnotations(composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates))
     }, [currentItemIndex]);
 
-    const generateAnnotationForScore = () => {
-        const end_score = Math.max(score, 0)
-        const rank = Math.ceil(end_score / items.length)
-        let group
-        let rank_line
-
-        if (rank <= 1) {
-            group = 'worst'
-            rank_line = "Bottom 1%."
-        } else if (rank < 50) {
-            group = 'bad'
-            rank_line = "You lose to " + String(100-rank) +  "% of other quiz-takers."
-        } else if (rank < 90) {
-            group = 'reasonable'
-            rank_line = "You beat " + String(rank) + "% of other quiz-takers."
-        } else if (rank < 99) {
-            group = 'good'
-            rank_line = "Top " + String(100-rank) + "%."
-        } else {
-            group = 'best'
-            rank_line = "Top 1%."
-        }
-
-        let score_jibe = pickRandom(templates.feedback[group]['score-jibe']).replace('SCORE', end_score)
-        let cheer = pickRandom(templates.feedback[group]['cheer'])
-
-        return [score_jibe, rank_line, cheer]
-    }
-
     const startQuiz = () => {
         setState('running')
     }
@@ -239,7 +210,7 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
         <div className={styles.quiz}>
             {state == 'idle' ? (
                 <div>
-                    <Button action={startQuiz}>{buttonLabel}</Button>
+                    <Button action={startQuiz}>{buttonLabel ? buttonLabel : 'Go Quiz!'}</Button>
                 </div>
             ) : (state == 'running' ? (
                 <div>
@@ -269,7 +240,7 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
                         <div className={styles.endOfQuizLabel}>QUIZ COMPLETED</div>
                         <div>Score: {Math.max(score, 0)}</div>
                         <div className={styles.endOfQuizAnnotations}>
-                            {generateAnnotationForScore().map((line, index) => (
+                            {generateAnnotationForScore(score, items.length * 100).map((line, index) => (
                                 <div key={index} className={styles.endOfQuizAnnotation}>{line}</div>
                             ))}
                         </div>

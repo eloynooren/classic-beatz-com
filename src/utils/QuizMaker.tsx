@@ -69,7 +69,7 @@ export class QuizMaker {
             }
 
             if (include_composer_annotation) {
-                this._annotationTemplates[track.composer] = composerDict[track.composer].annotations
+                this._annotationTemplates[track.composer] = Object.keys(composerDict[track.composer].annotations)
             }
         }
     }

@@ -14,17 +14,15 @@ interface SectionProps {
     audio?: Record<number, string>;
     images: Record<string, ReactElement>
     quizIntro?: string[]
-    quiz?: QuizMaker
+    quizMakerObj?: QuizMaker
     pairsIntro?: string[]
-    pairs?: {[key: string]: { [key: string]: string; } }
+    pairMakeObj?: {[key: string]: { [key: string]: string; } }
     spotify?: string
 }
 
 
-export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quiz, pairsIntro, pairs, spotify}) => {
+export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairsIntro, pairsMakerObj, spotify}) => {
     let numImages = 0
-    const quizItems = quiz && quiz.getItems()
-    const annotationTemplates = quiz && quiz.getAnnotationTemplates()
 
     const Image = (image: ReactElement) => {
         numImages += 1
@@ -68,21 +66,21 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
         if (quizIntro) {
             elements.push(
                 <Paragraph key={`quiz-intro`} sentences={quizIntro}
-                       classNames="paragraphJustify paragraphSpaceOutVertically"/>)
+                       classNames="paragraphCenter paragraphSpaceOutVertically"/>)
         }
 
-        if (quiz) {
-            elements.push(<Quiz key={"quiz"} quizItems={quizItems} annotationTemplates={annotationTemplates}/>)
+        if (quizMakerObj) {
+            elements.push(<Quiz key={"quiz"} quizMakerObj={quizMakerObj}/>)
         }
 
         if (pairsIntro) {
             elements.push(
                 <Paragraph key={`pairs-intro`} sentences={pairsIntro}
-                       classNames="paragraphJustify paragraphSpaceOutVertically"/>)
+                       classNames="paragraphCenter paragraphSpaceOutVertically"/>)
         }
 
-        if (pairs) {
-            elements.push(<Pairs key={"pairs"} pairs={pairs}/>)
+        if (pairsMakerObj) {
+            elements.push(<Pairs key={"pairs"} pairsMakerObj={pairsMakerObj}/>)
         }
 
         if (spotify) {

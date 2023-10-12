@@ -11,7 +11,7 @@ import {Track} from "../types/Track"
 
 
 
-function complete_quiz(data: any, quiz: any) {
+function complete_quiz(data: any, quizMakerObj: any) {
     let tracks: Track[] = []
 
     for (let src of Object.values(data.audio)) {
@@ -32,22 +32,22 @@ function complete_quiz(data: any, quiz: any) {
         }
     }
 
-    if (!quiz) {
-        quiz = new QuizMaker()
+    if (!quizMakerObj) {
+        quizMakerObj = new QuizMaker()
     }
 
-    quiz.addTrackLists(tracks, [], ['WHAT-HEAR'])
+    quizMakerObj.addTrackLists(tracks, [], ['WHAT-HEAR'])
 
     if ("movements" in data) {
         const ordinals =  ["", "1st", "2nd", "3rd", "4th", "5th", "6th"]
         const movements = Object.fromEntries(Object.entries(data.movements).map(([k, v]) => [ordinals[k] + ' movement', v.title]));
 
         if (Object.keys(movements).length > 1) {
-            quiz.addWhatNameQuestions(Object.keys(movements).length, movements)
+            quizMakerObj.addWhatNameQuestions(Object.keys(movements).length, movements)
         }
     }
 
-    return quiz
+    return quizMakerObj
 }
 
 const Image: React.FC<{image: ReactElement}> = ({ image }) => {
@@ -57,17 +57,19 @@ const Image: React.FC<{image: ReactElement}> = ({ image }) => {
 interface CompositionPageProps {
     data: any;
     imageElements: ReactElement[];
-    quiz?: any;
+    quizMakerObj: QuizMaker;
 }
 
-export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElements, quiz}) => {
+export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElements, quizMakerObj}) => {
     const images = new Images(data.images, imageElements)
-    quiz = complete_quiz(data, quiz)
-    const pairsMaker = new PairsMaker()
+    quizMakerObj = complete_quiz(data, quizMakerObj)
+    const pairsMakerObj = new PairsMaker()
 
     for (let m in data.movements) {
-        pairsMaker.add(0, data.movements[m].title, data.movements[m].annotations)
+        pairsMakerObj.add(0, data.movements[m].title, data.movements[m].annotations)
     }
+
+    console.log(quizMakerObj)
 
     return (
         <Layout pageTitle="Classical Beatz" headerTitle={data.header}>
@@ -109,18 +111,7 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                     </TabPanel>
                     <TabPanel>
                         <Image image={imageElements[3]}/>
-                        <Tabs selectedTabClassName={styles.selectedTab0} className={styles.tabs}>
-                            <TabList className={styles.tabList0}>
-                                <Tab className={styles.tab0}>Quiz</Tab>
-                                <Tab className={styles.tab0}>Match 'm</Tab>
-                            </TabList>
-                            <TabPanel>
-                                <Section quizIntro={data.quizIntro} quiz={quiz}/>
-                            </TabPanel>
-                            <TabPanel>
-                                <Section pairsIntro={data.pairsIntro} pairs={pairsMaker}/>
-                            </TabPanel>
-                        </Tabs>
+                        <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairsIntro={data.pairsIntro} pairsMakerObj={pairsMakerObj}/>
                     </TabPanel>
                 </Tabs>
             </Flex>
