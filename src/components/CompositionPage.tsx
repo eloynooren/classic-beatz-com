@@ -4,6 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import {Layout, Flex} from "../components/Layout";
 import {Section} from "../components/Section";
 import {Images} from "../utils/Images"
+import { Dispatcher } from './Dispatcher';
 import * as styles from './CompositionPage.module.css'
 import {QuizMaker} from "../utils/QuizMaker";
 import {PairsMaker} from "../utils/PairsMaker";
@@ -73,48 +74,51 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
 
     return (
         <Layout pageTitle="Classical Beatz" headerTitle={data.header}>
-            <Flex>
-                <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
-                    <TabList className={styles.tabList}>
-                        <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>
-                        <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>
-                        <Tab className={styles.tab}>{data.buttonLabels['movements']}</Tab>
-                        <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>
-                    </TabList>
-                    <TabPanel>
-                        <Image image={imageElements[0]}/>
-                        <Section paragraphs={data.article['fragments']} type='fragments' audio={data.audio}/>
-                    </TabPanel>
-                    <TabPanel>
-                        <Image image={imageElements[1]}/>
-                        <Section paragraphs={data.article['composition']} type='' audio={data.audio}/>
-                    </TabPanel>
-                    <TabPanel>
-                        <Image image={imageElements[2]}/>
-                        <Tabs selectedTabClassName={styles.selectedTab0}>
-                            <TabList className={styles.tabList0}>
+            <Dispatcher>
+                <Flex>
+                    <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
+                        <TabList className={styles.tabList}>
+                            <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>
+                            <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>
+                            <Tab className={styles.tab}>{data.buttonLabels['movements']}</Tab>
+                            <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>
+                        </TabList>
+                        <TabPanel>
+                            <Image image={imageElements[0]}/>
+                            <Section paragraphs={data.article['fragments']} type='fragments' audio={data.audio}/>
+                        </TabPanel>
+                        <TabPanel>
+                            <Image image={imageElements[1]}/>
+                            <Section paragraphs={data.article['composition']} type='' audio={data.audio}/>
+                        </TabPanel>
+                        <TabPanel>
+                            <Image image={imageElements[2]}/>
+                            <Tabs selectedTabClassName={styles.selectedTab0}>
+                                <TabList className={styles.tabList0}>
+                                    {Object.keys(data.movements)
+                                        .sort()
+                                        .map((key) =>
+                                            <Tab className={styles.tab0} key={key}>{data.movements[key].title}</Tab>)
+                                    }
+                                </TabList>
+
                                 {Object.keys(data.movements)
                                     .sort()
                                     .map((key) =>
-                                        <Tab className={styles.tab0} key={key}>{data.movements[key].title}</Tab>)
+                                        <TabPanel key={key} >
+                                            <Section paragraphs={data.article[key]} type='' spotify={data.spotify[key]}/>
+                                        </TabPanel>)
                                 }
-                            </TabList>
-
-                            {Object.keys(data.movements)
-                                .sort()
-                                .map((key) =>
-                                    <TabPanel key={key} >
-                                        <Section paragraphs={data.article[key]} type='' spotify={data.spotify[key]}/>
-                                    </TabPanel>)
-                            }
-                        </Tabs>
-                    </TabPanel>
-                    <TabPanel>
-                        <Image image={imageElements[3]}/>
-                        <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairsIntro={data.pairsIntro} pairsMakerObj={pairsMakerObj}/>
-                    </TabPanel>
-                </Tabs>
-            </Flex>
+                            </Tabs>
+                        </TabPanel>
+                        <TabPanel>
+                            <Image image={imageElements[3]}/>
+                            <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairsIntro={data.pairsIntro}
+                                     pairsInstruction={data.pairsInstruction} pairsMakerObj={pairsMakerObj}/>
+                        </TabPanel>
+                    </Tabs>
+                </Flex>
+            </Dispatcher>
         </Layout>
     )
 }

@@ -5,6 +5,7 @@ import {Track} from '../types/Track';
 import {Link, Tooltip} from "./Layout";
 import pickRandom from '../utils/pickRandom';
 import * as styles from "./Audio.module.css";
+import { useDispatch } from './Dispatcher';
 
 interface OneButtonAudioPlayerProps {
     src: string;
@@ -14,6 +15,13 @@ export const OneButtonAudioPlayer: React.FC<OneButtonAudioPlayerProps> = ({ src 
     const [isPlaying, setIsPlaying] = useState(false);
     const [error, setError] = useState('');
     const audioRef = useRef<HTMLAudioElement>(null);
+    const { active, activate } = useDispatch();
+
+    useEffect(() => {
+        if (active !== src) {
+            stop();
+        }
+    }, [active]);
 
     const play = () => {
         if (audioRef.current) {
@@ -30,6 +38,7 @@ export const OneButtonAudioPlayer: React.FC<OneButtonAudioPlayerProps> = ({ src 
                 });
             }
             setIsPlaying(true);
+            activate(src)
         }
     }
 
@@ -40,10 +49,6 @@ export const OneButtonAudioPlayer: React.FC<OneButtonAudioPlayerProps> = ({ src 
         }
         setIsPlaying(false);
     }
-
-    const buttonRef = useClickAway(() => {
-        stop();
-    });
 
     useEffect(() => {
         return () => {
@@ -68,7 +73,7 @@ export const OneButtonAudioPlayer: React.FC<OneButtonAudioPlayerProps> = ({ src 
                     <IoWarningOutline className={styles.audioButton} />
                 </Tooltip>
             ) : (
-                <div ref={buttonRef} onClick={isPlaying ? stop : play}>
+                <div onClick={isPlaying ? stop : play}>
                     {isPlaying ? <IoStopCircle  className={styles.audioButton} /> : <IoPlayCircle  className={styles.audioButton}/>}
                 </div>
             )}
@@ -94,10 +99,18 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({tracks}) => {
     const [annotation, setAnnotation] = useState(undefined)
     const [isPlaying, setIsPlaying] = useState(false)
     const audioRef = useRef<HTMLAudioElement>(null)
+    const { active, activate } = useDispatch();
     let interval
+
+    useEffect(() => {
+        if (active !== 'AudioPlayer') {
+            setIsPlaying(false);
+        }
+    }, [active]);
 
     const handlePlay = () => {
         setIsPlaying(true);
+        activate('AudioPlayer')
     }
 
     const handleStop = () => {
@@ -165,12 +178,8 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({tracks}) => {
         };
     }, [isPlaying, trackIndex]);
 
-    const controlRef = useClickAway(() => {
-        setIsPlaying(false)
-    })
-
     return (
-        <div className={styles.audioPlayer} ref={controlRef}>
+        <div className={styles.audioPlayer}>
             <audio
                 src={tracks[trackIndex].src}
                 ref={audioRef}

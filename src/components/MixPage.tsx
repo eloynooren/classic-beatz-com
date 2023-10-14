@@ -1,6 +1,7 @@
 import React, {ReactElement, useState, useEffect} from 'react';
 import {Layout, Paragraph, Flex, Cell}  from "../components/Layout";
 import {AudioPlayer} from "../components/Audio";
+import { Dispatcher } from './Dispatcher';
 import TrackList from "../components/TrackList";
 import {QuizMaker} from "../utils/QuizMaker";
 import {PairsMaker} from "../utils/PairsMaker";
@@ -50,53 +51,55 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
     }
 
     return (
-        <Flex>
-            <Cell>
-                {imageElement[0]}
-            </Cell>
-            <Cell>
-                <Paragraph sentences={data.mixIntro}/>
-            </Cell>
-            <Cell>
-                <AudioPlayer tracks={data.tracks}/>
-            </Cell>
-            <Cell>
-                {imageElement[1]}
-            </Cell>
-            <Cell>
-                <Paragraph sentences={data.compositionsIntro}/>
-            </Cell>
-            <Cell>
-                <TrackList tracks={data.tracks}/>
-            </Cell>
-            <Cell>
-                <GoogleAd/>
-            </Cell>
-            <Cell>
-                <Paragraph sentences={data.quizIntro}/>
-            </Cell>
-            <Cell>
-                <Quiz buttonLabel={data.quizStartButtonLabel} quizMakerObj={quizMakerObj[0]}/>
-            </Cell>
-            <Cell>
-                <GoogleAd/>
-            </Cell>
-            <Cell>
-                <Paragraph sentences={data.pairCompositionIntro}/>
-            </Cell>
-            <Cell>
-                 <Pairs buttonLabel={data.pairCompositionStartButtonLabel} pairsMakerObj={compositionPairsMakerObj[0]}/>
-            </Cell>
-            <Cell>
-                <GoogleAd/>
-            </Cell>
-            <Cell>
-                <Paragraph sentences={data.pairComposerIntro}/>
-            </Cell>
-            <Cell>
-                <Pairs buttonLabel={data.pairComposerStartButtonLabel} pairsMakerObj={composerPairsMakerObj[0]}/>
-            </Cell>
-        </Flex>
+        <Dispatcher>
+            <Flex>
+                <Cell>
+                    {imageElement[0]}
+                </Cell>
+                <Cell>
+                    <Paragraph sentences={data.mixIntro}/>
+                </Cell>
+                <Cell>
+                    <AudioPlayer tracks={data.tracks}/>
+                </Cell>
+                <Cell>
+                    {imageElement[1]}
+                </Cell>
+                <Cell>
+                    <Paragraph sentences={data.compositionsIntro}/>
+                </Cell>
+                <Cell>
+                    <TrackList tracks={data.tracks}/>
+                </Cell>
+                <Cell>
+                    <GoogleAd/>
+                </Cell>
+                <Cell>
+                    <Paragraph sentences={data.quizIntro}/>
+                </Cell>
+                <Cell>
+                    <Quiz buttonLabel={data.quizStartButtonLabel} quizMakerObj={quizMakerObj[0]}/>
+                </Cell>
+                <Cell>
+                    <GoogleAd/>
+                </Cell>
+                <Cell>
+                    <Paragraph sentences={data.pairCompositionIntro}/>
+                </Cell>
+                <Cell>
+                     <Pairs buttonLabel={data.pairCompositionStartButtonLabel} instruction={data.pairCompositionInstruction} pairsMakerObj={compositionPairsMakerObj[0]}/>
+                </Cell>
+                <Cell>
+                    <GoogleAd/>
+                </Cell>
+                <Cell>
+                    <Paragraph sentences={data.pairComposerIntro}/>
+                </Cell>
+                <Cell>
+                    <Pairs buttonLabel={data.pairComposerStartButtonLabel} instruction={data.pairComposerInstruction} pairsMakerObj={composerPairsMakerObj[0]}/>
+                </Cell>
+            </Flex>
+        </Dispatcher>
     )
 }
 

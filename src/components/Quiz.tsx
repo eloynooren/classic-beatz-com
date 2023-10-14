@@ -10,6 +10,7 @@ import shuffleArray from '../utils/shuffleArray';
 import createIndexArray from "../utils/createIndexArray";
 import * as styles from './Quiz.module.css'
 import {generateAnnotationForScore} from "../utils/generateAnnotationForScore"
+import {useDispatch} from "./Dispatcher";
 
 interface QuizAnswerHandlerProps {
     answers: string[];
@@ -31,6 +32,15 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
     const shuffledAnswerIndices = useRef(shuffleArray(createIndexArray(answers.length)))
     const [selectedAnswerIndices, setSelectedAnswerIndices] = useState<number[]>([]);
     const [audio, setAudio] = useState<HTMLAudioElement | null>(null);
+    const { active, activate } = useDispatch();
+
+    useEffect(() => {
+        if (audio) {
+            audio.pause();
+            audio.currentTime = 0;
+            setAudio(null)
+        }
+    }, [active]);
 
     useEffect(() => {
         if (type && link && type === 'audio') {
@@ -151,6 +161,7 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
     const [ticks, setTicks] = useState(0)
     const [score, setScore] = useState(0)
     const [question, setQuestion] = useState(() => composeQuestion(items[currentItemIndex].question))
+    const { active, activate } = useDispatch();
     const [questionAnnotation, setQuestionAnnotation] = useState(() => {
         console.log(items[currentItemIndex])
         composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)}
@@ -158,6 +169,14 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
     const [answerAnnotations, setAnswerAnnotations] = useState(() =>
         composeAnnotations(items[currentItemIndex].answerAnnotations, annotationTemplates)
     )
+
+    useEffect(() => {
+        if (active !== buttonLabel && state !== 'idle') {
+            setState('idle');
+            setTicks(0)
+            setScore(0)
+        }
+    }, [active]);
 
     const reportEvent = (event: string) => {
         if (event == 'correct') {
@@ -197,6 +216,7 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
     }, [currentItemIndex]);
 
     const startQuiz = () => {
+        activate(buttonLabel)
         setState('running')
     }
 

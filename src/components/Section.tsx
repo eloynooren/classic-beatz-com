@@ -6,22 +6,24 @@ import {QuizMaker} from "../utils/QuizMaker";
 import Quiz from "./Quiz";
 import Pairs from "./Pairs";
 import  {Spotify} from 'react-spotify-embed';
+import GoogleAd from "./GoogleAd";
 
 
 interface SectionProps {
     paragraphs: string[][];
     type?: string;
     audio?: Record<number, string>;
-    images: Record<string, ReactElement>
+    images?: Record<string, ReactElement>
     quizIntro?: string[]
     quizMakerObj?: QuizMaker
     pairsIntro?: string[]
-    pairMakeObj?: {[key: string]: { [key: string]: string; } }
+    pairsInstruction?: string
+    pairsMakerObj?: {[key: string]: { [key: string]: string; } }
     spotify?: string
 }
 
 
-export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairsIntro, pairsMakerObj, spotify}) => {
+export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairsIntro, pairsInstruction, pairsMakerObj, spotify}) => {
     let numImages = 0
 
     const Image = (image: ReactElement) => {
@@ -70,7 +72,8 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
         }
 
         if (quizMakerObj) {
-            elements.push(<Quiz key={"quiz"} quizMakerObj={quizMakerObj}/>)
+            elements.push(<Quiz key={"quiz"} buttonLabel="Go Quiz!" quizMakerObj={quizMakerObj}/>)
+            elements.push(<GoogleAd key={"ad-1"}/>)
         }
 
         if (pairsIntro) {
@@ -80,11 +83,13 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
         }
 
         if (pairsMakerObj) {
-            elements.push(<Pairs key={"pairs"} pairsMakerObj={pairsMakerObj}/>)
+            console.log(pairsInstruction)
+            elements.push(<Pairs key={"pairs"} buttonLabel="Pair the Pieces" instruction={pairsInstruction} pairsMakerObj={pairsMakerObj}/>)
+            elements.push(<GoogleAd key={"ad-2"}/>)
         }
 
         if (spotify) {
-            elements.push(<Spotify className={styles.spotify} link={spotify}/>)
+            elements.push(<Spotify key={"spotify"} className={styles.spotify} link={spotify}/>)
         }
         console.log(elements)
 

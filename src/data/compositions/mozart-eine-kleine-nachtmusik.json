@@ -616,7 +616,8 @@
         "First up, we've got a multiple-choice quickie. Hit it. Give it all you got."
     ],
     "pairsIntro": [
-        "### Each movement's got its own vibe. Wanna try and match'em up?\"",
-        "Movements are on the left, vibes on the right. Tap and link'em up."
-    ]
+        "### Do you have a feel for the movements' moods?",
+        "Each movement's got its own vibe. Wanna try and match'em up?\""
+    ],
+    "pairsInstruction": "Movements are on the left, vibes on the right. Tap and link'em up."
 }

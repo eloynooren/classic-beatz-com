@@ -1,17 +1,27 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as styles from './Pairs.module.css';
-import {Button, Flex} from "./Layout";
+import {Button, Flex, Paragraph} from "./Layout";
 import {Pair} from "../types/Pair.ts"
 import {generateAnnotationForScore} from "../utils/generateAnnotationForScore"
+import {useDispatch} from "./Dispatcher";
+import {PairsMaker} from "../utils/PairsMaker";
+
+interface PairsProps {
+    buttonLabel: string
+    instruction: string
+    pairsMakerObj: PairsMaker;
+}
 
 
-const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
+const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }) => {
+    const numRounds = 3
     const [timer, setTimer] = useState<number | null>(null);
     const [score, setScore] = useState(0);
     const [round, setRound] = useState(0);
     const [state, setState] = useState('idle')
-    const pairs = useRef(pairsMakerObj.get(1))
+    const pairs = useRef(pairsMakerObj.get(numRounds))
     const numPairs = pairs.current.reduce((acc, curr) => acc + curr.length, 0);
+    const { active, activate } = useDispatch();
 
     const [states, setStates] = useState({
         'A': new Array(pairs.current[0].length).fill('inactive'),
@@ -35,6 +45,20 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
         refs['A'][dict.indexA] = index;
         refs['B'][dict.indexB] = index;
     });
+
+    useEffect(() => {
+        console.log(active)
+        if (active !== buttonLabel && state != 'idle') {
+            setState('idle');
+            setScore(0)
+            setRound(0)
+            console.log('1')
+            stopTimer()
+            console.log('2')
+            pairs.current = pairsMakerObj.get(numRounds)
+            console.log('3')
+        }
+    }, [active]);
 
     const isRoundFinished = () => {
         console.log("states['A']", states['A'])
@@ -168,7 +192,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
                     newStates[type][index] = 'mismatch'
                     newStates[otherType][otherIndex] = 'mismatch'
                     newStates['current'] = 'mismatch'
-                    setScore(prevScore => prevScore > 50 ? prevScore - 50 : 0)
+                    setScore(prevScore => prevScore > 100 ? prevScore - 100 : 0)
                 }
             }
         } else {
@@ -182,12 +206,13 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
     }
 
     const start = () => {
+        activate(buttonLabel)
         setState('running')
     }
 
     const reset = () => {
-        startTimer()
-        pairs.current = pairsMakerObj.get()
+        stopTimer()
+        pairs.current = pairsMakerObj.get(numRounds)
         setScore(0)
         setState('running')
     }
@@ -198,6 +223,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, pairsMakerObj }) => {
             </div>
         ) : (state == 'running' ? (
             <div className={styles.container} onClick={() => handleAreaClick()}>
+                <Paragraph sentences={[instruction]} classNames="paragraphCenter"/>
                 <div className={styles.stats}>
                     <div>
                         <span className={styles.statsLabel}>Round: </span>

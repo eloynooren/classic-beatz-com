@@ -25,4 +25,4 @@ const PrivacyPolicyPage = () => {
 
 export default PrivacyPolicyPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <title>Classical Beatz</title>

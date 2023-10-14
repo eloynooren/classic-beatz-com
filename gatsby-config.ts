@@ -15,7 +15,14 @@ const config: GatsbyConfig = {
     `gatsby-plugin-image`,
      {resolve: `gatsby-plugin-sharp`, options: {defaults: { breakpoints: [400], quality: 100 } } },
     `gatsby-transformer-sharp`,
-  ],
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-7F63QQE4M7"],
+        pluginConfig: {head: true}
+      }
+    }
+  ]
 }
 
 export default config

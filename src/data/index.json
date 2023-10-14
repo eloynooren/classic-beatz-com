@@ -20,21 +20,23 @@
         "### Aight, time to flex them brain muscles, fam.",
         "Smash that quiz and show 'em you ain't no dummy."
     ],
+    "quizStartButtonLabel": "Go Quiz!",
+    "quizItemTypes" : [ "WHAT-HEAR", "WHICH-COMPOSER", "WHICH-COMPOSITION" ],
     "pairCompositionIntro": [
         "### Yo, wanna know more about the tunes we chatted about? Fancy learning the fun way?",
         "We got you! Check out our match'em game.",
         "You'll be pairing up tracks with some cool notes about 'em.",
         "Go on, give it a shot."
     ],
+    "pairCompositionStartButtonLabel": "Pair the Pieces",
+    "pairCompositionInstruction": "Tracks are on the left, notes on the right. Tap and link'em up.",
     "pairComposerIntro": [
         "### Now, how 'bout we dive into the minds behind the music?",
         "Up next in the match'em game: link up composers with some dope tidbits about 'em.",
         "Think you can handle? Let's get it!"
     ],
-    "quizStartButtonLabel": "Go Quiz!",
-    "pairCompositionStartButtonLabel": "Pair the Pieces",
     "pairComposerStartButtonLabel": "Match the Maestros",
-    "quizItemTypes" : [ "WHAT-HEAR", "WHICH-COMPOSER", "WHICH-COMPOSITION" ],
+    "pairComposerInstruction": "Composers are on the left, tidbits on the right. Tap and link'em up.",
     "image": {
         "image": "https://photos.app.goo.gl/zLXi38xZjBmWVyvA8",
         "alternative": "Rappers posing with string instruments"
