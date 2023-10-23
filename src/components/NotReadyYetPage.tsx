@@ -51,8 +51,10 @@ export const NotReadyYetPage: React.FC<NotReadyYetPageProps> = ({headerTitle, im
                     {imageElement}
                 </Cell>
                 <Cell>
-                    <Paragraph sentences={["**NOTICE**\n\n"]}/>
-                    <Paragraph sentences={[annotation]}/>
+                    <div>
+                        <Paragraph sentences={["**NOTICE**"]}/>
+                        <Paragraph sentences={[annotation]}/>
+                    </div>
                 </Cell>
             </Flex>
         </Layout>

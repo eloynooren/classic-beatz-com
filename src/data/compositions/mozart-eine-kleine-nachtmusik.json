@@ -207,32 +207,6 @@
         "3": "https://open.spotify.com/track/2JnnR1cJfTT8Qua8nFVpjy?si=851af0080a8b48aa",
         "4": "https://open.spotify.com/track/6s8LFsUwl6htkNuLihSfMz?si=5d2d7c4f85c04f08"
     },
-    "images": [
-        {
-            "section": "fragments",
-            "location": "before"
-        },
-        {
-            "section": "composition",
-            "location": "before"
-        },
-        {
-            "section": "1",
-            "location": "before"
-        },
-        {
-            "section": "2",
-            "location": "before"
-        },
-        {
-            "section": "3",
-            "location": "before"
-        },
-        {
-            "section": "4",
-            "location": "before"
-        }
-    ],
     "article": {
         "fragments": [
             [
@@ -242,19 +216,19 @@
                 "So, let's take a sneak peek:"
             ],
             [
-                "### 1. Allegro - The Opening Charge (0:00 - 0:45)",
+                "### 1. Allegro - The Opening Charge",
                 "Right from the first bar, the Allegro grabs you and doesn't let go.",
                 "It's a vibrant parade of strings, setting the pace for the entire piece.",
                 "In essence, this opening is Mozart's way of rolling out the red carpet, ensuring you know you're in for a grand musical journey."
             ],
             [
-                "### 2. Romanze:Andante - The Emotional Core (1:15 - 1:40)",
+                "### 2. Romanze:Andante - The Emotional Core",
                 "Nested within the Romanze's serene landscape is a 25-second jewel that stands out for its emotive power.",
                 "The strings and winds interact in a sort of whispered dialogue that pulls at the heartstrings.",
                 "If the Allegro is a call to adventure, this moment is the emotional fulcrum that adds depth to the narrative."
             ],
             [
-                "### 3. Rondo:Allegro - The Final Flourish (0:20 - 0:50)",
+                "### 3. Rondo:Allegro - The Final Flourish",
                 "And just when you thought it couldn't get better, the Rondo serves up a delightful crescendo.",
                 "Around 20 seconds in, a lively passage unfolds, displaying Mozart's knack for balancing complexity and sheer enjoyment.",
                 "It's like the composer is giving us a taste of the grand finale, a final fireworks display that captivates the imagination."
@@ -373,7 +347,7 @@
                 "After all that thrill, the Recapitulation is like that warm, familiar hug.",
                 "Our main themes return, reminding us of the start, but now they've seen some stuff and have tales to tell.",
                 "They\u2019re still vibing in G major, seasoned by their escapades.",
-                "Then the Coda sweeps in, putting a solid, resounding end to the narrative, like dropping the mic after a killer performance."
+                "Then the Coda sweeps in, putting a solid, resounding end  narrative, like dropping the mic after a killer performance."
             ],
             [
                 "### Who's Doing What?",
@@ -449,13 +423,6 @@
                 "It\u2019s reassuring, reminding us of the good times and providing a sense of \u201cwe got through the drama\u201d relief."
             ],
             [
-                "### Whispers and Echoes: Coda",
-                "The \"Coda\" is the tail end of the piece, sort of the final hoorah!",
-                "It's still in our trusty C major key, keeping the mood light and resolved.",
-                "Imagine the end of a movie where everything makes sense, and our hearts are all warm and fuzzy.",
-                "That\u2019s the coda \u2014 a satisfying send-off that ties up the musical story with a neat little bow."
-            ],
-            [
                 "### Chit-Chat of Strings: Role of Instruments",
                 "In \"Romanze: Andante,\" the strings are like characters in our story.",
                 "The violins aren\u2019t just playing; they're chatting, laughing, whispering secrets, and sometimes arguing softly.",
@@ -508,11 +475,6 @@
                 "And just like that, we're back with the minuet's lively beats.",
                 "After the trio's cool-down, this reprisal feels even more dynamic.",
                 "The strings resume their playful banter, closing out the section with as much energy as they started."
-            ],
-            [
-                "### Coda: The Final Flourish",
-                "Mozart drops a brief coda to finish off the movement.",
-                "Think of a coda as the final, emphatic punctuation on a musical sentence \u2013 it's there to say, \"That's a wrap,\" ensuring the piece ends on a decisive note."
             ],
             [
                 "### The Heartbeat of the Piece: Instruments",
@@ -586,12 +548,6 @@
                 "Guess who?",
                 "Our refrain strikes again, bringing back the original vibe and that G major goodness.",
                 "It's like coming home after a day of adventures."
-            ],
-            [
-                "### Coda \u2013 Mic Drop",
-                "As we hit the coda, or the tail end of the piece, expect a flurry of excitement.",
-                "This is Mozart dropping the mic, with a final flourish in our trusty G major.",
-                "It's a wrap-up that leaves the crowd cheering, the kind of finale that gets your heart racing."
             ],
             [
                 "### String Squad in the Spotlight",

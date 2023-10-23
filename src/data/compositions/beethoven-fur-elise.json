@@ -78,11 +78,51 @@
         "The Pensive Pianist’s Pick": "The go-to piece for a pianist in deep thought, providing solace and reflection.",
         "The Tapestry of Tunes": "Like a woven tapestry, each note and chord interlaces to create a beautiful musical picture."
     },
-    "buttonLabels": {
-        "composition": "Backstory",
-        "movements": "Analysis"
+    "header": [
+        "On the Flip with",
+        "Beethoven's Für Elise"
+    ],
+    "audio": {
+        "fragment-1": "/audio/compositions/beethoven-fur-elise/fragment-1-0-45.mp3",
+        "fragment-2": "/audio/compositions/beethoven-fur-elise/fragment-1-60-105.mp3",
+        "fragment-3": "/audio/compositions/beethoven-fur-elise/fragment-1-160-186.mp3"
     },
+    "buttonLabels": {
+        "fragments": "Prime Parts",
+        "composition": "Behind the Notes",
+        "analysis": "Sonic Study"
+    },
+    "spotify": "https://open.spotify.com/track/6MQAB3vorg90FA3tQpbYXK",
     "article": {
+        "fragments": [
+            [
+                "### Three Unmissable Beats in \"Für Elise\"",
+                "Brace yourselves as we dive deep into the emotive universe of Beethoven's 'Fur Elise,' spotlighting three segments that showcase the sheer brilliance of this immortal melody.",
+                "These ain't your average picks; they're the heart and soul of the masterpiece, each packed into a powerful punch of no more than a minute.",
+                "So, buckle up, here's the inside scoop:"
+            ],
+            [
+                "### 1. The Kickoff",
+                "Alright, here's where Beethoven drops the beat.",
+                "It's that famous tune everyone knows, soft and sweet, like he's just chillin' at the piano.",
+                "It's all smooth sailing, and the crowd's like, 'Oh snap, I know this jam!'"
+            ],
+            [
+                "### 2. The Heat Up",
+                "Now things are getting spicy!",
+                "B's like, 'Y'all thought this was a slow jam?' and cranks it up a notch.",
+                "The keys are on fire, and it's a full-on piano party in here.",
+                "The vibe's more intense, kinda like he's showing off what he's got, and it's legit.\""
+            ],
+            [
+                "### 3. The Mic Drop",
+                "End game, folks.",
+                "We're back to the classic tune, but Beethoven's throwing in some extra feels.",
+                "It's like he's saying, 'We've been on a ride, now let's wind it down.' It's slower, hits you right in the feels, and it's pure magic.",
+                "Then, boom, he drops the mic.",
+                "Show's over, and the crowd goes wild.\""
+            ]
+        ],
         "composition": [
             [
                 "### \"F\u00fcr Elise\": Unraveling a Musical Enigma",
@@ -97,6 +137,13 @@
                 "Whaaat?",
                 "Yeah, the word is Beethoven might've penned this piece for Therese Malfatti, his student and secret crush.",
                 "But thanks to what could just be the world's most impactful typo, \"Therese\" became \"Elise,\" and the rest is history."
+            ],
+            [
+                "### The Alias Unveiled: \"Bagatelle No. 25\" and Beyond",
+                "Did you know \"F\u00fcr Elise\" goes by another name?",
+                "Officially, it's \"Bagatelle No.",
+                "25 in A minor,\" but it's the personal touch of \u201cF\u00fcr Elise\u201d that echoes in the halls of music history.",
+                "This bagatelle, a term signifying something light and fleeting, defies its name by securing an indelible place in the hearts of those who hear it."
             ],
             [
                 "### Hidden Gem: Dusting Off the Old Sheets",
@@ -136,52 +183,50 @@
         ],
         "analysis": [
             [
-                [
-                    "### Unraveling the Tapestry: Bit by Bit",
-                    "Diving into \"Fur Elise\" is like unraveling a mystery, layer by layer.",
-                    "It's a narrative, with its peaks and troughs, woven into a musical tapestry.",
-                    "It's not straight-up; there's a plot, there's suspense, and there's the resolution, all tucked into the vibes of the piece."
-                ],
-                [
-                    "### A Section: Where It All Begins",
-                    "So, here's the deal: the A section, drenched in the sound flavor of A minor, is where you get the first taste \u2014 it's tender, delicate, but with a twinge of something akin to sorrow.",
-                    "It's as if you're whispering a confession into the wind, half-hoping it doesn't reach the one it's meant for \u2014 that's the kind of feels we're dealing with here."
-                ],
-                [
-                    "### B Section: Winds of Change",
-                    "Then, bam!",
-                    "We're in the B section, and the script gets flipped.",
-                    "Now we're groovin' in F major, where everything feels brighter, but with a sense of urgency that wasn't there before.",
-                    "It's like a sudden realization, a moment of truth that changes everything, shifting the rhythm of your heartbeat."
-                ],
-                [
-                    "### A Section Reprised: The Melody of Echoes",
-                    "After the whirlwind, we're back to the A section, but it's like looking at a familiar face with new eyes.",
-                    "The melody hits different \u2014 it's the wistfulness of a memory, reshaped by the storms it's weathered.",
-                    "It's a return, but it's also a reflection of all that's been."
-                ],
-                [
-                    "### Coda: The Gentle Goodbye",
-                    "And then, the coda.",
-                    "This is where Beethoven, the maestro storyteller, wraps it all up.",
-                    "We're in A minor again, softer, like the final rays of the sunset.",
-                    "It's a conclusion, yes, but one that leaves a lingering note in the air \u2014 a promise that the story isn't finished, it's just waiting to be retold."
-                ],
-                [
-                    "### Solo Act: The Piano's Narrative",
-                    "Let's get this straight: \"F\u00fcr Elise\" is the piano's show.",
-                    "It's not just an instrument; it's the medium for the message, the voice of the emotions that Beethoven's trying to convey.",
-                    "Every press of the key is a word, a sigh, a shout in this intimate conversation initiated by the composer."
-                ],
-                [
-                    "### Press Play: Ride the Wave",
-                    "No more sidelines \u2014 it's time to dive in.",
-                    "Find that play button, press it, and let \"F\u00fcr Elise\" do the rest.",
-                    "Give in to the pull of the music, let it envelop you, transport you.",
-                    "This isn't just listening; it's a journey \u2014 one you'll replay in your mind's ear over and over.",
-                    "So, are you ready for the ride?",
-                    "\ud83c\udfa7\ud83c\udfb9"
-                ]
+                "### Unraveling the Tapestry: Bit by Bit",
+                "Diving into \"Fur Elise\" is like unraveling a mystery, layer by layer.",
+                "It's a narrative, with its peaks and troughs, woven into a musical tapestry.",
+                "There's a plot, suspense, and resolution, all tucked into the vibes of the piece."
+            ],
+            [
+                "### Bagatelle: A Musical Puzzle",
+                "What sets \"F\u00fcr Elise\" apart isn't just its haunting melody \u2014 it's its form.",
+                "This piece is a bagatelle, akin to a musical snapshot capturing a wealth of emotions within a compact frame.",
+                "Originating in the casual, almost whimsical performances of the 18th century, bagatelles may be brief, but they're brimming with character \u2014 a testament to Beethoven's knack for transforming even the briefest compositions into profound expressions."
+            ],
+            [
+                "### The A-B-A: Life in Three Acts",
+                "\"Fur Elise\" follows the classic bagatelle structure, the A-B-A, akin to a three-act play.",
+                "The A section serves our introduction, immersing us in the central theme and emotional core.",
+                "Enter B, and the tone shifts \u2014 a contrasting middle that introduces conflict or introspection, taking listeners on a detour from the familiar.",
+                "The piece culminates with a return to A, revisiting the main theme but with nuances shaped by the journey \u2014 a musical denouement, if you will."
+            ],
+            [
+                "### A Section: The Whispered Confession",
+                "The piece welcomes us with its A section, steeped in A minor's delicate melancholy.",
+                "It's intimate, almost like a tender confession carried away by the wind \u2014 a melody tinged with hope and hesitation."
+            ],
+            [
+                "### B Section: The Enlightening",
+                "Then comes the B section, a narrative pivot into the brightness of F major.",
+                "This shift isn't just melodic; it's a transformation, evoking an epiphany or a surge of realization, every note building on the last to rewrite the story's emotional undertones."
+            ],
+            [
+                "### A Section Reprised: Echoes of the Past",
+                "The composition circles back to its A section, but the familiar strains carry the weight of the journey.",
+                "The theme, once a gentle murmur, now speaks with the wisdom of experience \u2014 a melody reshaped by its voyage through the piece."
+            ],
+            [
+                "### Solo Act: The Piano's Narrative",
+                "Through it all, remember: \"F\u00fcr Elise\" is the piano's monologue.",
+                "It's not mere accompaniment; it's the voice of the narrative, the emotional current guiding us through Beethoven's introspections.",
+                "Each keystroke translates into a word, a sigh, a proclamation in this intimate dialogue."
+            ],
+            [
+                "### Press Play: Embark on the Journey",
+                "So, here's your cue: hit play and plunge into \"F\u00fcr Elise.\" Let it wash over you, envelop you, and ferry you across its emotional landscapes.",
+                "This isn't passive listening; it's an expedition, a replayable voyage through the recesses of Beethoven's heart.",
+                "Are you ready to embark?"
             ]
         ]
     }

@@ -15,20 +15,22 @@ import {Track} from "../types/Track"
 function complete_quiz(data: any, quizMakerObj: any) {
     let tracks: Track[] = []
 
-    for (let src of Object.values(data.audio)) {
-        if (typeof src === "string") {
-            let match = src.match(/fragment-(\d+)-\d+-\d+\.mp3/)
-            if (match && match[1]) {
-                let movement_id = match[1]
-                tracks.push({
-                        composer: '',
-                        composition: '',
-                        src: src,
-                        url: '',
-                        title: data.movements[movement_id].title,
-                        annotations: Object.keys(data.movements[movement_id].annotations)
-                    }
-                )
+    if ('movements' in data) {
+        for (let src of Object.values(data.audio)) {
+            if (typeof src === "string") {
+                let match = src.match(/fragment-(\d+)-\d+-\d+\.mp3/)
+                if (match && match[1]) {
+                    let movement_id = match[1]
+                    tracks.push({
+                            composer: '',
+                            composition: '',
+                            src: src,
+                            url: '',
+                            title: data.movements[movement_id].title,
+                            annotations: Object.keys(data.movements[movement_id].annotations)
+                        }
+                    )
+                }
             }
         }
     }
@@ -57,12 +59,11 @@ const Image: React.FC<{image: ReactElement}> = ({ image }) => {
 
 interface CompositionPageProps {
     data: any;
-    imageElements: ReactElement[];
+    imageElements: { [key: string]: ReactElement }
     quizMakerObj: QuizMaker;
 }
 
 export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElements, quizMakerObj}) => {
-    const images = new Images(data.images, imageElements)
     quizMakerObj = complete_quiz(data, quizMakerObj)
     const pairsMakerObj = new PairsMaker()
 
@@ -78,21 +79,22 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                 <Flex>
                     <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
-                            <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>
-                            <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>
-                            <Tab className={styles.tab}>{data.buttonLabels['movements']}</Tab>
-                            <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>
+                            {'fragments' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>}
+                            {'composition' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>}
+                            {'movements' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['movements']}</Tab>}
+                            {'exam' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>}
+                            {'analysis' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['analysis']}</Tab>}
                         </TabList>
-                        <TabPanel>
-                            <Image image={imageElements[0]}/>
+                        {'fragments' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['fragments']}/>
                             <Section paragraphs={data.article['fragments']} type='fragments' audio={data.audio}/>
-                        </TabPanel>
-                        <TabPanel>
-                            <Image image={imageElements[1]}/>
+                        </TabPanel>}
+                        {'composition' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['composition']}/>
                             <Section paragraphs={data.article['composition']} type='' audio={data.audio}/>
-                        </TabPanel>
-                        <TabPanel>
-                            <Image image={imageElements[2]}/>
+                        </TabPanel>}
+                        {'movements' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['movements']}/>
                             <Tabs selectedTabClassName={styles.selectedTab0}>
                                 <TabList className={styles.tabList0}>
                                     {Object.keys(data.movements)
@@ -110,12 +112,16 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                                         </TabPanel>)
                                 }
                             </Tabs>
-                        </TabPanel>
-                        <TabPanel>
-                            <Image image={imageElements[3]}/>
+                        </TabPanel>}
+                        {'analysis' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['analysis']}/>
+                            <Section paragraphs={data.article['analysis']} type='' spotify={data.spotify}/>
+                        </TabPanel>}
+                        {'exam' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['exam']}/>
                             <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairsIntro={data.pairsIntro}
                                      pairsInstruction={data.pairsInstruction} pairsMakerObj={pairsMakerObj}/>
-                        </TabPanel>
+                        </TabPanel>}
                     </Tabs>
                 </Flex>
             </Dispatcher>
