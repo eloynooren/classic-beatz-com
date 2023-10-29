@@ -1,18 +1,41 @@
 import React from 'react';
 import NotReadyYetPage from "../../components/NotReadyYetPage";
 import { StaticImage } from "gatsby-plugin-image";
+import {QuizMaker} from "../../utils/QuizMaker";
+import CompositionPage from "../../components/CompositionPage";
+import data from "../../data/compositions/verdi-aida.json";
 
 
-const imageElement = (
-    <StaticImage
-        key="image-1"
-        src="../../images/females-singing-verdi-aida.jpg"
-        alt="Females singing Verdi's Aida"
-    />
-)
+const imageElements = {
+    'fragments':
+        <StaticImage
+            key="image-1"
+            src="../../images/smiling-verdi.png"
+            alt="Females singing Verdi's Aida"
+        />,
+    'plot':
+        <StaticImage
+            key="image-2"
+            src="../../images/egyptian-pyramide.png"
+            alt="Egyptian pyramide"
+        />,
+    'composition':
+        <StaticImage
+            key="image-3"
+            src="../../images/female-singing-an-aria-of-verdi-aida.jpg"
+            alt="Female singing an aria of Verdi's Aida"
+        />,
+    'tracks':
+        <StaticImage
+            key="image-4"
+            src="../../images/male-singing-an-aria-of-verdi-aida.jpg"
+            alt="Male singing an aria of Verdi's Aida"
+        />,
+}
 
 function Page() {
-    return <NotReadyYetPage imageElement={imageElement} headerTitle={["A Sit-Down With ","Verdi's Aida"]}/>
+    let quizMakerObj = new QuizMaker()
+    return <CompositionPage data={data} imageElements={imageElements} quizMakerObj={quizMakerObj}/>
 }
 
 export default Page

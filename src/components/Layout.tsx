@@ -6,7 +6,7 @@ import useDeviceWidth from './UseDeviceWidth';
 import * as styles from './Layout.module.css'
 import { StaticImage } from "gatsby-plugin-image"
 import {Tab, TabList, TabPanel} from "react-tabs";
-import {Section} from "./Section";
+import Seo from "./Seo";
 import {IoAdd, IoMan, IoHome, IoMusicalNote, IoMusicalNotes} from "react-icons/io5";
 import {clearCurrentlyHandledPendingQueryRuns} from "gatsby/dist/state-machines/query-running/actions";
 
@@ -78,6 +78,8 @@ function textFormatter(sentences: string[]): string {
                                      return `<h3>${title.trim()}</h3>`})
                                 .replace(/###(.*?($|\n))/g, function(_, title) {
                                      return `<h2>${title.trim()}</h2>`})
+                                .replace(/\*(.*?)\*/g, function(_, text) {
+                                    return `<b>${text}</b>`})
                                 .replace(/:::(.*?)$/, (_, match) => match.replace(/ /g, '&nbsp;'));
 
         if (sentence_.startsWith('* ')) {
@@ -104,6 +106,8 @@ function textFormatter(sentences: string[]): string {
             if (bullet_active) {
                 sentence_ = sentence_.slice(0, -1) + "</li>"
                 bullet_active = false
+            } else {
+                sentence_ = sentence_.slice(0, -1) + "<br/>"
             }
         }
 
@@ -278,6 +282,7 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
 
     return (
         <div>
+            <Seo/>
             <header>
                 <title>{pageTitle}</title>
 

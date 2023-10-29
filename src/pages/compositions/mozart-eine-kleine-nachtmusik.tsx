@@ -17,13 +17,13 @@ const imageElements = {
             src="../../images/2-females-playing-classical-music-on-cello.jpg"
             alt="Two females playing classical music on cello."
         />,
-    'movements':
+    'tracks':
         <StaticImage
             key="image-3"
             src="../../images/female-playing-classical-music-on-violin.jpg"
             alt="Female playing classical music on violin."
         />,
-    'quiz':
+    'exam':
         <StaticImage
             key="image-4"
             src="../../images/male-playing-classical-music-on-cello.jpg"

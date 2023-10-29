@@ -1,177 +1,600 @@
 {
-  "src": "https://docs.google.com/uc?export=open&id=1K2rGM4f37lXuUlkec4d0ciZ-Gx88xkka",
-  "composer": "Verdi",
-  "composition": "Aida",
-  "url": "/compositions/verdi-aida",
-  "annotations": {
-    "Pharaohs and Falsettos": "An apt descriptor for 'Aida' due to the combination of Egyptian royals and the high notes of the opera singers.",
-    "Where Camels and Arias Mix": "The setting of ancient Egypt, represented by camels, meets the dramatic vocal solos of opera in 'Aida'.",
-    "The Desert Drama": "'Aida' plays out its high-stakes love triangle amidst the backdrop of the arid Egyptian landscape.",
-    "Opera, With Sand": "Highlighting the Egyptian desert setting of this classic opera.",
-    "Where Pyramids Meet High Notes": "A confluence of the Egyptian setting and the soaring musical notes in the opera.",
-    "The Egyptian Tearjerker": "'Aida's story is one of tragic love, set against the backdrop of ancient Egypt.",
-    "More Than Just Sand and Singing": "While 'Aida' is known for its Egyptian setting, its plot is deep and multi-dimensional.",
-    "Marching Elephants Not Included": "A humorous nod to the grandeur often associated with the opera but not always present.",
-    "Where Love Trumps Royalty": "In 'Aida', the pull of love proves stronger than the ties of royalty and duty.",
-    "The Sound of Egypt": "'Aida' is essentially the musical embodiment of ancient Egypt.",
-    "Not Your Ordinary Love Story": "This opera's love triangle set in ancient Egypt is far from the clichéd romantic tales.",
-    "Love in the Time of Pharaohs": "Placing 'Aida's tragic romance squarely within its Egyptian context.",
-    "The Nile's Own Opera": "The River Nile, central to Egyptian civilization, is at the heart of 'Aida'.",
-    "The Royal Rom-Com": "Though 'Aida' is more tragic than comic, it does revolve around royal romances.",
-    "Love Songs, Sphinx Style": "Referencing the iconic Sphinx while highlighting the romantic themes in the opera.",
-    "From the Sands to the Stage": "The transition of the Egyptian desert tales to the grand opera stages.",
-    "The Opera of the Oasis": "An allusion to the desert setting and the refreshing qualities of the opera.",
-    "Where the Nile Sings": "An evocative image of Egypt's famous river echoing the melodies of the opera.",
-    "The Heart of the Desert": "'Aida', at its core, is a tale that could only unfold in the desert landscape of Egypt.",
-    "Royalty and Ruin": "Describing the rise and fall experienced by the characters in the opera.",
-    "The Other Great Pyramid": "While Egypt is known for its pyramids, 'Aida' is another monumental achievement.",
-    "Where Love Is a Battlefield": "In 'Aida', love isn't just an emotion; it's the very ground where battles of the heart are fought.",
-    "Love Is No Mirage": "In the desert setting of 'Aida', the love isn't an illusion; it's very real and very potent.",
-    "The Musical Sphinx": "'Aida' is enigmatic and majestic, much like the Sphinx.",
-    "The Oasis of Opera": "In the vast 'desert' of opera, 'Aida' stands out as a refreshing oasis.",
-    "A Riddle in the Sand": "Alluding to the complexities of the story, as enigmatic as a desert riddle.",
-    "The Sands of Time and Tune": "The age-old setting of Egypt combined with the timeless melodies of the opera.",
-    "Pyramids of Passion": "Passion is as central to 'Aida' as pyramids are to Egypt.",
-    "Echoes of the Nile": "The influence and ambiance of the Nile reverberate throughout the opera.",
-    "Mummies, Myths, and Melodies": "A nod to the Egyptian themes of mummies and myths, underscored by operatic melodies.",
-    "Deserted Hearts": "A poignant allusion to the desolation of the Egyptian desert and the heart-wrenching love story of 'Aida'.",
-    "Temples and Tempos": "Linking the grandeur of Egyptian temples with the rhythmic pulses of Verdi's music.",
-    "An Oasis of Emotion": "'Aida' is a respite in the vast expanse of operas, filled with deep and raw emotions.",
-    "Dunes and Duets": "Marrying the desert landscape of Egypt with the harmonious duets in 'Aida'.",
-    "Sands of Sorrow": "Highlighting the tragic nature of the story, set against the backdrop of the relentless desert.",
-    "The Siren of the Sahara": "'Aida' acts as a siren call, drawing listeners into its tale set in the vast Sahara.",
-    "Harmony on the Horizon": "In the expansive desert of Egypt, 'Aida' brings a horizon filled with musical harmony.",
-    "Deserted Duets": "Highlighting the poignant duets in 'Aida' that echo the isolation of the desert.",
-    "The Delta’s Desires": "Referencing the Nile Delta and the deep desires and passions depicted in the opera.",
-    "Golden Sands and Grand Stands": "Alluding to the splendors of Egypt and the grandness of the opera's performances.",
-    "Hieroglyphs and High Notes": "Melding the mystery of Egyptian hieroglyphs with the soaring notes of the opera.",
-    "From Tombs to Tunes": "A transition from the silent tombs of Egypt to the lively tunes of 'Aida'.",
-    "The Ankh and the Anthem": "Using the symbol of life in ancient Egypt, the Ankh, to underscore the life-giving anthems of 'Aida'.",
-    "Ra’s Radiant Rhapsody": "Drawing on the Egyptian sun god, Ra, to emphasize the radiant melodies in 'Aida'.",
-    "Tales and Temples": "Emphasizing the tales of love and betrayal in 'Aida', set amidst the backdrop of ancient Egyptian temples.",
-    "Desert’s Delicate Diva": "Describing the delicate balance of love and duty, much like a diva in the midst of a desert.",
-    "Sphinx’s Secret Symphony": "Alluding to the mysteries guarded by the Sphinx and the symphonic sounds of 'Aida'.",
-    "Anubis’s Aria": "Drawing on the god of the afterlife, Anubis, reflecting the deep, often somber tones of the opera.",
-    "Cleopatra’s Competition": "Suggesting that 'Aida', with its Egyptian setting, could rival tales of Cleopatra in drama and passion.",
-    "Dunes of Drama": "The desert dunes of Egypt are as full of drama and undulation as the plot of 'Aida'.",
-    "Nile's Serenade": "Capturing the serenity of the Nile River and its intertwining with 'Aida''s serene musical moments.",
-    "Obelisk Overtures": "Connecting the grand Egyptian monuments with the grandiose overtures of the opera.",
-    "Pyramid's Passion Play": "Blending the monumental pyramids with the passion play that is the essence of 'Aida'.",
-    "The Mummy's Melody": "Drawing a playful link between Egyptian mummies and the melodic sequences of the opera, without any spooky connotations.",
-    "Desert's Dewy Duet": "Suggesting the rarity and preciousness of a dew drop in the desert, much like the rare and beautiful duets in 'Aida'.",
-    "Pharaoh's Forbidden Feelings": "Highlighting the conflicts of royalty, duties, and forbidden emotions that drive the story of 'Aida'.",
-    "Sahara’s Symphony": "Uniting the vast expanse of the Sahara desert with the expansive musical pieces within the opera.",
-    "Cleopatra’s Curtain Call": "Although Cleopatra isn't in 'Aida', this annotation suggests the opera could be her dramatic encore, filled with Egyptian flair.",
-    "Osiris's Ovation": "Bringing together the god of the afterlife, Osiris, and the standing ovations 'Aida' often receives.",
-    "Golden Gods and Grand Operas": "Combining the reverence Egyptians had for their deities with the grandeur of 'Aida'.",
-    "Cobra's Cadence": "Linking the danger and allure of the Egyptian cobra with the rhythmic allure of 'Aida'.",
-    "Pyramid’s Peak Performance": "Equating the pinnacle of architectural achievement, the pyramid, with the peak musical performances in 'Aida'.",
-    "Desert’s Date with Destiny": "Emphasizing 'Aida's theme of fate and destiny, set against the backdrop of the Egyptian desert.",
-    "Nefertiti's Notes": "Suggesting that the beauty and grace of Queen Nefertiti can be found in the musical notes of 'Aida'.",
-    "Oasis of Orchestration": "Describing 'Aida' as a refreshing oasis in the vast desert of musical compositions.",
-    "Valley of the Vocalists": "Pairing the valleys of Egypt with the dips and rises in the vocal performances in 'Aida'.",
-    "The Sacred Sahara Song": "Melding the sanctity of the Sahara with the sacred and reverent moments within the opera.",
-    "From Scarabs to Sopranos": "Drawing a connection from ancient Egyptian artifacts, the scarabs, to the beautiful soprano voices in 'Aida'.",
-    "The Desert's Drama Unearthed": "Revealing the drama embedded in the desert sands, akin to the unfolding drama in 'Aida'.",
-    "Beneath the Sands, the Song": "Suggesting that if you dig beneath the Egyptian sands, you might uncover the rich melodies of 'Aida'.",
-    "Pyramid Power Ballads": "Linking the architectural wonders of Egypt, the pyramids, with the powerful ballads in 'Aida'.",
-    "Sahara’s Symphony": "Depicting 'Aida' as a melody arising from the vastness of the Sahara desert.",
-    "Mummies and Melodies": "Tying in the intriguing concept of mummification with the captivating melodies of the opera.",
-    "Temples and Trills": "A juxtaposition of the Egyptian temples and the operatic trills in 'Aida'.",
-    "Desert Diva’s Desires": "Underlining the desires and passions of the main character set amidst the desert landscape.",
-    "Nile Nightingale": "Describing 'Aida' as the songbird of the Nile, echoing the stories and passions of Egypt.",
-    "Sands and Serenades": "Uniting the iconic desert sands with the serenades that pepper the opera.",
-    "Pharaoh’s Forbidden Passion": "Highlighting the forbidden love that underpins the storyline, set against the backdrop of Pharaoh's rule.",
-    "Echoes of Egypt": "Evoking the feeling that 'Aida' is a sound that reverberates with the very essence of ancient Egypt.",
-    "Nile’s Notes": "Drawing a parallel between the ebb and flow of the Nile River and the musical notes of 'Aida'.",
-    "Sahara’s Soprano": "Describing the lead of 'Aida', whose voice is as captivating as the Sahara is vast.",
-    "Pyramids and Passions": "Bringing together the grandeur of pyramids and the deep passions depicted in the opera.",
-    "From Scarabs to Scales": "Transitioning from the sacred beetles of ancient Egypt to the musical scales of 'Aida'.",
-    "Desert Dreams and Dramas": "Capturing the essence of 'Aida' as a dreamlike drama set in the desert.",
-    "Nile’s Narratives": "Depicting 'Aida' as one of the great stories that emanate from the banks of the Nile.",
-    "Riddles of the Sphinx and Songs": "Drawing a connection between the enigmatic Sphinx and the mysterious undertones of 'Aida'.",
-    "Oasis of Opera": "Highlighting 'Aida' as a refreshing and standout piece in the vast desert of operatic performances.",
-    "Dunes of Destiny": "The dunes of Egypt hold many secrets, just as 'Aida' unfolds the destiny of its characters.",
-    "Temples, Tombs, and Tones": "Joining the iconic structures of Egypt with the varied tones of 'Aida'.",
-    "Desert Winds and Warbling": "Drawing on the winds that sweep the desert and the vocal warbles in 'Aida'."
-  },
-  "article": {
-    "fragments": [
-      [
-        "### Three Unmissable Highlights in Verdi's \"Aida\"",
-        "Before we immerse ourselves in the epic grandeur of Verdi's \"Aida,\" let's spotlight three spellbinding fragments that showcase the sheer brilliance of this operatic masterpiece.",
-        "These moments are not just mere highlights; they encapsulate the very spirit of the opera, each packed into spellbinding segments that last just a minute or so.",
-        "Ready for a sneak peek?",
-        "Here we go:"
-      ],
-      [
-        " ### 1. Triumphal March - The Grand Spectacle",
-        "From Aida, nothing is more iconic than the Triumphal March.",
-        "It bursts forth with an energy that's nothing short of majestic, a grand procession that fills the stage \u2014 and the heart \u2014 with its opulence.",
-        "It's Verdi flexing his compositional muscles, creating a spectacle that's as visually magnificent as it is aurally overwhelming.",
-        "This isn't just an introduction; it's a statement, a declaration of the splendor to come."
-      ],
-      [
-        "### 2. Celeste Aida - The Tender Declaration",
-        "Tucked in the opera's outset, \"Celeste Aida\" is a tenor's dream, a moment of tender longing where the character Radames expresses his love for Aida, a princess of Ethiopia.",
-        "It's not just a song; it's a confession, a delicate aria that demands the utmost control and expressiveness.",
-        "This segment is Verdi's gift to tenors: a chance to shine, to demonstrate the power of subtlety over sheer force."
-      ],
-      [
-        "### 3. O patria mia - The Heartfelt Longing",
-        "In the midst of the drama, there's \"O patria mia,\" where Aida, torn between her love and loyalty to her homeland, delivers an aria so filled with longing that it's palpable.",
-        "It's a scene that demands the soprano to dig deep, to convey a sense of homesickness so profound that it touches every soul in the audience.",
-        "This is more than a performance; it's an outpouring of emotion, a testament to Verdi's understanding of the human heart."
-      ],
-      [
-        "These three moments are but a glimpse into the richness of \"Aida.\" Each note, each scene, is a piece of a larger tapestry that tells a story of love, loyalty, and fate, woven together by Verdi's genius.",
-        "They beckon the listener to settle in, to prepare for an experience that's as haunting as it is unforgettable.",
-        "So, are you ready to dive in?"
-      ]
+    "src": "/audio/compositions/verdi-aida/fragment-1-0-30.mp3",
+    "composer": "Verdi",
+    "composition": "Aida",
+    "url": "/compositions/verdi-aida",
+    "annotations": {
+        "Pharaohs and Falsettos": "An apt descriptor for 'Aida' due to the combination of Egyptian royals and the high notes of the opera singers.",
+        "Where Camels and Arias Mix": "The setting of ancient Egypt, represented by camels, meets the dramatic vocal solos of opera in 'Aida'.",
+        "The Desert Drama": "'Aida' plays out its high-stakes love triangle amidst the backdrop of the arid Egyptian landscape.",
+        "Opera, With Sand": "Highlighting the Egyptian desert setting of this classic opera.",
+        "Where Pyramids Meet High Notes": "A confluence of the Egyptian setting and the soaring musical notes in the opera.",
+        "The Egyptian Tearjerker": "'Aida's story is one of tragic love, set against the backdrop of ancient Egypt.",
+        "More Than Just Sand and Singing": "While 'Aida' is known for its Egyptian setting, its plot is deep and multi-dimensional.",
+        "Marching Elephants Not Included": "A humorous nod to the grandeur often associated with the opera but not always present.",
+        "Where Love Trumps Royalty": "In 'Aida', the pull of love proves stronger than the ties of royalty and duty.",
+        "The Sound of Egypt": "'Aida' is essentially the musical embodiment of ancient Egypt.",
+        "Not Your Ordinary Love Story": "This opera's love triangle set in ancient Egypt is far from the clich\u00e9d romantic tales.",
+        "Love in the Time of Pharaohs": "Placing 'Aida's tragic romance squarely within its Egyptian context.",
+        "The Nile's Own Opera": "The River Nile, central to Egyptian civilization, is at the heart of 'Aida'.",
+        "The Royal Rom-Com": "Though 'Aida' is more tragic than comic, it does revolve around royal romances.",
+        "Love Songs, Sphinx Style": "Referencing the iconic Sphinx while highlighting the romantic themes in the opera.",
+        "From the Sands to the Stage": "The transition of the Egyptian desert tales to the grand opera stages.",
+        "The Opera of the Oasis": "An allusion to the desert setting and the refreshing qualities of the opera.",
+        "Where the Nile Sings": "An evocative image of Egypt's famous river echoing the melodies of the opera.",
+        "The Heart of the Desert": "'Aida', at its core, is a tale that could only unfold in the desert landscape of Egypt.",
+        "Royalty and Ruin": "Describing the rise and fall experienced by the characters in the opera.",
+        "The Other Great Pyramid": "While Egypt is known for its pyramids, 'Aida' is another monumental achievement.",
+        "Where Love Is a Battlefield": "In 'Aida', love isn't just an emotion; it's the very ground where battles of the heart are fought.",
+        "Love Is No Mirage": "In the desert setting of 'Aida', the love isn't an illusion; it's very real and very potent.",
+        "The Musical Sphinx": "'Aida' is enigmatic and majestic, much like the Sphinx.",
+        "The Oasis of Opera": "In the vast 'desert' of opera, 'Aida' stands out as a refreshing oasis.",
+        "A Riddle in the Sand": "Alluding to the complexities of the story, as enigmatic as a desert riddle.",
+        "The Sands of Time and Tune": "The age-old setting of Egypt combined with the timeless melodies of the opera.",
+        "Pyramids of Passion": "Passion is as central to 'Aida' as pyramids are to Egypt.",
+        "Echoes of the Nile": "The influence and ambiance of the Nile reverberate throughout the opera.",
+        "Mummies, Myths, and Melodies": "A nod to the Egyptian themes of mummies and myths, underscored by operatic melodies.",
+        "Deserted Hearts": "A poignant allusion to the desolation of the Egyptian desert and the heart-wrenching love story of 'Aida'.",
+        "Temples and Tempos": "Linking the grandeur of Egyptian temples with the rhythmic pulses of Verdi's music.",
+        "An Oasis of Emotion": "'Aida' is a respite in the vast expanse of operas, filled with deep and raw emotions.",
+        "Dunes and Duets": "Marrying the desert landscape of Egypt with the harmonious duets in 'Aida'.",
+        "Sands of Sorrow": "Highlighting the tragic nature of the story, set against the backdrop of the relentless desert.",
+        "The Siren of the Sahara": "'Aida' acts as a siren call, drawing listeners into its tale set in the vast Sahara.",
+        "Harmony on the Horizon": "In the expansive desert of Egypt, 'Aida' brings a horizon filled with musical harmony.",
+        "Deserted Duets": "Highlighting the poignant duets in 'Aida' that echo the isolation of the desert.",
+        "The Delta\u2019s Desires": "Referencing the Nile Delta and the deep desires and passions depicted in the opera.",
+        "Golden Sands and Grand Stands": "Alluding to the splendors of Egypt and the grandness of the opera's performances.",
+        "Hieroglyphs and High Notes": "Melding the mystery of Egyptian hieroglyphs with the soaring notes of the opera.",
+        "From Tombs to Tunes": "A transition from the silent tombs of Egypt to the lively tunes of 'Aida'.",
+        "The Ankh and the Anthem": "Using the symbol of life in ancient Egypt, the Ankh, to underscore the life-giving anthems of 'Aida'.",
+        "Ra\u2019s Radiant Rhapsody": "Drawing on the Egyptian sun god, Ra, to emphasize the radiant melodies in 'Aida'.",
+        "Tales and Temples": "Emphasizing the tales of love and betrayal in 'Aida', set amidst the backdrop of ancient Egyptian temples.",
+        "Desert\u2019s Delicate Diva": "Describing the delicate balance of love and duty, much like a diva in the midst of a desert.",
+        "Sphinx\u2019s Secret Symphony": "Alluding to the mysteries guarded by the Sphinx and the symphonic sounds of 'Aida'.",
+        "Anubis\u2019s Aria": "Drawing on the god of the afterlife, Anubis, reflecting the deep, often somber tones of the opera.",
+        "Cleopatra\u2019s Competition": "Suggesting that 'Aida', with its Egyptian setting, could rival tales of Cleopatra in drama and passion.",
+        "Dunes of Drama": "The desert dunes of Egypt are as full of drama and undulation as the plot of 'Aida'.",
+        "Nile's Serenade": "Capturing the serenity of the Nile River and its intertwining with 'Aida''s serene musical moments.",
+        "Obelisk Overtures": "Connecting the grand Egyptian monuments with the grandiose overtures of the opera.",
+        "Pyramid's Passion Play": "Blending the monumental pyramids with the passion play that is the essence of 'Aida'.",
+        "The Mummy's Melody": "Drawing a playful link between Egyptian mummies and the melodic sequences of the opera, without any spooky connotations.",
+        "Desert's Dewy Duet": "Suggesting the rarity and preciousness of a dew drop in the desert, much like the rare and beautiful duets in 'Aida'.",
+        "Pharaoh's Forbidden Feelings": "Highlighting the conflicts of royalty, duties, and forbidden emotions that drive the story of 'Aida'.",
+        "Cleopatra\u2019s Curtain Call": "Although Cleopatra isn't in 'Aida', this annotation suggests the opera could be her dramatic encore, filled with Egyptian flair.",
+        "Osiris's Ovation": "Bringing together the god of the afterlife, Osiris, and the standing ovations 'Aida' often receives.",
+        "Golden Gods and Grand Operas": "Combining the reverence Egyptians had for their deities with the grandeur of 'Aida'.",
+        "Cobra's Cadence": "Linking the danger and allure of the Egyptian cobra with the rhythmic allure of 'Aida'.",
+        "Pyramid\u2019s Peak Performance": "Equating the pinnacle of architectural achievement, the pyramid, with the peak musical performances in 'Aida'.",
+        "Desert\u2019s Date with Destiny": "Emphasizing 'Aida's theme of fate and destiny, set against the backdrop of the Egyptian desert.",
+        "Nefertiti's Notes": "Suggesting that the beauty and grace of Queen Nefertiti can be found in the musical notes of 'Aida'.",
+        "Oasis of Orchestration": "Describing 'Aida' as a refreshing oasis in the vast desert of musical compositions.",
+        "Valley of the Vocalists": "Pairing the valleys of Egypt with the dips and rises in the vocal performances in 'Aida'.",
+        "The Sacred Sahara Song": "Melding the sanctity of the Sahara with the sacred and reverent moments within the opera.",
+        "From Scarabs to Sopranos": "Drawing a connection from ancient Egyptian artifacts, the scarabs, to the beautiful soprano voices in 'Aida'.",
+        "The Desert's Drama Unearthed": "Revealing the drama embedded in the desert sands, akin to the unfolding drama in 'Aida'.",
+        "Beneath the Sands, the Song": "Suggesting that if you dig beneath the Egyptian sands, you might uncover the rich melodies of 'Aida'.",
+        "Pyramid Power Ballads": "Linking the architectural wonders of Egypt, the pyramids, with the powerful ballads in 'Aida'.",
+        "Sahara\u2019s Symphony": "Depicting 'Aida' as a melody arising from the vastness of the Sahara desert.",
+        "Mummies and Melodies": "Tying in the intriguing concept of mummification with the captivating melodies of the opera.",
+        "Temples and Trills": "A juxtaposition of the Egyptian temples and the operatic trills in 'Aida'.",
+        "Desert Diva\u2019s Desires": "Underlining the desires and passions of the main character set amidst the desert landscape.",
+        "Nile Nightingale": "Describing 'Aida' as the songbird of the Nile, echoing the stories and passions of Egypt.",
+        "Sands and Serenades": "Uniting the iconic desert sands with the serenades that pepper the opera.",
+        "Pharaoh\u2019s Forbidden Passion": "Highlighting the forbidden love that underpins the storyline, set against the backdrop of Pharaoh's rule.",
+        "Echoes of Egypt": "Evoking the feeling that 'Aida' is a sound that reverberates with the very essence of ancient Egypt.",
+        "Nile\u2019s Notes": "Drawing a parallel between the ebb and flow of the Nile River and the musical notes of 'Aida'.",
+        "Sahara\u2019s Soprano": "Describing the lead of 'Aida', whose voice is as captivating as the Sahara is vast.",
+        "Pyramids and Passions": "Bringing together the grandeur of pyramids and the deep passions depicted in the opera.",
+        "From Scarabs to Scales": "Transitioning from the sacred beetles of ancient Egypt to the musical scales of 'Aida'.",
+        "Desert Dreams and Dramas": "Capturing the essence of 'Aida' as a dreamlike drama set in the desert.",
+        "Nile\u2019s Narratives": "Depicting 'Aida' as one of the great stories that emanate from the banks of the Nile.",
+        "Riddles of the Sphinx and Songs": "Drawing a connection between the enigmatic Sphinx and the mysterious undertones of 'Aida'.",
+        "Oasis of Opera": "Highlighting 'Aida' as a refreshing and standout piece in the vast desert of operatic performances.",
+        "Dunes of Destiny": "The dunes of Egypt hold many secrets, just as 'Aida' unfolds the destiny of its characters.",
+        "Temples, Tombs, and Tones": "Joining the iconic structures of Egypt with the varied tones of 'Aida'.",
+        "Desert Winds and Warbling": "Drawing on the winds that sweep the desert and the vocal warbles in 'Aida'."
+    },
+    "header": [
+        "A Sit-Down With ",
+        "Verdi's Aida"
     ],
-    "plot": [
-      [
-        "### Setting:",
-        "- Yo, we're kickin' it old school in ancient Egypt, with pharaohs, pyramids, and the whole shebang."
-      ],
-      [
-        "### Characters:",
-        "- Aida: Our main girl, an Ethiopian princess, but nah, she's undercover as a slave.",
-        "- Radam\u00e8s: This dude's the top general, and, spoiler, he's got the hots for Aida.",
-        "- Amneris: She's the pharaoh's daughter and ain't happy 'cause she wants Radam\u00e8s for herself.",
-        "- Amonasro: He's Aida's pops, the king of Ethiopia, who's got some sneaky plans up his sleeve.",
-        "- Ramfis & The Pharaoh: Big boss priests and the head honcho, laying down the law in Egypt."
-      ],
-      [
-        "### Plot:",
-        "- Radam\u00e8s is strugglin' 'cause he's crushin' on Aida but engaged to Amneris.",
-        "Drama, right?",
-        "- Ethiopia's marchin' on Egypt, and Radam\u00e8s is chosen to lead the army.",
-        "Dude's stoked.",
-        "- Aida's torn between her boo and her homeland.",
-        "Girl's got issues.",
-        "- Radam\u00e8s whips the enemy and brings back some prisoners, including Aida's dad, but nobody knows who he is.",
-        "- Amonasro eavesdrops on Aida and Radam\u00e8s' secret meetup and gets the 411 on the Egyptian army.",
-        "- Radam\u00e8s gets caught in the act, helping Aida and her dad escape.",
-        "Bro's in deep trouble.",
-        "- Amneris offers Radam\u00e8s a way out, but he's like \"nah\" and gets busted for treason.",
-        "- They lock Radam\u00e8s in a tomb alive, and surprise, Aida's there to join him.",
-        "It's a live burial lovefest.",
-        "- Amneris is bummed and prays for peace as our star-crossed lovers suffocate.",
-        "Rough."
-      ],
-      [
-        "### Theme:",
-        "- Love vs.",
-        "Loyalty: Choosing between your heart and your duties, it's a real pickle.",
-        "- Betrayal & Deception: No one's what they seem, and it's a backstabbing bonanza."
-      ],
-      [
-        "### Conclusion:",
-        "- So, it's lights out for Aida and Radam\u00e8s, trapped together forever in the afterlife.",
-        "Amneris is all tears, and peace is like a distant dream.",
-        "Talk about a dramatic exit."
-      ]
-    ]
-  }
+    "buttonLabels": {
+        "fragments": "Highlights",
+        "composition": "Behind the Curtain",
+        "plot": "Peep Plot",
+        "tracks": "Audio Autopsy",
+        "exam": "Brain Bash"
+    },
+    "audio": {
+        "fragment-1": "/audio/compositions/verdi-aida/fragment-1-0-30.mp3",
+        "fragment-2": "/audio/compositions/verdi-aida/fragment-2-201-246.mp3",
+        "fragment-3": "/audio/compositions/verdi-aida/fragment-3-195-225.mp3"
+    },
+    "tracks": {
+        "0": {
+            "title": "Quick word"
+        },
+        "1": {
+            "title": "Triumphal March",
+            "annotations": {
+                "Majestic parade melodies": "Triumphal March carries a regal, procession-like quality reminiscent of royal parades.",
+                "Bold brass resonances": "Triumphal March prominently features brass instruments, creating a stately, regal aura.",
+                "Echoes of victory chants": "Segments in Triumphal March mimic the rejoicing of a victorious army.",
+                "Ceremonial orchestral beats": "Its rhythms feel grand, like they're made for grand Egyptian ceremonies.",
+                "Egypt's grandeur in notes": "The music's richness in Triumphal March mirrors ancient Egypt's grand culture.",
+                "Pulsating warrior anthems": "Sections feel like anthems dedicated to a triumphant return of warriors.",
+                "Epic-scale orchestration": "The vastness of the orchestra in Triumphal March captures Pharaoh's grandeur.",
+                "Pounding percussive beats": "Strong drum beats in Triumphal March emulate a grand parade's steps.",
+                "Glorious march rhythms": "The rhythmic patterns scream celebration and grandiosity, apt for victory.",
+                "Monarch's mighty entry": "Certain crescendos in Triumphal March sound like a king's grand entry.",
+                "Radiance of royalty": "Triumphal March paints a sonic picture of royal magnificence and splendor.",
+                "Orchestral opulence": "The music boasts an elaborate and rich orchestration, highlighting the grandeur.",
+                "Pride and power portrayed": "The essence of Egyptian power and pride is felt throughout the march.",
+                "Decisive drum details": "Percussion elements in Triumphal March highlight the ceremonial importance.",
+                "Heralding horns": "Brass sections announce triumphant moments, akin to heralds proclaiming victory.",
+                "Echoes of Egypt": "The musical nuances resonate with the cultural richness of ancient Egypt.",
+                "Chorus of celebration": "Triumphal March features a chorus that sings praises, celebrating victory.",
+                "Musical manifestation of majesty": "The piece exudes regality, from its start to finish.",
+                "Notes of nobility": "The melodic lines and harmonies resonate with royal elegance.",
+                "A triumphant tonal tapestry": "The varied orchestration weaves a soundscape of victory and grandeur.",
+                "Sonic spectacle": "Triumphal March is a grand auditory display of music at its most majestic.",
+                "Regal rhythmic runs": "The rhythms consistently uplift, embodying the spirit of celebration.",
+                "Crescendos of conquest": "The music rises and falls, capturing the essence of triumphant conquests.",
+                "Melodies of might": "Triumphal March is a testament to the might of Pharaoh and his kingdom.",
+                "Anthem of accolade": "It's like a grand accolade in musical form, praising Egyptian greatness."
+            }
+        },
+        "2": {
+            "title": "Celeste Aida",
+            "annotations": {
+                "Romantic serenade vibes": "Celeste Aida is Radamès' romantic ode to Aida, full of yearning and deep sentiment.",
+                "Tenor's heartfelt tribute": "Performed by a tenor, Celeste Aida is a touching testament of Radamès' love.",
+                "Love's lament in melodies": "The melodies in Celeste Aida drip with passion, showcasing Radamès' intense love and yearning.",
+                "Harmonies of the heart": "Celeste Aida's harmonies convey deep emotions and feelings of romantic desire.",
+                "Vocal valentine to Aida": "Radamès pours his heart out in this piece, serenading his love, Aida.",
+                "Sonic symbols of sentiment": "Every note in Celeste Aida is a musical representation of Radamès' affection.",
+                "Aria of affection": "This piece stands out as one of the grandest love letters in the operatic repertoire.",
+                "Melodic musings of love": "The tunes and runs in Celeste Aida are all musings of a lover's heart.",
+                "Yearnings in Y notes": "Every note is infused with the deep yearnings Radamès has for Aida.",
+                "Serenade of the soul": "Celeste Aida is not just a song, but a soulful serenade of deep love.",
+                "Tender tenor tones": "The tenor's voice in Celeste Aida is tender, touching every heartstring.",
+                "Orchestral overtures of love": "The orchestra in Celeste Aida complements the tenor, enriching the romantic aura.",
+                "Passionate phrases": "The lyrical content is filled with romantic phrases, adding to its allure.",
+                "Duet of desire": "Though sung by Radamès alone, Celeste Aida feels like a duet with his desires.",
+                "Heart's harmonious hums": "The harmonies in Celeste Aida hum with the vibrations of a loving heart.",
+                "Love's lyrical lines": "Every line sung in Celeste Aida exudes love and deep affection.",
+                "Musical manifestation of love": "The entire piece is a sonic portrayal of Radamès' unwavering love for Aida.",
+                "Amorous aural art": "Celeste Aida is a piece of art, where every note speaks of love.",
+                "Sonnet in song": "It's like a poetic sonnet, but in the form of a song.",
+                "Epic emotion, every note": "Each note in Celeste Aida is drenched in profound emotion and longing.",
+                "Passion's perfect pitch": "The pitches rise and fall, akin to the highs and lows of love.",
+                "Romance's resonant runs": "The melodic runs are resonant, echoing Radamès' feelings for Aida.",
+                "Tones of true love": "Every tone in Celeste Aida feels genuine, a true testament to Radamès' love.",
+                "Soulful sonic serenade": "This piece is a serenade, a musical whisper from Radamès' soul to Aida's.",
+                "Affection's audible aria": "Celeste Aida stands out audibly as an aria of deep affection and longing."
+            }
+        },
+        "3": {
+            "title": "O patria mia",
+            "annotations": {
+                "Heart's aching aria": "O Patria Mia is Aida's mournful song of longing for her homeland she may never see again.",
+                "Soprano's sorrowful song": "O Patria Mia, performed by a soprano, touches hearts with its palpable pain of separation.",
+                "Elegy of exile": "O Patria Mia conveys the despair and pain of being in exile from one's motherland.",
+                "Melodies of missing motherland": "The tunes in O Patria Mia resonate with the pain of missing one's homeland.",
+                "Homesick harmonies": "The harmonies in O Patria Mia beautifully capture the feeling of homesickness.",
+                "Land lost, love lingers": "Though separated from her homeland, Aida's love for it lingers in every note of O Patria Mia.",
+                "Tears in tunes": "The melodies in O Patria Mia are so poignant, they feel like Aida's tears turned to tunes.",
+                "Yearning's Yarn": "O Patria Mia spins a yarn of deep yearning and unfulfilled desires to return home.",
+                "Sonic symbols of separation": "Every note in O Patria Mia stands as a symbol of Aida's separation from her homeland.",
+                "Motherland's musical memoir": "O Patria Mia is like Aida's musical memoir, cherishing her memories of her motherland.",
+                "Heart's homeland hymn": "O Patria Mia feels like a hymn, a song of praise for Aida's beloved homeland.",
+                "Lament of lost lands": "The entire piece feels like a lament for the lands Aida has left behind.",
+                "Sorrowful sonic soliloquy": "O Patria Mia is Aida's soliloquy, her personal musings set to music.",
+                "Echoes of exile": "The echoes in O Patria Mia resonate with the pain and pangs of exile.",
+                "Separation's song": "This piece is a song of separation, a cry from the heart that's away from home.",
+                "Despair's delicate ditties": "The ditties in O Patria Mia delicately convey Aida's despair and sadness.",
+                "Nostalgic notes": "The notes in O Patria Mia carry a nostalgic feel, longing for days gone by.",
+                "Aria of aching absence": "O Patria Mia stands as an aria highlighting the aching absence of home.",
+                "Musical memento of motherland": "The piece serves as a musical memento, a keepsake of Aida's memories of her homeland.",
+                "Sonic sighs of separation": "The sigh-like qualities in O Patria Mia vocalize Aida's feelings of separation.",
+                "Pain painted in pitches": "The varying pitches depict the highs and lows of Aida's emotional journey.",
+                "Heartbeats of homeland": "The rhythms in O Patria Mia feel like heartbeats, pulsating with love for homeland.",
+                "Melancholy's melody": "The main melody carries a melancholic tone, capturing Aida's sorrow.",
+                "Ballad of a broken heart": "O Patria Mia is a ballad sung by a heart broken by distance from its homeland.",
+                "Notes of nostalgia": "Every note rings with nostalgia, longing for a time and place left behind."
+            }
+       }
+    },
+    "spotify": {
+        "1": "https://open.spotify.com/track/4MdA7J82XIaB65ZKcQhmY5",
+        "2": "https://open.spotify.com/track/7rFyl88nVAsKNag4Im8gX3",
+        "3": "https://open.spotify.com/track/2qiVmOb7CjU1lDKQlGYI8c"
+    },
+    "article": {
+        "fragments": [
+            [
+                "### Three Unmissable Highlights in Verdi's \"Aida\"",
+                "Before we immerse ourselves in the epic grandeur of Verdi's \"Aida,\" let's spotlight three spellbinding fragments that showcase the sheer brilliance of this operatic masterpiece.",
+                "These moments are not just mere highlights; they encapsulate the very spirit of the opera, each packed into spellbinding segments that last just a minute or so.",
+                "Ready for a sneak peek?",
+                "Here we go:"
+            ],
+            [
+                "### 1. Triumphal March - The Grand Spectacle",
+                "From Aida, nothing is more iconic than the Triumphal March.",
+                "It bursts forth with an energy that's nothing short of majestic, a grand procession that fills the stage \u2014 and the heart \u2014 with its opulence.",
+                "It's Verdi flexing his compositional muscles, creating a spectacle that's as visually magnificent as it is aurally overwhelming.",
+                "This isn't just an introduction; it's a statement, a declaration of the splendor to come."
+            ],
+            [
+                "### 2. Celeste Aida - The Tender Declaration",
+                "Tucked in the opera's outset, \"Celeste Aida\" is a tenor's dream, a moment of tender longing where the character Radames expresses his love for Aida, a princess of Ethiopia.",
+                "It's not just a song; it's a confession, a delicate aria that demands the utmost control and expressiveness.",
+                "This segment is Verdi's gift to tenors: a chance to shine, to demonstrate the power of subtlety over sheer force."
+            ],
+            [
+                "### 3. O patria mia - The Heartfelt Longing",
+                "In the midst of the drama, there's \"O patria mia,\" where Aida, torn between her love and loyalty to her homeland, delivers an aria so filled with longing that it's palpable.",
+                "It's a scene that demands the soprano to dig deep, to convey a sense of homesickness so profound that it touches every soul in the audience.",
+                "This is more than a performance; it's an outpouring of emotion, a testament to Verdi's understanding of the human heart."
+            ],
+            [
+                "These three moments are but a glimpse into the richness of \"Aida.\" Each note, each scene, is a piece of a larger tapestry that tells a story of love, loyalty, and fate, woven together by Verdi's genius.",
+                "They beckon the listener to settle in, to prepare for an experience that's as haunting as it is unforgettable.",
+                "So, are you ready to dive in?"
+            ]
+        ],
+        "composition": [
+            [
+                "### Aida Unplugged:",
+                "Yo, let's break it down and get real about Verdi's \"Aida.\" We're talking about an opera, and not just any opera, but the real OG of drama and tunes.",
+                "Set in ancient Egypt with love triangles, power plays, and all the feels, it's got everything you'd want from a classic banger.",
+                "Strap in, because we're diving deep into this musical rollercoaster."
+            ],
+            [
+                "### Opera 101",
+                "Imagine binge-watching your favorite drama series today.",
+                "Now, transport that experience a few centuries back, add a live orchestra, powerful vocal performances, extravagant costumes, and grand sets.",
+                "That's opera for you.",
+                "It's the classical world\u2019s answer to modern TV series, but with the added benefit of live music and singing.",
+                "Every emotion is amplified, every scene set to music, allowing the audience to immerse themselves deeply into th"
+            ],
+            [
+                "### A Name with Weight - \"Aida\"",
+                "The title \u201cAida\u201d isn\u2019t just a name; it\u2019s a symbol of love, duty, and tragic conflict.",
+                "Centered around the Ethiopian princess Aida, the opera unveils her heart's turmoil, caught between love for an Egyptian general and loyalty to her homeland."
+            ],
+            [
+                "### Bite-sized Act Descriptions",
+                "* Act I: At the heart of Egypt, Aida, an Ethiopian princess in disguise, battles her secret love for an Egyptian hero, Radam\u00e8s.",
+                "* Act II: Power plays and politics: Amneris, the Pharaoh's daughter, schemes when she senses Aida's secret love.",
+                "* Act III: The moonlit banks of the Nile witness clandestine meetings and raw emotions as Aida confronts her lover and her father.",
+                "* Act IV: Love and duty clash tragically as secrets unravel, leading to a heart-wrenching finale."
+            ],
+            [
+                "### Behind the Scenes - The Making",
+                "Envisioned to celebrate the grand opening of the Suez Canal, \"Aida\" was meant to be a spectacle like no other.",
+                "But life, being the drama queen, had other plans.",
+                "Due to the Franco-Prussian War, the scenery and costumes got stranded in Paris, causing unforeseen delays.",
+                "The twist?",
+                "Instead of the Suez Canal celebration, the opera made its grand debut at Cairo's Khedivial Opera House in 1871."
+            ],
+            [
+                "### Verdi & His Times",
+                "The 19th century, with its Romantic wave, was all about feeling deeply and expressing earnestly, much like today's raw and unfiltered indie movement.",
+                "Verdi, amidst this era of passion, created \u201cAida\u201d.",
+                "Infused with the spirit of its time, it channels both the politics of Italy and Europe and the universal themes of love, loyalty, and sacrifice."
+            ],
+            [
+                "### The Show\u2019s Reception",
+                "On its debut, \u201cAida\u201d was the sensation everyone was talking about, trending before 'trending' was even a thing.",
+                "The 19th-century folks couldn't get enough of it, much like how we buzz about the latest episode of a hit series today.",
+                "Its legacy?",
+                "A timeless classic, forever etched in the annals of operatic greatness.",
+                "Wrapping it up, \u201cAida\u201d is not just an opera; it's a journey through time, emotion, and music.",
+                "So, next time you're scouting for a dramatic tale to delve into, why not opt for this operatic wonder?",
+                "Give it a go, scene by scene, act by act."
+            ]
+        ],
+        "plot": [
+            [
+                "### Aida Unpacked: The Ancient Drama You Need to Know",
+                "A'ight, team, lean in!",
+                "We're about to unravel a tale that's like the OG of dramatic series, but it's from the world of opera, and it's called Verdi's masterpiece.",
+                "Think of it as \"Game of Thrones\" with the heartache of \"The Bachelor,\" all set with an ancient Egyptian backdrop.",
+                "Don't get it twisted; opera's not just high notes and fancy costumes.",
+                "It's a story chopped into acts, kinda like binge-worthy episodes.",
+                "And yo, the drama here is timeless \u2014 love triangles, war, betrayal \u2014 the kind of stuff you see trending, but with more singing and zero filters.",
+                "Stick with us as we break it down, act by act, giving you the lowdown on what's what.",
+                "Get ready to deep dive into this epic!"
+            ],
+            [
+                "### Unveiling the Cast: The Names to Know",
+                "*Aida:* Enslaved Ethiopian princess living in Egypt, she's caught in a whirlwind of heartache, torn between her secret love for Radames, loyalty to her homeland, and obedience to her father, King Amonasro.",
+                "Her journey is marked by internal conflict, culminating in a tragic but profound declaration of love in the face of death.\n",
+                "*Radames:* Egyptian military commander, he's brave, ambitious, and deeply in love with Aida.",
+                "His life takes a sharp turn after unwittingly betraying his country for love, leading him to choose a tragic fate over a life without Aida.",
+                "His character arc swings from hope and valor to despair and self-sacrifice.\n",
+                "*Amneris:* The Pharaoh\u2019s daughter, she's in love with Radames, but her jealousy of Aida and subsequent actions contribute to the tragic ending.",
+                "She\u2019s complex, swinging between passion, jealousy, rage, and deep regret when she realizes her role in Radames' fate, ultimately showing a softer side as she prays for his peace.\n",
+                "*Amonasro:* King of Ethiopia and Aida's father, he's a cunning strategist who disguises his identity to manipulate his daughter and Radames for his political aims.",
+                "His motivations, though rooted in a desire to save his country, lead to tragedy for the individual characters, showcasing the clash between personal desires and political duties.\n",
+                "*Ramfis:* The High Priest, he's a rigid and powerful religious authority in Egypt.",
+                "Unwavering in his dedication to Egyptian law and the gods, he plays a crucial role in the trial and sentencing of Radames, representing the inflexible hand of justice and tradition.\n",
+                "*The Pharaoh:* Ruler of Egypt, his character drives the plot forward by making pivotal decisions, like appointing Radames as military commander and offering his daughter Amneris for marriage.",
+                "Though less emotionally complex than others, his actions set significant events in motion, embodying leadership and state authority.\n"
+            ],
+            [
+                "### Act 1: Palace Drama and Crushes",
+                "*Egypt vs. Ethiopia:* Tensions are high in Egypt; they're on the brink of war with Ethiopia.",
+                "The Egyptians need a strong leader to take charge of their army, and Radames is hoping he's the chosen one.",
+                "Why?",
+                "Not just for glory, but for love \u2014 winning means he might win the hand of his secret love, Aida, who's actually an Ethiopian princess in disguise.\n",
+                "*Trouble in Paradise:* But here's the tea: the Pharaoh's daughter, Amneris, is head over heels for Radames.",
+                "She's got this nagging suspicion that Radames and Aida are a little too close for comfort, and jealousy's starting to brew.\n",
+                "*Heartstrings Pulled:* Aida's caught in a bad romance.",
+                "She's madly in love with Radames, but, plot twist, he's about to lead an army against her homeland.",
+                "Talk about a conflict of interest; her heart's split down the middle between her lover and her people.\n",
+                "*Mind Tricks:* Amneris decides to test the waters.",
+                "She tricks Aida into thinking Radames is dead, and Aida's reaction spills the beans \u2014 she's definitely in love with him.",
+                "Amneris is seeing red but keeps her cool; better to keep your enemies close, right?\n",
+                "*War Drums:* As Radames is chosen and sent off to war, there are mixed vibes all around.",
+                "People are praying, some for victory, others for their loved ones.",
+                "Aida's torn between her duty to her country and her love for Radames, throwing in a whole lot of uncertainty as the act closes.\n"
+            ],
+            [
+                "### Act 2: Big Wins and Bigger Parties",
+                "*Victory Celebrations:* The Egyptians are throwing a massive party because they've trounced the Ethiopians in battle.",
+                "Radames is the star of the show, returning as a hero, and the people are buzzing, ready to throw him a parade.\n",
+                "*Amneris' Scheme:* Amneris, still wound up in her feelings, plays more mind games with Aida.",
+                "She's determined to confirm whether Aida is in love with Radames.",
+                "Through her clever manipulation, she gets Aida to admit her love, though not in so many words.",
+                "Amneris is both furious and triumphant \u2014 she's got her love rival right where she wants her.\n",
+                "*Prisoners of War:* Post-victory, the Egyptians bring in the Ethiopian prisoners, and Amonasro is among them.",
+                "He's not just any prisoner; he's their king and Aida's father.",
+                "But the Egyptians don't know that; they think he's just another captive.\n",
+                "*Radames' Noble Act:* Radames comes through with a big ask \u2014 he wants the prisoners released.",
+                "The Pharaoh digs his victorious vibe and agrees but decides Aida and her \"father\" (he doesn't know Amonasro is the king) should stay as hostages to ensure peace.\n",
+                "*Pharaoh's Surprise:* Plot twist!",
+                "The Pharaoh announces Radames will marry his daughter, Amneris, as a reward for his military triumph.",
+                "Aida, Radames, and Amonasro (secretly knowing his true identity) are reeling, but they can't show it.",
+                "Emotions are all over the place as the act ends.\n"
+            ],
+            [
+                "### Act 3: Riverside Confrontations",
+                "*Moonlit Meet-up:* The scene's set by the Nile, under the moonlight.",
+                "It's dead quiet, except for the priests in the temple praying.",
+                "Aida\u2019s supposed to meet Radames here, but girl\u2019s mind is a mess.",
+                "She's torn between her lover, her country, and her father, Amonasro, who's still incognito as a regular captive but has got big plans.\n",
+                "*King\u2019s Coercion:* Speaking of her dad, Amonasro pops up and lays it on thick.",
+                "He pressures Aida to snoop on Radames and find out about the Egyptian army's next move.",
+                "It's manipulation 101, playing on her loyalty to her homeland.",
+                "Aida's wrecked with emotion, but she's bending.\n",
+                "*Lovers\u2019 Reunion:* Enter Radames, clueless about the emotional tornado he\u2019s walking into.",
+                "He's all about running away with Aida, starting a new life together.",
+                "Dreamy, right?",
+                "But Aida, with her father\u2019s agenda on her mind, tries to get the military intel, subtly though.\n",
+                "*Spilling Secrets:* Radames, wrapped up in love and not thinking straight, slips up.",
+                "He reveals the army's route, not knowing Amonasro is listening in.",
+                "Boom, the truth explodes: Amonasro reveals he's the king of Ethiopia.",
+                "Radames realizes he's unintentionally betrayed his people.",
+                "It's a mess.\n",
+                "*Caught Red-Handed:* Amneris and the High Priest, Ramfis, come outta nowhere.",
+                "They've heard everything.",
+                "Amonasro tries to stab Amneris (intense, right?), but Radames stops him.",
+                "Amonasro and Aida make a run for it, leaving Radames to face the music.\n",
+                "*Noble Sacrifice:* Radames doesn't try to escape.",
+                "He's heartbroken and feels guilty as sin.",
+                "He surrenders to Amneris and Ramfis, ready to take whatever's coming.",
+                "The act ends with him in deep trouble, and everyone's reeling from the showdown.\n"
+            ],
+            [
+                "### Act 4: Betrayal and the Ultimate Ghosting",
+                "*Judgment Day:* We open with Amneris drowning in despair.",
+                "She still loves Radames and can't bear the thought of him being executed for treason.",
+                "She's battling her own heart, knowing she played a part in this mess.",
+                "Radames is brought in, and she offers him a deal: life for love.",
+                "She promises him his freedom if he ditches Aida and marries her.\n",
+                "*Love Over Life:* But Radames ain't biting.",
+                "His heart belongs to Aida, and he'd rather face death than live without her.",
+                "He doesn't even defend himself against the priests' accusations.",
+                "Amneris is wrecked, watching the man she loves condemn himself.\n",
+                "*Buried Alive:* The priests drop the hammer, sentencing Radames to be buried alive.",
+                "As he's led to his living tomb, Amneris curses the priests.",
+                "She's a storm of grief, rage, and regret.\n",
+                "*Tomb of Love:* Here's where it gets even more tragic.",
+                "Radames is in the tomb, thinking he's alone and preparing for a slow, lonely death.",
+                "But surprise, Aida's there.",
+                "She's snuck in to die with him.",
+                "It's a heart-wrenching reunion, filled with love and sadness.\n",
+                "*Final Moments:* They accept their fate, professing their love as they run out of air.",
+                "Above the tomb, Amneris is praying for Radames' peace in the afterlife.",
+                "The opera closes on a somber note, with love enduring even in death.\n"
+            ]
+        ],
+        "0": [
+            [
+                "### Navigating Verdi's Musical Sands",
+                "Verdi's \"Aida\" is like a musical treasure chest, packed with a whopping four acts, each dripping with its own unique flavor.",
+                "Inside, you've got a mix of epic choruses, heart-tugging arias, duets that'll give you the feels, and orchestral pieces that straight-up transport you to ancient Egypt.",
+                "But yo, diving deep into every single piece?",
+                "That's a marathon, not a sprint.",
+                "So, for the sake of our sanity and keeping things fresh, we're gonna zero in on just a few standout jams.",
+                "Let's unwrap this musical gift, but remember, we're just scratching the surface here!"
+            ]
+        ],
+        "1": [
+            [
+                "### Triumphal March: A Grand, Victorious, and Royal Showstopper"
+            ],
+            [
+                "### The Name Game:",
+                "The title \"Triumphal March\" ain't just some fancy words thrown together.",
+                "It's all about victory, celebration, and some serious bragging rights.",
+                "Imagine your team just won the Super Bowl, and you're parading down the streets, fireworks popping, fans cheering, and everyone's feeling on top of the world.",
+                "That's the energy Verdi wanted to capture with this title."
+            ],
+            [
+                "### Italian Roots",
+                "\"Triumphal March\" sounds grand in English, but let's get fancy and give it its original Italian flair: \"Marcia Trionfale.\"",
+                "What's with the Italian vibes? Here's the scoop:",
+                "Verdi, our main man, was Italian, and so was the opera \"Aida.\"",
+                "The title \"Marcia Trionfale\" rolls off the tongue with a kind of elegance and passion that only Italian can bring.",
+                "It's like calling a sports car by its original name \u2013 it just sounds sleeker, sexier, and more...",
+                "well, triumphant!"
+            ],
+            [
+                "### Blueprint Breakdown:",
+                "Alright, let's dissect this banger.",
+                "The \"Triumphal March\" is structured like a well-built house, with each section having its own flavor and flair.",
+                "We got a grand intro, the main body that's rich with tunes, and a coda that wraps things up nice and tight."
+            ],
+            [
+                "### Intro \u2013 The Grand Entrance:",
+                "This section is like the red carpet rollout.",
+                "It\u2019s flashy, loud, and makes you sit up straight.",
+                "The key here sets a regal and victorious mood, making you feel like royalty.",
+                "It's like the whole orchestra is announcing, \u201cListen up, the champs are here!\u201d"
+            ],
+            [
+                "### Main Body \u2013 The Heartbeat:",
+                "This ain't just a stroll in the park; it's the main event.",
+                "With a key that screams \"majestic,\" it's packed with rich tunes and rhythms that make you want to stand up and salute.",
+                "It\u2019s where the music gets its groove on, and trust me, you'll feel every beat in your soul."
+            ],
+            [
+                "### Coda \u2013 Mic Drop Moment:",
+                "You know that feeling when the fireworks show is ending with the biggest and brightest explosions?",
+                "That's the coda for ya.",
+                "It takes all the energy from the march and wraps it up, signaling the end, but in the grandest way possible.",
+                "It's like Verdi saying, \"And that's how it's done.\""
+            ],
+            [
+                "### Instrument Invasion:",
+                "Man, Verdi knew how to pick 'em.",
+                "The brass section?",
+                "They're the VIPs here.",
+                "Trumpets, trombones, and tubas, they're the ones leading the parade, giving it that regal oomph.",
+                "The strings and woodwinds add layers, like backup dancers amplifying the main star's performance.",
+                "And don\u2019t even get me started on those percussionists \u2013 they're the life of the party, keeping everyone on their toes!"
+            ],
+            [
+                "### Press Play and Slay:",
+                "Alright, enough of my rambling.",
+                "Time to experience this masterpiece for yourself.",
+                "Hit that play button, let the music wash over you, and enjoy every majestic moment of Verdi's \"Triumphal March.\" You're in for a treat."
+            ]
+        ],
+        "2": [
+            [
+                "### Celeste Aida: Heavenly Melody, Earthly Passion",
+                "\"Celeste Aida,\" or \"Heavenly Aida,\" is a powerhouse tenor aria from Verdi's opera, \"Aida.\" It's got heart, it's got soul, and it's got one of the most \"reach-for-the-stars\" high notes in the operatic world.",
+                "But what really makes \"Celeste Aida\" a fan-favorite?",
+                "Let's dive into the nitty-gritty."
+            ],
+            [
+                "### Title Tells All:",
+                "The title \"Celeste Aida\" translates to \"Heavenly Aida,\" and it's our main man Radames giving a shout-out to his secret love, Aida, who's nothing short of an angel in his eyes.",
+                "This tune sets the stage for his intense love and the drama that'll unfold.",
+                "It's like he's putting his heart on the line from the get-go."
+            ],
+            [
+                "### Blueprint of a Banger:",
+                "Now, onto the structure.",
+                "This aria isn't just a free-for-all; it's a carefully crafted piece of musical genius.",
+                "It's what's known as a \"romanza,\" a type of aria that's more melodic and emotional, less showy, and designed to tug at those heartstrings.",
+                "And oh boy, does it deliver!"
+            ],
+            [
+                "### Opening the Floodgates:",
+                "The aria kicks off in the key of B-flat major, which in layman's terms, is often associated with bright, happy emotions.",
+                "But don't be fooled; this choice sets up a contrast for the longing and passion that Radames is about to unload.",
+                "The melody here is gentle, almost dreamy, showing that Radames is really in his feelings, thinking about his future with Aida."
+            ],
+            [
+                "### Climbing the Emotional Ladder:",
+                "As we roll into the middle section, things start getting spicy.",
+                "The music dips into a minor key \u2013 that's the sound that often gives you a sense of something intense or serious happening.",
+                "Here, Radames is getting deep into his dreams of glory and scooping up Aida as his queen.",
+                "The tempo picks up, the melody soars, and you can almost feel Radames' heart racing."
+            ],
+            [
+                "### The High Note Heard 'Round the World:",
+                "Then we hit the end, and this is where Radames really bares his soul.",
+                "The mood shifts from dreamy to downright passionate, and the key heads back to B-flat major for that \"hero\" vibe.",
+                "And the cherry on top?",
+                "A high B-flat that Radames belts out like a champ.",
+                "This isn't just any high note; it's a declaration of love and ambition, a moment of \"go big or go home.\""
+            ],
+            [
+                "### Orchestra\u2019s Oomph:",
+                "Can't forget the role of the orchestra, the unsung hero in \"Celeste Aida.\" The instruments keep it low-key, letting the tenor shine, but they're creating an atmosphere of anticipation and grandeur.",
+                "The strings keep the melody lush, while the occasional woodwind or brass adds a dash of color, emphasizing Radames' emotional journey."
+            ],
+            [
+                "### Hit It, Maestro:",
+                "So, there you have it, the down-low on \"Celeste Aida.\" It's a rollercoaster of emotion packed into a few minutes, and it's got one of the most iconic high notes you'll ever hear.",
+                "Now, all that's left is the best part: hit that play button, crank the volume, and let Radames' passion-filled declaration sweep you off your feet.",
+                "Enjoy the ride!"
+            ]
+        ],
+        "3": [
+            [
+                "### O Patria Mia: A Nostalgic Lament",
+                "Introducing one of the showstoppers from Verdi's \"Aida\" \u2014 \"O patria mia.\" This piece is like the emotional tearjerker in your favorite drama series; it's all about homesickness, longing, and the pain of saying goodbye to the places you love."
+            ],
+            [
+                "### Breaking Down the Name",
+                "\"O patria mia\" translates to \"Oh, my homeland.\" Our main gal, Aida, is mourning the loss of her homeland, which she may never see again.",
+                "Think of it as that old-school ballad about lost love, only this time the love is for her country."
+            ],
+            [
+                "### Peeling Back the Layers",
+                "Like peeling an onion, this aria has layers, each more emotional than the last.",
+                "Aida takes us on a feels trip, reflecting on her memories and her current heartbreak.",
+                "The piece starts soft, builds up, then comes back down, taking our heartstrings along for the ride."
+            ],
+            [
+                "### Intro: Set the Scene",
+                "The aria begins gently, almost like a soft caress.",
+                "It's in the key of C major, which usually feels all happy and bright, but here it gives off a soft, wistful mood.",
+                "This is Aida setting the scene, remembering her homeland."
+            ],
+            [
+                "### Peak: Feel the Drama",
+                "As Aida's emotions bubble up, the music climbs, reaching its peak.",
+                "Here, the key shifts to A-flat major.",
+                "Even if you don't know a thing about keys, just know that this switch amps up the drama.",
+                "It's like turning up the volume on her feelings."
+            ],
+            [
+                "### Conclusion: The Emotional Wrap-Up",
+                "The aria circles back to C major, but the mood's changed.",
+                "There's a touch of hope, but it's tinged with sorrow.",
+                "This is Aida coming to terms with her reality, accepting her fate but still yearning for her homeland."
+            ],
+            [
+                "### Instrument Role Call",
+                "Now, let's talk about the band backing up Aida.",
+                "The orchestra here ain't just for show; they're setting the whole mood.",
+                "The strings keep things smooth, while the woodwinds \u2013 those are your flutes and oboes \u2013 add some delicate feels to the mix.",
+                "Then there are the horns, making everything grand and emotional.",
+                "They're all working together to create that intense backdrop for Aida's vocals."
+            ],
+            [
+                "### Press Play and Dive In",
+                "Alright, now that you're armed with some behind-the-scenes knowledge, it's time to experience the magic.",
+                "Hit that play button, let the music wash over you, and get lost in the world of Aida's heart-wrenching love for her homeland."
+            ]
+        ]
+    },
+    "quizIntro": [
+        "### Yo, you prepped to crush the exam on Verdi's Aida??",
+        "First on deck, we're diving deep into opera vibes with an Aida challenge. Step up and conquer this quiz."
+    ],
+    "pairsIntro": [
+        "### Tuned in to the \"Aida\" tracks we broke down?",
+        "Each track's got its own spirit. Wanna try and match'em up?\""
+    ],
+    "pairsInstruction": "Tracks are on the left, vibes on the right. Tap and link'em up."
 }

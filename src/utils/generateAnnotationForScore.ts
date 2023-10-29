@@ -2,20 +2,20 @@ import pickRandom from "./pickRandom";
 import templates from "../data/quiz-templates.json";
 
 export const generateAnnotationForScore = (score, max_score) => {
-    const rank = Math.ceil(score / max_score)
+    const rank = Math.ceil(score * 100 / max_score)
     let group
     let rank_line
 
-    if (rank <= .01) {
+    if (rank <= 1) {
         group = 'worst'
         rank_line = "Bottom 1%."
-    } else if (rank < .50) {
+    } else if (rank < 50) {
         group = 'bad'
         rank_line = "You lose to " + String(100-rank) +  "% of other quiz-takers."
-    } else if (rank < .90) {
+    } else if (rank < 90) {
         group = 'reasonable'
         rank_line = "You beat " + String(rank) + "% of other quiz-takers."
-    } else if (rank < .99) {
+    } else if (rank < 99) {
         group = 'good'
         rank_line = "Top " + String(100-rank) + "%."
     } else {

@@ -2,6 +2,7 @@
     "src": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-1-0-45.mp3",
     "composer": "Mozart",
     "composition": "Eine kleine Nachtmusik",
+    "trackType": "movement",
     "url": "/compositions/mozart-eine-kleine-nachtmusik",
     "annotations": {
         "Your Great-Great-Great-Grandparents' Party Anthem": "A playful nod to the fact that 'Eine kleine Nachtmusik' was a lively serenade in its time, much like how we'd have party anthems today.",
@@ -13,31 +14,31 @@
         "The Symphony that Moonlighted as a Dance Floor": "Its vivacious rhythms make you want to dance, capturing the mood of the night.",
         "Wigs, Quills, and Quavers: A Musical Story": "A nod to the era's fashion and music notation, symbolizing the timelessness of this piece.",
         "When Harpsichords Had Swagger": "Reflecting a time when classical instruments like the harpsichord ruled the scene.",
-        "The Gentleman’s Hip-Hop of 1787": "Positioning the piece as the trendy music of the 18th century.",
+        "The Gentleman\u2019s Hip-Hop of 1787": "Positioning the piece as the trendy music of the 18th century.",
         "The Tickle in the Ivory of Yore": "A poetic way to describe the happiness the piece might have brought, much like tickling the ivories (piano keys).",
         "Breeches and Bows: An Auditory Affair": "Combining the period clothing 'breeches' with the bows of string instruments, highlighting the era in which the music was created.",
         "The Feathered Hat Bop": "Likening the piece to a bop or hit song, and associating it with the feathered hats that were popular in the era.",
-        "A String Quartet’s Midnight Frolic": "Describes the piece's lively, frolicking nature, primarily written for string quartet and meant to be played at evening gatherings.",
+        "A String Quartet\u2019s Midnight Frolic": "Describes the piece's lively, frolicking nature, primarily written for string quartet and meant to be played at evening gatherings.",
         "The Perfect Score for a Carriage Ride": "The rhythm and pace of the music could match the clippety-clop of a horse carriage, perfect for a night-time journey.",
         "Toe-Tapping through the Enlightenment": "The serenade's era aligns with the Enlightenment, and its catchy nature might have had listeners tapping their toes.",
-        "Where Chamber Music and Chill Began": "Highlighting the piece's role as a relaxed, evening entertainment – the 18th-century equivalent of 'Netflix and chill'.",
-        "A Prelude to Instagrammable Sunsets": "While Instagram wasn’t around in Mozart’s time, this piece would have been the ideal background score for a picturesque sunset.",
+        "Where Chamber Music and Chill Began": "Highlighting the piece's role as a relaxed, evening entertainment \u2013 the 18th-century equivalent of 'Netflix and chill'.",
+        "A Prelude to Instagrammable Sunsets": "While Instagram wasn\u2019t around in Mozart\u2019s time, this piece would have been the ideal background score for a picturesque sunset.",
         "Elevator Music for the Aristocracy": "If elevators existed back then, this would be the sophisticated choice for the aristocracy.",
-        "What Marie Antoinette Hummed in the Shower": "Although there’s no evidence the Queen of France knew this tune, it’s fun to think of it as catchy enough for even royalty to hum.",
-        "Dance Music for When The ‘Dance’ was a Minuet": "The piece's tempo and style could match the dances of the time, like the Minuet.",
+        "What Marie Antoinette Hummed in the Shower": "Although there\u2019s no evidence the Queen of France knew this tune, it\u2019s fun to think of it as catchy enough for even royalty to hum.",
+        "Dance Music for When The \u2018Dance\u2019 was a Minuet": "The piece's tempo and style could match the dances of the time, like the Minuet.",
         "Ye Olde AirPods Experience": "Had AirPods been around in the 18th century, 'Eine kleine Nachtmusik' would likely have been on everyone's playlist.",
         "The Lullaby for Daydreamers": "Its serene moments make it an ideal backdrop for daydreaming.",
         "Four Movements in the Key of Chic": "Highlighting the stylish and chic nature of this four-movement serenade.",
-        "A Concerto for Candles and Corsets": "A picturesque description, invoking the ambiance of an 18th-century evening soiree with candles and the era’s fashion.",
-        "Pocket Watch Grooves": "Imagine listening to 'Eine kleine Nachtmusik' timed perfectly with the ticks of a classic pocket watch – old-world charm in rhythm.",
-        "Baroque’s Top 40 Chart-topper": "'Eine kleine Nachtmusik', though from the Classical period, might have been a hit like those in today's Top 40 charts, but with a Baroque twist.",
+        "A Concerto for Candles and Corsets": "A picturesque description, invoking the ambiance of an 18th-century evening soiree with candles and the era\u2019s fashion.",
+        "Pocket Watch Grooves": "Imagine listening to 'Eine kleine Nachtmusik' timed perfectly with the ticks of a classic pocket watch \u2013 old-world charm in rhythm.",
+        "Baroque\u2019s Top 40 Chart-topper": "'Eine kleine Nachtmusik', though from the Classical period, might have been a hit like those in today's Top 40 charts, but with a Baroque twist.",
         "A Musical Excuse to Wear a Cravat": "If there was ever a piece that screamed sophistication, requiring one to wear a cravat, it would be this serenade.",
         "Musical Chairs: Noble Edition": "Envisioning the game of musical chairs set to the playful tones of 'Eine kleine Nachtmusik' among the nobility.",
         "The Nobleman's Boogie": "The piece has such a lively tempo, it could be seen as the 18th century's version of a boogie for the aristocrats.",
         "Viennese Whirl in Audio": "Capturing the essence of Viennese ballroom dances and high society with its swirling melodies.",
         "The Melody that Courted Queens": "This piece is so enchanting, it could easily be imagined as a backdrop for royal courtship.",
         "Bows and Arpeggios: The Musical": "Highlighting the string instruments' roles with their bows and the melodic arpeggios they play.",
-        "Chords and Courtesans": "Linking the rich harmonies with the high society, painting a picture of an evening soirée.",
+        "Chords and Courtesans": "Linking the rich harmonies with the high society, painting a picture of an evening soir\u00e9e.",
         "Elegant Evenings and Eloquent Eighths": "Describing the graceful nature of 'Eine kleine Nachtmusik' and its clever use of eighth notes.",
         "Petticoats and Piccolos": "Though piccolos aren't prominent here, the phrase captures the fashionable elegance and the musical charm of the era.",
         "The Reel of the Royals": "A play on the dance 'reel' and its potential popularity among the royal circles.",
@@ -45,12 +46,12 @@
         "High Tea Harmony": "Perfect as a gentle backdrop during high tea sessions with its sophisticated harmonies.",
         "Baroque Pop Before It Was Cool": "Though it's a Classical piece, this suggests it would've been a popular hit even during the Baroque era.",
         "Candelabras and Crescendos": "Painting a picture of a grand room lit by candelabras, with the music's crescendos echoing throughout.",
-        "Moonlit Sonata’s Predecessor": "While not a sonata, its nighttime serenade essence sets a precedent for moonlit evenings.",
+        "Moonlit Sonata\u2019s Predecessor": "While not a sonata, its nighttime serenade essence sets a precedent for moonlit evenings.",
         "Noble Notes and Nighttime Nocturnes": "Highlighting the piece's noble and night-time character, reminiscent of nocturnes.",
-        "Rococo’s Radio Hit": "Had radios existed in the Rococo period, this would be playing on repeat.",
+        "Rococo\u2019s Radio Hit": "Had radios existed in the Rococo period, this would be playing on repeat.",
         "Serenading Sunsets and Silhouettes": "The piece's imagery as a soundtrack to sunsets, with figures silhouetted against the fading light.",
         "Dainty Dances and Dramatic Dalliances": "Describing the elegant dances and the romantic undertones it might have accompanied.",
-        "Majestic Minuets and Midnight Muses": "Linking the dance form minuet with the idea of it being a muse for many during midnight soirées.",
+        "Majestic Minuets and Midnight Muses": "Linking the dance form minuet with the idea of it being a muse for many during midnight soir\u00e9es.",
         "Eloquence in E Flat": "Referring to its key, E flat major, while capturing its eloquent beauty.",
         "Sonorous Soirees and Stately Steps": "Perfectly painting the ambiance of an 18th-century evening gathering.",
         "Waltzing Through Vienna": "Capturing the dance-like qualities of 'Eine kleine Nachtmusik' and the Viennese culture from which it originates.",
@@ -81,15 +82,16 @@
     "buttonLabels": {
         "fragments": "Buzz Moments",
         "composition": "Backstory",
-        "movements": "Movements",
+        "tracks": "Movements",
         "exam": "Exam"
     },
     "audio": {
         "fragment-1": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-1-0-45.mp3",
         "fragment-2": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-2-75-100.mp3",
-        "fragment-3": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-4-20-50.mp3"
+        "fragment-3": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-3-0-30.mp3",
+        "fragment-4": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-4-20-50.mp3"
     },
-    "movements": {
+    "tracks": {
         "1": {
             "title": "Allegro",
             "annotations": {
@@ -110,7 +112,7 @@
                 "Dance, Don't Dawdle": "The lively tempo of Allegro encourages you to dance, not to dawdle or hesitate.",
                 "Witty Waltz": "Though not a waltz, the pace and exuberance of Allegro could outshine any ballroom dance.",
                 "Intense Intrigue": "Allegro sustains an intense level of intrigue with its complex melodies and rhythms.",
-                "Dynamic Drive": "Allegro’s dynamic markings drive the movement forward, creating a sense of urgency.",
+                "Dynamic Drive": "Allegro\u2019s dynamic markings drive the movement forward, creating a sense of urgency.",
                 "Jump for Joy": "The fast tempo and rhythmic jumps in Allegro mimic a feeling of joyfulness and excitement.",
                 "Perky Peaks": "Allegro takes you through musical 'peaks' at a rapid pace, no time for a slow ascent!",
                 "Joyful Jaunt": "The entire Allegro movement feels like a joyful jaunt through a musical landscape.",
@@ -158,7 +160,7 @@
                 "Dance, Not a Dash": "Menuetto is rooted in dance, and the Allegretto tempo indicates it's more of a dance than a race.",
                 "Tempo Tango": "The tempo in Menuetto:Allegretto is suitable for a dance; it's a 'tango' between fast and slow.",
                 "Gentle Groove": "The tempo and rhythms in Menuetto:Allegretto offer a more gentle, groovy experience.",
-                "Smooth Strides": "Menuetto:Allegretto feels like it’s taking smooth, measured strides—neither rushing nor dragging.",
+                "Smooth Strides": "Menuetto:Allegretto feels like it\u2019s taking smooth, measured strides\u2014neither rushing nor dragging.",
                 "Courteous Cadence": "The tempo in Menuetto:Allegretto is moderate, leading to a courteous, respectful musical 'cadence'.",
                 "Halfway Hustle": "Being neither fast nor slow, the tempo in Menuetto:Allegretto captures the 'middle' hustle vibe.",
                 "A Balanced Beat": "In Menuetto:Allegretto, the tempo and rhythm strike a balance, providing equilibrium.",
@@ -166,7 +168,7 @@
                 "Waltz in Moderation": "Menuetto:Allegretto is reminiscent of a waltz but danced in moderation, not in haste.",
                 "Gentle Jive": "The rhythms and moderate pace in Menuetto:Allegretto are akin to a gentle jive dance.",
                 "Sway the Day": "Menuetto:Allegretto has a soothing, swaying rhythm that feels like it could easily 'sway the day' away.",
-                "Ease not Freeze": "Menuetto:Allegretto moves with ease but isn't static or frozen; there’s a constant push and pull.",
+                "Ease not Freeze": "Menuetto:Allegretto moves with ease but isn't static or frozen; there\u2019s a constant push and pull.",
                 "Orchestrated Ease": "Menuetto:Allegretto offers a break from the fast pace but still maintains an orchestrated ensemble."
             }
         },
@@ -179,7 +181,7 @@
                 "High Notes, High Speed": "Rondo:Allegro often employs high notes played at a fast speed.",
                 "String Sprint": "The string instruments dominate Rondo:Allegro, and they're 'sprinting' due to the high tempo.",
                 "Forte of Fun": "'Forte' refers to the loud dynamic; Rondo:Allegro is notably exuberant.",
-                "Symphonic Circuit": "Given the Rondo form in Rondo:Allegro, it’s like a circuit that keeps coming back to the start.",
+                "Symphonic Circuit": "Given the Rondo form in Rondo:Allegro, it\u2019s like a circuit that keeps coming back to the start.",
                 "Rapid Repeats": "Rondo:Allegro is known for its quick repetition of the main theme.",
                 "Vivace Vibes": "'Vivace' means lively, representing the overall mood of Rondo:Allegro.",
                 "Orchestra on Overdrive": "The tempo and dynamic in Rondo:Allegro suggest the orchestra is giving its all.",
@@ -191,7 +193,7 @@
                 "Sonic Spin Cycle": "Rondo:Allegro's recurring themes and high tempo give it a cyclical, spinning feel.",
                 "Race to the Coda": "Rondo:Allegro speeds toward its ending, known as the 'coda' in musical terms.",
                 "Sprint in G Major": "Rondo:Allegro is a fast movement in the key of G Major.",
-                "Final Round, Fast Sound": "Being the final movement, Rondo:Allegro brings a ‘round’ of the composition to a close with a fast tempo.",
+                "Final Round, Fast Sound": "Being the final movement, Rondo:Allegro brings a \u2018round\u2019 of the composition to a close with a fast tempo.",
                 "End on a High Note": "Rondo:Allegro, and thereby the composition, ends on a lively, high note.",
                 "Brisk Bars of G": "In Rondo:Allegro, the bars of music are played briskly and are in the key of G.",
                 "Tempo's Last Lap": "Rondo:Allegro, as the final movement, represents the 'last lap' of the work, played at a fast tempo.",
@@ -204,14 +206,14 @@
     "spotify": {
         "1": "https://open.spotify.com/track/2mRUmSG3XGjFloqgAT2UJN?si=a2cecd6377f1421f",
         "2": "https://open.spotify.com/track/0pTLrq2slgIXNWA1YThc2J?si=f0417964c8334946",
-        "3": "https://open.spotify.com/track/2JnnR1cJfTT8Qua8nFVpjy?si=851af0080a8b48aa",
+        "3": "https://open.spotify.com/track/0IAuDYvZh3tVbL82FzEXng",
         "4": "https://open.spotify.com/track/6s8LFsUwl6htkNuLihSfMz?si=5d2d7c4f85c04f08"
     },
     "article": {
         "fragments": [
             [
-                "### Three Must-Hear Moments in \"Eine kleine Nachtmusik\"",
-                "Before we delve into the captivating world of Mozart's \"Eine kleine Nachtmusik,\" let's spotlight three fragments that exemplify the genius of this timeless piece.",
+                "### Four Must-Hear Moments in \"Eine kleine Nachtmusik\"",
+                "Before we delve into the captivating world of Mozart's \"Eine kleine Nachtmusik,\" let's spotlight four fragments that exemplify the genius of this timeless piece.",
                 "These aren't just highlights; they're the soul of the composition condensed into moments lasting no more than 60 seconds each.",
                 "So, let's take a sneak peek:"
             ],
@@ -228,7 +230,13 @@
                 "If the Allegro is a call to adventure, this moment is the emotional fulcrum that adds depth to the narrative."
             ],
             [
-                "### 3. Rondo:Allegro - The Final Flourish",
+                "### 3. Menuetto: Allegretto - The Suave Intermission",
+                "In this cool-as-ice segment, Mozart shifts gears, serving a laid-back vibe that gets your head bobbing.",
+                "It's all classy strings and toe-tapping rhythms, a smooth interlude that says, \"Chill, I got this.\"",
+                "This bit's not just a breather, it's Moz showing he's the boss of the musical ebb and flow."
+            ],
+            [
+                "### 4. Rondo:Allegro - The Final Flourish",
                 "And just when you thought it couldn't get better, the Rondo serves up a delightful crescendo.",
                 "Around 20 seconds in, a lively passage unfolds, displaying Mozart's knack for balancing complexity and sheer enjoyment.",
                 "It's like the composer is giving us a taste of the grand finale, a final fireworks display that captivates the imagination."

@@ -14,13 +14,14 @@ interface PairsProps {
 
 
 const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }) => {
-    const numRounds = 3
+    const numRounds = 1
     const [timer, setTimer] = useState<number | null>(null);
     const [score, setScore] = useState(0);
     const [round, setRound] = useState(0);
     const [state, setState] = useState('idle')
     const pairs = useRef(pairsMakerObj.get(numRounds))
     const numPairs = pairs.current.reduce((acc, curr) => acc + curr.length, 0);
+    console.log(numPairs)
     const { active, activate } = useDispatch();
 
     const [states, setStates] = useState({
@@ -112,8 +113,9 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
 
     useEffect(() => {
         const interval = setInterval(() => {
+            console.log(state)
             if (state === 'running') {
-                setScore(prevScore => prevScore > 0 ? prevScore - 1 : 0)
+                setScore(prevScore => prevScore > 10 ? prevScore - 10 : 0)
             }
         }, 1000);
         return () => {
@@ -123,7 +125,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
                 window.clearTimeout(timer);
             }
         }
-    }, []);
+    }, [state]);
 
     const handleAreaClick = () => {
         if (isRoundFinished()) {
@@ -215,6 +217,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
         pairs.current = pairsMakerObj.get(numRounds)
         setScore(0)
         setState('running')
+        setExplanations([])
     }
     return (
         (state === 'idle') ? (
