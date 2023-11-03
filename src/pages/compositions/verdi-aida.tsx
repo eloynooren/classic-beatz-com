@@ -31,6 +31,12 @@ const imageElements = {
             src="../../images/male-singing-an-aria-of-verdi-aida.jpg"
             alt="Male singing an aria of Verdi's Aida"
         />,
+    'exam':
+        <StaticImage
+            key="image-5"
+            src="../../images/couple-taking-a-quiz-on-laptop.jpg"
+            alt="Couple taking a quiz on a laptop"
+        />
 }
 
 function Page() {

@@ -99,11 +99,11 @@
         "Verdi's Aida"
     ],
     "buttonLabels": {
-        "fragments": "Highlights",
-        "composition": "Behind the Curtain",
-        "plot": "Peep Plot",
-        "tracks": "Audio Autopsy",
-        "exam": "Brain Bash"
+        "fragments": "Best Moments",
+        "composition": "Backstory",
+        "plot": "Plot Summary",
+        "tracks": "Listen Guide",
+        "exam": "Exam"
     },
     "audio": {
         "fragment-1": "/audio/compositions/verdi-aida/fragment-1-0-30.mp3",
@@ -111,9 +111,6 @@
         "fragment-3": "/audio/compositions/verdi-aida/fragment-3-195-225.mp3"
     },
     "tracks": {
-        "0": {
-            "title": "Quick word"
-        },
         "1": {
             "title": "Triumphal March",
             "annotations": {
@@ -257,7 +254,7 @@
                 "Now, transport that experience a few centuries back, add a live orchestra, powerful vocal performances, extravagant costumes, and grand sets.",
                 "That's opera for you.",
                 "It's the classical world\u2019s answer to modern TV series, but with the added benefit of live music and singing.",
-                "Every emotion is amplified, every scene set to music, allowing the audience to immerse themselves deeply into th"
+                "Every emotion is amplified, every scene set to music, allowing the audience to immerse themselves deeply into the storyline."
             ],
             [
                 "### A Name with Weight - \"Aida\"",
@@ -410,17 +407,6 @@
                 "*Final Moments:* They accept their fate, professing their love as they run out of air.",
                 "Above the tomb, Amneris is praying for Radames' peace in the afterlife.",
                 "The opera closes on a somber note, with love enduring even in death.\n"
-            ]
-        ],
-        "0": [
-            [
-                "### Navigating Verdi's Musical Sands",
-                "Verdi's \"Aida\" is like a musical treasure chest, packed with a whopping four acts, each dripping with its own unique flavor.",
-                "Inside, you've got a mix of epic choruses, heart-tugging arias, duets that'll give you the feels, and orchestral pieces that straight-up transport you to ancient Egypt.",
-                "But yo, diving deep into every single piece?",
-                "That's a marathon, not a sprint.",
-                "So, for the sake of our sanity and keeping things fresh, we're gonna zero in on just a few standout jams.",
-                "Let's unwrap this musical gift, but remember, we're just scratching the surface here!"
             ]
         ],
         "1": [
@@ -588,13 +574,109 @@
             ]
         ]
     },
+    "tracksIntro": [
+        "### Navigating Verdi's Musical Sands",
+        "Verdi's \"Aida\" is like a musical treasure chest, packed with a whopping four acts, each dripping with its own unique flavor.",
+        "Inside, you've got a mix of epic choruses, heart-tugging arias, duets that'll give you the feels, and orchestral pieces that straight-up transport you to ancient Egypt.",
+        "But yo, diving deep into every single piece?",
+        "That's a marathon, not a sprint.",
+        "So, for the sake of our sanity and keeping things fresh, we're gonna zero in on just a few standout jams.",
+        "Let's unwrap this musical gift, but remember, we're just scratching the surface here!"
+    ],
     "quizIntro": [
         "### Yo, you prepped to crush the exam on Verdi's Aida??",
         "First on deck, we're diving deep into opera vibes with an Aida challenge. Step up and conquer this quiz."
     ],
-    "pairsIntro": [
-        "### Tuned in to the \"Aida\" tracks we broke down?",
-        "Each track's got its own spirit. Wanna try and match'em up?\""
-    ],
-    "pairsInstruction": "Tracks are on the left, vibes on the right. Tap and link'em up."
+    "pairs": [
+        {
+            "intro": [
+                "### Tuned in to the \"Aida\" tracks we broke down?",
+                "Each track's got its own spirit. Wanna try and match'em up?\""
+            ],
+            "instruction": "Tracks are on the left, vibes on the right. Tap and link'em up.",
+            "label": "Pair the Pieces"
+        },
+        {
+            "intro": [
+                "### Aight, think you're slick with the \"Aida\" cast?",
+                "Each role's flauntin' its own sauce. Can you link up the role and its sauce?"
+            ],
+            "instruction": "Roles are on the left, sauces on the right. Tap and link'em up.",
+            "label": "Connect the Cast",
+            "annotations": {
+                "Aida": {
+                    "Desert's Hidden Royalty": "Aida is an Ethiopian princess hiding her identity.",
+                    "Chained Songbird of Egypt": "Aida, the enslaved woman with an enchanting voice.",
+                    "Radames' Secret Flame": "Aida's secret relationship with Radames, the Egyptian general.",
+                    "Royal Heart, Bound Hands": "Aida's struggles between her royal lineage and her enslaved status.",
+                    "Ethiopia's Veiled Jewel": "Aida's concealed royal heritage in Egypt.",
+                    "Torn 'Tween Love & Duty": "Aida's conflict between love for Radames and duty to her homeland.",
+                    "Love's Captive": "Aida's emotional turmoil due to her love for Radames.",
+                    "Enslaved Queen of Song": "Aida, a captivating singer despite her enslaved state.",
+                    "Heartbeat of the Nile": "Aida's central role in the Egyptian narrative.",
+                    "Soulful Desert Rose": "Aida's deep emotions amidst her complex situation."
+                },
+                "Radames": {
+                    "Egypt's Star Warrior": "Radames, a revered military general of Egypt.",
+                    "Amneris' Fiancé, Aida's Lover": "Radames' romantic entanglements with Amneris and Aida.",
+                    "Chariots and Heartstrings": "Radames, the warrior with a deeply romantic heart.",
+                    "Hero in Love's Chains": "Radames, the military hero ensnared by love.",
+                    "Golden General, Torn Heart": "Radames, respected as a general but with divided affections.",
+                    "Champion of the Pharaoh": "Radames, the general highly esteemed by the Pharaoh.",
+                    "Sword and Shield of Love": "Radames, protective of his secret love, Aida.",
+                    "Destiny's Challenged Hero": "Radames, whose fate is tangled by love and duty.",
+                    "Mighty Warrior, Soft Heart": "Radames, renowned for bravery yet deep in emotion.",
+                    "Guardian of Egypt's Borders": "Radames, the defender of Egypt's frontiers."
+                },
+                "Amneris": {
+                    "Egypt's Crowned Fashion Queen": "Amneris, the stylish Egyptian princess.",
+                    "Palace's Jealous Diva": "Amneris, envious of Aida's relationship with Radames.",
+                    "Throne's Lovelorn Princess": "Amneris, the princess pining for Radames' affection.",
+                    "Gems, Gold, and Grudges": "Amneris, rich in wealth and filled with envy.",
+                    "Pharaoh's Daughter, Love's Shadow": "Amneris, the Pharaoh's daughter overshadowed by Radames' love for Aida.",
+                    "Gilded Heart with Thorns": "Amneris, royalty with a heart prickled by jealousy.",
+                    "Egypt's Beauty, Love's Victim": "Amneris, a beautiful princess suffering unrequited love.",
+                    "Palace's Heartbroken Gem": "Amneris, saddened by Radames' love for Aida.",
+                    "Royalty's Envious Flame": "Amneris, a princess burning with jealousy.",
+                    "Queen of Denial": "Amneris, a play on the Nile, highlighting her refusal to accept Radames' love for Aida."
+                },
+                "Amonasro": {
+                    "Warrior King in Shadows": "Amonasro, the captured Ethiopian king hiding in Egypt.",
+                    "Aida's Strategic Father": "Amonasro, both a tactician and Aida's father.",
+                    "Patriot Behind Enemy Lines": "Amonasro, the Ethiopian king in hostile Egypt.",
+                    "Captive King, Loyal Dad": "Amonasro, a king held captive but ever loyal to his daughter, Aida.",
+                    "Ethiopia's Fallen Leader": "Amonasro, once a revered Ethiopian king, now captured.",
+                    "Strategist in Sands": "Amonasro's tactics playing out in Egypt.",
+                    "Royalty in Rags": "Amonasro, a king who's seen better days.",
+                    "Determined Desert Monarch": "Amonasro's unwavering spirit in adversity.",
+                    "Father's Love, King's Duty": "Amonasro, balancing love for Aida and his kingly responsibilities.",
+                    "Ethiopia's Silenced Roar": "Amonasro, a subdued force in the story."
+                },
+                "Ramfis": {
+                    "Egypt's Divine Power Broker": "Ramfis, the high priest with immense influence in Egypt.",
+                    "High Priest, Gods' Voice": "Ramfis, interpreting and delivering the will of the gods.",
+                    "Sacred Temple's Main Man": "Ramfis, the leading figure in Egyptian religious rites.",
+                    "Religion's Stern Hand": "Ramfis, strictly upholding religious tenets.",
+                    "Man With Gods' Ears": "Ramfis, believed to have a direct line to the deities.",
+                    "Keeper of Sacred Laws": "Ramfis, enforcing religious laws and customs.",
+                    "Gods' Earthly Ambassador": "Ramfis, a bridge between the divine and the mortal.",
+                    "Priestly Powerhouse": "Ramfis, wielding great power as a high priest.",
+                    "Divine Decree's Deliverer": "Ramfis, ensuring the gods' will is done.",
+                    "Mystical Might of Egypt": "Ramfis, a mystical and authoritative figure."
+                },
+                "Pharaoh": {
+                    "Supreme Ruler of Sands": "Pharaoh, the ultimate ruler of Egypt.",
+                    "Egypt's Top Throne Holder": "Pharaoh, the highest authority in Egypt.",
+                    "Pyramids' Mighty Monarch": "Pharaoh, ruling over Egypt's iconic landscape.",
+                    "Desert Lands' Supreme": "Pharaoh's vast dominion over Egypt.",
+                    "Golden Crown, Ancient Power": "Pharaoh's ancient authority symbolized by his golden crown.",
+                    "Nile's Ultimate Overlord": "Pharaoh, reigning over the fertile banks of the Nile.",
+                    "Monarch of the Monuments": "Pharaoh's rule in a land of ancient wonders.",
+                    "Sands' Supreme Sovereign": "Pharaoh, the indisputable leader of Egypt.",
+                    "Ruler of Ra's Realm": "Pharaoh, governing the land blessed by the sun god, Ra.",
+                    "Desert's Dominant Deity": "Pharaoh, often seen as a god himself in ancient Egypt."
+                }
+            }
+        }
+    ]
 }

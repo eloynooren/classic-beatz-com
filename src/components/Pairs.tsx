@@ -14,7 +14,7 @@ interface PairsProps {
 
 
 const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }) => {
-    const numRounds = 1
+    const numRounds = 3
     const [timer, setTimer] = useState<number | null>(null);
     const [score, setScore] = useState(0);
     const [round, setRound] = useState(0);

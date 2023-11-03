@@ -80,9 +80,9 @@
         "Eine kleine Nachtmusik"
     ],
     "buttonLabels": {
-        "fragments": "Buzz Moments",
+        "fragments": "Best Moments",
         "composition": "Backstory",
-        "tracks": "Movements",
+        "tracks": "Listen Guide",
         "exam": "Exam"
     },
     "audio": {
@@ -579,9 +579,14 @@
         "### Whoa, you ready to tackle the test on Eine Kleine Nachtmusik?",
         "First up, we've got a multiple-choice quickie. Hit it. Give it all you got."
     ],
-    "pairsIntro": [
-        "### Do you have a feel for the movements' moods?",
-        "Each movement's got its own vibe. Wanna try and match'em up?\""
-    ],
-    "pairsInstruction": "Movements are on the left, vibes on the right. Tap and link'em up."
+    "pairs": [
+        {
+            "intro": [
+                "### Do you have a feel for the movements' moods?",
+                "Each movement's got its own vibe. Wanna try and match'em up?\""
+            ],
+            "instruction": "Movements are on the left, vibes on the right. Tap and link'em up.",
+            "label": "Pair the Pieces"
+        }
+    ]
 }

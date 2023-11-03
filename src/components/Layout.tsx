@@ -139,7 +139,8 @@ export const Paragraph: React.FC<ParagraphProps> = ({sentences, classNames}) => 
 
         if (classNames.includes('paragraphSpaceOutVertically')) {
             className.push(styles.paragraphSpaceOutVertically)
-        }    }
+        }
+    }
 
     const html = textFormatter(sentences)
     return <div className={className.join(' ')} dangerouslySetInnerHTML={{ __html: html }}/>

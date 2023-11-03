@@ -148,6 +148,9 @@
             "{SUBJECT} goes by?",
             "What's the tag on {SUBJECT}?",
             "Label on {SUBJECT}?"
+        ],
+        "WHO-IS": [
+
         ]
     },
     "annotations": {

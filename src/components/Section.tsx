@@ -16,14 +16,13 @@ interface SectionProps {
     images?: Record<string, ReactElement>
     quizIntro?: string[]
     quizMakerObj?: QuizMaker
-    pairsIntro?: string[]
-    pairsInstruction?: string
-    pairsMakerObj?: {[key: string]: { [key: string]: string; } }
+    pairs: any[]
+    pairsMakerObjList?: {[key: string]: { [key: string]: string; } }[]
     spotify?: string
 }
 
 
-export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairsIntro, pairsInstruction, pairsMakerObj, spotify}) => {
+export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairs, pairsMakerObjList, spotify}) => {
     let numImages = 0
 
     const Image = (image: ReactElement) => {
@@ -76,16 +75,14 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
             elements.push(<GoogleAd key={"ad-1"}/>)
         }
 
-        if (pairsIntro) {
-            elements.push(
-                <Paragraph key={`pairs-intro`} sentences={pairsIntro}
-                       classNames="paragraphCenter paragraphSpaceOutVertically"/>)
-        }
-
-        if (pairsMakerObj) {
-            console.log(pairsInstruction)
-            elements.push(<Pairs key={"pairs"} buttonLabel="Pair the Pieces" instruction={pairsInstruction} pairsMakerObj={pairsMakerObj}/>)
-            elements.push(<GoogleAd key={"ad-2"}/>)
+        if (pairsMakerObjList) {
+            for (let i = 0; i < pairsMakerObjList.length; i++) {
+                elements.push(<Paragraph key={`pairs-intro-{i}`} sentences={pairs[i].intro}
+                           classNames="paragraphCenter paragraphSpaceOutVertically"/>)
+                elements.push(<Pairs key={"pairs-{i}"} buttonLabel={pairs[i].label} instruction={pairs[i].instruction}
+                                     pairsMakerObj={pairsMakerObjList[i]}/>)
+                elements.push(<GoogleAd key={"ad-{i+2}"}/>)
+            }
         }
 
         if (spotify) {

@@ -1,7 +1,7 @@
 import React, {ReactElement} from 'react';
 import 'react-tabs/style/react-tabs.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import {Layout, Flex} from "../components/Layout";
+import {Layout, Flex, Paragraph} from "../components/Layout";
 import {Section} from "../components/Section";
 import {Images} from "../utils/Images"
 import { Dispatcher } from './Dispatcher';
@@ -68,11 +68,26 @@ interface CompositionPageProps {
 
 export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElements, quizMakerObj}) => {
     quizMakerObj = complete_quiz(data, quizMakerObj)
-    const pairsMakerObj = new PairsMaker()
+    let pairsMakerObjList = []
 
-    for (let m in data.tracks) {
-        if ('annotations' in data.tracks[m]) {
-            pairsMakerObj.add(0, data.tracks[m].title, data.tracks[m].annotations)
+    if ('pairs' in data) {
+        for (let p of data.pairs) {
+            const pairsMakerObj = new PairsMaker()
+
+            if ('annotations' in p) {
+                for (let k of Object.keys(p.annotations)) {
+                    pairsMakerObj.add(0, k, p.annotations[k])
+
+                }
+            } else {
+                for (let m in data.tracks) {
+                    if ('annotations' in data.tracks[m]) {
+                        pairsMakerObj.add(0, data.tracks[m].title, data.tracks[m].annotations)
+                    }
+                }
+            }
+
+            pairsMakerObjList.push(pairsMakerObj)
         }
     }
 
@@ -85,8 +100,8 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                     <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
                             {'fragments' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>}
-                            {'plot' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['plot']}</Tab>}
                             {'composition' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>}
+                            {'plot' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['plot']}</Tab>}
                             {'tracks' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['tracks']}</Tab>}
                             {'exam' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>}
                             {'analysis' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['analysis']}</Tab>}
@@ -95,16 +110,20 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                             <Image image={imageElements['fragments']}/>
                             <Section paragraphs={data.article['fragments']} type='fragments' audio={data.audio}/>
                         </TabPanel>}
-                        {'plot' in data.buttonLabels && <TabPanel>
-                            <Image image={imageElements['plot']}/>
-                            <Section paragraphs={data.article['plot']} type='plot' audio={data.audio}/>
-                        </TabPanel>}
                         {'composition' in data.buttonLabels && <TabPanel>
                             <Image image={imageElements['composition']}/>
                             <Section paragraphs={data.article['composition']} type='' audio={data.audio}/>
                         </TabPanel>}
+                        {'plot' in data.buttonLabels && <TabPanel>
+                            <Image image={imageElements['plot']}/>
+                            <Section paragraphs={data.article['plot']} type='plot' audio={data.audio}/>
+                        </TabPanel>}
                         {'tracks' in data.buttonLabels && <TabPanel>
                             <Image image={imageElements['tracks']}/>
+                            {'tracksIntro' in data &&
+                                <Paragraph key={`tracks-intro`} sentences={data.tracksIntro}
+                                    classNames="paragraphJustify paragraphSpaceOutVertically"/>
+                            }
                             <Tabs selectedTabClassName={styles.selectedTab0}>
                                 <TabList className={styles.tabList0}>
                                     {Object.keys(data.tracks)
@@ -133,8 +152,8 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                         </TabPanel>}
                         {'exam' in data.buttonLabels && <TabPanel>
                             <Image image={imageElements['exam']}/>
-                            <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairsIntro={data.pairsIntro}
-                                     pairsInstruction={data.pairsInstruction} pairsMakerObj={pairsMakerObj}/>
+                            <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairs={data.pairs}
+                                     pairsMakerObjList={pairsMakerObjList}/>
                         </TabPanel>}
                     </Tabs>
                 </Flex>
