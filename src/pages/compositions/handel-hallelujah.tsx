@@ -1,19 +1,34 @@
 import React from 'react';
-import NotReadyYetPage from "../../components/NotReadyYetPage";
+import CompositionPage from "../../components/CompositionPage";
 import { StaticImage } from "gatsby-plugin-image";
+import data from "../../data/compositions/handel-hallelujah.json";
+import {QuizMaker} from "../../utils/QuizMaker";
 
-
-const imageElement = (
-    <StaticImage
-        key="image-1"
-        src="../../images/male-and-female-playing-singing-handel-hallelujah.jpg"
-        alt="Male and female singing Händel's Hallelujah"
-    />
-)
+const imageElements = {
+    'fragments':
+        <StaticImage
+            key="image-1"
+            src="../../images/smiling-and-singing-handel.jpg"
+            alt="Smiling and singing Händel"
+        />,
+    'composition':
+        <StaticImage
+            key="image-2"
+            src="../../images/male-and-female-playing-singing-handel-hallelujah.jpg"
+            alt="Male and female singing Händel's Hallelujah"
+        />,
+    'analysis':
+        <StaticImage
+            key="image-3"
+            src="../../images/choir-singing-hallelujah.jpg"
+            alt="Choir singing Händel's Hallelujah"
+        />,
+}
 
 function Page() {
-    return <NotReadyYetPage imageElement={imageElement} headerTitle={["Singing Your Heart Out with","Händel's" +
-    " Hallelujah"]}/>
+    let quizMakerObj = new QuizMaker()
+
+    return <CompositionPage data={data} imageElements={imageElements} quizMakerObj={quizMakerObj}/>
 }
 
 export default Page

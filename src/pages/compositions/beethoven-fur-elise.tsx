@@ -15,7 +15,7 @@ const imageElements = {
         />,
     'composition':
         <StaticImage
-            key="image-3"
+            key="image-2"
             src="../../images/female-playing-classical-music-on-piano-1.jpg"
             alt="Female playing classical music on piano"
         />,

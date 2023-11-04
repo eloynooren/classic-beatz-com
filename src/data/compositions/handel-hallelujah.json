@@ -1,78 +1,237 @@
 {
-  "src": "https://docs.google.com/uc?export=open&id=1ci6357YucZ5IBG8yz3ulCv1ytNuBhnmb",
-  "composer": "Händel",
-  "composition": "Hallelujah",
-  "url": "/compositions/handel-hallelujah",
-  "annotations": {
-    "Angels' Favorite Karaoke": "The majestic choral piece feels like what angels would pick for a heavenly sing-along.",
-    "The Roof-Raising Anthem": "The powerful chorus feels as though it's lifting the roof with its divine energy.",
-    "The Original Praise Break": "Before modern gospel, this was the piece that brought everyone to their feet in praise.",
-    "Even the Roof Says Amen": "The chorus is so impactful, it feels like even inanimate objects would join in.",
-    "Where Choirs Go Full Throttle": "It's the piece where choirs give it their all, showcasing their maximum vocal prowess.",
-    "A Standing Ovation from Heaven": "So divine, it feels like the heavens would stand and applaud after every rendition.",
-    "High Notes, Higher Spirits": "With its soaring notes, it elevates the spirits of both the singer and the listener.",
-    "Choir Practice Showstopper": "The one piece every choir loves to practice and perform to perfection.",
-    "It's Not Just for Christmas": "Although popular during Christmas, its divine energy is relevant all year round.",
-    "Because 'Wow' Wasn't Enough": "Its impact goes beyond mere words, creating a profound emotional reaction.",
-    "Sing It, Don't Just Say It": "Instead of just saying 'Hallelujah', singing this piece amplifies its meaning.",
-    "Resurrecting Choirs Since 1741": "Any choir feels reborn and revitalized after performing this iconic chorus.",
-    "When Words Fail, Choirs Sing": "It's the go-to piece when choirs want to express joy and praise beyond mere words.",
-    "Turns Everyone Into a Believer": "Such is its power, even the non-religious can't help but feel its divine touch.",
-    "Your Grandma's Ringtone": "Its timeless appeal makes it a favorite even in modern, everyday contexts.",
-    "More Hallelujahs per Minute": "The repetition and emphasis on 'Hallelujah' makes it a dense dose of praise.",
-    "Where Every Note Is a Blessing": "Every single note in this piece feels like a blessing being bestowed upon the listener.",
-    "The Divine Earworm": "Its catchy and majestic tune lingers in the mind long after it's over.",
-    "Zero to Holy in Three Notes": "Instantly recognizable, it immediately sets a sacred mood in just a few notes.",
-    "Choirs, Start Your Engines": "This is the piece that energizes and kickstarts any choral performance.",
-    "Spiritual Standing Ovation": "It's as if the soul itself stands up to applaud every time this is sung.",
-    "Amen's Big Brother": "'Hallelujah' is like the grander version of 'Amen', sealing any divine proclamation.",
-    "Heaven's Own Anthem": "Feels like the official anthem of the heavens, representing pure divine joy.",
-    "The Serenade of Seraphim": "This could be the song seraphim angels serenade to the Almighty.",
-    "Every Soprano's Dream": "A piece that lets sopranos shine, reaching those divine high notes with grace.",
-    "Harmonic Heaven": "The rich harmonies present within the piece feel like a musical representation of heaven's gates opening.",
-    "Where Basses Feel Blessed": "A rare piece that allows the bass voices to have their moment of divine spotlight.",
-    "Altos' Angelic Alignment": "The alto line in the chorus aligns perfectly with the angelic feel of the entire piece.",
-    "Tenors Touch the Stars": "Tenors reach for the heavens, touching the stars with their powerful renditions in the chorus.",
-    "The Divine Echo Chamber": "The repetitive 'Hallelujahs' feel like they echo throughout the heavens, resonating with every angel.",
-    "Chorus of the Cosmos": "The grandeur and scale of the piece make it feel as if not just Earth, but the entire cosmos is singing in unison.",
-    "Lifting Spirits, Literally": "Such is its power that listeners feel their spirits lifted, almost having an out-of-body experience.",
-    "Joy's Own Soundtrack": "If pure joy had a soundtrack, it would be the 'Hallelujah' chorus.",
-    "Wings on Every Note": "Every note in the piece feels like it's fluttering on the wings of angels.",
-    "Pinnacle of Praise": "The chorus represents the very peak of musical praise, unmatched in its grandeur.",
-    "Holy Highs and Lows": "Navigating through its high and low notes, the piece takes listeners on a rollercoaster of sacred emotions.",
-    "Celestial Crescendos": "The crescendos in the piece mirror the grandeur and vastness of the heavens themselves.",
-    "The Haloed Harmony": "The harmonies within the chorus feel like they have a halo, shining with divine light.",
-    "The Choir's Crown Jewel": "In the repertoire of many choirs, the 'Hallelujah' chorus holds a place of reverence, like a crown jewel.",
-    "Bringing Down the Divine": "The chorus feels as if it's channeling the divine, bringing down a bit of heaven to Earth.",
-    "Psalms, Meet Power": "If the Psalms had a powerful, musical representation, it would sound like this.",
-    "Sacred Symphony's Peak": "Within the symphonic world, this chorus is the pinnacle of sacred music.",
-    "Divinity in Decibels": "The louder it's sung, the more divine it feels, like divinity measured in decibels.",
-    "A Celestial Standing O": "Not just for audiences on Earth, but it feels like the cosmos gives a standing ovation every time it's performed.",
-    "The Pious Powerhouse": "A powerful piece that embodies piety and devotion in every note.",
-    "Heavenly Hook": "The chorus has a hook that's not just catchy, but feels like a direct line to the heavens.",
-    "Glorious Gospel's Godfather": "Before gospel as we know it, this was the piece laying down the path of glorious praise.",
-    "Blessings in Baritones": "Baritones too find their blessings, blending seamlessly into the chorus's divine tapestry.",
-    "Praising Beyond Prose": "While words can praise, the 'Hallelujah' chorus elevates it to a level beyond mere prose.",
-    "Angelic Audio Architecture": "The structure and design of the chorus feels like it's crafted by angels, an architectural marvel in the realm of sound.",
-    "Seraphic Symphony": "While many compositions boast of symphonic brilliance, the 'Hallelujah' chorus seems to have the orchestra of seraphs backing it, a truly divine orchestration.",
-    "Cloud Nine Chorus": "It's not just any chorus, it's the kind that takes you straight to cloud nine, feeling the heavenly elation.",
-    "Golden Gates' Grandeur": "The magnificence of the 'Hallelujah' chorus mirrors what one might imagine when thinking of the golden gates of heaven opening.",
-    "Praises' Pinnacle Point": "If there were a point where praises reached their highest expression, it'd be during this chorus.",
-    "Divine Drama's Climax": "In the dramatic narrative of sacred music, this chorus stands as an unparalleled climax.",
-    "Majestic Melody Maker": "The melody isn’t just beautiful, it’s majestic, like the courts of divine royalty.",
-    "Sacred Song's Summit": "Of all the sacred songs, 'Hallelujah' stands tall, reigning from the very summit.",
-    "Cherubic Chant Chart-topper": "Among the chants that could be sung by cherubs, this one would top the charts, always.",
-    "Blessed Beyond Belief": "Every rendition of the chorus feels like a blessing in itself, exceeding all beliefs and expectations.",
-    "Divinity's Drumbeat": "With every beat, there’s a rhythm of divinity pulsating through the 'Hallelujah' chorus.",
-    "Sonic Sanctuary": "Listening to the chorus, one feels as if they've entered a sonic sanctuary, sacred and sublime.",
-    "Cathedrals' Core Composition": "Many cathedrals might have various hymns and anthems, but the 'Hallelujah' chorus remains their core composition, the very heart of their music.",
-    "Transcendental Tones": "The tones in the chorus aren’t just music, they transcend, lifting one's soul beyond the mundane.",
-    "Harps and Hearts Harmonize": "As if celestial harps and human hearts come together to harmonize perfectly when the 'Hallelujah' chorus is played.",
-    "Luminescent Lyrics": "The words of the chorus aren’t just heard, they shine, illuminating the listener's spirit with a luminescent glow.",
-    "Resonance of Reverence": "There’s a resonance in the 'Hallelujah' chorus, one that echoes the reverence of ages past and generations to come.",
-    "Sacrosanct Soundwaves": "Every sound wave of the chorus carries with it a sanctity that's palpably divine.",
-    "Aria of the Angels": "If angels had an aria to represent them, it would sound a lot like the 'Hallelujah' chorus.",
-    "Gloria’s Grand Sibling": "While 'Gloria' is a term of praise, the 'Hallelujah' chorus feels like its grander, even more magnificent sibling.",
-    "Doxology’s Dream": "If doxologies could dream, they'd dream of achieving the grandeur and glory of the 'Hallelujah' chorus."
-  }
+    "src": "/audio/compositions/handel-hallelujah/fragment-1-0-60.mp3",
+    "composer": "H\u00e4ndel",
+    "composition": "Hallelujah",
+    "url": "/compositions/handel-hallelujah",
+    "annotations": {
+        "Angels' Favorite Karaoke": "The majestic choral piece feels like what angels would pick for a heavenly sing-along.",
+        "The Roof-Raising Anthem": "The powerful chorus feels as though it's lifting the roof with its divine energy.",
+        "The Original Praise Break": "Before modern gospel, this was the piece that brought everyone to their feet in praise.",
+        "Even the Roof Says Amen": "The chorus is so impactful, it feels like even inanimate objects would join in.",
+        "Where Choirs Go Full Throttle": "It's the piece where choirs give it their all, showcasing their maximum vocal prowess.",
+        "A Standing Ovation from Heaven": "So divine, it feels like the heavens would stand and applaud after every rendition.",
+        "High Notes, Higher Spirits": "With its soaring notes, it elevates the spirits of both the singer and the listener.",
+        "Choir Practice Showstopper": "The one piece every choir loves to practice and perform to perfection.",
+        "It's Not Just for Christmas": "Although popular during Christmas, its divine energy is relevant all year round.",
+        "Because 'Wow' Wasn't Enough": "Its impact goes beyond mere words, creating a profound emotional reaction.",
+        "Sing It, Don't Just Say It": "Instead of just saying 'Hallelujah', singing this piece amplifies its meaning.",
+        "Resurrecting Choirs Since 1741": "Any choir feels reborn and revitalized after performing this iconic chorus.",
+        "When Words Fail, Choirs Sing": "It's the go-to piece when choirs want to express joy and praise beyond mere words.",
+        "Turns Everyone Into a Believer": "Such is its power, even the non-religious can't help but feel its divine touch.",
+        "Your Grandma's Ringtone": "Its timeless appeal makes it a favorite even in modern, everyday contexts.",
+        "More Hallelujahs per Minute": "The repetition and emphasis on 'Hallelujah' makes it a dense dose of praise.",
+        "Where Every Note Is a Blessing": "Every single note in this piece feels like a blessing being bestowed upon the listener.",
+        "The Divine Earworm": "Its catchy and majestic tune lingers in the mind long after it's over.",
+        "Zero to Holy in Three Notes": "Instantly recognizable, it immediately sets a sacred mood in just a few notes.",
+        "Choirs, Start Your Engines": "This is the piece that energizes and kickstarts any choral performance.",
+        "Spiritual Standing Ovation": "It's as if the soul itself stands up to applaud every time this is sung.",
+        "Amen's Big Brother": "'Hallelujah' is like the grander version of 'Amen', sealing any divine proclamation.",
+        "Heaven's Own Anthem": "Feels like the official anthem of the heavens, representing pure divine joy.",
+        "The Serenade of Seraphim": "This could be the song seraphim angels serenade to the Almighty.",
+        "Every Soprano's Dream": "A piece that lets sopranos shine, reaching those divine high notes with grace.",
+        "Harmonic Heaven": "The rich harmonies present within the piece feel like a musical representation of heaven's gates opening.",
+        "Where Basses Feel Blessed": "A rare piece that allows the bass voices to have their moment of divine spotlight.",
+        "Altos' Angelic Alignment": "The alto line in the chorus aligns perfectly with the angelic feel of the entire piece.",
+        "Tenors Touch the Stars": "Tenors reach for the heavens, touching the stars with their powerful renditions in the chorus.",
+        "The Divine Echo Chamber": "The repetitive 'Hallelujahs' feel like they echo throughout the heavens, resonating with every angel.",
+        "Chorus of the Cosmos": "The grandeur and scale of the piece make it feel as if not just Earth, but the entire cosmos is singing in unison.",
+        "Lifting Spirits, Literally": "Such is its power that listeners feel their spirits lifted, almost having an out-of-body experience.",
+        "Joy's Own Soundtrack": "If pure joy had a soundtrack, it would be the 'Hallelujah' chorus.",
+        "Wings on Every Note": "Every note in the piece feels like it's fluttering on the wings of angels.",
+        "Pinnacle of Praise": "The chorus represents the very peak of musical praise, unmatched in its grandeur.",
+        "Holy Highs and Lows": "Navigating through its high and low notes, the piece takes listeners on a rollercoaster of sacred emotions.",
+        "Celestial Crescendos": "The crescendos in the piece mirror the grandeur and vastness of the heavens themselves.",
+        "The Haloed Harmony": "The harmonies within the chorus feel like they have a halo, shining with divine light.",
+        "The Choir's Crown Jewel": "In the repertoire of many choirs, the 'Hallelujah' chorus holds a place of reverence, like a crown jewel.",
+        "Bringing Down the Divine": "The chorus feels as if it's channeling the divine, bringing down a bit of heaven to Earth.",
+        "Psalms, Meet Power": "If the Psalms had a powerful, musical representation, it would sound like this.",
+        "Sacred Symphony's Peak": "Within the symphonic world, this chorus is the pinnacle of sacred music.",
+        "Divinity in Decibels": "The louder it's sung, the more divine it feels, like divinity measured in decibels.",
+        "A Celestial Standing O": "Not just for audiences on Earth, but it feels like the cosmos gives a standing ovation every time it's performed.",
+        "The Pious Powerhouse": "A powerful piece that embodies piety and devotion in every note.",
+        "Heavenly Hook": "The chorus has a hook that's not just catchy, but feels like a direct line to the heavens.",
+        "Glorious Gospel's Godfather": "Before gospel as we know it, this was the piece laying down the path of glorious praise.",
+        "Blessings in Baritones": "Baritones too find their blessings, blending seamlessly into the chorus's divine tapestry.",
+        "Praising Beyond Prose": "While words can praise, the 'Hallelujah' chorus elevates it to a level beyond mere prose.",
+        "Angelic Audio Architecture": "The structure and design of the chorus feels like it's crafted by angels, an architectural marvel in the realm of sound.",
+        "Seraphic Symphony": "While many compositions boast of symphonic brilliance, the 'Hallelujah' chorus seems to have the orchestra of seraphs backing it, a truly divine orchestration.",
+        "Cloud Nine Chorus": "It's not just any chorus, it's the kind that takes you straight to cloud nine, feeling the heavenly elation.",
+        "Golden Gates' Grandeur": "The magnificence of the 'Hallelujah' chorus mirrors what one might imagine when thinking of the golden gates of heaven opening.",
+        "Praises' Pinnacle Point": "If there were a point where praises reached their highest expression, it'd be during this chorus.",
+        "Divine Drama's Climax": "In the dramatic narrative of sacred music, this chorus stands as an unparalleled climax.",
+        "Majestic Melody Maker": "The melody isn\u2019t just beautiful, it\u2019s majestic, like the courts of divine royalty.",
+        "Sacred Song's Summit": "Of all the sacred songs, 'Hallelujah' stands tall, reigning from the very summit.",
+        "Cherubic Chant Chart-topper": "Among the chants that could be sung by cherubs, this one would top the charts, always.",
+        "Blessed Beyond Belief": "Every rendition of the chorus feels like a blessing in itself, exceeding all beliefs and expectations.",
+        "Divinity's Drumbeat": "With every beat, there\u2019s a rhythm of divinity pulsating through the 'Hallelujah' chorus.",
+        "Sonic Sanctuary": "Listening to the chorus, one feels as if they've entered a sonic sanctuary, sacred and sublime.",
+        "Cathedrals' Core Composition": "Many cathedrals might have various hymns and anthems, but the 'Hallelujah' chorus remains their core composition, the very heart of their music.",
+        "Transcendental Tones": "The tones in the chorus aren\u2019t just music, they transcend, lifting one's soul beyond the mundane.",
+        "Harps and Hearts Harmonize": "As if celestial harps and human hearts come together to harmonize perfectly when the 'Hallelujah' chorus is played.",
+        "Luminescent Lyrics": "The words of the chorus aren\u2019t just heard, they shine, illuminating the listener's spirit with a luminescent glow.",
+        "Resonance of Reverence": "There\u2019s a resonance in the 'Hallelujah' chorus, one that echoes the reverence of ages past and generations to come.",
+        "Sacrosanct Soundwaves": "Every sound wave of the chorus carries with it a sanctity that's palpably divine.",
+        "Aria of the Angels": "If angels had an aria to represent them, it would sound a lot like the 'Hallelujah' chorus.",
+        "Gloria\u2019s Grand Sibling": "While 'Gloria' is a term of praise, the 'Hallelujah' chorus feels like its grander, even more magnificent sibling.",
+        "Doxology\u2019s Dream": "If doxologies could dream, they'd dream of achieving the grandeur and glory of the 'Hallelujah' chorus."
+    },
+    "header": [
+        "Singing Your Heart Out With",
+        "Händel's Hallelujah"
+    ],
+    "audio": {
+        "fragment-1": "/audio/compositions/handel-hallelujah/fragment-1-0-60.mp3",
+        "fragment-2": "/audio/compositions/handel-hallelujah/fragment-1-90-150.mp3",
+        "fragment-3": "/audio/compositions/handel-hallelujah/fragment-1-182-242.mp3"
+    },
+    "buttonLabels": {
+        "fragments": "Best Moments",
+        "composition": "Backstory",
+        "analysis": "Listen Guide"
+    },
+    "spotify": "https://open.spotify.com/track/179VNrG3VdWEJNOuV0MJVv",
+    "article": {
+        "fragments": [
+            [
+                "### Händel's Hallelujah: Three Standout Showstoppers",
+                "Let's dive into Händel's epic \"Hallelujah\" from his legendary \"Messiah\" and scope out three bits that'll knock your socks off.",
+                "We're not just talking any random parts; these are the cr\u00e8me de la cr\u00e8me, the moments that define what this whole oratorio is about.",
+                "So hold onto your hats, 'cause we're about to get a glimpse of Händel's hottest hits:"
+            ],
+            [
+                "### 1. Hallelujah - The Majestic Drop",
+                "Kicking off with a bang, the \"Hallelujah\" chorus starts with a full-on blast of sound that hits you like a divine thunderbolt.",
+                "This is Händel throwing down the gauntlet, telling us that something big's going down.",
+                "It's a mix of those high-flying trumpets and the full choir belting out \"Hallelujah!\" like it's Judgment Day.",
+                "Talk about starting with a supernova-level bang!"
+            ],
+            [
+                "### 2. Hallelujah - The King of Counterpoint",
+                "Slide into the middle of the chorus, and you've got what's like the sickest beat drop in Baroque history.",
+                "Each vocal part's doing its own thing, yet it's all meshing tighter than the cogs in a Swiss watch.",
+                "It's Händel showing off his mad skills, weaving voices together in a tapestry of sound that's so intricate, you'd think it's divine."
+            ],
+            [
+                "### 3. Hallelujah - The Grand Finale",
+                "As we cruise into the home stretch of the \"Hallelujah,\" Händel isn't just taking a victory lap; he's doing it in a monster truck, crushing it with a final statement that's all power.",
+                "When the choir hits those final \"Hallelujahs,\" with the trumpets blaring and drums rolling, it's like the heavens opening up.",
+                "This ain't just a finale; it's a coronation, and we're all just living in it.",
+                "So there you have it, folks.",
+                "These are the moments in \"Hallelujah\" that'll have you saying \"Amen!\" Whether you're a Baroque buff or just someone who digs those goosebump-giving moments in music, Händel's got the goods to deliver a spiritual smackdown that's been echoing through the ages."
+            ]
+        ],
+        "composition": [
+            [
+                "### Tune Origins: Händel's Mighty \"Hallelujah\"",
+                "So, check it.",
+                "We're digging into the backstory of one of the baddest, most epic choral throwdowns ever: Händel's \"Hallelujah Chorus.\" This ain't just any old tune\u2014it's a chunk of the larger masterpiece, \"Messiah,\" which is this monster oratorio that clocks in at around two to three hours, depending on how fast the conductor's feeling that day.",
+                "We're talking about Part II, Scene 7, hitting that sweet opus with no number 'cause it's just that iconic."
+            ],
+            [
+                "### For King, Country, and Charity",
+                "Now, Händel wasn't just tossing notes around for giggles.",
+                "This bad boy was composed in 1741, in a time when George Frideric was kinda down on his luck.",
+                "The dude needed a win, and \"Messiah\" was like his musical Hail Mary.",
+                "He whipped it up in a lightning-fast 24 days, which is bananas by any standard.",
+                "And get this\u2014it wasn't even for his usual posh audience.",
+                "Händel was rolling it out for a charity gig in Dublin, to help cash-strapped peeps and locked-up lads who couldn't pay their debts.",
+                "Solid, right?"
+            ],
+            [
+                "### A Tune That's Stood the Test",
+                "The \"Hallelujah Chorus\" is like the heavyweight champ of choral music.",
+                "It's stood the test, becoming a sort of victory lap for Western music.",
+                "Everyone from the church pews to the concert halls knows it.",
+                "Back in the day, it was the mix of the sacred text with Händel's hooky melodies that snagged the hearts of the masses.",
+                "It was like he captured a slice of the divine and served it up for everyone to get a taste."
+            ],
+            [
+                "### When Händel Was Hip",
+                "In the 1740s, London was all abuzz with new ideas and the arts were on fire.",
+                "Händel was in the thick of it, but he was also feeling the heat.",
+                "His Italian operas were going out of style, and he was looking for that next big hit.",
+                "\"Messiah\" was a pivot\u2014a turn from the operatic to the oratorio, a genre that was less showy and more about the feel-good vibes.",
+                "The man was bending with the times, trying to keep his groove alive."
+            ],
+            [
+                "### Debut Daze",
+                "The first shout-out of the \"Hallelujah Chorus\" went down in 1742, in a musically woke Dublin.",
+                "The joint was packed, with ladies ditching their hoopskirts and gents their swords to fit more folks in.",
+                "The crowd went wild\u2014like, legit standing ovation wild, which became the thing to do whenever the \"Hallelujah\" blasted out."
+            ],
+            [
+                "### From Zero to Hero",
+                "At first, folks were like, \"Händel who?\" But after \"Messiah\" hit, it was more, \"Händel's the man!\" This turnaround was epic.",
+                "It wasn't just the public that was hyped; even the bigwigs, like King George II, supposedly stood up during the \"Hallelujah,\" setting a trend that keeps going even now."
+            ],
+            [
+                "### The Lasting Echo",
+                "Händel's \"Hallelujah\" wasn't just a one-hit wonder.",
+                "It's been like a muse, inspiring countless composers and musicians.",
+                "Mozart even flexed his own muscles on it with a reorchestration.",
+                "From choirs worldwide to pop culture riffs, this chorus is the OG of musical memes."
+            ],
+            [
+                "### Special Sauce",
+                "And for the Easter egg hunters, peep this\u2014Handel uses some mad musical techniques, like melismatic lines where the singers stretch one word over a ton of notes, and he stacks the deck with counterpoint that weaves like crazy.",
+                "It's a sound feast, a Baroque bash, and it's no wonder it's kept peeps hyped for centuries."
+            ],
+            [
+                "### The Legacy Lowdown",
+                "So that's the lowdown on Händel's \"Hallelujah.\" It's a piece that turned the tide for a composer on the brink, brought a bit of heaven to earth, and got the people to their feet.",
+                "Händel might not have known it then, but he dropped a beat that the world ain't ever gonna forget."
+            ]
+        ],
+        "analysis": [
+            [
+                "### Hallelujah: The Divine Crescendo",
+                "Welcome to Händel's \"Hallelujah,\" a crowning jewel of the Baroque period where divine inspiration and human composition intertwine in a symphonic shout of joy.",
+                "Imagine a sound so powerful it lifts you right out of your seat \u2013 that's what this chorus does.",
+                "It's the pinnacle of praise, a high-energy homage to the higher powers, resonating with every note."
+            ],
+            [
+                "### Title Unpacked: \"Hallelujah\" Revealed",
+                "\"Hallelujah\" \u2013 it's the word that's echoed through the ages, transcending languages and cultures.",
+                "Coming straight from the Hebrew language, it means \"Praise Yah,\" as in \"Praise the Lord.\" It's not just a title; it's an exclamation, a declaration, and in Händel's hands, it's a magnificent musical manifesto.",
+                "When you see \"Hallelujah\" atop the score, expect a piece brimming with spiritual fervor, a universal anthem of triumph."
+            ],
+            [
+                "### Blueprint of the Blessing",
+                "Typically, a chorus like \"Hallelujah\" isn't chopped up into movements; it's a standalone masterpiece.",
+                "But, within its walls, there's a structure \u2013 a series of musical sentences, each delivering a burst of sonic splendor.",
+                "We've got the statement, the development, and the final confirmation \u2013 it's a conversation between heaven and earth, with each part amplifying the divine message."
+            ],
+            [
+                "### The Heavenly Introduction",
+                "From the get-go, Händel drops us into the key of D major, the \"key of glory,\" and it's all systems go.",
+                "The first bars are a musical summons, commanding us to take notice.",
+                "This isn't just an opening; it's a celestial being throwing open the gates of paradise, and the resounding \"Hallelujahs\" are the chorus of angels on the other side, welcoming you to the jubilee."
+            ],
+            [
+                "### The Middle Majesty",
+                "As we roll into the middle, we're hit with waves of choral voices.",
+                "Here, Händel plays with counterpoint like a divine chess game, moving voices across the board in a strategic play of harmony and melody.",
+                "It's a mingling of the earthly choir with the ethereal, and the key shifts subtly, taking us on a journey through the realms of majesty."
+            ],
+            [
+                "### The Triumphant Return",
+                "And when we circle back to the home stretch, it's a victorious return to the familiar strains of D major.",
+                "The final \"Hallelujahs\" are a robust reassertion of the chorus's central theme, a musical 'Amen' that could shatter stained glass with its intensity.",
+                "It's the sound of every voice, every soul, joining in a harmony so potent it reaches the divine ears."
+            ],
+            [
+                "### Cast of Celestial Voices",
+                "In this grand spiritual concert, the orchestra and voices come together in a divine ensemble.",
+                "The violins, oboes, and trumpets are the heralds, the bearers of the good news, while the timpani rolls like thunder.",
+                "The basso continuo \u2013 the organ and cellos \u2013 they're the foundation, the rock upon which this sonic church is built."
+            ],
+            [
+                "### Unleash the Praises",
+                "Now, don't just sit there \u2013 crank up the volume on this Baroque banger.",
+                "Let Händel's \"Hallelujah\" transport you back to 1742, to the premiere where King George II stood up, struck by the power of the piece.",
+                "Whether you're in it for the musical mastery, the historical heft, or just to get a taste of Händel's heavenly hit, there's no better time than now.",
+                "Hit play, and let the \"Hallelujah\" lift your spirits to the high heavens."
+            ]
+        ]
+    }
 }
