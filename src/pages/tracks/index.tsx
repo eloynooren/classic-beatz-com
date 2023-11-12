@@ -4,6 +4,7 @@ import homePage from "../../utils/data/medleys/home-page"
 import pianoSolos from "../../utils/data/medleys/piano-solos"
 import {Layout, Flex, Cell, Paragraph} from "../../components/Layout";
 import TrackList from "../../components/TrackList";
+import { Dispatcher } from '../../components/Dispatcher';
 
 
 const intro = [
@@ -40,24 +41,26 @@ function Page() {
     console.log(tracks)
     return (
         <Layout pageTitle="Classical Beatz" headerTitle={["Quick Spin Through the Jams"]} pageLabel="Tracks" seo={seo}>
-            <Flex>
-                <Cell>
-                    <StaticImage
-                        key="image-1"
-                        src="../../images/beethoven-composing-a-track.jpg"
-                        alt="Beethoven composing a track.jpg."
-                    />
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={intro}/>
-                </Cell>
-                <Cell>
-                    <TrackList tracks={tracks}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={conclude}/>
-                </Cell>
-            </Flex>
+            <Dispatcher>
+                <Flex>
+                    <Cell>
+                        <StaticImage
+                            key="image-1"
+                            src="../../images/beethoven-composing-a-track.jpg"
+                            alt="Beethoven composing a track.jpg."
+                        />
+                    </Cell>
+                    <Cell>
+                        <Paragraph sentences={intro}/>
+                    </Cell>
+                    <Cell>
+                        <TrackList tracks={tracks}/>
+                    </Cell>
+                    <Cell>
+                        <Paragraph sentences={conclude}/>
+                    </Cell>
+                </Flex>
+            </Dispatcher>
         </Layout>
     )
 }

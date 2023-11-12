@@ -1,9 +1,6 @@
 import React from 'react';
 import { StaticImage } from "gatsby-plugin-image";
 import {Layout, Flex, Cell, Paragraph} from "../../components/Layout";
-import homePage from "../../utils/data/medleys/home-page";
-import pianoSolos from "../../utils/data/medleys/piano-solos";
-import {AudioPlayer} from "../../components/Audio";
 
 const introduction = [
     "### Salutations, musical pilgrims, and welcome to our composers' haven!",
