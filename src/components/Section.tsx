@@ -24,6 +24,7 @@ interface SectionProps {
 
 export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairs, pairsMakerObjList, spotify}) => {
     let numImages = 0
+    console.log(paragraphs)
 
     const Image = (image: ReactElement) => {
         numImages += 1
@@ -39,7 +40,7 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
 
             for (let i = 0; i < paragraphs.length; i++) {
                 const sentences = paragraphs[i];
-                if (type === 'fragments' && sentences.length && /^#+\s?\d+/.test(sentences[0]) && audio) {
+                if (type === 'best-moments' && sentences.length && /^#+\s?\d+/.test(sentences[0]) && audio) {
                     // Strip leading hashes and spaces
                     const number = parseInt(sentences[0].match(/\d+/)[0], 10); // Extract the number
                     elements.push(
@@ -88,7 +89,6 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
         if (spotify) {
             elements.push(<Spotify key={"spotify"} className={styles.spotify} link={spotify}/>)
         }
-        console.log(elements)
 
         return elements;
     };

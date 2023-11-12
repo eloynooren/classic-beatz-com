@@ -2,7 +2,7 @@ export interface Track {
     composer: string;
     composition: string;
     src: string;
-    url: string;
+    canonical: string;
     title?: string
     annotations?: string[]
 }

@@ -1,4 +1,5 @@
 import React, {ReactNode} from 'react'
+import ReactDOMServer from 'react-dom/server';
 import {Link as GatsbyLink} from "gatsby";
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import makeRandomHtmlId from '../utils/makeRandomHtmlId'
@@ -80,7 +81,14 @@ function textFormatter(sentences: string[]): string {
                                      return `<h2>${title.trim()}</h2>`})
                                 .replace(/\*(.*?)\*/g, function(_, text) {
                                     return `<b>${text}</b>`})
-                                .replace(/:::(.*?)$/, (_, match) => match.replace(/ /g, '&nbsp;'));
+                                .replace(/:::(.*?)$/, (_, match) => match.replace(/ /g, '&nbsp;'))
+                                .replace(/\[(.+)\|(.+)\]/g, function(_, text, url) {
+                                    const link = ReactDOMServer.renderToString(
+                                        <GatsbyLink to={url} className={styles.link}>
+                                            {text}
+                                        </GatsbyLink>)
+                                    return `&nbsp;${link}&nbsp;`
+                                })
 
         if (sentence_.startsWith('* ')) {
             if (!bullet_list_active) {
@@ -230,17 +238,15 @@ const TopMenu: React.FC<TopMenuProps> = ({ current }) => {
             <Link url={'/'}>
                 <div className={current === 'Home' ? styles.topMenuActive : ""}>Home</div>
             </Link>
-{/*
-            <Link url={'/Composers'}>
+            <Link url={'/composers'}>
                 <div className={current === 'Composers' ? styles.topMenuActive : ""}>Composers</div>
             </Link>
-            <Link url={'/Compositions'}>
-                <div className={current === 'Compositions' ? styles.topMenuActive : ""}>Tracks</div>
+            <Link url={'/tracks'}>
+                <div className={current === 'Tracks' ? styles.topMenuActive : ""}>Tracks</div>
             </Link>
-            <Link url={'/Medleys'}>
+            <Link url={'/medleys'}>
                 <div className={current === 'Medleys' ? styles.topMenuActive : ""}>Medleys</div>
             </Link>
-*/}
         </div>
     )
 }
@@ -252,21 +258,19 @@ export const BottomMenu = () => {
                 <div className={styles.bottomMenuIcon}><IoHome/></div>
                 <div className={styles.bottomMenuLabel}>Home</div>
             </Link>
-            {/*
             <Link url={'/composers'}>
                 <div className={styles.bottomMenuIcon}><IoMan/></div>
                 <div className={styles.bottomMenuLabel}
                 >Composers</div>
             </Link>
-            <Link url={'/compositions'}>
+            <Link url={'/tracks'}>
                 <div className={styles.bottomMenuIcon}><IoMusicalNotes/></div>
-                <div className={styles.bottomMenuLabel}>Compositions</div>
+                <div className={styles.bottomMenuLabel}>Tracks</div>
             </Link>
             <Link url={'/medleys'}>
                 <div className={styles.bottomMenuIcon}><IoMusicalNote/><IoAdd/></div>
                 <div className={styles.bottomMenuLabel}>Medleys</div>
             </Link>
-*/}
         </div>
     )
 }
@@ -275,15 +279,16 @@ interface LayoutProps {
     pageTitle: string;
     headerTitle: string[];
     pageLabel?:  string;
+    seo?: any
     children: React.ReactNode;
 }
 
-export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabel, children }) => {
+export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabel, seo, children }) => {
     const [deviceWidth, windowWidth] = useDeviceWidth();
 
     return (
         <div>
-            <Seo/>
+            {seo ? <Seo arg={seo} title={headerTitle.join(' ')}/> : <Seo title={headerTitle.join(' ')}/>}
             <header>
                 <title>{pageTitle}</title>
 

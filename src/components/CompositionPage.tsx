@@ -21,7 +21,6 @@ function complete_quiz(data: any, quizMakerObj: any) {
                 let match = src.match(/fragment-(\d+)-\d+-\d+\.mp3/)
                 if (match && match[1]) {
                     let track_id = match[1]
-                    console.log(data.tracks)
                     if (track_id in data.tracks) {
                         tracks.push({
                                 composer: '',
@@ -91,66 +90,70 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
         }
     }
 
-    console.log(quizMakerObj)
-
+    let seo = 'seo' in data ? data.seo : {}
+    seo['og:url'] = "https://classicalbeatz.com/" + data.canonical
+    seo['og:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
+    seo['twitter:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.header}>
+        <Layout pageTitle="Classical Beatz" headerTitle={data.header} seo={seo}>
             <Dispatcher>
                 <Flex>
                     <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
-                            {'fragments' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['fragments']}</Tab>}
-                            {'composition' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['composition']}</Tab>}
-                            {'plot' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['plot']}</Tab>}
-                            {'tracks' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['tracks']}</Tab>}
-                            {'exam' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['exam']}</Tab>}
-                            {'analysis' in data.buttonLabels && <Tab className={styles.tab}>{data.buttonLabels['analysis']}</Tab>}
+                            {'best-moments' in data.article && <Tab className={styles.tab}>Best Moments</Tab>}
+                            {'backstory' in data.article && <Tab className={styles.tab}>Backstory</Tab>}
+                            {'plot' in data.article && <Tab className={styles.tab}>Plot</Tab>}
+                            {'listen-guide' in data.article && <Tab className={styles.tab}>Listen Guide</Tab>}
+                            {'exam' in data.article && <Tab className={styles.tab}>Exam</Tab>}
                         </TabList>
-                        {'fragments' in data.buttonLabels && <TabPanel>
-                            <Image image={imageElements['fragments']}/>
-                            <Section paragraphs={data.article['fragments']} type='fragments' audio={data.audio}/>
+                        {'best-moments' in data.article && <TabPanel>
+                            <Image image={imageElements['best-moments']}/>
+                            <Section paragraphs={data.article['best-moments']} type='best-moments' audio={data.audio}/>
                         </TabPanel>}
-                        {'composition' in data.buttonLabels && <TabPanel>
-                            <Image image={imageElements['composition']}/>
-                            <Section paragraphs={data.article['composition']} type='' audio={data.audio}/>
+                        {'backstory' in data.article && <TabPanel>
+                            <Image image={imageElements['backstory']}/>
+                            <Section paragraphs={data.article['backstory']} type='' audio={data.audio}/>
                         </TabPanel>}
-                        {'plot' in data.buttonLabels && <TabPanel>
+                        {'plot' in data.article && <TabPanel>
                             <Image image={imageElements['plot']}/>
                             <Section paragraphs={data.article['plot']} type='plot' audio={data.audio}/>
                         </TabPanel>}
-                        {'tracks' in data.buttonLabels && <TabPanel>
-                            <Image image={imageElements['tracks']}/>
-                            {'tracksIntro' in data &&
-                                <Paragraph key={`tracks-intro`} sentences={data.tracksIntro}
-                                    classNames="paragraphJustify paragraphSpaceOutVertically"/>
-                            }
-                            <Tabs selectedTabClassName={styles.selectedTab0}>
-                                <TabList className={styles.tabList0}>
-                                    {Object.keys(data.tracks)
-                                        .sort()
-                                        .map((key) =>
-                                            <Tab className={styles.tab0} key={key}>{data.tracks[key].title}</Tab>)
+                        {'listen-guide' in data.article && <TabPanel>
+                            <Image image={imageElements['listen-guide']}/>
+                            {'trackType' in data && data['trackType'] == 'movement' ? (
+                                <>
+                                    {'tracksIntro' in data &&
+                                        <Paragraph key={`tracks-intro`} sentences={data.tracksIntro}
+                                            classNames="paragraphJustify paragraphSpaceOutVertically"/>
                                     }
-                                </TabList>
-
-                                {Object.keys(data.tracks)
-                                    .sort()
-                                    .map((key) =>
-                                        <TabPanel key={key} >
-                                            {'spotify' in data && key in data.spotify ?
-                                                <Section paragraphs={data.article[key]} type=''
-                                                         spotify={data.spotify[key]}/> :
-                                                <Section paragraphs={data.article[key]} type=''/>
+                                    <Tabs selectedTabClassName={styles.selectedTab0}>
+                                        <TabList className={styles.tabList0}>
+                                            {Object.keys(data.tracks)
+                                                .sort()
+                                                .map((key) =>
+                                                    <Tab className={styles.tab0} key={key}>{data.tracks[key].title}</Tab>)
                                             }
-                                        </TabPanel>)
-                                }
-                            </Tabs>
+                                        </TabList>
+
+                                        {Object.keys(data.tracks)
+                                            .sort()
+                                            .map((key) =>
+                                                <TabPanel key={key} >
+                                                    {'spotify' in data && key in data.spotify ?
+                                                        <Section paragraphs={data.article['listen-guide'][key]} type=''
+                                                                 spotify={data.spotify[key]}/> :
+                                                        <Section paragraphs={data.article['listen-guide'][key]} type=''/>
+                                                    }
+                                                </TabPanel>)
+                                        }
+                                    </Tabs>
+                                </>
+                            ) : (
+                                <Section paragraphs={data.article['listen-guide']} type=''
+                                    spotify={data.spotify}/>
+                                )}
                         </TabPanel>}
-                        {'analysis' in data.buttonLabels && <TabPanel>
-                            <Image image={imageElements['analysis']}/>
-                            <Section paragraphs={data.article['analysis']} type='' spotify={data.spotify}/>
-                        </TabPanel>}
-                        {'exam' in data.buttonLabels && <TabPanel>
+                        {'exam' in data.article && <TabPanel>
                             <Image image={imageElements['exam']}/>
                             <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairs={data.pairs}
                                      pairsMakerObjList={pairsMakerObjList}/>

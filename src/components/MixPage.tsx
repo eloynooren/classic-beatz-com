@@ -50,6 +50,18 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
         track.title = makeTrackTitle(track)
     }
 
+    let seo = data.seo
+
+    if (data.canonical) {
+        seo['og:url'] = "https://classicalbeatz.com/" + data.canonical
+        seo['og:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
+        seo['twitter:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
+    } else {
+        seo['og:url'] = "https://classicalbeatz.com"
+        seo['og:image'] = "https://classicalbeatz.com/images/index.jpg"
+        seo['twitter:image'] = "https://classicalbeatz.com/images/index.jpg"
+    }
+
     return (
         <Dispatcher>
             <Flex>

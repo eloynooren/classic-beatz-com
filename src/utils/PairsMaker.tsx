@@ -8,7 +8,6 @@ export class PairsMaker {
     private _inputs = {}
 
     add(type, a, bDict) {
-        console.log('add')
         if (!(type in this._inputs)) {
             this._inputs[type] = {}
         }

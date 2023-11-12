@@ -6,6 +6,7 @@ import {Link, Tooltip} from "./Layout";
 import pickRandom from '../utils/pickRandom';
 import * as styles from "./Audio.module.css";
 import { useDispatch } from './Dispatcher';
+import makeTrackTitle from "../utils/makeTrackTitle";
 
 interface OneButtonAudioPlayerProps {
     src: string;
@@ -200,7 +201,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({tracks}) => {
                         <IoPlaySkipForwardCircle className={styles.audioButton}/>
                     </span>
                     <div align='center'>
-                        <Link url={tracks[trackIndex].url}>{tracks[trackIndex].title}</Link>
+                        <Link url={tracks[trackIndex].url}>{makeTrackTitle(tracks[trackIndex])}</Link>
                     </div>
                 </div>
             ) : (

@@ -15,7 +15,9 @@ const TrackList: React.FC<TrackListProps> = ({tracks}) => {
                 {tracks.map((track, index) => (
                     <div key={index} className={styles.row}>
                         <OneButtonAudioPlayer src={track.src}/>
-                        <Link url={track.url}>{track.title}</Link>
+                        <Link url={track.canonical}>
+                            {'title' in track ? track.title : track.composer + "'s " + track.composition}
+                        </Link>
                     </div>
                 ))}
             </div>

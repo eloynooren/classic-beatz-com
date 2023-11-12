@@ -15,6 +15,26 @@ module.exports = {
      {resolve: `gatsby-plugin-sharp`, options: {defaults: { breakpoints: [400], quality: 100 } } },
     `gatsby-transformer-sharp`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`, // Change to the path where your images are located
+      }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Classical Beatz`,
+        short_name: `Classica Beatz`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#fd7e14`, // You can set your main theme color here
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site and the image should be at least 512x512px
+        // Other options like 'crossOrigin' and 'include_favicon' can also be specified here.
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: ["G-7F63QQE4M7"],

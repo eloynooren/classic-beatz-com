@@ -1,0 +1,27 @@
+Craft a captivating backstory for Nocturne in E flat major, a renowned work by the famous composer Chopin. Reflect on the piece's historical context, the life of its creator, and the timeless impact it has had on the world of music. Incorporate the following details into your narrative:
+
+    The Genesis: Delve into the moment of creation—what sparked the idea in the composer's mind, and what personal or global events might have influenced the inception of this piece?
+
+    The Composer's Journey: Sketch the life of [Composer's Name] at the time of composing [Classical Music Piece]. Consider their emotional state, career standing, and the relationships that shaped their work.
+
+    Musical Innovations: Identify what makes [Classical Music Piece] stand out in the composer's repertoire. Discuss any innovative techniques or emotional depths that set it apart from other works of the period.
+
+    Challenges and Triumphs: Narrate any obstacles the composer faced while creating the piece, whether they were technical, personal, or societal. How were these challenges overcome, and what triumphs were achieved through the music?
+
+    Cultural Tapestry: Weave in the cultural and historical tapestry of the era. How did the prevailing artistic movements or social conditions influence the composition and reception of [Classical Music Piece]?
+
+    The Premiere: Describe the first performance of [Classical Music Piece]. How was it received by the audience and critics of the time? What was the immediate impact?
+
+    Legacy and Influence: Explore how [Classical Music Piece] has influenced other composers, performers, and the evolution of music as a whole. How has it been interpreted over the years, and what is its legacy in modern classical music circles?
+
+    Modern Resonance: Lastly, reflect on how [Classical Music Piece] resonates with today's audiences. What universal themes or emotions does it tap into that continue to move people across different cultures and generations?
+
+Wrap up your backstory by contemplating how [Classical Music Piece] would be remembered if it were to vanish today and then suddenly be rediscovered in a century.
+
+Output as a json 2-dimensional array.
+Outer array contains paragraphs, one paragraph per element.xi
+Each inner array contains sentences of a paragraph, one sentence per element
+Precede paragraph header with space and three hashes
+Separate lines for square brackets 
+Your response only contains json. No introductionary or concluding comment
+

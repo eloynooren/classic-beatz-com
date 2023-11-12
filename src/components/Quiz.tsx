@@ -163,7 +163,6 @@ const Quiz: React.FC<QuizProps> = ({ buttonLabel, quizMakerObj}) => {
     const [question, setQuestion] = useState(() => composeQuestion(items[currentItemIndex].question))
     const { active, activate } = useDispatch();
     const [questionAnnotation, setQuestionAnnotation] = useState(() => {
-        console.log(items[currentItemIndex])
         composeAnnotation(items[currentItemIndex].questionAnnotation, annotationTemplates)}
     )
     const [answerAnnotations, setAnswerAnnotations] = useState(() =>

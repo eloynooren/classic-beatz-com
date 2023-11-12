@@ -21,7 +21,6 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
     const [state, setState] = useState('idle')
     const pairs = useRef(pairsMakerObj.get(numRounds))
     const numPairs = pairs.current.reduce((acc, curr) => acc + curr.length, 0);
-    console.log(numPairs)
     const { active, activate } = useDispatch();
 
     const [states, setStates] = useState({
@@ -48,21 +47,16 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
     });
 
     useEffect(() => {
-        console.log(active)
         if (active !== buttonLabel && state != 'idle') {
             setState('idle');
             setScore(0)
             setRound(0)
-            console.log('1')
             stopTimer()
-            console.log('2')
             pairs.current = pairsMakerObj.get(numRounds)
-            console.log('3')
         }
     }, [active]);
 
     const isRoundFinished = () => {
-        console.log("states['A']", states['A'])
         return states['A'].findIndex(state => state != 'match' && state != 'disabled') === -1
     }
 
@@ -113,7 +107,6 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
 
     useEffect(() => {
         const interval = setInterval(() => {
-            console.log(state)
             if (state === 'running') {
                 setScore(prevScore => prevScore > 10 ? prevScore - 10 : 0)
             }
