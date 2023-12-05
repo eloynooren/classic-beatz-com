@@ -21,22 +21,25 @@ function complete_quiz(data: any, quizMakerObj: any) {
                 let match = src.match(/fragment-(\d+)-\d+-\d+\.mp3/)
                 if (match && match[1]) {
                     let track_id = match[1]
-                    let annotations = []
-
-                    if ('annotations' in data.tracks[track_id]) {
-                        annotations = Object.keys(data.tracks[track_id].annotations)
-                    }
 
                     if (track_id in data.tracks) {
-                        tracks.push({
-                                composer: '',
-                                composition: '',
-                                src: src,
-                                url: '',
-                                title: data.tracks[track_id].title,
-                                annotations: annotations
-                            }
-                        )
+                        let annotations = []
+
+                        if ('annotations' in data.tracks[track_id]) {
+                            annotations = Object.keys(data.tracks[track_id].annotations)
+                        }
+
+                        if (track_id in data.tracks) {
+                            tracks.push({
+                                    composer: '',
+                                    composition: '',
+                                    src: src,
+                                    url: '',
+                                    title: data.tracks[track_id].title,
+                                    annotations: annotations
+                                }
+                            )
+                        }
                     }
                 }
             }
