@@ -50,13 +50,13 @@ header {
 }
 
 .menu-item-content {
-    color: #fd7e14;
+    color: #007BFF;
     font-weight: 700;
     text-decoration-line: none;
 }
 
 .menu-button {
-    color: #fd7e14;
+    color: #007BFF;
     background-color: white;
     font-size: 64px;
     border: 0;
@@ -96,8 +96,8 @@ h3 {
     font-weight: 600;
     font-size: 20px;
     border-radius: 10px;
-    background-color: #fd7e14;
-    border: 2px solid #fd7e14;
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
     color: #fff
 }
 
@@ -158,7 +158,7 @@ h3 {
     margin-bottom: 100px;
 }
 .link {
-    color: #fd7e14;
+    color: #007BFF;
     text-decoration: none;
 }
 
@@ -199,11 +199,11 @@ h3 {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    color: #fd7e14;
+    color: #007BFF;
 }
 
 .top-menu-active {
-    border-bottom: 2px solid #fd7e14;
+    border-bottom: 2px solid #007BFF;
 }
 
 .bottom-menu {
@@ -214,7 +214,7 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #fd7e14;
+    color: #007BFF;
     background-color: #f9f9f9;
 }
 

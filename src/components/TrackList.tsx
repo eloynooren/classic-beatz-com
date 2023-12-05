@@ -1,6 +1,7 @@
 import React from "react";
 import {OneButtonAudioPlayer} from "./Audio";
 import {Link} from './Layout'
+import {IoArrowForward} from 'react-icons/io5';
 import {Track} from '../types/track'
 import * as styles from './TrackList.module.css'
 
@@ -17,6 +18,7 @@ const TrackList: React.FC<TrackListProps> = ({tracks}) => {
                         <OneButtonAudioPlayer src={track.src}/>
                         <Link url={track.canonical}>
                             {'title' in track ? track.title : track.composer + "'s " + track.composition}
+                            <IoArrowForward className={styles.audioButton} />
                         </Link>
                     </div>
                 ))}
