@@ -57,7 +57,7 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
 
     let seo = data.seo
 
-    if (data.canonical) {
+    if (data.canonical && data.canonical == '/') {
         seo['og:url'] = "https://classicalbeatz.com/" + data.canonical
         seo['og:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
         seo['twitter:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
