@@ -3,7 +3,6 @@ import {StaticImage} from "gatsby-plugin-image";
 import {Layout} from "../components/Layout";
 import {MixSection} from "../components/Playlist";
 import {ArrayOfDictionaries} from "../utils/ArrayOfDictionaries"
-import "./index.css";
 import data from "../data/playlists/homepage.json"
 import homePage from "../utils/data/playlists/home-page"
 import c1 from "../data/composers/mozart.json";

@@ -16,9 +16,9 @@ const TrackList: React.FC<TrackListProps> = ({tracks}) => {
                 {tracks.map((track, index) => (
                     <div key={index} className={styles.row}>
                         <OneButtonAudioPlayer src={track.src}/>
+                        {'title' in track ? track.title : track.composer + "'s " + track.composition}
                         <Link url={track.canonical}>
-                            {'title' in track ? track.title : track.composer + "'s " + track.composition}
-                            <IoArrowForward className={styles.audioButton} />
+                            <IoArrowForward className={styles.arrow} />
                         </Link>
                     </div>
                 ))}
