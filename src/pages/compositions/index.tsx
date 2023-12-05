@@ -38,7 +38,7 @@ function Page() {
         }
         return a.composer.localeCompare(b.composer);
     });
-    console.log(tracks)
+
     return (
         <Layout pageTitle="Classical Beatz" headerTitle={["Quick Spin Through the Jams"]} pageLabel="Tracks" seo={seo}>
             <Dispatcher>

@@ -108,7 +108,6 @@ export class QuizMaker {
 
     getItems(): QuizItem[] {
         let items = shuffleArray(this._quizItems)
-        console.log(items)
         return items
     }
     

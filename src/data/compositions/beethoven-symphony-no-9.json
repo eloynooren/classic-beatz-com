@@ -1,7 +1,7 @@
 {
     "composer": "Beethoven",
     "composition": "Symphony No 9",
-    "canonical": "/tracks/beethoven-symphony-no-9/",
+    "canonical": "/compositions/beethoven-symphony-no-9/",
     "trackType": "movement",
     "tracks": {
         "1": {
