@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/tchaikovsky-composing-swan-lake.jpg"
             alt="Tchaikovsky ... Swan Lake"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

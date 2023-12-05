@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/mozart-listening-to-piano-concerto-no-21.jpg"
             alt="Mozart listening to Piano Concerto No 21"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/ravel-listening-to-bolero.jpg"
             alt="Ravel listening to Bolero"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

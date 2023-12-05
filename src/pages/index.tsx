@@ -19,6 +19,7 @@ const imageElement = [
         key="image-1"
         src="../images/female-rapper-playing-a-cello.jpg"
         alt="Female rapper playing classical music on a cello'"
+        loading="eager"
     />,
     <StaticImage
         key="image-2"

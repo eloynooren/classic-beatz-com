@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/bach-enjoying-brandenburg-concerto-no-2.jpg"
             alt="Smiling Bach enjoying Brandenburg Concerto No 2"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

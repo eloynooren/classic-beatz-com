@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-enjoying-goldberg-variations.jpg"
             alt="Smiling Bach enjoying Goldberg Variations"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

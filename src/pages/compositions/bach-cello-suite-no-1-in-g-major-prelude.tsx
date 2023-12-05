@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-with-headphones-reading-cello-suite-no-1-in-g-major-prelude.jpg"
             alt="Smiling Bach with headphones, reading Cello Suite No 1 in G Major Prelude"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

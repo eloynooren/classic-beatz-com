@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/prokofiev-listening-to-romeo-and-julia.jpg"
             alt="Prokofiev listening to Romeo & Juliet"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

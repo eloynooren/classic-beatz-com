@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/beethoven-listening-to-appassionata.jpg"
             alt="Beethoven listening to Appassionata"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/delibes-listening-to-sylvia.jpg"
             alt="Delibes listening to Sylvia"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

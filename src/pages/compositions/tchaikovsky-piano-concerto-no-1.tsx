@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-tchaikovsky.jpg"
             alt="Smiling Tchaikovsky"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

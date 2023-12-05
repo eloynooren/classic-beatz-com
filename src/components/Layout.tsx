@@ -323,7 +323,7 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
             <header>
                 {deviceWidth < 768 ? (
                     <div>
-                        <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"}/></Link>
+                        <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/></Link>
                     </div>
                 ) : (
                     <div className={styles.layoutLogoAndMenu}>

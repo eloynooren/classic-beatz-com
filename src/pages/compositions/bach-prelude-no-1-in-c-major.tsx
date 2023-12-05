@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-with-headphones.jpg"
             alt="Smiling Bach with headphones"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

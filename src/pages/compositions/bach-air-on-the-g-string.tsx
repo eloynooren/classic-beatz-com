@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-reading-air-on-the-g-string.jpg"
             alt="Smiling Bach reading Air on the G string"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-and-singing-handel.jpg"
             alt="Smiling and singing Händel"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

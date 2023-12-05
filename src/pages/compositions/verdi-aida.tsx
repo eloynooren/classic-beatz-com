@@ -12,6 +12,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-verdi.jpg"
             alt="Smiling Verdi"
+            loading="eager"
         />,
     'plot':
         <StaticImage

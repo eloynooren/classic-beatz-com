@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/mahler-listening-to-symphony-no-5.jpg"
             alt="Mahler listening to  Symphony No 5"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

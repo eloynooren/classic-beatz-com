@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/khachaturian-listening-to-gayane.jpg"
             alt="Khachaturian listening to Gayane"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

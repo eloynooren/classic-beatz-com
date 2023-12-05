@@ -71,6 +71,8 @@ function Page() {
                         key="image-1"
                         src="../../images/mozart-and-beethoven-with-headphones.jpg"
                         alt="Mozart and Beethoven listening to classical music on headphones."
+                        loading="eager"
+
                     />
                 </Cell>
                 <Cell>

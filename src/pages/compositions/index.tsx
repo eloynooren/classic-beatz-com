@@ -48,6 +48,7 @@ function Page() {
                             key="image-1"
                             src="../../images/beethoven-composing-a-track.jpg"
                             alt="Beethoven composing a track.jpg."
+                            loading="eager"
                         />
                     </Cell>
                     <Cell>

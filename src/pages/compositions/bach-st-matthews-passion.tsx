@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-composing-st-matthews-passion.jpg"
             alt="Smiling Bach composing St Matthew's Passion"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/mozart-thinking-of-die-zauberflote.jpg"
             alt="Mozart thinking of Die Zauberfl\u00f6te"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

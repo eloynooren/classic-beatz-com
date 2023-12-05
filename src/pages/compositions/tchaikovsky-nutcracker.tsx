@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/tchaikovsky-listening-to-nutcracker.jpg"
             alt="Tchaikovsky ... Nutcracker"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

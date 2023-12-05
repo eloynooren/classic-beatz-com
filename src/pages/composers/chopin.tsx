@@ -8,6 +8,7 @@ const imageElement = (
         key="image-1"
         src="../../images/chopin-with-mobile-phone.jpg"
         alt="Chopin with mobile phone"
+        loading="eager"
     />
 )
 

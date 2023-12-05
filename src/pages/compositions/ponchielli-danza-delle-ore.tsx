@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/ponchielli-listening-to-danza-delle-ore.jpg"
             alt="Ponchielli listening to Danza delle Ore"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

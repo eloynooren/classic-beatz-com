@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/mozart-thinking-of-le-nozze-di-figaro.jpg"
             alt="Mozart thinking of Le Nozze di Figaro"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

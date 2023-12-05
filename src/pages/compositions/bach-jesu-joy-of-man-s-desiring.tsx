@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-composing-jesu-joy-of-man-s-desiring.jpg"
             alt="Smiling Bach composing Jesu, Joy of Man's Desiring"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

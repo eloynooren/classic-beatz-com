@@ -8,6 +8,7 @@ const imageElement = (
         key="image-1"
         src="../../images/female-playing-bach-toccata-and-fungue-in-d-minor-on-organ.jpg"
         alt="Female playing Vivaldi's spring on violin"
+        loading="eager"
     />
 )
 

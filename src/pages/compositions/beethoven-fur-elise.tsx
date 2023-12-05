@@ -12,6 +12,7 @@ const imageElements = {
             key="image-best-moments"
             src="../../images/beethoven-dancing-on-fur-elise.jpg"
             alt="Beethoven dancing on F\u00fcr Elise"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

@@ -17,6 +17,7 @@ const imageElement = [
         key="image-1"
         src="../../images/conductor-of-symphony-orchestra.jpg"
         alt="Conductor of a symphony orchestra"
+        loading="eager"
     />,
     <StaticImage
         key="image-2"

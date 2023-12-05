@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/beethoven-listening-to-violin-concerto-in-d-major.jpg"
             alt="Beethoven listening to Violin Concerto in D Major"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

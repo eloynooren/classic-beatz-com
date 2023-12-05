@@ -12,6 +12,7 @@ const imageElements = {
             key="image-1"
             src="../../images/smiling-bach-playing-on-organ.jpg"
             alt="Smiling Bach playing on organ"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

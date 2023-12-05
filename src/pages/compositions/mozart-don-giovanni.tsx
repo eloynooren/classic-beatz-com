@@ -10,6 +10,7 @@ const imageElements = {
             key="image-1"
             src="../../images/mozart-thinking-of-don-giovanni.jpg"
             alt="Mozart thinking of Don Giovanni"
+            loading="eager"
         />,
     'backstory':
         <StaticImage

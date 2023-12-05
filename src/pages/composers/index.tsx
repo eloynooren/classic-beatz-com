@@ -54,6 +54,7 @@ function Page() {
                         key="image-1"
                         src="../../images/mozart-composing-a-track.jpg"
                         alt="Mozart composing a track."
+                        loading="eager"
                     />
                 </Cell>
                 <Cell>

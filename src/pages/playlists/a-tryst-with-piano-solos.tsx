@@ -18,6 +18,7 @@ const imageElement = [
         key="image-1"
         src="../../images/pianoforte.jpg"
         alt="Pianoforte"
+        loading="eager"
     />,
     <StaticImage
         key="image-2"
