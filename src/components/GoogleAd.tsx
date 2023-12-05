@@ -3,6 +3,7 @@ import React from "react";
 import * as styles from './GoogleAd.module.css'
 
 export const GoogleAd = () => {
+    return
     return (
         <div className={styles.googleAd}>
             <script async

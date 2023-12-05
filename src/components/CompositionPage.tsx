@@ -15,12 +15,18 @@ import {Track} from "../types/Track"
 function complete_quiz(data: any, quizMakerObj: any) {
     let tracks: Track[] = []
 
-    if ('tracks' in data) {
+    if ('tracks' in data && 'audio' in data) {
         for (let src of Object.values(data.audio)) {
             if (typeof src === "string") {
                 let match = src.match(/fragment-(\d+)-\d+-\d+\.mp3/)
                 if (match && match[1]) {
                     let track_id = match[1]
+                    let annotations = []
+
+                    if ('annotations' in data.tracks[track_id]) {
+                        annotations = Object.keys(data.tracks[track_id].annotations)
+                    }
+
                     if (track_id in data.tracks) {
                         tracks.push({
                                 composer: '',
@@ -28,7 +34,7 @@ function complete_quiz(data: any, quizMakerObj: any) {
                                 src: src,
                                 url: '',
                                 title: data.tracks[track_id].title,
-                                annotations: Object.keys(data.tracks[track_id].annotations)
+                                annotations: annotations
                             }
                         )
                     }
@@ -91,40 +97,40 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
     }
 
     let seo = 'seo' in data ? data.seo : {}
-    seo['og:url'] = "https://classicalbeatz.com/" + data.canonical
-    seo['og:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
-    seo['twitter:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
+    seo['og:url'] = "https://classicalbeatz.com" + data.canonical
+    seo['og:image'] = "https://classicalbeatz.com/images" + data.canonical + ".jpg"
+    seo['twitter:image'] = "https://classicalbeatz.com/images" + data.canonical + ".jpg"
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.header} seo={seo}>
+        <Layout pageTitle={data.composer + ": " + data.composition} headerTitle={data.header} seo={seo}>
             <Dispatcher>
                 <Flex>
                     <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
-                            {'best-moments' in data.article && <Tab className={styles.tab}>Best Moments</Tab>}
-                            {'backstory' in data.article && <Tab className={styles.tab}>Backstory</Tab>}
-                            {'plot' in data.article && <Tab className={styles.tab}>Plot</Tab>}
-                            {'listen-guide' in data.article && <Tab className={styles.tab}>Listen Guide</Tab>}
-                            {'exam' in data.article && <Tab className={styles.tab}>Exam</Tab>}
+                            {'best-moments' in data && <Tab className={styles.tab}>Best Moments</Tab>}
+                            {'backstory' in data && <Tab className={styles.tab}>Backstory</Tab>}
+                            {'plot' in data && <Tab className={styles.tab}>Plot</Tab>}
+                            {('listen-guide' in data || 'listen-guide-1' in data) && <Tab className={styles.tab}>Listen Guide</Tab>}
+                            {'exam' in data && <Tab className={styles.tab}>Exam</Tab>}
                         </TabList>
-                        {'best-moments' in data.article && <TabPanel>
+                        {'best-moments' in data && <TabPanel>
                             <Image image={imageElements['best-moments']}/>
-                            <Section paragraphs={data.article['best-moments']} type='best-moments' audio={data.audio}/>
+                            <Section paragraphs={data['best-moments']} type='best-moments' audio={data.audio}/>
                         </TabPanel>}
-                        {'backstory' in data.article && <TabPanel>
+                        {'backstory' in data && <TabPanel>
                             <Image image={imageElements['backstory']}/>
-                            <Section paragraphs={data.article['backstory']} type='' audio={data.audio}/>
+                            <Section paragraphs={data['backstory']} type='' audio={data.audio}/>
                         </TabPanel>}
-                        {'plot' in data.article && <TabPanel>
+                        {'plot' in data && <TabPanel>
                             <Image image={imageElements['plot']}/>
-                            <Section paragraphs={data.article['plot']} type='plot' audio={data.audio}/>
+                            <Section paragraphs={data['plot']} type='plot' audio={data.audio}/>
                         </TabPanel>}
-                        {'listen-guide' in data.article && <TabPanel>
+                        {('listen-guide' in data || 'listen-guide-1' in data) && <TabPanel>
                             <Image image={imageElements['listen-guide']}/>
                             {'trackType' in data && data['trackType'] == 'movement' ? (
                                 <>
                                     {'tracksIntro' in data &&
                                         <Paragraph key={`tracks-intro`} sentences={data.tracksIntro}
-                                            classNames="paragraphJustify paragraphSpaceOutVertically"/>
+                                            classNames="paragraphJustify paragraphHugeBottom"/>
                                     }
                                     <Tabs selectedTabClassName={styles.selectedTab0}>
                                         <TabList className={styles.tabList0}>
@@ -140,20 +146,20 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                                             .map((key) =>
                                                 <TabPanel key={key} >
                                                     {'spotify' in data && key in data.spotify ?
-                                                        <Section paragraphs={data.article['listen-guide'][key]} type=''
+                                                        <Section paragraphs={data['listen-guide-' + key]} type=''
                                                                  spotify={data.spotify[key]}/> :
-                                                        <Section paragraphs={data.article['listen-guide'][key]} type=''/>
+                                                        <Section paragraphs={data['listen-guide-' + key]} type=''/>
                                                     }
                                                 </TabPanel>)
                                         }
                                     </Tabs>
                                 </>
                             ) : (
-                                <Section paragraphs={data.article['listen-guide']} type=''
+                                <Section paragraphs={data['listen-guide']} type=''
                                     spotify={data.spotify}/>
                                 )}
                         </TabPanel>}
-                        {'exam' in data.article && <TabPanel>
+                        {'exam' in data && <TabPanel>
                             <Image image={imageElements['exam']}/>
                             <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairs={data.pairs}
                                      pairsMakerObjList={pairsMakerObjList}/>

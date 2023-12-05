@@ -103,6 +103,11 @@ function textFormatter(sentences: string[]): string {
             }
 
             bullet_active = true
+        } else if (sentence_.startsWith('<b>')) {
+            // for plot
+            if (!sentence_.endsWith("\n")) {
+                sentence_ += "\n"
+            }
         } else {
             if (bullet_list_active && !bullet_active) {
                 bullet_list_active = false
@@ -147,6 +152,10 @@ export const Paragraph: React.FC<ParagraphProps> = ({sentences, classNames}) => 
 
         if (classNames.includes('paragraphSpaceOutVertically')) {
             className.push(styles.paragraphSpaceOutVertically)
+        }
+
+        if (classNames.includes('paragraphHugeBottom')) {
+            className.push(styles.paragraphHugeBottom)
         }
     }
 
@@ -238,20 +247,42 @@ const TopMenu: React.FC<TopMenuProps> = ({ current }) => {
             <Link url={'/'}>
                 <div className={current === 'Home' ? styles.topMenuActive : ""}>Home</div>
             </Link>
+            <Link url={'/playlists'}>
+                <div className={current === 'Playlists' ? styles.topMenuActive : ""}>Playlists</div>
+            </Link>
+        </div>
+    )
+    return (
+        <div className={styles.topMenu}>
+            <Link url={'/'}>
+                <div className={current === 'Home' ? styles.topMenuActive : ""}>Home</div>
+            </Link>
             <Link url={'/composers'}>
                 <div className={current === 'Composers' ? styles.topMenuActive : ""}>Composers</div>
             </Link>
             <Link url={'/tracks'}>
                 <div className={current === 'Tracks' ? styles.topMenuActive : ""}>Tracks</div>
             </Link>
-            <Link url={'/medleys'}>
-                <div className={current === 'Medleys' ? styles.topMenuActive : ""}>Medleys</div>
+            <Link url={'/playlists'}>
+                <div className={current === 'Playlists' ? styles.topMenuActive : ""}>Playlists</div>
             </Link>
         </div>
     )
 }
 
 export const BottomMenu = () => {
+    return (
+        <div className={styles.bottomMenu}>
+            <Link url={'/'}>
+                <div className={styles.bottomMenuIcon}><IoHome/></div>
+                <div className={styles.bottomMenuLabel}>Home</div>
+            </Link>
+            <Link url={'/playlists'}>
+                <div className={styles.bottomMenuIcon}><IoMusicalNote/><IoAdd/></div>
+                <div className={styles.bottomMenuLabel}>Playlists</div>
+            </Link>
+        </div>
+    )
     return (
         <div className={styles.bottomMenu}>
             <Link url={'/'}>
@@ -267,9 +298,9 @@ export const BottomMenu = () => {
                 <div className={styles.bottomMenuIcon}><IoMusicalNotes/></div>
                 <div className={styles.bottomMenuLabel}>Tracks</div>
             </Link>
-            <Link url={'/medleys'}>
+            <Link url={'/playlists'}>
                 <div className={styles.bottomMenuIcon}><IoMusicalNote/><IoAdd/></div>
-                <div className={styles.bottomMenuLabel}>Medleys</div>
+                <div className={styles.bottomMenuLabel}>Playlists</div>
             </Link>
         </div>
     )
@@ -288,10 +319,8 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
 
     return (
         <div>
-            {seo ? <Seo arg={seo} title={headerTitle.join(' ')}/> : <Seo title={headerTitle.join(' ')}/>}
+            {seo ? <Seo arg={seo} title={pageTitle}/> : <Seo title={pageTitle}/>}
             <header>
-                <title>{pageTitle}</title>
-
                 {deviceWidth < 768 ? (
                     <div>
                         <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"}/></Link>

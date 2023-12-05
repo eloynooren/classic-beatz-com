@@ -1,0 +1,45 @@
+{
+    "title": ["Plié and Play: Ballet's Classics"],
+    "canonical": "/playlists/plie-and-play-ballet-s-classics",
+    "seo": {
+        "description": "Step into the enchanting world of ballet music. From Tchaikovsky's dreamy landscapes to Stravinsky's bold rhythms, explore the most mesmerizing compositions that have graced the dance stage.",
+        "og:title": "Ballet Beats - Compositions That Dance",
+        "og:description": "Twirl through a collection of ballet's most captivating scores. Experience the magic of music that has inspired legendary dance performances, where every note pirouettes and leaps off the page.",
+        "twitter:title": "Elegant Ballet Tunes 🩰 | Music That Moves",
+        "twitter:description": "Discover the symphonies behind the steps with ballet music that speaks to the soul. From the classic elegance of 'Swan Lake' to the contemporary pulse of 'The Rite of Spring', dive into the rhythm of the ballet world."
+    },
+    "mixIntro": [
+        "### Hey, step into the ballet beat!",
+        "This is where the magic of ballet music takes center stage!",
+        "Brace yourself for elegance! Our collection is brimming with the most graceful and powerful ballet tunes.",
+        ":::Press play and let the dance of melodies sweep you off your feet!"
+    ],
+    "compositionsIntro": [
+        "### Caught in the playlist's spell? Riding the musical wave? Gear up, the quiz is incoming!",
+        "Let's take a trip down memory lane with the tunes we've been loving.",
+        "Give them another go, then plunge into the quiz.",
+        "\n",
+        "Have a tune that's tugging at your heartstrings?",
+        "Select it for an info-packed page that'll deepen your connection."
+    ],
+    "quizIntro": [
+        "### Okay crew, time to ignite your cognitive power.",
+        "Master the quiz and prove your intellectual dominance."
+    ],
+    "quizItemTypes" : [ "WHAT-HEAR", "WHICH-COMPOSER", "WHICH-COMPOSITION" ],
+    "pairCompositionIntro": [
+        "### Eager to dive deeper into those tracks we've been jamming to? Up for a bit of playful learning?",
+        "Try your hand at our engaging trivia game.",
+        "Match the music to fascinating trivia snippets.",
+        "Jump in and test your knowledge."
+    ],
+    "pairCompositionInstruction": "Tracks are on the left, trivia on the right. Tap and link'em up.",
+    "pairComposerIntro": [
+        "### Excited to explore the genius behind the music?",
+        "In our matching game, link celebrated composers with intriguing tidbits.",
+        "Ready to prove your musical mettle? Dive in!"
+    ],
+    "pairComposerInstruction": "Composers are on the left, tidbits on the right. Tap and link'em up."
+}
+
+

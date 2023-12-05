@@ -1,0 +1,35 @@
+{
+    "title": ["A Wig and A Tune with Mozart"],
+    "canonical": "/playlists/a-wig-and-a-tune-with-mozart",
+    "seo": {
+        "description": "Step into Mozart's realm and groove to his most epic compositions. From the grandeur of his symphonies to the charm of his serenades, experience classical music with a fresh twist!",
+        "og:title": "Mozart Mania - Classical Hits with a Modern Vibe",
+        "og:description": "Get ready to be swept away by Mozart's timeless tunes. We're spinning the maestro's masterpieces, from powerful operas to mesmerizing concertos. It's the classical revolution!",
+        "twitter:title": "Mozart's Masterpieces 🎵 | Classical Remix",
+        "twitter:description": "Catch the vibe with Mozart's legendary tracks. It's the old-school classical with a new-school flair. Dive into a world where each note tells a story and every melody captivates!"
+    },
+    "mixIntro": [
+        "### Welcome to Mozart's Melodic Montage!",
+        "Here, the musical genius of Mozart shines in all its splendor. ",
+        "Prepare to be swept away! This medley is a magnificent mosaic of Mozart's most mesmerizing melodies.",
+        "Press play and let yourself be carried into a world where classical charm meets unparalleled creativity!"
+    ],
+    "compositionsIntro": [
+        "### Caught up in Mozart's magic? Ready for a quiz on his masterpieces?",
+        "Take a quick tour back through the Mozart melodies we've admired, then gear up for the challenge.",
+        "Fancy a particular Mozart tune? Click on it to uncover intriguing facts before you dive into the quiz!"
+    ],
+    "quizIntro": [
+        "### Okay, thinkers, let's wake up those synapses.",
+        "Succeed in the quiz and show your intellectual strength."
+    ],
+    "quizItemTypes" : [ "WHAT-HEAR" ],
+    "pairCompositionIntro": [
+        "Intrigued by Mozart's melodies? Prepare for an enlightening adventure!",
+        "Enter our interactive playground – the mix-and-match challenge.",
+        "Connect Mozart's masterpieces with fun facts. Dive in and experience the excitement."
+    ],
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+}
+
+

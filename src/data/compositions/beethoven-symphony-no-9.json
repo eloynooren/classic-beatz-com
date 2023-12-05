@@ -1,0 +1,269 @@
+{
+    "composer": "Beethoven",
+    "composition": "Symphony No 9",
+    "canonical": "/tracks/beethoven-symphony-no-9/",
+    "trackType": "movement",
+    "tracks": {
+        "1": {
+            "title": "I. Allegro Ma Non Troppo",
+            "annotations": {}
+        },
+        "2": {
+            "title": "II. Scherzo Molto Vivace",
+            "annotations": {}
+        },
+        "3": {
+            "title": "III. Adagio Molto e Cantabile",
+            "annotations": {}
+        },
+        "4": {
+            "title": "IV. Presto - Allegro Assai",
+            "annotations": {}
+        }
+    },
+    "src": "/audio/compositions/beethoven-symphony-no-9/fragment-5-195-255.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/beethoven-symphony-no-9/fragment-1-0-60.mp3",
+        "fragment-2": "/audio/compositions/beethoven-symphony-no-9/fragment-2-0-60.mp3",
+        "fragment-3": "/audio/compositions/beethoven-symphony-no-9/fragment-3-0-60.mp3",
+        "fragment-4": "/audio/compositions/beethoven-symphony-no-9/fragment-4-316-376.mp3",
+        "fragment-5": "/audio/compositions/beethoven-symphony-no-9/fragment-5-195-255.mp3"
+    },
+    "spotify": {
+        "1": "https://open.spotify.com/track/1LIBIfTRZpzOTOYoZ1KmhO",
+        "2": "https://open.spotify.com/track/32uvJDUwTUD94nAvBjEhJx",
+        "3": "https://open.spotify.com/track/3OuwdzaVRZ9g6jY8kEtbiW",
+        "4": "https://open.spotify.com/track/0DxeSpy96b0YTQdyjQoftu"
+    },
+    "header": [
+        "Beefy Tones with at Beethoven's",
+        "Symphony No 9"
+    ],
+    "seo": {
+        "description": "Yo, dig this deep dive into Beethoven's 9th, bruh. We're talkin' top moments, dope backstory and a legit listen guide that'll take you to symphonic nirvana. Don't miss out!",
+        "og:title": "Beethoven's 9th Symphony: Dope Moments, Sick Backstory & Radical Listen Guide",
+        "og:description": "Get ready to ride the wave of Beethoven's 9th like never before! We're layin' down the best moments, the lowdown on the backstory, and a primo listen guide. Catch that classical vibe, y'all!",
+        "twitter:title": "The 411 on Beethoven's 9th: Best Moments, Backstory & Listen Guide",
+        "twitter:description": "Wanna know why Beethoven's 9th is the GOAT? We're breakin' it down - best moments, heavy backstory, and a killer listen guide. Get schooled in some serious classical, homies!"
+    },
+    "annotations": {
+        "Powdered Wigs Meets Raw Emotion": "Beethoven's Symphony No. 9 takes you to a time of powdered wigs, yet the music speaks directly to the heart like your favorite emo band.",
+        "When Deafness Produced a Soundquake": "Payin' due props to Beethoven's immense achievement of creating this masterpiece while being nearly deaf.",
+        "18th Century Underground Rock": "Given its avant-garde nature, like rock music it challenged and reshaped the conventions of its time.",
+        "The Bohemian Rhapsody of Its Time": "Symphony No.9 is Beethoven's magnum opus with changing tempos and styles, much like Queen's Bohemian Rhapsody.",
+        "Partyin' Like It's 1824": "The year Beethoven's Symphony No. 9 was first performed, and quite a party piece, folks were jivin' to it then and still are now!",
+        "The Classical Music Hall of Fame's Frontliner": "This piece is a heavyweight in the classical music world much like the hall of fame in modern music.",
+        "Cufflinks, Cravats, and Crochets": "In Beethoven's era, folks might've been all fancy duds and high collars, but the music had a universal appeal, crochets and all!",
+        "When Violas Were the Most Metal": "Despite being set in classical times, Symphony No. 9 was groundbreaking and intense, kinda like a metal concert, ya dig?",
+        "Opera Floppin' Outta Symphony": "Betcha didn't know! Beethoven\u2019s Symphony No. 9 was the first to have vocals in a symphony \u2013 a total mindblower!",
+        "Unleashing the Drooling Monarch's Dream": "It's said Emperor Franz I of Austria drooled over Beethoven's music. This piece must've been a royal dream come true!",
+        "Hearing-Aid's First Poster Child": "Referring to how Beethoven created this while battling with deafness. Now if that ain\u2019t inspiring!",
+        "The Ancestor of All Movie Soundtracks": "Symphony No. 9's fourth movement is so dramatic, it set the benchmark for all cinematic music!",
+        "The Haydn of Hope": "A fun mashup of Haydn's creation (the symphony) and the hopeful message of Beethoven's Symphony No. 9.",
+        "A Whole Lotta Orchestras Going On": "Just like the full-on rock and roll vibe, this piece is full-scale, requiring a large orchestra!",
+        "No. 9, No. 9, No. 9\u2026": "If Beethoven lived today, he'd probably love The Beatles' revolution 9, another masterpiece!",
+        "The Bustin' Move of the 1800s": "The lively tempos of Symphony No.9 could have gotten everyone's feet tappin' in 1824.",
+        "Beethoven's Loud and Clear Folklore": "Take a nod to the traditional 'Ode to Joy' folk theme used in this Symphony.",
+        "When Quavers Quaked the World": "This game-changer piece shook the music world with its power - even quavers were quaking!",
+        "The Maestro of Bedlam": "The music's intensity certainly stirred up some bedlam in the traditional musical scene.",
+        "Livin' la Vida Beethoven": "A playful reference to Ricky Martin's song, comparing the zest for life in both pieces of music."
+    },
+    "best-moments": [
+        [
+            "### Introductory Paragraph: Beethoven's Rad Rhapsody",
+            "Yo, you ever wanna rock out to some tunes that have withstood the test of time?",
+            "Lemme school ya on Ludwig van Beethoven's Symphony No. 9, a mega hit from 1824 that\u2019s still boppin' today.",
+            "Strap in, 'cause your ears are 'bout to embark on a trip through what many call the Mount Everest of classical jams."
+        ],
+        [
+            "### 1. Allegro Ma Non Troppo - The Symphonic Shockwave 0-60/924",
+            "Let\u2019s kick it off with the opening haymaker that Beethoven throws your way \u2013 the Allegro Ma Non Troppo.",
+            "Imagine a music-fueled rocket launch \u2013 this movement starts with whispers from the void, levelling up to full-blown orchestral blasts.",
+            "It's suspense and surprise, with strings and brass playing tag like a squad of ninjas in a moonlit duel."
+        ],
+        [
+            "### 2. Scherzo Molto Vivace - The Sonic Tsunami 0-60/600",
+            "Next up, we hit the Scherzo Molto Vivace \u2013 it ain\u2019t no joke despite what 'scherzo' might mean.",
+            "This is where Beethoven cranks up the volume and tempo, with a wallop of rhythm to sock ya in the eardrums.",
+            "The orchestra goes full throttle, each instrument hustling to keep up in this high-speed musical chase scene."
+        ],
+        [
+            "### 3. Adagio Molto e Cantabile - The Sublime Serenade 0-60/972",
+            "Take a breather with the Adagio Molto e Cantabile \u2013 it's like the warm, chocolatey center of this symphonic sweet.",
+            "Here, LVB (that\u2019s Ludwig for ya!) chills out and gets deep, weaving notes into a tapestry of lush soundscapes.",
+            "It\u2019s a tranquil musical boat ride through a serene soundscape, all smooth sailing and starry skies."
+        ],
+        [
+            "### 4. Presto - Allegro Assai - The Ode to Joy Explosion 0-60/1346",
+            "Hold on to your bloomers \u2013 the Presto - Allegro Assai is where the magic really happens.",
+            "This is the home run, the crescendo, the thunderclap \u2013 and then come the voices, singing that 'Ode to Joy\u2019 you defo know.",
+            "It's like the whole world's coming together for a massive sing-along; celebrating, uplifting, straight-up exalting the human spirit."
+        ]
+    ],
+    "backstory": [
+        [
+            "### The Genesis: Unleashing a Musical Beast",
+            "Lemme take ya back to the 1820s, our main man Ludwig van Beethoven, aka LVB, was getting busy with this monster of a symphony. The dude had been deaf as a post for about a decade, but he didn't let that keep him down or quiet. Instead, he used his 'inner ear' to pen this epic and the music came from deep within - the deepest feelings of joy, suffering, and love.",
+            "The world was going through massive changes too with the Industrial Revolution in full swing. This upheaval probably seeped into good ol' LVB's soul, impacting his creation - the Symphony No 9. It was like he was throwing down a challenge to all the strife, saying 'yo world, check this out!'. It was the rise of romanticism too, pushing artists to express super intense, personal feels in their work."
+        ],
+        [
+            "### The Composer's Journey: Deepest Depths to Ultimate Heights",
+            "By the time he was wrapping his head around Symphony No 9, our dude Beethoven was navigating a sea of agonies. The man was existing in near-total isolation, what with being unable to hear a darn thing and all and his bros thinkin' he is a distant bloke.",
+            "But Beethoven, well, this cat just used all that pain, pouring it into this crazy powerful, soul-stirring piece, like 'here, take a walk in my shoes'. And strangely, his career was at its peak then, audiences loved him! He was the James Dean of his time, a rebellious star, only with lesser doom and more symphonies."
+        ],
+        [
+            "### Musical Innovations: Breaking Sound Barriers",
+            "Symphony No 9 was the ringleader of LVB's pack of rockstar symphonies - big, bold and brash. Beethoven was already known as the innovation whizz, and he pulled some serious stunts with this one. For starters, bringing in soloists and a full chorus into a symphony?! That was done diddly unheard of! This move made the 9th Symphony stand apart from any other piece during that era.",
+            "LVB took melodies and harmonies to places they had never been before. His ability to interweave the movements, manipulating rhythms and dynamics which added layers of complexity, was like a bombshell in the quiet world of classical music."
+        ],
+        [
+            "### Challenges and Triumphs: Hear Me Roar",
+            "Yeah, composition ain't no walk in the park, especially when you're rockin' the silent world. But Beethoven said 'no sweat', he was grit personified. Coping with relentless tinnitus, our man still pushed the envelope, writing intricate parts for instruments and voices, which was like a musical tightrope walk.",
+            "How? The dude sat at the piano, feeling the vibrations and translating them into notes and harmonies. And the triumph? Symphony No 9 became the underdog anthem, a testament to human resilience, determination, and the power of art. It was LVB's Rocky moment, no doubt about it."
+        ],
+        [
+            "### Movement by Movement: Symphony's Epic Saga",
+            "Symphony No 9 ain't a one-trick pony, rather a saga divided into four 'emotional episodes', or movements as the eggheads like to call 'em. Think of 'em like chapters in a book, or like different courses in a gourmet meal.",
+            "You got the 'Allegro ma non troppo, un poco maestoso' to kick things off, a darn dark and dramatic ride, followed by the 'Molto vivace' getting all fiery up in here. The 'Adagio molto e cantabile' comes next, a slow dance session if you will. And then you end with a bang, an exhilarating finale 'Ode to Joy'. Together these movements make for a roller-coaster of feels!"
+        ],
+        [
+            "### Cultural Tapestry: A Harmonic Weave",
+            "Every work of art is like a mirror, reflecting the times it was created in. And Symphony No 9 was no different, born smack in the middle of the Romantic Era when antidotes for the Industrial Revolution's smoky dreariness were on the menu.",
+            "Artists were stretching the limits, getting personal and emotional in their pieces. Plus, there was a huge drive for Liberty, Equality, and Fraternity post the French Revolution that resonated in Beethoven\u2019s work. This was evident when he threw in a choral in the finale, showing his belief in the unification of all mankind."
+        ],
+        [
+            "### Aliases and Epithets: A Joyful Tag",
+            "'The Choral', that's what Symphony No. 9 usually goes by on account of the huge choral section in the finale, an 'Ode to Joy' if you will. The nickname wasn\u2019t some fancy critic\u2019s idea, but even better - it came straight from the horse's mouth!",
+            "Beethoven himself nipped it in the bud, showing his intentions loud and clear with this piece, bridging the gap between instrumental and vocal music. The title stuck around, adding tons of mystique and a hint of rebellion to his already wild bad-boy image."
+        ],
+        [
+            "### The Premiere: The Thunderous Debut",
+            "You'd think the premiere was gonna be all sunshine and rainbows, right? Nah, it was a wild, chaotic ride! The musicians were underprepared, the chorus singers bellowing their hearts out were struggling. Beethoven was conducting, flailing his arms dramatically, with concertmaster Michael Umlauf doing the real job!",
+            "But the audience, damn, they ate it up! drowned in a sea of applause. The critics, too, were gobsmacked by the audacity and vision of Beethoven's wild ride. It was a night to remember, no muss, no fuss - the 9th Symphony had arrived and it meant business!"
+        ],
+        [
+            "### Legacy and Influence: The Tidal Wave",
+            "This symphony, bro, it caused a seismic shift in the musical landscape - no joke. Just about every composer worth their salt was shook, and its aftershocks are still felt to this day.",
+            "Think of Wagner, Brahms, even ol\u2019 John Williams, they all got a piece of this Beethoven magic! Its 'Ode to Joy' has become an anthem for humanity and has been performed worldwide at celebration events, protest marches, even in the Star Trek franchise. This symphony ain't just music y'all, it's a movin', inspirin', provokin', unforgettablin\u2019 phenomena."
+        ]
+    ],
+    "listen-guide-1": [
+        [
+            "### Introduction: Beethoven Hooked on a Feeling",
+            "Okay fam, let's set the scene. You're chilling in 1824, right, and then BAM! Beethoven drops his Symphony No 9, shaking the classical world to its core. And the first movement, the 'I. Allegro Ma Non Troppo', well mate, it's as if the Big B himself has just opened up a can of musical whoop-ass. It's fiery, it's intense, and it's packed with raw, emotional sucker punches. This isn't just music, folks - it's a freakin' drama in D minor!"
+        ],
+        [
+            "### Explanation of the Title: Ain't No Half Steppin'",
+            "Now, the title itself - 'I. Allegro Ma Non Troppo'. Italian, innit? Allegro means quickly, joyous; and the 'ma non troppo' tells us not too much. Beethoven wasn't about to let us off easy with a nice, happy, bouncy tune, though. Nah, fam, he's giving us angst, passion, conflict. Like Beethoven saying 'Fasten ya seatbelts lads, we're going for a ride, but don't even think about getting comfy!'"
+        ],
+        [
+            "### Analysis of the Structure: Beethoven's Build-a-Bear Workshop",
+            "As for the structure of this bad boy, it's pure Sonata form - but bear in mind, this ain't no ordinary sonata. There are three main components here: the exposition, the development, and the recapitulation. Exposition sets up the main themes, development toys around with 'em, and recapitulation brings it all back home."
+        ],
+        [
+            "### Elaborating on Sections: In the Thick of D-minor",
+            "First, we get plunged straight into some hefty D minor drama (surprise surprise). But keep your ears peeled, folks, there's major key relief on the horizon. Then, middle bit, everything starts to go topsy-turvy as Big B mashes up his themes like a DJ on the decks. Finally, recapitulation delivers sweet reprisal - a return to the beginning with just a hint of the chaos we've endured, like the coy refrain of a loved but deeply annoying ringtone!"
+        ],
+        [
+            "### Role of Instruments: Pass the Aux Cord, Beethoven",
+            "Instrument-wise, this sucker's packing heat. We've got full orchestra flexing their muscles here - strings, woodwinds, brass, all the usual suspects. But remember folks, no one's playing second fiddle to anyone in Beethoven's world. He's constantly tossing motifs around, like the world's deadliest game of musical hot potato. And that's just the way he rolls."
+        ],
+        [
+            "### Listen: MTV Unplugged - Beethoven Edition",
+            "So, do yourself a favor and actually hit play on this. Don't just sit there like a lemon thinking about it. You've gotta feel it, be in it. Only then can you truly, madly, deeply appreciate the cool insanity that is Beethoven's 'I. Allegro Ma Non Troppo'. Go on. Local Beethoven waits for no one!"
+        ]
+    ],
+    "listen-guide-2": [
+        [
+            "### Essence: Beethoven's Been at the Sherry Pot",
+            "Let's chat about Ludwig van Beethoven's Symphony No. 9, specifically the 'II. Scherzo Molto Vivace' movement. This is where our boy, Beethoven, lets his hair down - figuratively speaking, innit. The piece is a mad rollercoaster ride, a proper musical knees-up where Beethoven decides to chuck the rulebook in the bin.",
+            "Much like your top-drawer house party tunes, 'Scherzo Molto Vivace' gets your feet tappin' and your heart racing. But, this ain't no musical blancmange, all sweetness and light. Nah, beneath the jolly surface, there's a real depth and humor that mixes smiles with a bit of a thoughtful frown."
+        ],
+        [
+            "### Explanation of the Title: That's All Italian To Me",
+            "Scherzo Molto Vivace, straight from the land of pasta, means 'very lively joke'. It's like Beethoven's having a cheeky giggle, laughing at all the stiff collars who want their music serious as a heart attack. Historically, 'Scherzo' replaces the standard minuet, normally found in them classical symphonies. Shows our pal Ludwig wasn't one for sticking to the script."
+        ],
+        [
+            "### Analysis of the Structure: Not Your Ordinary House Party",
+            "The structure of this lively beast is what them music geeks call a 'sonata-cum-fugue'. It's an unorthodox mash-up, kinda like a fusion cuisine that shouldn\u2019t work but does. The main theme, a mad and merry little number, skitters around like a balloon on the loose. It keeps popping back up, alternating with contrasting sections. It's a musical game of peek-a-boo. By the time you get the hang of it, Beethoven's gone and tossed in a different bit, keeps you on your toes, savvy?"
+        ],
+        [
+            "### Elaborating on Sections: Bobbing for Musical Apples",
+            "The opening section, loaded with high energy, gets your spirits soaring. Then Beethoven applies the brakes, flipping the script with a slower, contrasting trio section. He teases the main theme, flirting with it but not giving it away completely. It's like he's playing hard to get.",
+            "Suddenly, just when you're nice and chill, he lobs the main theme back in, cranking up the action. By the end, everyone's hopped off the couch to join the rave."
+        ],
+        [
+            "### Role of Instruments: It's a Musical Orchestra Out There",
+            "In this musical extravagance, Beethoven shuffles his orchestra like a deck of cards. String section's gone all slapdash, plucking away like there's no tomorrow. Horns leap in, laughing loud and hearty. All the while our drum boy, timpani, maintains a wild heartbeat as the core rhythm.",
+            "You got these sudden bursts where all the instruments pile in together, then others where there's just a few playing shy in the shadows. It's pure musical mayhem, but in the best way."
+        ],
+        [
+            "### Listen: Tune in, Drop Out",
+            "So now you got the lay of the land, take a stroll through 'II. Scherzo Molto Vivace' yourself. Put your headphones on, crank up the volume, and let Beethoven take you on a musical joyride.",
+            "And remember, this ain't your stuffy salon music. It's a party in your ears, so expect some surprises along the way, mate."
+        ]
+    ],
+    "listen-guide-3": [
+        [
+            "### Essence: Beethoven's Tear-Jerker",
+            "Well, strappin' straight into Ludwig van Beethoven\u2019s Symphony No. 9, we dive into the deep end of the musical pool with the 'III. Adagio Molto e Cantabile'.",
+            "This ain't no splash-and-dash affair, nah, it's a soul-stirring ride where Big B (yup, Beethoven) takes you by the hand and escorts you into a realm of raw emotion and unspoken narratives.",
+            "It's like spillin' out your heart's deepest secrets to the moonlit sky, each note lingerin' in the ether like the echo of a lover's sigh."
+        ],
+        [
+            "### Explanation of the Title: Italian for 'Crank the Sob Meter'",
+            "Rollin' out the red carpet for our music jargon, 'III. Adagio Molto e Cantabile' is Italian for 'Very Slow and Songlike'. Beethoven was rockin' the classical equivalent of the 'feels train'.",
+            "Adagio means 'slow', molto is 'very' and cantabile? Well, that there, folks, is 'songlike'.",
+            "Basically, Beethoven is nudgin' us, with that title, to strap ourselves in for an emotional journey at a leisurely pace."
+        ],
+        [
+            "### Analysis of the Structure: Cut and Paste, Baby",
+            "The structure is all about this thing called 'Theme and Variations'. It\u2019s like when your ma makes her special Christmas casserole and changes it up a bit each year - keeps the classic taste but adds an unexpected twist. That's Beethoven, mixin' a familiar theme in new and interesting ways.",
+            "This piece shrugs off the typical sonata or rondo forms, instead, our man Ludwig is going his own way, showcasing his all-too-real, raw, creative impulses."
+        ],
+        [
+            "### Elaborating on Sections: The Good, the Bad, and the Ugly Cry",
+            "In this emotional rollercoaster, Beethoven divides the segment into two main sections, each with its own vibe, its own story to tell.",
+            "The first section kick-starts the journey, a dialog between strings and woodwinds, set in a laid-back rhythm that\u2019s as soothing as Sunday mornin'.",
+            "Then comes the second section, upping the tempo, flippin' from tranquil to dramatic, like an opera diva unfoldin' her tragic tale.",
+            "Each section, though different, marries beautifully into a harmonious symphony that can thaw even the iciest of hearts."
+        ],
+        [
+            "### Role of Instruments: Whose Turn Is It Anyways?",
+            "Starting off this emotional powwow are our ever-loyal strings, settin' the stage before invitin' the woodwinds to join the chat.",
+            "They take turns, like old friends swappin\u2019 tales over a campfire, the strings in one moment, the woodwinds in another, and at times, even the brass pipe in for a word or two.",
+            "It's a symphony, alright, but with Beethoven, it always feels like a conversation between the instruments, like we're eavesdroppin' on some forbidden symphonic powwow."
+        ],
+        [
+            "### Listen: Ears Open, Heart Ready",
+            "Consider this your insider\u2019s guide to one of Beethoven's most achingly beautiful sagas. Reading about it ain't the real deal, though! Hit that play button and ride the wave of 'III. Adagio Molto e Cantabile'.",
+            "Keep your ears peeled for those key transitions, those instrumental convos, and the big ol\u2019 emotional tie-together that makes Beethoven the true G of classical music."
+        ]
+    ],
+    "listen-guide-4": [
+        [
+            "### Essence: Beethoven's Grand Finale",
+            "Alright, buckle up, 'cause here's the 411 on Beethoven's Symphony No 9, Movement IV. Presto - Allegro Assai. This bad boy, it's like a storm brewing on a summer's evening, suspenseful yet breathtaking. A bolt of lightning in musical form, it's high energy and super dramatic. Not one for the faint-hearted, no sirree!"
+        ],
+        [
+            "### Explanation of the Title: Fancy Terms for a Fancy Tune",
+            "Okay, let's break this down: 'Presto - Allegro Assai'. Sounds pretty fly, right? 'Presto' channels them quick offbeat energy, while 'Allegro Assai' is all about being fast, but not too fast. Basically, it's about balance, like yin and yang, or mac and cheese. Now, historical context, Beethoven was having a laugh, randomly choosing Italian words that sounded fancy. He was a bit of a rogue, that guy."
+        ],
+        [
+            "### Analysis of the Structure: A Musical Jigsaw",
+            "Let's talk structure. We're dealing with something closer to a sonata here. It's organized, sectional, full of cool transitions and recurring motifs. You get surprise visits from themes you thought you heard the last of. It's like a soap-opera, but classier. Symphony shenanigans, you feel?"
+        ],
+        [
+            "### Elaborating on Sections: Breaking Down the Beast",
+            "Alright, time to delve into the different sections. Each part's got its own vibe, was made for its own mood. Beethoven's smart about tempo and key changes here, always keeping you on your toes. Shifting between upbeat and melancholic, he's playing ping-pong with your emotions. Brilliant but brutal, art at its finest."
+        ],
+        [
+            "### Role of Instruments: Orchestra Olympics",
+            "Now let's not forget the instruments, the real MVPs of this symphony. Each one's got a role to play in this grand performance. Solos pop up here and there, adding color and texture to the mix. All in all, it's like the Olympics of orchestral performance, full of teamwork and individual prowess."
+        ],
+        [
+            "### Listen: Don't just hear, Experience",
+            "And that, my friend, is Beethoven's Symphony No 9, Movement IV. Presto - Allegro Assai in a nutshell. Now what you need to do is go forth, press play, and let this masterpiece wash over ya. Immerse yourself in it, feel it, live it. Just remember to have fun, 'cause ain't that what music's all about?"
+        ]
+    ]
+}

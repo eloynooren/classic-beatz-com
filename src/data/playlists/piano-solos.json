@@ -1,0 +1,46 @@
+{
+    "title": ["A Tryst with Piano Solos"],
+    "canonical": "/playlists/a-tryst-with-piano-solos",
+    "seo": {
+        "description": "Hit up the illest piano solos from the classical realm. Dive into the dopest keys and sickest sonatas. It's all here, no fluff, just pure classical beats!",
+        "og:title": "Classical Jams - Piano Solos That Slap",
+        "og:description": "Get yo' classical groove on with piano solos that'll rock your world. From Beethoven's bangers to Chopin's chill vibes, we're serving up all the iconic tunes!",
+        "twitter:title": "Epic Piano Solos 🎹 | Classical Tracks with Swag",
+        "twitter:description": "Catch the wave of symphonic swag with piano tracks that got more rhythm than your fave beats. These ain't your grandma's melodies – it's classical with a twist!"
+    },
+    "mixIntro": [
+        "### Ayy, keys to the kingdom!",
+        "Welcome to the spot where piano solos reign supreme!\n",
+        "Get your ears ready!",
+        "This mixtape's loaded with the flyest piano cuts.",
+        ":::Tap that play and let's get those classy vibes rollin’!"
+    ],
+    "compositionsIntro": [
+        "### Digging the playlist? Vibing with it? The quiz is coming up. Ready for a study session?",
+        "Here's a recap of the tunes we've been jamming to.",
+        "Take them for another whirl before diving into the quiz.",
+        "\n",
+        "Got a soft spot for one of the tunes?",
+        "Hit it up, and we'll whisk you to a page brimming with info."
+    ],
+    "quizIntro": [
+        "### Alright, let's get those neurons firing, squad.",
+        "Crush that quiz and prove you're the smartest in the room."
+    ],
+    "quizItemTypes" : [ "WHAT-HEAR", "WHICH-COMPOSER", "WHICH-COMPOSITION" ],
+    "pairCompositionIntro": [
+        "### Hey, curious about those tracks we talked about? Keen on some entertaining edutainment?",
+        "We've got just the thing – our mix-and-match game.",
+        "You'll get to link up the beats with some sweet trivia.",
+        "Come on, take a crack at it."
+    ],
+    "pairCompositionInstruction": "Tracks are on the left, trivia on the right. Tap and link'em up.",
+    "pairComposerIntro": [
+        "### Ready to get inside the heads of the musical geniuses?",
+        "Coming up in our match game: connect these iconic composers with some cool facts about them.",
+        "Reckon you're up for the challenge? Let's do this!"
+    ],
+    "pairComposerInstruction": "Composers are on the left, cool facts on the right. Tap and link'em up."
+}
+
+

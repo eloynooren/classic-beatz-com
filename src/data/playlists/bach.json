@@ -1,0 +1,37 @@
+{
+    "title": ["Baroque'n'Roll with Bach"],
+    "canonical": "/playlists/baroque-n-roll-with-bach",
+    "seo": {
+        "description": "Discover Bach's sickest compositions, where baroque bangers meet soul-stirring melodies. Dive into a world of intricate fugues and timeless harmonies. Pure Bach, pure bliss!",
+        "og:title": "Bach's Best - Baroque Beats That Hit Different",
+        "og:description": "Step into Bach's universe of unmatched compositions. From the deep drama of his Brandenburgs to the spiritual solace of his chorales, it's baroque that's beyond basic!",
+        "twitter:title": "Bach's Greatest Hits 🔥 | Baroque with a Bang",
+        "twitter:description": "Ride the baroque wave with Bach's top tracks. Experience fugues and cantatas that'll change your take on classical. It's Bach turning up the tempo and tuning up the soul!"
+    },
+    "mixIntro": [
+        "### Welcome to Bach's Beat Boulevard!",
+        "This is where Bach's timeless grooves take center stage.",
+        "Brace yourself! This playlist is stacked with Bach's slickest tunes.",
+        ":::Hit play and immerse yourself in the ultimate Baroque bash!"
+    ],
+    "compositionsIntro": [
+        "### Feeling Bach's rhythm? Ready for a quiz on his timeless tracks?",
+        "Let's do a quick recap.",
+        "Revisit the Bach pieces we've been exploring, then dive into the quiz.",
+        "Got a Bach favorite? Click it for more cool facts before you start the challenge!"
+    ],
+    "quizIntro": [
+        "### Okay team, time to spark up those brain cells.",
+        "Nail the quiz and demonstrate your unmatched intellect."
+    ],
+    "quizItemTypes" : [ "WHAT-HEAR" ],
+    "pairCompositionIntro": [
+        "### Fascinated by Bach's tunes? Get set for an engaging educational journey!",
+        "Step into our playful arena – the match-and-pair game.",
+        "Map out Bach's compositions with trivia notes.",
+        "Jump in and give it a go."
+    ],
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+}
+
+

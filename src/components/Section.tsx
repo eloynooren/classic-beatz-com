@@ -24,7 +24,6 @@ interface SectionProps {
 
 export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , images, quizIntro, quizMakerObj, pairs, pairsMakerObjList, spotify}) => {
     let numImages = 0
-    console.log(paragraphs)
 
     const Image = (image: ReactElement) => {
         numImages += 1

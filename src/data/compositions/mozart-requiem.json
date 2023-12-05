@@ -1,0 +1,238 @@
+{
+    "composer": "Mozart",
+    "composition": "Requiem",
+    "canonical": "/compositions/mozart-requiem",
+    "trackType": "movement",
+    "tracks": {
+        "1": {
+            "title": "Introitus"
+        },
+        "2": {
+            "title": "Dies Irae"
+        },
+        "3": {
+            "title": "Lacrimosa"
+        }
+    },
+    "src": "/audio/compositions/mozart-requiem/fragment-1-0-60.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/mozart-requiem/fragment-1-0-60.mp3",
+        "fragment-2": "/audio/compositions/mozart-requiem/fragment-2-0-60.mp3",
+        "fragment-3": "/audio/compositions/mozart-requiem/fragment-3-0-60.mp3"
+    },
+    "spotify": {
+        "1": "https://open.spotify.com/track/2OUf2NnZZQUhKtpvBWTqnP",
+        "2": "https://open.spotify.com/track/4UVwbnxKEzPGOuAtSEt2ic",
+        "3": "https://open.spotify.com/track/3oHSL6pt9LpNrQZuQGu9wL"
+    },
+    "header": [
+        "Dying to Discuss",
+        "Mozart's Requiem"
+    ],
+    "seo": {
+        "description": "Yo, we're talkin' Mozart's Requiem here, right? It's loaded with mad dope moments. Discover the lowdown on its past and how to jam to it proper.",
+        "og:title": "Mozart's Requiem: A Super Sleek Story & Guide | YourWebsite",
+        "og:description": "Rollin' deep into Mozart's Requiem, its untold epic history and top moments. Groove it right with our killer listen guide. No bull, just facts!",
+        "twitter:title": "Straight Chillin' With Mozart's Requiem \u2013 A Peep Into Its Finest Parts & Story",
+        "twitter:description": "Get fly with Mozart's Requiem, fam. We reveal its sickest parts, spill the tea on its backstory, and give you the down low on how to jam it. Check it, no cap!"
+    },
+    "annotations": {
+        "The Swan Song of a Genius": "Regarded as Mozart's last composition, he did not live to complete it, hence the 'swan song' reference.",
+        "The 18th Century Break-Up Anthem": "Given its brooding, dramatic nature, the Requiem epitomizes a soundtrack of loss and separation.",
+        "A Quill-Dipped-in-Tears": "This relates to the masterful, emotional depth captured in the requiem by Mozart, as though written in sorrow.",
+        "When Wigs Wept Melodiously": "A humorous reference to the emotional intensity of the piece and the era's fashion",
+        "The Encore to Mortality": "Depicting the requiem as the final musical piece one 'hears' before passing, an encore to life.",
+        "The Orchestra's Dirge": "The requiem is like a funeral song performed by the orchestra, mourning the inevitability of death",
+        "Death Wearin' High Heels and Breeches": "Juxtaposing elements of the piece's somber theme with the vibrancy of 18th-century fashion",
+        "The Phantom of the Opera before Phantoms Existed": "Drawing a parallel between the requiem & theatrical musical, suggesting it was ahead of its time",
+        "God's Own Playlist": "Its religious and dramatic undertones make it fit for heavenly audience.",
+        "Beethoven Was Just a Fanboy": "A playful assertion on the influence of Mozart's Requiem on subsequent composers like Beethoven.",
+        "The Theme Song of The Grim Reaper": "Ever associated with death, it fits as the 'theme song' of the personification of death.",
+        "Abbey Road of The Afterlife": "Clever twist on The Beatles' Abbey Road album playing on the requiem's connection with death and the afterlife",
+        "Codpiece and Crescendos": "Combining period clothing 'codpieces' with a key music theory term 'crescendo' \u2013 The Requiem has many!",
+        "SKRT SKRT to the Afterlife": "A humorous modern slang, skrrt is a driving onomatopoeia, indicating the journey (ride) to the afterlife",
+        "Eternity's Earworm": "Despite it's somber themes, Mozart's Requiem is catchy and stays with you \u2013 an 'earworm' for eternity",
+        "Bangers for the Boneyard": "As death is often associated with graves ('boneyard'), we have 'bangers' (or hits), for it.",
+        "Kickin' the Bucket \u2013 18th Century Style": "Here, 'kicking the bucket' is an euphemism for death, aligning with the era of the Requiem",
+        "Bassoons, Brass, and Buckled Shoes": "Images of 18th-century instruments & clothing bring the era evoked by the Requiem to mind",
+        "When Harpsichord Met Heaven": "Insinuates interaction between Earth & the divine as depicted in Mozart's music",
+        "The Ultimate Drop \u2013 The Coffin": "Compares the dramatic musical drops in Requiem to the act of lowering a coffin ('dropping' it)",
+        "The Fugue of The Hereafter": "Fugue, a style Mozart employed in Requiem, is linked here with the concept of the 'afterlife'",
+        "Shakespeare's Spotify Playlist": "Suggests that the dramatic, melancholic tones of the Requiem would appeal to a writer like Shakespeare",
+        "Death's Doorstep Serenade": "Portrays Requiem as a poignant musical piece performed on the precipice of life and death",
+        "Goth Before It Was Cool": "As the 'Requiem' has a deeply dark, emotional edge to it, this phrasing suggests it was 'Goth' before the subculture emerged",
+        "The Harp That Heralds The Heaven": "Reflecting on the common symbolism of harps being played upon entering Heaven, relating to the sacred nature of the Requiem"
+    },
+    "best-moments": [
+        [
+            "### Kick Off: Get Ready to Groove with Mozart's Ghost!",
+            "Yo, listen up! We 'bout to embark on a sonic odyssey, diving headfirst into the eternal vibes of Mozart's Requiem.",
+            "This ain't just any ol' piece; it's the maestro's final say, his mic drop moment, and it's packed with more emotion than your ex's last text.",
+            "Strap in, 'cause we're highlighting the real MVPs of the game, three heart-stopping moments that'll have you saying 'Damn, Wolfie, you did that!'"
+        ],
+        [
+            "### 1. Introitus: The Heavenly Welcome Mat",
+            "Step into the Introitus and feel the heavens crack open with a warmth that'll hug your soul.",
+            "It's like walking into the grandest of all ballrooms, but the floor's made of clouds and the ceiling, a tapestry of stars.",
+            "Mozart's got the chorus whispering sweet nothings to your ear while the orchestra paints a sunrise so epic, even your Insta can't do it justice."
+        ],
+        [
+            "### 2. Dies Irae: The Divine Thunderbolt",
+            "Hold onto your wigs, 'cause the Dies Irae is the sound of Judgment Day breaking loose, no cap.",
+            "Imagine the sky split, with thunderous beats rattling your bones as choirs spit fire like the illest rap battle, but with angels and demons on the mic.",
+            "This movement is Mozart dropping bars about the end times, and it's as lit as a BBQ at the world's end. Buckle up, party people!"
+        ],
+        [
+            "### 3. Lacrimosa: The Teardrop Tango",
+            "The Lacrimosa is where Mozart lays down the feels, turning the waterworks to full blast.",
+            "It's like a heart-to-heart with your bestie as the world fades away, except it's set to the most beautifully tragic melody evah.",
+            "You can practically hear the quill droppin' on the manuscript as ol' Wolfie pens his swan song, leaving us drowning in a sea of orchestrated sorrow."
+        ]
+    ],
+    "backstory": [
+        [
+            "### Genesis: A Mysterious Commission",
+            "The story of Mozart's Requiem begins with a bang, when in the scorching summer of 1791, a mysterious stranger ambles up to Mozart's crib with an intriguing proposition. The geezer, masked by the shadows, commissions a Requiem - a Mass for the Dead - but he wants it on the down-low, no names, no fuss. Perhaps this strange request was spurred by the turbulent times of the late 18th century, a world wearied by the upheavals of the French Revolution."
+        ],
+        [
+            "### Composer's Journey: An Uplifting Downfall",
+            "At this point in the game, Mozart was already a big name in the music biz, he had the swooning followers and the envious rivals to prove it. But it wasn't all a bed of roses. His hard-partying antics and spending like there's no tomorrow had led him to some serious bread problems. The Requiem's baker's dozen of a paycheck was an offer he couldn't refuse. Little did he know that he'd be drafting his own cut-off event, his swan song."
+        ],
+        [
+            "### Musical Innovations: To Spooky Town and Back",
+            "The Requiem, let me tell you, ain\u2019t your average, everyday Te Deum. Mozart pushed the envelope, delving into harmonic experimentation and chromaticism like never before. The music evokes a chilling journey into the ether, sometimes serene, other times melancholic - it's enough to give anyone the heebie-jeebies."
+        ],
+        [
+            "### Challenges and Triumphs: Double-Edged Score",
+            "The Requiem was Mozart's angel and demon. Its composition drained him, but it also brought forth some of his most touching music. Struggling with illness and the constant pressure from his mystery commissioner, the final product was left incomplete. As a last hurrah before his premature curtain call, his student S\u00fcssmayr stepped up to the plate to finish the gig."
+        ],
+        [
+            "### Movement by Movement: Symphony in the Shadows",
+            "The Requiem? It ain\u2019t a one-hit wonder, but rather a terrifyingly beautiful progression of soul-stirring movements.",
+            "It\u2019s like a multi-course meal that gets your stomach rumbling and your taste buds dancing.",
+            "Starting with the mournful 'Introitus', a dark and moody prelude that sets the tone, it moves on to the 'Kyrie', an outcry to the divine that resonates deep within.",
+            "Then comes the powerhouse 'Sequentia', a riveting sequence that\u2019s a choral tour de force, featuring the thunderous 'Dies Irae' and the hauntingly beautiful 'Lacrimosa' \u2013 each piece a masterpiece in its own right.",
+            "The 'Offertorium' adds a dash of tranquility before the 'Sanctus' and 'Benedictus' bring forth celestial visions.",
+            "Finally, the 'Agnus Dei' and 'Communio' wrap up the show, carrying the listener through dramatic cinematic scenes, easing them into reconciliation and acceptance.",
+            "The overall effect? It's a rollercoaster ride on an emotional carrousel - buckle up!"
+        ],
+        [
+            "### Cultural Tapestry: Period of Enlightenment",
+            "No work stands in isolation, and the Requiem gives a vivid snapshot of the times like a time capsule. It was the Age of Enlightenment, a period of rational thinking, but also the French Revolutionary wars and turbulent times. From this dichotomy, Mozart pulled off a philosophical masterpiece; an exploration of mortality veiled in the complex intricacy of his music. The sombre macabre resonated with the collective consciousness of an era in radical transition."
+        ],
+        [
+            "### Aliases and Epithets: Behind the Masks",
+            "Back in those days, a nickname gave you clout, and Mozart\u2019s Requiem wasn\u2019t left out. Critics dubbed it the 'Unfinished Symphony', and folklore narrates tales of the 'Death Mass'. Years down the line, its mystery only deepened, morphing it into the 'Haunted Cadence'. These tags testify to the infectious appeal of the Requiem; the chilling allure of a life\u2019s curtain call wrapped in a symphony."
+        ],
+        [
+            "### The Premiere: A Hushed Debut",
+            "With cobwebs hanging off its first performance, the Requiem was premiered hush-hush, to a small, private audience. The press wasn't there, and nor was the glitterati, but the haunting music? It didn't miss a beat. And despite this subdued debut, the word got out, and the masterpiece started shaking up the music scene."
+        ],
+        [
+            "### Legacy and Influence: The Unsilent Echo",
+            "Despite leaving us early, Mozart\u2019s Requiem has become a juggernaut in classical music, birthing fresh perspectives from Romantic to Modern interpretations. It has redefined choral composition, inspired countless composers and remains a staple on concert programs worldwide. Not bad for a piece of music cloaked in shadows of uncertainty and death, right? Mozart's grave may read 'unfinished symphony', but his Requiem continues to echo long after the man and the legend."
+        ]
+    ],
+    "listen-guide-1": [
+        [
+            "### Essence: Diggin' the Divine",
+            "Right off the bat, Mozart's 'Introitus' is like baring your soul to the heavens, man. It's like the majestic roll of thunder announcing the arrival of a divine aura.",
+            "This chilling opening movement of Mozart's Requiem hits you in the feels, filling you with a sense of awe and, like, a touch of melancholy."
+        ],
+        [
+            "### Explanation of the Title: Meaningful Moniker",
+            "The word 'Introitus' is some fancy Latin term which means 'entrance'. Now, ain't that a mind-boggler?",
+            "Mozart, being the old-school genius he was, designed this piece as the grand opening act, setting the stage for an intense musical journey into the mysteries of life and death.",
+            "Historically speaking, 'Introitus' in the context of a Requiem, is like the musical gateway to a sacred service for the dead."
+        ],
+        [
+            "### Analysis of the Structure: Deconstructing the Divine",
+            "On the real though, 'Introitus' isn't your standard pop song structure; nah, it's way more profound.",
+            "It's built following a through-composed form, which means there's no repeating sections, and it keeps evolving like a peacock unfurling its tail.",
+            "Seems Mozart, the funky maestro, wanted to keep us on our toes, introducing new themes and transitions that build up to a cathartic climax."
+        ],
+        [
+            "### Elaborating on Sections: A Musical Mosaic",
+            "The 'Introitus' is like a mosaic of emotional peaks and valleys, each having its unique vibe.",
+            "It kicks off with a slow tempo that's hella ominous, taking its sweet time to build tension before blooming into a full choral entry.",
+            "Then there's a definitive shift to a brighter mode, like a calming reassurance amid the storm. Trust me, it's all back and forth like a divine roller coaster."
+        ],
+        [
+            "### Role of Instruments: A Symphony of Smokin' Solos",
+            "The instruments in the 'Introitus' ain't just playing backup to the voices; they're an integral part of the gig, each adding its splash of color.",
+            "Notice the low strings at the start? Yeah, they're like the heartbeat \u2014 subtle, but giant.",
+            "And don't get me started on the solos. The soprano solo that breaks from the choral texture is like caramel drizzled on a sundae!"
+        ],
+        [
+            "### Listen: Savor the Symphony",
+            "Now comes the best part. Just hit the play button, close your eyes and lezz rock the divine jams with Mozart!",
+            "Each note, each melody, is gonna take you on a journey, and it's one helluva ride you don't want to miss.",
+            "So let the 'Introitus' take you on a musical odyssey, dude. Ride the waves of this celestial symphony."
+        ]
+    ],
+    "listen-guide-2": [
+        [
+            "### Essence: Classical Storm Brewing",
+            "Alright, mate. Strap in. We're about to get stuck into the 'Dies Irae' section of Mozart's Requiem, one absolute banger of a tune that's about as chill as a tornado in a teacup.",
+            "From the first blast of the trombones, this bad boy grabs you by the collar and doesn't let go. It's all doom and gloom, high drama and fire and brimstone stuff.",
+            "Think of it as Mozart's way of musically expressing the ultimate bad hair day, but with way more requiem and way less conditioner."
+        ],
+        [
+            "### Explanation of the Title: Bad Vibes Only",
+            "'Dies Irae' pops up in Latin and means 'Day of Wrath'. So, you already know, ain't gonna be no strutting peacocks and buttercups in this joint.",
+            "Mozart was all about selling that end-of-days, judgment vibe. He's gone in deep and dark, trying to capture the kinda music you'd expect to hear if the sky was on fire and the ground was peeling up under your feet.",
+            "The chap was in the middle of the biggest downer of his life, and boy, does it show in this piece."
+        ],
+        [
+            "### Analysis of the Structure: Symphony of Sorrow",
+            "If we're talking about structure, 'Dies Irae' is like a perfectly built house of horrors. It's a sequence form, hitting you again and again with musical motifs of impending doom.",
+            "Repeating the same cheery little ditty, it keeps drilling in the point that life can be a right pain in the bum.",
+            "Every time you hear that repeated theme, it's like Mozart himself pointing to the sky and going, 'See? Told ya. Still on fire.'"
+        ],
+        [
+            "### Elaborating on Sections: Ride or Die Symphony",
+            "Even within this hell-bent carnival ride, there are a few different sections to get stuck into.",
+            "The piece kicks off in D minor, full of drama. Then shifts gears into a more relentless, manic march\u2014like you're running from the devil himself.",
+            "By the time you hit the later section, you've practically been through the seven circles of hell and the tempo has you panting for breath.",
+            "It's wild, it's relentless, and you wouldn't want it any other way."
+        ],
+        [
+            "### Role of Instruments: Symphony's Boldest",
+            "Now, any chat about 'Dies Irae' would be wack without diggin\u2019 into the instruments Mozart's rocked with to shake your core.",
+            "First off, the trombones. Those boys set the scene with a sound that's got more brass than a ship's bell. Then, the chorus rolls in, adding to the maelstrom and creating a harmonious hurricane of sound.",
+            "Throw in some timpani for that head-bangin' rhythm, and you got yourself one heck of a symphonic tsunami."
+        ],
+        [
+            "### Listen: Lend an Ear or Two",
+            "So, now you got the lowdown on what 'Dies Irae' is all about. But believe me, you ain\u2019t really lived until you've actually given this righteous racket a listen.",
+            "Go on, press play. Let the soundwaves wash over you. Dive headfirst into the musical madness.",
+            "Whether you're a classical music connoisseur or a first-time Mozart tourist, this is a journey like no other. Trust me, your ears will thank you later!"
+        ]
+    ],
+    "listen-guide-3": [
+        [
+            "### Essence: The Tears of Melody",
+            "Now, imagine you're kicking back in your grandad's favorite rocking chair, kinda like sinking into an old familiar groove. The lights are dimmed, all is calm, and then the 'Lacrimosa' slips in - boy, it's like a punch right in the feels. This showstopper from Mozart's Requiem is like raw emotion given voice. It's like the ghost of ol' Wolfie himself is tugging at your heartstrings, wrenching sorrow and longing right outta you with every heart-melting bar."
+        ],
+        [
+            "### Explanation of the Title: Crying Out in Latin",
+            "Now, you might be wondering: 'What's with this fancy-schmancy Latin name, Lacrimosa?' Well, my friend, welcome to the sob party. 'Lacrimosa' literally translates to 'weeping' or 'tearful', and it's a cornerstone of the tear-jerking Dies Irae sequence of a Catholic Requiem Mass. This was Wolfie reaching deep into his theological bag and pulling out a Latin gut-punch to make you sob into your Earl Grey. Told ya, this ain't your run-of-the-mill jingle, it's a deep dive into an ocean of tears."
+        ],
+        [
+            "### Analysis of the Structure: A Sonic Architecture",
+            "If we're talking structure here, 'Lacrimosa' is proof positive that Mozart was a master architect of sound. He worked with motifs rather than concrete themes, weaving these motifs together into what music nerds like to call a 'through-composed' structure. It's not your typical verse-chorus joint, rather it's like a road trip through shifting musical landscapes - keeps you on your toes, y'know? Each phrase is a new scene, no repeats, no encores, with Ol' Wolfie steering the wheel and you riding shotgun."
+        ],
+        [
+            "### Elaborating on Sections: Story in the Music",
+            "Ok, picture this: the track kicks off in D Minor - yeah, the big D, notorious for its sombre, tragic vibes. The first bars rise and fall like great heaving sobs, the sopranos cry out the 'Lacrimosa' theme and everything shudders to a halt, like the world's holding its breath. Then the music gear shifts into the 'Amen' section, wrapping up the piece in a hushed, solemn two-part counterpoint. It's like the musical version of a Greek tragedy - first the fall, then the redemption."
+        ],
+        [
+            "### Role of Instruments: Mozart's Symphony Toolbox",
+            "'Lacrimosa' features the old-school symphony orchestra in all its glory. We're talking strings, woodwinds and brass here, but also Mozart's secret weapons - the basset horns and trombones. The strings provide the harmonic backbone, kinda like the rich gravy in a shepherd's pie, while the winds and brass are the spices, the flavor that elevates the whole dish. The chorus, of course, are the stars of the show - they bring the chant-like melody to life."
+        ],
+        [
+            "### Listen: Press Play, Sit Back, and Swoon",
+            "So now you know: you know what the 'Lacrimosa' is about, you've got a glimpse into Mozart's genius, and you're primed for the ride. So hit that play button, amigo, and let the 'Lacrimosa' take you places. And remember, as ol' Wolfie himself might've said, it ain't about the notes you hear, it's all about the feels, bro."
+        ]
+    ]
+}

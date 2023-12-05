@@ -72,6 +72,7 @@ const QuizAnswerHandler: React.FC<QuizAnswerHandlerProps> = ({
 
     useEffect(() => {
         shuffledAnswerIndices.current = shuffleArray(shuffledAnswerIndices.current);
+        shuffledAnswerIndices.current = shuffleArray(createIndexArray(answers.length))
         setSelectedAnswerIndices([]);
     }, [answers]);
 

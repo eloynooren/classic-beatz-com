@@ -12,7 +12,7 @@ const imageElement = (
 )
 
 function Page() {
-    return <NotReadyYetPage imageElement={imageElement} headerTitle={["Beethove Unleashed"]}/>
+    return <NotReadyYetPage imageElement={imageElement} headerTitle={["Beethoven Unleashed"]}/>
 }
 
 export default Page

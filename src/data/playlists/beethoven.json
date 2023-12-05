@@ -1,0 +1,35 @@
+{
+    "title": ["Deafening Brilliance with Beethoven"],
+    "canonical": "/playlists/deafening-brilliance-with-beethoven",
+    "seo": {
+        "description": "Dive into the dynamic world of Beethoven's compositions, where each note pulsates with passion and power. From his soul-stirring symphonies to his profound piano sonatas, explore the depths of classical mastery!",
+        "og:title": "Beethoven's Bold Beats - Classical Music That Moves",
+        "og:description": "Experience the intensity of Beethoven's iconic works. Feel the emotion in every crescendo and the power in every pause. We're showcasing the legendary composer's most electrifying pieces!",
+        "twitter:title": "Beethoven Unleashed 🎶 | Epic Classical Anthems",
+        "twitter:description": "Ride the wave of Beethoven's brilliance. His music isn't just timeless; it's a revolution in every rhythm. Get ready for a symphonic journey that's as moving as it is memorable!"
+    },
+    "mixIntro": [
+        "### Welcome to Beethoven's Harmonic Haven!",
+        "Dive into the depths of Beethoven's genius, where every note echoes with passion and brilliance.",
+        "This playlist is a curated collection of his most captivating compositions, from stirring symphonies to profound piano sonatas.",
+        "Press play and let the timeless tunes of this legendary maestro transport you to a world of musical wonder!"
+    ],
+    "compositionsIntro": [
+        "### Riding Beethoven's rhythmic waves? Set for a quiz on his legendary compositions?",
+        "Revisit the Beethoven masterpieces that stirred our souls, then brace yourself for the quiz.",
+        "Got a Beethoven favorite? Click to learn more fascinating insights before you take on the challenge!"
+    ],
+    "quizIntro": [
+        "### Alright, champions, let's activate that brainpower.",
+        "Dominate the quiz and show your intellectual superiority."
+    ],
+    "quizItemTypes" : [ "WHAT-HEAR" ],
+    "pairCompositionIntro": [
+        "### Enthralled by Beethoven's compositions? Gear up for an exciting educational escapade!",
+        "Venture into our interactive space – the Beethoven connection game.",
+        "Link his diverse works with intriguing facts. Leap in and relish the journey of learning and discovery."
+    ],
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+}
+
+

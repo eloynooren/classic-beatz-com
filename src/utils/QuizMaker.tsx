@@ -10,20 +10,28 @@ export class QuizMaker {
     private _annotationTemplates = {}
 
     addTrackLists(tracks: Track[], composerDict: any, quizItemTypes: string[]) {
-        let titles = tracks.map(t => makeTrackTitle(t))
-        let composers = tracks.map(t => t.composer)
-        let compositions = tracks.map(t => t.composition)
-
         for (const track of tracks) {
             let include_composition_annotation = false
             let include_composer_annotation = false
-            const title = makeTrackTitle(track)
-            titles = titles.filter(s => s !== title);
-            titles.unshift(title)
-            composers = composers.filter(e => e !== track.composer)
-            composers.unshift(track.composer)
-            compositions = compositions.filter(e => e !== track.composition)
-            compositions.unshift(track.composition)
+            const titles = [makeTrackTitle(track)]
+            const excluded_composers = tracks.filter(t => t.composition == track.composition).map(t => t.composer)
+            const excluded_compositions = tracks.filter(t => t.composer == track.composer).map(t => t.composition)
+            const composers = [track.composer]
+            const compositions = [track.composition]
+
+            for (const other_track of tracks) {
+                if (track != other_track) {
+                    titles.push(makeTrackTitle(other_track))
+
+                    if (!composers.includes(other_track.composer) && !excluded_composers.includes(other_track.composer)) {
+                        composers.push(other_track.composer)
+                    }
+
+                    if (!compositions.includes(other_track.composition) && !excluded_compositions.includes(other_track.composition))  {
+                        compositions.push(other_track.composition)
+                    }
+                }
+            }
 
             if (quizItemTypes.includes('WHAT-HEAR')) {
                 this._quizItems.push({
@@ -41,7 +49,7 @@ export class QuizMaker {
             if (quizItemTypes.includes('WHICH-COMPOSER')) {
                 this._quizItems.push({
                     question: [ 'WHICH-COMPOSER', ({'COMPOSITION': track.composition})],
-                    questionAnnotation: title,
+                    questionAnnotation: titles[0],
                     answers: composers,
                     answerAnnotations: composers,
                     type: 'text',
@@ -65,7 +73,7 @@ export class QuizMaker {
             }
             
             if (include_composition_annotation) {
-                this._annotationTemplates[title] = Object.keys(track.annotations)
+                this._annotationTemplates[titles[0]] = Object.keys(track.annotations)
             }
 
             if (include_composer_annotation) {
@@ -100,6 +108,7 @@ export class QuizMaker {
 
     getItems(): QuizItem[] {
         let items = shuffleArray(this._quizItems)
+        console.log(items)
         return items
     }
     
