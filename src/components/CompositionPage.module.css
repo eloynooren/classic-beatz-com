@@ -35,16 +35,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    color: purple !important;
+    color: #757575 !important;
     padding: 2px  !important;
-    margin: 0 0 25px 0 !important;
+    margin: 50px 0 25px 0 !important;
 }
 
 .selected-tab-0 {
-    color: purple !important;
+    color: gray !important;
     background-color: white !important;
     font-weight: 700;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid gray;
     bottom: 0;
 }
 

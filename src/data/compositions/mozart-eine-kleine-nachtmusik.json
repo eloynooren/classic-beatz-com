@@ -86,12 +86,6 @@
         "A Quick Riff on Mozart's",
         "Eine kleine Nachtmusik"
     ],
-    "buttonLabels": {
-        "best-moments": "Best Moments",
-        "backstory": "Backstory",
-        "tracks": "Listen Guide",
-        "exam": "Exam"
-    },
     "audio": {
         "fragment-1": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-1-0-45.mp3",
         "fragment-2": "/audio/compositions/mozart-eine-kleine-nachtmusik/fragment-2-75-100.mp3",

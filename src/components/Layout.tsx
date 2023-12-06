@@ -346,8 +346,13 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
 
             </header>
             <main>
-                <h1>{headerTitle.map((part, index) => [part.toUpperCase(), <wbr key={index}/>, ' ']).flat().slice(0, -2)}</h1>
-                {/* device-width={deviceWidth} window-width={windowWidth} --> */}
+                <h1>
+                    {deviceWidth < 99999 ? (
+                        headerTitle.map((part, index) => [part.toUpperCase(), <br key={index}/>, ' ']).flat().slice(0, -2)
+                    ) : (
+                        headerTitle.map((part, index) => [part.toUpperCase(), <wbr key={index}/>, ' ']).flat().slice(0, -2)
+                    )}
+                </h1>
                 <div className={styles.layoutContent}>{children}</div>
                 <div className={styles.layoutFiller}/>
                 {deviceWidth < 768 && <BottomMenu/>}

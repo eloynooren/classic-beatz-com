@@ -107,6 +107,7 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
         <Layout pageTitle={data.composer + ": " + data.composition} headerTitle={data.header} seo={seo}>
             <Dispatcher>
                 <Flex>
+                    <Image image={imageElements['best-moments']}/>
                     <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
                             {'best-moments' in data && <Tab className={styles.tab}>Best Moments</Tab>}
@@ -116,19 +117,15 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                             {'exam' in data && <Tab className={styles.tab}>Exam</Tab>}
                         </TabList>
                         {'best-moments' in data && <TabPanel>
-                            <Image image={imageElements['best-moments']}/>
                             <Section paragraphs={data['best-moments']} type='best-moments' audio={data.audio}/>
                         </TabPanel>}
                         {'backstory' in data && <TabPanel>
-                            <Image image={imageElements['backstory']}/>
                             <Section paragraphs={data['backstory']} type='' audio={data.audio}/>
                         </TabPanel>}
                         {'plot' in data && <TabPanel>
-                            <Image image={imageElements['plot']}/>
                             <Section paragraphs={data['plot']} type='plot' audio={data.audio}/>
                         </TabPanel>}
                         {('listen-guide' in data || 'listen-guide-1' in data) && <TabPanel>
-                            <Image image={imageElements['listen-guide']}/>
                             {'trackType' in data && data['trackType'] == 'movement' ? (
                                 <>
                                     {'tracksIntro' in data &&
@@ -163,7 +160,6 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                                 )}
                         </TabPanel>}
                         {'exam' in data && <TabPanel>
-                            <Image image={imageElements['exam']}/>
                             <Section quizIntro={data.quizIntro} quizMakerObj={quizMakerObj} pairs={data.pairs}
                                      pairsMakerObjList={pairsMakerObjList}/>
                         </TabPanel>}
