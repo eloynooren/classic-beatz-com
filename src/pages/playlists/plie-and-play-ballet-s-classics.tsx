@@ -26,7 +26,7 @@ function Page() {
     data.composers = composers()
 
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.title} pageLabel="Home" seo={data.seo}>
+        <Layout pageTitle="Classical Beatz" headerTitle={data.title} seo={data.seo}>
            <MixSection data={data} imageElement={imageElement}/>
         </Layout>
     )

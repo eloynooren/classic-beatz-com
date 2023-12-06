@@ -32,7 +32,7 @@ function Page() {
     data.composers = new ArrayOfDictionaries([c1,c2,c3,c4,c5,c6], ["annotations"]).getAsSingleDictionary("composer")
 
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.title} pageLabel="Home" seo={data.seo}>
+        <Layout pageTitle="Classical Beatz" headerTitle={data.title} seo={data.seo}>
            <MixSection data={data} imageElement={imageElement}/>
         </Layout>
     )
