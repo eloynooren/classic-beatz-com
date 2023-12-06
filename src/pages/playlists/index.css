@@ -7,8 +7,7 @@
 .row {
     white-space: nowrap;
     display: grid;
-    //grid-template-columns: 48px auto;
-    grid-template-columns: 48px auto;
+    grid-template-columns: auto;
     align-items: center;
     justify-items: left;
     margin-top: 0;

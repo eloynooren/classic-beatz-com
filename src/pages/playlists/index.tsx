@@ -1,6 +1,6 @@
 import React from 'react';
 import { StaticImage } from "gatsby-plugin-image";
-import {Layout, Flex, Cell, Paragraph} from "../../components/Layout";
+import {Layout, Flex, Cell, Paragraph, Link} from "../../components/Layout";
 import homePage from "../../utils/data/playlists/home-page";
 import pianoSolos from "../../data/playlists/piano-solos.json"
 import symphonies from "../../data/playlists/symphonies.json"
@@ -8,8 +8,8 @@ import ballet from "../../data/playlists/ballet.json"
 import bach from "../../data/playlists/bach.json"
 import mozart from "../../data/playlists/mozart.json"
 import beethoven from "../../data/playlists/beethoven.json"
+import * as styles from './index.css'
 
-import {AudioPlayer} from "../../components/Audio";
 
 const introduction = [
     "### Hey there, props for popping into our playlist palace!",
@@ -60,6 +60,15 @@ const beethovenTeaser = [
     " and immerse yourself in the profound depth of his musical genius."
 ]
 
+const playLists = [
+    pianoSolos,
+    symphonies,
+    ballet,
+    bach,
+    mozart,
+    beethoven
+]
+
 function Page() {
     const seo = {}
 
@@ -79,25 +88,17 @@ function Page() {
                     <Paragraph sentences={introduction}/>
                 </Cell>
                 <Cell>
-                    <Paragraph sentences={homePageTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={pianoSolosTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={bachTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={symphoniesTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={mozartTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={balletTeaser}/>
-                </Cell>
-                <Cell>
-                    <Paragraph sentences={beethovenTeaser}/>
+                    <div className={styles.list}>
+                        <div>
+                            {playLists.map((playList, index) => (
+                                <div key={index} className={styles.row}>
+                                    <Link url={playList['canonical']} arrow={true}>
+                                        {playList['title']}
+                                    </Link>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </Cell>
             </Flex>
         </Layout>

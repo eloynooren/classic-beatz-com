@@ -157,14 +157,34 @@ h3 {
     margin-top: 25px;
     margin-bottom: 100px;
 }
+
 .link {
-    color: #FD7E14;
+    text-decoration: none;
+}
+
+.linkWithArrow {
+    display: grid;
+    grid-template-columns: auto 24px;
+    align-items: center;
+    justify-items: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 48px;
+    text-align: left;
+    gap: 16px;
     text-decoration: none;
 }
 
 .linkButton {
+    color: gray;
     width: 100%;
 }
+
+.link-arrow {
+    color: #FD7E14;
+    font-size: 24px;
+}
+
 
 
 .container {
@@ -199,7 +219,7 @@ h3 {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    color: #FD7E14;
+    color: gray;
 }
 
 .top-menu-active {
@@ -223,6 +243,7 @@ h3 {
 
 .bottom-menu-label {
     font-size: 10px;
+    color: gray;
 }
 
 

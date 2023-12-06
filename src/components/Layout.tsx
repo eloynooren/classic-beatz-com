@@ -8,7 +8,7 @@ import * as styles from './Layout.module.css'
 import { StaticImage } from "gatsby-plugin-image"
 import {Tab, TabList, TabPanel} from "react-tabs";
 import Seo from "./Seo";
-import {IoAdd, IoMan, IoHome, IoMusicalNote, IoMusicalNotes} from "react-icons/io5";
+import {IoAdd, IoMan, IoHome, IoMusicalNote, IoMusicalNotes, IoArrowForward} from "react-icons/io5";
 import {clearCurrentlyHandledPendingQueryRuns} from "gatsby/dist/state-machines/query-running/actions";
 
 
@@ -203,16 +203,26 @@ export const Paragraphs: React.FC<ParagraphsProps> = ({paragraphs, classNames}) 
 interface LinkProps {
     url : string;
     children: React.ReactNode;
+    arrow?: boolean
 }
 
-export const Link: React.FC<LinkProps> = ({url, children}) => {
-    return (
-        <div className={styles.linkButton}>
-            <GatsbyLink to={url}  className={styles.link}>
+export const Link: React.FC<LinkProps> = ({url, children, arrow}) => {
+    if (arrow) {
+        return (
+            <div className={styles.linkButton}>
+                <GatsbyLink to={url} className={styles.linkWithArrow}>
+                    {children}
+                    <IoArrowForward className={styles.linkArrow}/>
+                </GatsbyLink>
+            </div>
+        )
+    } else {
+        return (
+            <GatsbyLink to={url} className={styles.link}>
                 {children}
             </GatsbyLink>
-        </div>
-    )
+        )
+    }
 }
 
 interface TooltipProps {

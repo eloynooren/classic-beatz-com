@@ -10,15 +10,21 @@ interface TrackListProps {
 }
 
 const TrackList: React.FC<TrackListProps> = ({tracks}) => {
+    const allSameComposer = tracks.every(
+        (track, _, array) => track.composer === array[0].composer
+    );
     return (
         <div className={styles.list}>
             <div>
                 {tracks.map((track, index) => (
                     <div key={index} className={styles.row}>
                         <OneButtonAudioPlayer src={track.src}/>
-                        {'title' in track ? track.title : track.composer + "'s " + track.composition}
-                        <Link url={track.canonical}>
-                            <IoArrowForward className={styles.arrow} />
+
+                        <Link url={track.canonical} arrow={true}>
+                            {allSameComposer ? track.composition : (
+                                'title' in track ? track.title :
+                                    track.composer + "'s" + " + track.composition"
+                            )}
                         </Link>
                     </div>
                 ))}
