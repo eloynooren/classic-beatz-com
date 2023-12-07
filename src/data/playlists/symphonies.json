@@ -30,7 +30,12 @@
         "Next up: a game to pair legendary composers with fascinating facts.",
         "Think you can ace it? Let's get started!"
     ],
-    "pairComposerInstruction": "Composers are on the left, cool facts on the right. Tap and link'em up."
+    "pairComposerInstruction": "Composers are on the left, cool facts on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### Grooving to this playlist? Want to keep the party going? Check out more.",
+        "Below is the list, tap your choice, and we'll bring you straight to its webpage.",
+        "The music never ends!"
+    ]
 }
 
 

@@ -40,7 +40,12 @@
         "Coming up in our match game: connect these iconic composers with some cool facts about them.",
         "Reckon you're up for the challenge? Let's do this!"
     ],
-    "pairComposerInstruction": "Composers are on the left, cool facts on the right. Tap and link'em up."
+    "pairComposerInstruction": "Composers are on the left, cool facts on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### Rocking out to this playlist? Fancy another one? We've got loads.",
+        "Take a peek below, select your next banger, and we'll guide you to its webpage.",
+        "Let's amp up the volume!"
+    ]
 }
 
 

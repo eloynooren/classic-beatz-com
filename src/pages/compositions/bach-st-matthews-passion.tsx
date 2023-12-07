@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach composing St Matthew's Passion"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/choir-singing-bach-st-matthews-passion.jpg"
-            alt="Choir singing Bach's St Matthew's Passion"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/couple-listening-to-bach-st-matthews-passion.jpg"
-            alt="Couple listening to Bach's St Matthew's Passion"
-        />,
 }
 
 function Page() {

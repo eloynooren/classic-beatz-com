@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach composing Jesu, Joy of Man's Desiring"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-bach-jesu-joy-of-man-s-desiring-on-viola.jpg"
-            alt="Female playing Bach's Jesu, Joy of Man's Desiring on viola"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/couple-listening-to-bach-jesu-joy-of-man-s-desiring.jpg"
-            alt="Couple listening to Bach's Jesu, Joy of Man's Desiring"
-        />,
 }
 
 function Page() {

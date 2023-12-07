@@ -31,7 +31,12 @@
         "Map out Bach's compositions with trivia notes.",
         "Jump in and give it a go."
     ],
-    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### Feelin' the beats in this playlist? Ready for a fresh set? We've got loads more.",
+        "Scope out the list below, tap your next jam, and we'll zap you straight to that playlist's page.",
+        "Keep the tunes coming"
+    ]
 }
 
 

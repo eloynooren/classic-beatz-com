@@ -11,20 +11,7 @@ const imageElements = {
             src="../../images/smiling-debussy.jpg"
             alt="Smiling Debussy"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/hipster-female-playing-debussy-clair-de-lune-on-piano.jpg"
-            alt="hipster female playing Debussy's Clair De Lune on piano."
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-smiling-males-listening-to-debussy-clair-de-lune-on-headphones.jpg"
-            alt="Two males listening to Debussy's Clair De Lune on headphones."
-        />,
-}
+        />}
 
 function Page() {
     let quizMakerObj = new QuizMaker()

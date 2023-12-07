@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-and-singing-handel.jpg"
             alt="Smiling and singing Händel"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/male-and-female-playing-singing-handel-hallelujah.jpg"
-            alt="Male and female singing Händel's Hallelujah"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/choir-singing-hallelujah.jpg"
-            alt="Choir singing Händel's Hallelujah"
-        />,
+        />
 }
 
 function Page() {

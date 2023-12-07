@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/beethoven-in-country-side.jpg"
             alt="Beethoven in country side"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/orchestra-playing-beethoven-symphony-no-6.jpg"
-            alt="Orchestra playing Beethoven's Symphony No 6"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/shepherd-listening-to-beethoven-symphony-no-6.jpg"
-            alt="Shepherd listening to Beethoven's Symphony No 6"
-        />,
+        />
 }
 
 function Page() {

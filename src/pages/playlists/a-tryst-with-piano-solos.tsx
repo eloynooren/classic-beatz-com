@@ -21,9 +21,9 @@ const imageElement = [
         loading="eager"
     />,
     <StaticImage
-        key="image-2"
-        src="../../images/female-playing-classical-music-on-piano.jpg"
-        alt="Female playing classical music on a piano'"
+        key="image-4"
+        src="../../images/female-listening-to-piano-solos.jpg"
+        alt="Female listening to piano solos'"
     />,
     <StaticImage
         key="image-3"
@@ -31,9 +31,9 @@ const imageElement = [
         alt="Male playing classical music on a piano'"
     />,
     <StaticImage
-        key="image-4"
-        src="../../images/3-female-rappers-playing-classical-music-on-violin.jpg"
-        alt="Female rapper playing a cello'"
+        key="image-2"
+        src="../../images/two-males-listening-to-piano-solos.jpg"
+        alt="Two males listening to piano solos"
     />,
 ]
 

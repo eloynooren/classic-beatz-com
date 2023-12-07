@@ -15,15 +15,26 @@ import c6 from "../../data/composers/mozart.json";
 const imageElement = [
     <StaticImage
         key="image-1"
+        src="../../images/orchestra-playing-classical-music.jpg"
+        alt="Orchestra playing classical music"
+    />,
+    <StaticImage
+        key="image-2"
+        src="../../images/female-listening-to-symphony.jpg"
+        alt="Female listening to a symphony"
+    />,
+    <StaticImage
+        key="image-3"
         src="../../images/conductor-of-symphony-orchestra.jpg"
         alt="Conductor of a symphony orchestra"
         loading="eager"
     />,
     <StaticImage
-        key="image-2"
-        src="../../images/symphony-orchestra.jpg"
-        alt="Symphony orchestra"
-    />
+        key="image-3"
+        src="../../images/couple-listening-to-symphony.jpg"
+        alt="Couple listening to a symphony"
+        loading="eager"
+    />,
 ]
 
 

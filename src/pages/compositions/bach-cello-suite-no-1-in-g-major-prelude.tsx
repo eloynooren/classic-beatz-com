@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach with headphones, reading Cello Suite No 1 in G Major Prelude"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/two-males-with-a-cello.jpg"
-            alt="Two males with a cello, ready to play Bach's Cello Suite No 1 in G Major Prelude"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-females-listening-to-bach-cello-suite-no-1-in-g-major-prelude.jpg"
-            alt="Two females listening to Bach's Cello Suite No 1 in G Major Prelude"
-        />,
 }
 
 function Page() {

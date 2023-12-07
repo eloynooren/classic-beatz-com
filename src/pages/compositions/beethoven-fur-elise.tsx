@@ -14,18 +14,6 @@ const imageElements = {
             alt="Beethoven dancing on F\u00fcr Elise"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/female-playing-beethoven-fur-elise-on-piano.jpg"
-            alt="Female playing Beethoven's F\u00fcr Elise on piano"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/two-females-listening-to-beethoven-fur-elise.jpg"
-            alt="Two females listening to Beethoven's F\u00fcr Elise on piano"
-        />
 }
 
 function Page() {

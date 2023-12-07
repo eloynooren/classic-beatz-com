@@ -14,10 +14,20 @@ const imageElement = [
         loading="eager"
     />,
     <StaticImage
+        key="image-1"
+        src="../../images/male-listening-to-mozart.jpg"
+        alt="Male listening to Mozart"
+    />,
+    <StaticImage
         key="image-2"
-        src="../../images/beethoven-conducting-a-symphony.jpg"
+        src="../../images/mozart-dancing.jpg"
         alt="Mozart dancing"
-    />
+    />,
+    <StaticImage
+        key="image-1"
+        src="../../images/two-females-listening-to-mozart.jpg"
+        alt="Two females listening to Mozart"
+    />,
 ]
 
 

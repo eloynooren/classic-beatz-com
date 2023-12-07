@@ -1,8 +1,8 @@
 import React, {ReactElement} from 'react';
 import 'react-tabs/style/react-tabs.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import {Layout, Flex, Paragraph} from "../components/Layout";
-import {Section} from "../components/Section";
+import {Layout, Flex, Paragraph} from "./Layout";
+import {Section} from "./Section";
 import {Images} from "../utils/Images"
 import { Dispatcher } from './Dispatcher';
 import * as styles from './CompositionPage.module.css'

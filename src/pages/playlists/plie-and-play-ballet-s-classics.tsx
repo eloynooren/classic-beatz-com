@@ -15,9 +15,19 @@ const imageElement = [
     />,
     <StaticImage
         key="image-2"
+        src="../../images/male-ballet-dancer-listening-to-ballet-music.jpg"
+        alt="Male listening to ballet music"
+    />,
+    <StaticImage
+        key="image-3"
         src="../../images/ballet-pointe-shoe.jpg"
         alt="Ballet pointe shoe"
-    />
+    />,
+    <StaticImage
+        key="image-4"
+        src="../../images/couple-listening-to-ballet-music.jpg"
+        alt="Couple listening to ballet music"
+    />,
 ]
 
 

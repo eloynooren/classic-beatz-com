@@ -11,20 +11,7 @@ const imageElements = {
             src="../../images/mozart-listening-to-requiem.jpg"
             alt="Mozart listening to Requiem"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/0.jpg"
-            alt="Orchestra playing Mozart's Requiem"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/male-listening-to-mozart-requiem.jpg"
-            alt="Male listening to Mozart's Requiem"
-        />,
-}
+        />}
 
 function Page() {
     let quizMakerObj = new QuizMaker()

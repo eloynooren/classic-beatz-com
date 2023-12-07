@@ -14,18 +14,6 @@ const imageElements = {
             alt="Smiling Bach playing on organ"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-bach-toccata-and-fungue-in-d-minor-on-organ.jpg"
-            alt="Female playing Bach's Toccata And Fugue In D Minor on organ"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/laughing-rapper-with-organ-in-cathedral.jpg"
-            alt="Laughing rapper with organ in cathedral"
-        />
 }
 
 function Page() {

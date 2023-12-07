@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach enjoying Goldberg Variations"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/male-playing-bach-goldberg-variations-on-piano.jpg"
-            alt="Male playing Bach's Goldberg Variations on piano"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-males-listening-to-bach-goldberg-variations.jpg"
-            alt="Two males listening to Bach's Goldberg Variations"
-        />,
 }
 
 function Page() {

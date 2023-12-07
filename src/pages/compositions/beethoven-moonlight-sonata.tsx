@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-beethoven-in-hoodie.jpg"
             alt="Smiling Beethoven in hoodie"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/hipster-female-playing-beethoven-moonlight-sonata-on-piano.jpg"
-            alt="Hipster female playing Beethoven's Moonlight Sonata on piano."
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/male-listening-to-beethoven-moonlight-sonata.jpg"
-            alt="Male listening to Beethoven's Moonlight Sonata."
-        />,
+        />
 }
 
 function Page() {

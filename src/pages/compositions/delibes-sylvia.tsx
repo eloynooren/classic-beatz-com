@@ -13,24 +13,6 @@ const imageElements = {
             src="../../images/delibes-listening-to-sylvia.jpg"
             alt="Delibes listening to Sylvia"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/tip-toeing-on-delibes-s-sylvia.jpg"
-            alt="Tip-Toeing on Delibes's Sylvia"
-        />,
-    'plot':
-        <StaticImage
-            key="image-composition"
-            src="../../images/female-dancing-on-delibes-s-sylvia.jpg"
-            alt="Tip-Toeing on Delibes's Sylvia"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/male-ballet-dancer-listening-to-delibes-sylvia.jpg"
-            alt="Male ballet dancer listening to Delibes's Sylvia"
         />
 }
 

@@ -14,18 +14,6 @@ const imageElements = {
             alt="Beethoven listening to Appassionata"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/male-playing-beethoven-appassionata.jpg"
-            alt="Male playing Beethoven's Appassionata"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/chinese-male-listening-to-beethoven-appassionata.jpg"
-            alt="Chinese male listening to Beethoven's Appassionata"
-        />
 }
 
 function Page() {

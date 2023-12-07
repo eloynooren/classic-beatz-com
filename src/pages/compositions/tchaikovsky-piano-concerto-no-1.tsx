@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-tchaikovsky.jpg"
             alt="Smiling Tchaikovsky"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/orchestra-playing-tchaikovsky-symphony-no-6.jpg"
-            alt="Male playing Tchaikovsky's Piano Concerto No 1"
-        /> ,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/female-playing-tchaikovsky-piano-concerto-no-1.jpg"
-            alt="Female playing Tchaikovsky's Piano Concerto No 1"
-        />,
+        />
 }
 
 function Page() {

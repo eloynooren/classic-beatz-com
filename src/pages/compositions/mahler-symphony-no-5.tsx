@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/mahler-listening-to-symphony-no-5.jpg"
             alt="Mahler listening to  Symphony No 5"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/orchestra-playing-mahler-symphony-no-5.jpg"
-            alt="Orchestra playing Mahler's Symphony No 5"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/male-listening-to-mahler-symphony-no-5.jpg"
-            alt="Male listening to Mahler's Symphony No 5"
-        />,
+        />
 }
 
 function Page() {

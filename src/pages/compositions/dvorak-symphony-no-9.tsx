@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/dvorak-listening-to-symphony-no-9.jpg"
             alt="Dvořák listening to Symphony No 9"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/orchestra-playing-dvorak-symphony-no-9.jpg"
-            alt="Orchestra playing Dvořák's Symphony No 9"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/female-listening-to-dvorak-symphony-no-9.jpg"
-            alt="Female listening to Dvořák's Symphony No 9"
-        />,
+        />
 }
 
 function Page() {

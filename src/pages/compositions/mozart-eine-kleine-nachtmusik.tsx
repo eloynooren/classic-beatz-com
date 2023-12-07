@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-mozart-with-headphones.jpg"
             alt="Mozart with headphones"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-mozart-eine-kleine-nachtmusik-on-violin.jpg"
-            alt="Female playing Mozart's Eine Kleine Nachtmusik on violin."
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-smiling-males-listening-to-mozart-eine-kleine-nachtmusik-on-headphones.jpg"
-            alt="Two smiling males listening to Mozart's Eine Kleine Nachtmusik on headphones.jpg."
-        />,
+        />
 }
 
 function Page() {

@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-chopin.jpg"
             alt="Smiling Chopin"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/hipster-playing-chopin-nocturne-in-e-flat-major-on-piano.jpg"
-            alt="Hipster playing Chopin's Nocturne in E Flat Major on piano."
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/female-listening-to-chopin-nocturne-in-e-flat-major.jpg"
-            alt="female listening to Chopin's Nocturne In E Flat Major."
-        />,
+        />
 }
 
 function Page() {

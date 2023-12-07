@@ -14,9 +14,19 @@ const imageElement = [
     />,
     <StaticImage
         key="image-2"
+        src="../../images/chinese-male-listening-to-beethoven.jpg"
+        alt="Chinese male listening to Beethoven"
+    />,
+    <StaticImage
+        key="image-3"
         src="../../images/beethoven-conducting-a-symphony.jpg"
         alt="Beethoven conducting a symphony"
-    />
+    />,
+    <StaticImage
+        key="image-4"
+        src="../../images/two-females-listening-to-beethoven.jpg"
+        alt="Two females listening to Beethoven"
+    />,
 ]
 
 

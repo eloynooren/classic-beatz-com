@@ -13,18 +13,6 @@ const imageElements = {
             src="../../images/ravel-listening-to-bolero.jpg"
             alt="Ravel listening to Bolero"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/couple-dancing-on-ravel-bolero.jpg"
-            alt="Female dancing on Ravel's Bolero"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/boys-listening-to-ravel-bolero.jpg"
-            alt="Boys listening to Ravel's Bolero"
         />
 }
 

@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/mozart-listening-to-piano-concerto-no-21.jpg"
             alt="Mozart listening to Piano Concerto No 21"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/male-playing-mozart-piano-concerto-no-21.jpg"
-            alt="Male playing Mozart's Piano Concerto No 21"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/female-listening-to-mozart-piano-concerto-no-21.jpg"
-            alt="Female listening to Mozart's Piano Concerto No 21"
-        />,
+        />
 }
 
 function Page() {

@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/mozart-thinking-of-le-nozze-di-figaro.jpg"
             alt="Mozart thinking of Le Nozze di Figaro"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/0.jpg"
-            alt="Orchestra playing Mozart's Le Nozze di Figaro"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-females-listening-to-mozart-le-nozze-di-figaro.jpg"
-            alt="Two females listening to Mozart's Le Nozze di Figaro"
-        />,
+        />
 }
 
 function Page() {

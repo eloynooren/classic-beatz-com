@@ -13,18 +13,6 @@ const imageElements = {
             src="../../images/ponchielli-listening-to-danza-delle-ore.jpg"
             alt="Ponchielli listening to Danza delle Ore"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/female-dancing-on-ponchielli-danza-delle-ore.jpg"
-            alt="Female dancing on Ponchielli's Danza delle Ore"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/couple-listening-to-ponchielli-danza-delle-ore.jpg"
-            alt="Couple listening to Ponchielli's Danza delle Ore"
         />
 }
 

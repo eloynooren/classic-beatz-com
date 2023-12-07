@@ -22,13 +22,18 @@ const imageElement = [
     />,
     <StaticImage
         key="image-2"
-        src="../images/couple-playing-classical-music-on-piano.jpg"
-        alt="Couple playing classical music om piano.jpg"
+        src="../images/two-females-listening-to-classical-music.jpg"
+        alt="Two females listening to classical music"
     />,
     <StaticImage
         key="image-3"
-        src="../images/3-female-rappers-playing-classical-music-on-violin.jpg"
-        alt="Female rapper playing a cello'"
+        src="../images/female-playing-classical-music-on-piano.jpg"
+        alt="Female playing classical music om piano.jpg"
+    />,
+    <StaticImage
+        key="image-4"
+        src="../images/male-listening-to-classical-music.jpg"
+        alt="Male listening to classical music'"
     />,
 ]
 

@@ -29,7 +29,12 @@
         "Venture into our interactive space – the Beethoven connection game.",
         "Link his diverse works with intriguing facts. Leap in and relish the journey of learning and discovery."
     ],
-    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### Enjoying these tunes? Craving another playlist? You're in luck – we've got plenty.",
+        "Browse the list below, select your next favorite, and we'll take you to its webpage.",
+        "The party's just getting started!"
+    ]
 }
 
 

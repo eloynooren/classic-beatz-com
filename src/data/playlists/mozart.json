@@ -29,7 +29,12 @@
         "Enter our interactive playground – the mix-and-match challenge.",
         "Connect Mozart's masterpieces with fun facts. Dive in and experience the excitement."
     ],
-    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up."
+    "pairCompositionInstruction": "Compositions are on the left, trivia on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### How's this playlist treating you? Ready to explore more? We've got a whole arsenal.",
+        "Check out the list below, hit the one you like, and we'll lead you to its webpage.",
+        "Your musical journey continues!"
+    ]
 }
 
 

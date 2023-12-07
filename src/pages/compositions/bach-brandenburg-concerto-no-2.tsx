@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach enjoying Brandenburg Concerto No 2"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-bach-brandenburg-concerto-no-2-on-trumpet.jpg"
-            alt="Female playing Bach's Brandenburg Concerto No 2 on trumpet"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/male-listening-to-bach-brandenburg-concerto-no-2.jpg"
-            alt="Male listening to Bach's Brandenburg Concerto No 2"
-        />,
 }
 
 function Page() {

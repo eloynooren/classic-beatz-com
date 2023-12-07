@@ -12,13 +12,22 @@ const imageElement = [
         src="../../images/bach-dancing.jpg"
         alt="Bach dancing"
         loading="eager"
-        loading="eager"
     />,
     <StaticImage
         key="image-2"
+        src="../../images/couple-listening-to-bach.jpg"
+        alt="Couple listening to Bach"
+    />,
+    <StaticImage
+        key="image-3"
         src="../../images/male-playing-bach-on-organ.jpg"
         alt="Male playing Bach on organ"
-    />
+    />,
+    <StaticImage
+        key="image-4"
+        src="../../images/two-males-listening-to-bach.jpg"
+        alt="Two males listening to Bach"
+    />,
 ]
 
 

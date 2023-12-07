@@ -13,24 +13,6 @@ const imageElements = {
             src="../../images/khachaturian-listening-to-gayane.jpg"
             alt="Khachaturian listening to Gayane"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/two-females-dancing-on-khachaturian-gayane.jpg"
-            alt="Female dancing on Khachaturian's Gayane"
-        />,
-    'plot':
-        <StaticImage
-            key="image-composition"
-            src="../../images/harvest-at-farm.jpg"
-            alt="Harvest at farm"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/male-listening-to-khachaturian-gayane.jpg"
-            alt="Male listening to Khachaturian's Gayane"
         />
 }
 

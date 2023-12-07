@@ -9,6 +9,7 @@ import Quiz from "../components/Quiz";
 import Pairs from "../components/Pairs";
 import GoogleAd from "../components/GoogleAd"
 import makeTrackTitle from "../utils/makeTrackTitle";
+import Playlists from "../components/Playlists"
 
 interface MixSectionProps {
     data: any;
@@ -88,6 +89,9 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                 <Cell>
                     <TrackList tracks={data.tracks}/>
                 </Cell>
+                <Cell classNames="cellTopMargin">
+                    {imageElement[2]}
+                </Cell>
                 <Cell>
                     <GoogleAd/>
                 </Cell>
@@ -117,6 +121,20 @@ export const MixSection: React.FC<MixSectionProps> = ({data, imageElement}) => {
                     </Cell>
                     <Cell>
                         <Pairs buttonLabel="Match the Maestros" instruction={data.pairComposerInstruction} pairsMakerObj={composerPairsMakerObj[0]}/>
+                    </Cell>
+                </>}
+                {data.playlistsIntro && <>
+                    <Cell classNames="cellTopMargin">
+                        {imageElement[3]}
+                    </Cell>
+                    <Cell>
+                        <GoogleAd/>
+                    </Cell>
+                    <Cell>
+                        <Paragraph sentences={data.playlistsIntro}/>
+                    </Cell>
+                    <Cell>
+                        <Playlists exclude={data.title}/>
                     </Cell>
                 </>}
             </Flex>

@@ -13,24 +13,6 @@ const imageElements = {
             src="../../images/tchaikovsky-composing-swan-lake.jpg"
             alt="Tchaikovsky ... Swan Lake"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/female-dancing-on-tchaikovsky-swan-lake.jpg"
-            alt="Female dancing on Tchaikovsky's Swan Lake"
-        />,
-    'plot':
-        <StaticImage
-            key="image-composition"
-            src="../../images/swan.jpg"
-            alt="Swan"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/male-listening-to-tchaikovsky-swan-lake.jpg"
-            alt="Males listening to Tchaikovsky's Swan Lake"
         />
 }
 

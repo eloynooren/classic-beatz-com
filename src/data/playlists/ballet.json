@@ -39,7 +39,12 @@
         "In our matching game, link celebrated composers with intriguing tidbits.",
         "Ready to prove your musical mettle? Dive in!"
     ],
-    "pairComposerInstruction": "Composers are on the left, tidbits on the right. Tap and link'em up."
+    "pairComposerInstruction": "Composers are on the left, tidbits on the right. Tap and link'em up.",
+    "playlistsIntro": [
+        "### Loved this playlist? Hungry for another? No sweat, we've got stacks.",
+        "Check the list down below, pick your next groove, and we'll shoot you over to its webpage.",
+        "The music never stops!"
+    ]
 }
 
 

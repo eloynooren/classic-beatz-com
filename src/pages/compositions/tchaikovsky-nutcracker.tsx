@@ -13,24 +13,6 @@ const imageElements = {
             src="../../images/tchaikovsky-listening-to-nutcracker.jpg"
             alt="Tchaikovsky ... Nutcracker"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-composition"
-            src="../../images/couple-dancing-on-tchaikovsky-nutcracker.jpg"
-            alt="Couple dancing on Tchaikovsky's Nutcracker"
-        />,
-    'plot':
-        <StaticImage
-            key="image-composition"
-            src="../../images/nutcracker-toy.jpg"
-            alt="Nutcracker toy"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-listen-guide"
-            src="../../images/couple-listening-to-tchaikovsky-nutcracker.jpg"
-            alt="Two females listening to Tchaikovsky's Nutcracker"
         />
 }
 

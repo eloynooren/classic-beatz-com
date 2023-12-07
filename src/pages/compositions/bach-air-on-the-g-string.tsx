@@ -12,18 +12,6 @@ const imageElements = {
             alt="Smiling Bach reading Air on the G string"
             loading="eager"
         />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/male-playing-bach-air-on-the-g-string-on-violin.jpg"
-            alt="Male playing Bach's Air on the G string"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/couple-listening-to-bach-air-on-the-g-string.jpg"
-            alt="Couple listening to Bach's Air on the G string"
-        />,
 }
 
 function Page() {

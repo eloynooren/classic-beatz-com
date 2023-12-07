@@ -54,11 +54,21 @@ export const Flex: React.FC<FlexProps> = ({className, children}) => {
 
 interface CellProps {
     children: React.ReactNode;
+    classNames?: string;
 }
 
-export const Cell: React.FC<CellProps> = ({children}) => {
+export const Cell: React.FC<CellProps> = ({children, classNames}) => {
+    let className = [styles.cell]
+
+    if (classNames) {
+        if (classNames.includes('cellTopMargin')) {
+            className.push(styles.cellTopMargin)
+        }
+    }
+
+
     return (
-        <div className={styles.cell}>
+        <div className={className.join(' ')}>
             {children}
         </div>
     )

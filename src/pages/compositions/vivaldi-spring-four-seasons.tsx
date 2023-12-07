@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-vivaldi.jpg"
             alt="Smiling Vivaldi"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-vivaldi-spring-on-violin.jpg"
-            alt="Female playing Vivaldi's Spring on violin"
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/two-females-listening-to-vivaldi-spring.jpg"
-            alt="Two females listening to Vivaldi's Spring"
-        />,
+        />
 }
 
 function Page() {

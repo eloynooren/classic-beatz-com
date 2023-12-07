@@ -11,19 +11,7 @@ const imageElements = {
             src="../../images/smiling-liszt.jpg"
             alt="Smiling Liszt"
             loading="eager"
-        />,
-    'backstory':
-        <StaticImage
-            key="image-2"
-            src="../../images/female-playing-liszt-hungarian-rhapsody-no-2-on-piano.jpg"
-            alt="Female playing Liszt's Hungarian Rhapsody No 2 on piano."
-        />,
-    'listen-guide':
-        <StaticImage
-            key="image-3"
-            src="../../images/male-listening-to-liszt-hungarian-rhapsody-no-2.jpg"
-            alt="Male listening to Liszt's Hungarian Rhapsody No 2."
-        />,
+        />
 }
 
 function Page() {
