@@ -1,7 +1,7 @@
 import React from "react";
 import {StaticImage} from "gatsby-plugin-image";
 import {Layout} from "../../components/Layout";
-import {MixSection} from "../../components/Playlist";
+import {MixSection, Playlist} from "../../components/Playlist";
 import {ArrayOfDictionaries} from "../../utils/ArrayOfDictionaries"
 import data from "../../data/playlists/piano-solos.json"
 import tracks from "../../utils/data/playlists/piano-solos"
@@ -43,9 +43,7 @@ function Page() {
     data.composers = new ArrayOfDictionaries([c1,c2,c3,c4,c5,c6,c7], ["annotations"]).getAsSingleDictionary("composer")
 
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.title} seo={data.seo}>
-           <MixSection data={data} imageElement={imageElement}/>
-        </Layout>
+        <Playlist data={data} imageElement={imageElement}/>
     )
 }
 

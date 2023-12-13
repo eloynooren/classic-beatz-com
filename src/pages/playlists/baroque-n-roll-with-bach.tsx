@@ -1,7 +1,7 @@
 import React from "react";
 import {StaticImage} from "gatsby-plugin-image";
 import {Layout} from "../../components/Layout";
-import {MixSection} from "../../components/Playlist";
+import {MixSection, Playlist} from "../../components/Playlist";
 import {ArrayOfDictionaries} from "../../utils/ArrayOfDictionaries"
 import data from "../../data/playlists/bach.json"
 import tracks from "../../utils/data/playlists/bach"
@@ -35,9 +35,7 @@ function Page() {
     data.tracks = tracks()
 
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.title} seo={data.seo}>
-           <MixSection data={data} imageElement={imageElement}/>
-        </Layout>
+        <Playlist data={data} imageElement={imageElement}/>
     )
 }
 
