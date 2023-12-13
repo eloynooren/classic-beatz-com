@@ -1,43 +1,8 @@
 {
-    "src": "/audio/compositions/bach-st-matthews-passion/fragment-1-200-260.mp3",
     "composer": "Bach",
     "composition": "St Matthew's Passion",
-    "trackType": "movement",
     "canonical": "/compositions/bach-st-matthews-passion/",
-    "seo": {
-        "description": "Yo, get ready to deep dive into Bach's St Matthew's Passion yo! We're dishin' up the slick deets - the illest moments, the dirt that went down behind the scenes, plus a bangin' guide to really listen and feel them beats, feel me?",
-        "og:title": "Bach's St Matthew's Passion \u2013 Top Moments, Backstory, & The Ultimate Listen Guide",
-        "og:description": "Come thru and discover the genius that is Bach's St Matthew's Passion. We're revealing its dopest moments, the low-down from way back when, and a sound guide that would blow your mind, bro.",
-        "twitter:title": "Get Your Classic Groove on with Bach's St Matthew's Passion! History, Highlights, & How-to-listen Guide",
-        "twitter:description": "Wanna get the 411 on Bach's St Matthew's Passion? We got the best moments, some juicy backstory and a listening guide that's just straight fire! Check it, fam."
-    },
-    "annotations": {
-        "The Divine Playlist of Ye Olde Gods": "Signifies the religious nature of the 'St Matthew's Passion', composed for liturgical use.",
-        "The OG Epic Soundtrack": "Insinuates that before epic film soundtracks, there was Bach's grand-scale composition.",
-        "Church's Top-40 of 1727": "Jovially suggests the piece's popularity within religious establishments at the time.",
-        "Sermons in C Major": "Indicates the spiritual messaging of the music coupled with its musical key.",
-        "Choral Thunderstorm in a Thrifted Frock": "Depicts the powerful choral sections, playing off the lofty dress of the time.",
-        "Gregorian Chant's Sexier Cousin": "A playful comparison to the older, plainer form of church music.",
-        "Arias and Albs: A Baroque Performance": "Relates to the solos (arias) and the priestly vestments (albs) of the era.",
-        "The Harmony of Heaven, With a side of Wigs": "Reflects the piece's divine inspiration and the fashion of the time.",
-        "18th Century Soul Soother": "Hints at the calming, spiritual effect the music might have had.",
-        "When Organs Used to Rock": "Indicating the main instrument of the piece and its significance back then.",
-        "The Sistine Chapel's Billboard Hot 100": "Imagines how this religious masterpiece would top charts at a religious venue.",
-        "Dusty Bibles, Shiny Harpsichords": "Frames the old-world charm of the composition and its instrument.",
-        "The Gospel According to Yo Boy Bach": "A slang-y way of indicating the religious nature of the music and its composer.",
-        "The Soundtrack to Good Friday Services": "Links the piece's use in Good Friday liturgical celebrations.",
-        "Psalms Gettin' Lit in Harmony": "A playful take on the scripture-based lyrics creating a lively musical atmosphere.",
-        "Easter's Unofficial Opera": "Connects the holiday with the passion's operatic scale.",
-        "Bible Verses Never Sounded So Fly": "Comments on the piece's stylish and appealing interpretation of scripture.",
-        "The Gregorian Grammy Winner": "Highlights the piece's significance akin to contemporary music awards.",
-        "Choirboys, Candles, and Counterpoint": "Points out the churchly elements and sophisticated musical technique within the piece.",
-        "Bald Wigs and Bass Recitatives": "Contrasts the high-fashion wigs with the deep solos to capture the piece's grandeur.",
-        "Stained Glass Stories in D Minor": "Suggests the piece's narrative quality and its tonal home.",
-        "Angels' Mixtape in Baroque Times": "Describes the divine aspiration of the piece and its era.",
-        "Monks\u2019 Mystical Records": "Aligns the composer\u2019s religious affiliations and the spiritual depth of the piece.",
-        "Liturgical Bangers from the Bachian Era": "Blends modern slang with Baroque times, emphasizing the piece's enduring relevance.",
-        "An Overture of the Divine, served with Brocade": "Multi-layered like the piece itself- the brocade symbolizes the rich, heavy fabric of Baroque fashion."
-    },
+    "trackType": "movement",
     "tracks": {
         "1": {
             "title": "Kommt, ihr T\u00f6chter, helft mir klagen",
@@ -52,197 +17,295 @@
             "annotations": {}
         }
     },
-    "header": [
-        "Fuel Up on Faith with",
-        "Bach's St Mattews Passion"
-    ],
+    "src": "/audio/compositions/bach-st-matthews-passion/fragment-1-200-260.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/bach-st-matthews-passion/fragment-1-200-260.mp3",
+        "fragment-2": "/audio/compositions/bach-st-matthews-passion/fragment-2-180-240.mp3",
+        "fragment-3": "/audio/compositions/bach-st-matthews-passion/fragment-3-150-210.mp3"
+    },
     "spotify": {
         "1": "https://open.spotify.com/track/5agrJOfVjLQKREmu7k1wNG",
         "2": "https://open.spotify.com/track/0fCw1m9tPATGUWLZSRXvNz",
         "3": "https://open.spotify.com/track/2pVaoJHEl0aBO6vB6vqgO1"
     },
+    "header": [
+        "Fuel Up on Faith with",
+        "Bach's St Mattews Passion"
+    ],
+    "seo": {
+        "description": "Yo, peep this deep dive into J.S. Bach's St Matthew's Passion, where the homie himself throws down on the epic moments, the juicy origin story, and a legit listen guide to elevate your music game. #BaroqueBangers #BachIsBack",
+        "og:title": "Hang with Bach for the Lowdown on St Matthew's Passion",
+        "og:description": "Master composer J.S. Bach spills all about St Matthew's Passion. Catch the backstory, top tracks, and pro tips to fully appreciate this musical masterpiece. It's like a VIP backstage pass but for your ears!",
+        "twitter:title": "Bach Drops the Beat: Inside St Matthew's Passion",
+        "twitter:description": "Get the inside scoop as Bach himself breaks down St Matthew's Passion. From its hallowed origins to a guide on how to vibe with it, this is your ticket to ride the Baroque wave."
+    },
+    "annotations": {
+        "Baroque's Epic Saga": "The grandeur of 'St Matthew Passion' sets the scene for an epic tale of biblical proportions.",
+        "Sacred Oratorio on Steroids": "Revealing the massive scale and emotional intensity that Bach injected into this cornerstone of Western classical music.",
+        "The Opera Bach Never Wrote": "Though Bach didn't compose operas, 'St Matthew Passion' has enough drama to rival any opera of its time.",
+        "When Melancholy Met Majesty": "A juxtaposition of the solemn subject matter with the grandiose delivery of the music.",
+        "Biblical Blockbuster": "With its vivid storytelling and musical extravagance, it's the sound of 18th-century cinema.",
+        "The Sistine Chapel of Sound": "Just as Michelangelo's masterpiece, 'St Matthew Passion' is a breathtaking work of art in auditory form.",
+        "The Crown Jewel of Leipzig": "A nod to the work's premiere in Leipzig and its enduring status as a musical treasure.",
+        "The Heavenly Harp\u2019s Cry": "An illustration of the emotional depth that the oratorio's strings can evoke, akin to a harp from the heavens.",
+        "When Quills Wept Melodies": "Conjuring the image of a composer penning this profound work, as if the quill itself could express sorrow through music.",
+        "The Renaissance Requiem": "Although from the Baroque period, its emotional depth and complexity are reminiscent of an earlier artistic ethos.",
+        "Chorale Harmonies for the Soul": "Acknowledging the uplifting and intricate choral arrangements that speak directly to the listener's spirit.",
+        "The Messiah's Mixtape": "A playful reference to the work's sacred content and its eclectic range of music woven into a single narrative.",
+        "The Counterpoint Conductor\u2019s Magnum Opus": "A nod to Bach's mastery of counterpoint, showcased emphatically in this work.",
+        "The Altar's Playlist": "Perfect for any sacrosanct occasion, it's what the most liturgical DJs would spin.",
+        "Divine Drama Set to Music": "Capturing 'St Matthew Passion' as a scriptural soap opera told through sublime musical expression.",
+        "Seventeenth-Century Surround Sound": "Its polyphonic texture and spatial use of choirs and orchestras create an engulfing auditory experience.",
+        "The Weave of Sacred Threads": "Symbolizing the intricate intertwining of vocal and instrumental lines to produce a tapestry of worship.",
+        "The Pinnacle of Piety": "Representing the piece's standing as the zenith of religious expression in music.",
+        "Tears in Fugue Form": "A reflection on how the fugues in the passion mirror the emotional rollercoaster of the narrative.",
+        "Choirs on Cloud Nine": "Imagining the ethereal sound of the choirs as voices of angels from on high.",
+        "The Passion as Painted by Sound": "Describing Bach's ability to paint the passion story in vibrant sonic colors.",
+        "Cantata's Grandfather Gets Real": "Referencing the more extensive and dramatic form of the oratorio compared to Bach's cantatas.",
+        "Harmony's Homily": "The musical perfection of 'St Matthew Passion' acts as a sermon delivered through harmonies.",
+        "The Hallelujah Before Handel": "Although Handel's 'Hallelujah' is famous, Bach set the stage with this passionate predecessor.",
+        "The Polyphonic Pilgrimage": "Taking listeners on a spiritual journey through the complex and beautiful overlapping musical lines."
+    },
+    "introduction": [
+        "Yo, I'm Bach, and I'm gonna drop some knowledge about St Matthew's Passion, so buckle up!"
+    ],
     "best-moments": [
         [
-            "### Kickin' Off with Bach's St Matthew: A Symphony of Sorrow",
-            "We're about to hit the streets of Bach's 'St Matthew's Passion', a musical masterpiece that's got more sauce than a Sunday roast. Strap in, peeps 'cause we're goin' on a roller coaster. An emotional trip that features everything from sorrow to hope, from fear to peace, a journey through the trials and tribulations of the big man himself, ol' St Matthew. Ready to groove to the rhythm of redemption? Let's bounce!"
+            "### 1. Kommt, ihr T\u00f6chter, helft mir klagen: Choral Crying in the Club",
+            "Yo, 'Kommt, ihr T\u00f6chter, helft mir klagen' is the hypest funeral you ever crashed - it's got the drama, the pathos, and a whole crowd groovin' to the sorrow of Jesus's last days.",
+            "It hits you in the feels like a freight train of melancholy, setting the mood for the whole St. Matthew Passion with a mix of aching harmonies and the power of a double choir throwdown."
         ],
         [
-            "### 1. Kommt, ihr T\u00f6chter, helft mir klagen: Heavenly Heartache (200-260)",
-            "Up first, strollin' into 'Kommt, ihr T\u00f6chter, helft mir klagen' like a boss. Bach's gonna hit you straight in the feels with this one, kids. It's the sound of an angel strumming on the heartstrings, pulling us into a heavenly aria filled with agony. It's a big mournful hug reaching out from the speakers. If you're not bracing yourself for some tears, you're playing the wrong game. Remember, though, folks: to feel pain, you gotta have heart."
+            "### 2. Erbarme dich, mein Gott: Violin Tears on the Dance Floor",
+            "This jam, 'Erbarme dich, mein Gott,' is the tearjerker of the century - the violin soars over the heartache like an eagle riding a storm of regret, while the alto soloist is legit begging for mercy.",
+            "It's got this intimate intensity that makes you want to both break down crying and applaud the raw emotion \u2013 it's that impactful."
         ],
         [
-            "### 2. Erbarme dich, mein Gott: Divine Despair (180-240)",
-            "Midway, boom, we crash into 'Erbarme dich, mein Gott.' It's like diving headfirst into an ocean of remorse and regret. Bach's got the sound of divine despair leaking out through the violins, twisting up your insides like a wet rag. It's like waltzing with grief on a moonlit dance floor. This sound sinks in, it's pure heart bleed. Bach's got us feeling so crushed; we can't help but ask for the divine mercies."
-        ],
-        [
-            "### 3. Wir setzen uns mit Tr\u00e4nen nieder: Soulful Surrender (150-210)",
-            "Last lap, guys, 'Wir setzen uns mit Tr\u00e4nen nieder.' Bach's pulling out all the stops, serving up a big helping of spiritual resignation that won't just chill your bones, it'll freeze 'em solid. Imagine it like your soul, kneeling down amidst a storm, surrendering to the powerful, turbulent emotions whipping around you. But, you dig it, because instead of being a beatdown, it's more like a life-affirming surrender. Tears plop, harpsichord weeps, and it's like a heavy sigh from deep within, echoing out into infinity."
+            "### 3. Wir setzen uns mit Tr\u00e4nen nieder: Weeping but Make It Baroque",
+            "The closing act, 'Wir setzen uns mit Tr\u00e4nen nieder,' is where everyone's sorrow finds a seat and has a good cry - the chorus, the orchestra, even the oboes are sobbing in baroque beauty.",
+            "It\u2019s the grand finale that leaves you emotionally drained but spiritually uplifted, kind of like the best sad movie ending you\u2019ve ever seen, except it\u2019s all in your ears."
         ]
     ],
     "backstory": [
         [
-            "### Genesis: A Divine Spark",
-            "Yo, let's break it down back in Leipzig, 1727, a tough year if there ever was one. Now, our main man Johann Sebastian Bach wasn't just sittin' around twiddling his thumbs, no way. He was cookin' up somethin' big, somethin' dramatic, with a 'lil inspiration from Martin Luther's German translation of the Gospel of Matthew - dang, that was deep. It wasn't just the melancholy envelopin' Europe at the time, with wars and plagues knockin' on every door; Bach had lost his dear wife and bro just a couple years ago. It was about turning sorrow into a masterpiece, hence, the inception of St. Matthew's Passion \u2013 a tale of love, sacrifice and redemption."
+            "### Putting the Passion in Perspective",
+            "Yo, let me lay down the 411 on the St Matthew Passion\u2014it's your classic comeback story.",
+            "Think of it like a forgotten gem in the attic, dusty and chillin' until Felix Mendelssohn rolled up like, 'Yo, this slaps!' in 1829.",
+            "Basically, it lay low for 'bout 100 years after I dropped it in 1727, and folks were straight sleepin' on it.",
+            "Now, though, it's all the rage\u2014like resurrecting vintage vinyl and spinning it at the club."
         ],
         [
-            "### Composer's Journey: Bachin' His Way Through",
-            "Man, Bach was no stranger to tough times; dude lost his parents when he was just nine. And around the time he was composin' the St Matthew's Passion, he was dealin' with straight-up haters in the town council, not to mention his own inner turmoils. Despite these tribulations, man still came out with a bang, producing a masterwork that's revered till this day. Not just 'cause he was resilient as heck, but 'cause he believed music was a conduit to express human sufferings and joys, no matter how deep they go."
+            "### Movin' to the Movements",
+            "Imagine St Matthew Passion's movements like the ultimate seven-course feast\u2014for your ears.",
+            "There's the appetizer 'Choruses and Chorales,' where the squad and the congregation hype up the mood.",
+            "Next, you've got the 'Arias,' like exotic dishes, each with a different flavor, expressing all the feels from sorrow to hope.",
+            "Finally, 'Recitatives' tie the whole shebang together, narrating the story, so it doesn't go off the rails."
         ],
         [
-            "### Musical Innovations: Passion with a Twist",
-            "Alright, so what's the big deal with St Matthew's Passion? Apart from bein' a dramatically potent oratorio, Bach went rouge and splashed two choirs all over it \u2013 yes, two! The dude was onto somethin', using double choirs to alternate, argue, mimic, even prophesize. Talk about sonic saturation! Also, Bach's use of chorales - Biblical hymn tunes - as thematic connectors was absolutely genius. Not your usual Baroque number, it was like the fine wine in the stale mead of the period."
+            "### Bach in the Day",
+            "It was Good Friday, 1727 when I first dropped this track in Leipzig, hoping the folks would dig it.",
+            "I went full mad scientist, stitching together texts from the Gospel of Matthew, poetry, and my own musical secret sauce.",
+            "It was like weaving a sonic tapestry, portraying JC's final days and all the drama with it.",
+            "Could say it was the binge-worthy series finale before Netflix was even a twinkle in the eye."
         ],
         [
-            "### Challenges and Triumphs: Bustin' Barriers with Some Bachanova",
-            "No one said creating a masterpiece was gonna be easy, right? For starters, Bach was working with a small crew of students and thespians. Imagine tryna stage a complex piece like St Matthew's Passion with that crew, it\u2019s like tryna fit a gorilla in a tux. Working with tight budgets and a rather lukewarm response from council wasn't easy either. But Bach didn't let none of that stop him. He turned those would-be hiccups into pros, harnessing the raw energy and vibe around him. In the end, the piece didn't just push boundaries, it straight-up smashed 'em!"
+            "### The Hype Man",
+            "Let's talk about Herr Picander, the man with the plan for the lyrics.",
+            "The dude was like my partner in crime, dropping verses while I cooked up the beats.",
+            "Together, we were like that dream team, crafting verses and harmonies that got even the stiffest collars grooving.",
+            "Picander was the Dr. Dre to my Snoop Dogg, you feel me?"
         ],
         [
-            "### Movement by Movement: A Be-Bop Interval",
-            "Okay, so this massive composition is divided into two main sections, each with multiple movements - just think of it like a big, epic movie with different scenes. The first part runs from Jesus's last supper with his disciples up until his arrest in the garden of Gethsemane. The second part, starts from Peter's denial of Jesus, proceeding till Jesus's burial and the closing chorus. All these bits packed with arias, recitatives, choruses, just like checkered squares in a musical chessboard, each one adding a new dimension, a new emotional layer to the narrative."
+            "### Leipzig's Got Talent",
+            "Leipzig was crackling with mad talent, and I had my pick of the litter for the soloists.",
+            "I needed virtuosos who could make 'em weep in the aisles and I scored the primo players of my day.",
+            "Folks were lining up to hear my soloists flex their vocal muscles like they were auditioning for 'The Voice'.",
+            "It was like putting together an all-star team, only instead of dunking basketballs, we were slamming arias."
         ],
         [
-            "### Cultural Tapestry: A Melodic Zeitgeist",
-            "Bach composed this during the High Baroque period, when creativity was like a rogue river on steroids, flooding every artistic nook and cranny. The Lutheran church was all about telling Biblical stories through sermons and hymns, and Bach used this to create his musical tapestry. St Matthew's Passion wasn't just a religious piece to be performed on Good Fridays, nor was it just a musical composition. Nah, it was a vivid painting of the Zeitgeist, reflecting the political turmoil, social unrest, and spiritual yearning of the time."
+            "### Double Trouble",
+            "Here's the kicker\u2014St Matthew Passion wasn\u2019t just your everyday performance, it had to be massive.",
+            "I pulled a real 'parent trap' move with two choirs, two orchestras, the whole shebang, making it double the fun.",
+            "These twin powerhouses went ham, bouncing off each other, and creating a stereo effect that'd make Dr. Dre's headphones jealous.",
+            "Imagine 3D glasses for your ears\u2014that's the kinda depth we\u2019re talking about."
         ],
         [
-            "### Aliases and Epithets: Calling it Fancy",
-            "Now the German word 'Passion' might put you in mind of steamy romance novels, but nope, in this context it signifies 'suffering' - a snatch from the Latin 'passio' meaning 'suffering'. So, Bach's magnum opus often gets dubbed the 'Great Passion', lacing together the magnitude and depth of its narrative. Fits the composition like a glove on a hand, don't it?"
+            "### That Vintage Sound",
+            "Now, we weren\u2019t working with electric guitars and autotune, we had the old-school acoustic squad.",
+            "Violins, violas, flutes, oboes\u2014you name it, we had it, all fine-tuned to hit you right in the feels.",
+            "Picture an artisanal, handcrafted sound smoothie, blended with the finest ingredients from Baroque's top shelf.",
+            "Seriously, it was like the Tesla of surround sound, but running on horse-power, if you catch my drift."
         ],
         [
-            "### The Premiere: The Game-Changer",
-            "Alright, picture this: a small group of musicians, a few thespians and students, one genius composer, and an audience expecting a traditional Good Friday Vespers. Then boom - the emotive strains of St Matthew's Passion break out. Heck, they didn't know what hit 'em! While it didn't get sweep-off-your-feet reviews, it still managed to resonate with the audience, sparking those feelin's deep within."
+            "### Role Call!",
+            "So, your boy Evangelist is like the A-list narrator, keeping the story lit.",
+            "He's dropping the 411 on JC's last days with a voice smoother than butter on fresh toast.",
+            "Now, Jesus had to be a baritone\u2014solid, reassuring, the kind of dude you'd follow into a storm because you trust his voice.",
+            "And if you're thinkin' about the baddies, those Priests and Judas\u2014they're straight up stealing scenes with their shady vibes."
         ],
         [
-            "### Legacy and Influence: Keepin' it Bach",
-            "So, how did this masterpiece hold up over time? Well, let's just say it has transcended its religious roots, becoming a timeless emblem of classical music. Bach's unique narrative approach and emotive depth in St Matthew's Passion have influenced artists like Mozart, influenced genres like Operas, and hell, it even drives the art of storytelling in music till today. And as for modern classical circles, they hold St. Matthew's Passion in a light only worthy of a masterpiece, like a towering Mt.Everest amidst musical hills."
+            "### Crazy for Chorales",
+            "Chorales, man, they're like the hooks that get the congregation jiving, sneakily teaching the moral of the story.",
+            "They were the original sing-along bops, everybody knew the words\u2014like the 'Happy Birthday' of the Baroque church.",
+            "These ditties had to slap, so when the folks left church, they'd be humming the tunes and the teachings.",
+            "It's low-key brainwashing with a beat, and it worked like charm."
+        ],
+        [
+            "### Aftermath and Applause",
+            "After all the drama unfolded and the final note hit, peeps were stunned\u2014it was like dropping the mic in slow motion.",
+            "Back in the day, they weren't tossing roses or clapping till their hands hurt, but you could see the awe in their eyes.",
+            "Fast-forward to today, and audiences go wild, clapping up storms and breaking down barriers for those standing Os.",
+            "Guess you could say the Passion stood the test of time, like a vintage wine that only gets better\u2014sweet sipping for the soul."
         ]
     ],
     "listen-guide-1": [
         [
-            "### Essence: Bach to the Basics",
-            "Aight, so kick back and let's rap about Johann Sebastian Bach's St Matthew Passion - specifically the tantalizing movement, 'Kommt, ihr T\u00f6chter, helft mir klagen'.",
-            "This ain't no ordinary piece of music, man; it's like an epic novel jam-packed with soul-stirring episodes and emotional rollercoasters.",
-            "It's got this grandiose yet grief-stricken feel to it, kinda like watching a Shakespearean tragedy unfold with the climax hitting you right in the feels."
+            "### What's in a Name?",
+            "Aight, so I called this opening bang 'Kommt, ihr T\u00f6chter, helft mir klagen' because it's basically inviting the daughters of Zion, and everybody else tuning in, to lament with the homie Matthew over the sufferings of my main man, JC.",
+            "It's like a spiritual squad call, summoning all the feels while setting up the scene for the heavy drama that's 'bout to unfold, you know?",
+            "I mean, nothing says 'brace yourselves' like a choir and an orchestra teaming up to drop a truth bomb about the big guy's final days."
         ],
         [
-            "### Explanation of the Title: Squabble of the Sorrowful Sisters",
-            "So why'd Bach call it 'Kommt, ihr T\u00f6chter, helft mir klagen'? Well, this ditty translates from German to 'Come, ye daughters, share my mourning'.",
-            "Sounds gloomy, right? But hold up, it's not all doom and gloom.",
-            "Bach was aimin' to express the deep sorrow of the disciples mourning over Jesus' crucifixion.",
-            "This title, man, is Bach's call to his listeners to personally empathize with the spiritual and emotional struggles depicted."
+            "### Orchestra Roll Call!",
+            "So, in 'Kommt, ihr T\u00f6chter, helft mir klagen,' I got strings, woodwinds, brass, and continuo creating this massive tapestry of sound, ya dig?",
+            "The two choirs and the third group of voices, aka the ripieno soprano in the gallery, they all echo each other like a divine game of telephone.",
+            "They ain't just jamming though; they weave together this intricate sonic fabric that's both lush and totally heart-wrenching, with the occasional solo dropping in to keep things fresh."
         ],
         [
-            "### Analysis of the Structure: Bach's Building Blocks",
-            "Now, let's tune into the architecture of this baby.",
-            "This movement ain't just a hodgepodge of sounds; it's a carefully constructed choral masterpiece.",
-            "The structure echoes a da capo aria\u2014basically, a musical sandwich with the bread representing the repeated sections.",
-            "There are shifts in tempo and melody but everything is tied together in a sorrow-filled bow."
+            "### Forming Up the Musical Army",
+            "This piece ain't no sonata or a rondo, my friend; I crafted it as a choral double fugue, which is like a musical recipe for some serious drama.",
+            "Its structure is all about weaving together different musical lines that chase each other around in a holy game of tag.",
+            "And let's not forget the chorale that sneaks in there, like a spiritual mantra keeping everything glued together.",
+            "It's a glorious buffet of musical forms that keeps the ears guessing and the soul stirring."
         ],
         [
-            "### Elaborating on Sections: Segments of Sorrow",
-            "Our tune kicks off with a solemn invitation, quite the plaintive call to sorrow.",
-            "The sorrowful motif then echoes through the different 'choirs', creating a wave of mourning sounds.",
-            "As the piece evolves, there are opulent flares of orchestral sound, breaking up the sorrow and giving a little shine to the shade.",
-            "The finale is a culmination of all the lament, leaving you awash in a sea of musical melancholy."
+            "### Act One: The Opener",
+            "We kick off with this somber tempo, like a funeral march setting the mood for the story of the century.",
+            "The minor key here ain't just for show \u2014 it's the real musical deal, setting up the stage for a journey straight through the heart.",
+            "Then, bam! We hit you with a mood shift when the chorale drops in, flipping the script with a major key that hits like sunlight through clouds.",
+            "This switch-up ain't just for kicks; it's storytelling, with each note painting a part of the bigger picture."
         ],
         [
-            "### Role of Instruments: Bach's Band",
-            "Now, the instruments in this jam, they ain't no back-up singers.",
-            "They're the main gig, working in tandem with the vocals to paint this vivid scene of sorrow and mourning.",
-            "You got your violins and oboes crying out in despair, while the basso continuo\u2014think of it as the backbone\u2014gives support and depth to the piece.",
-            "And let's not forget the voix celeste (celestial voice), adding an ethereal layer to the soundscape, like a divine messenger amidst the earthly sorrow."
+            "### Act Two: Mood Swings",
+            "Just when you're getting comfy, I throw in a tempo change, stepping on the gas to build up the intensity.",
+            "Through the twists and turns, the key takes a hike, modulating to keep the listeners on their toes.",
+            "Throw in some major mood swings with dynamic shifts from soft whispers to full-throttle choir action, and you got yourself a rollercoaster of vibes.",
+            "It's like a musical storm, where each section is a thunderclap spelling out the epic tale."
         ],
         [
-            "### Listen: Be a Part of Bach's Band",
-            "So you've heard me gab on about 'Kommt, ihr T\u00f6chter, helft mir klagen', but now it's time for you to get knee-deep into it.",
-            "Crank up the volume, close your eyes, and let the music wash over you, as you immerse yourself in Bach's world of symphonic suffering.",
-            "Just remember, ain't no wrong way to listen to music, so experience this sorrowful serenade in your way, mate!"
+            "### Act Three: The Finale",
+            "Now, we're easing into the home stretch with a return to the original tempo, circling back like 'remember me?'",
+            "I like to play it cool, dropping the key back where we started, like coming home after a wild adventure.",
+            "But no Bach piece is complete without a final mood twist, ending on a note that's both calming and kinda leaves you hanging.",
+            "It's a smooth landing after a turbid flight, wrapping up the movement but keeping the suspense real for the rest to come."
+        ],
+        [
+            "### Press Play, Get Slayed",
+            "So you've gotta hit that play button and let 'Kommt, ihr T\u00f6chter, helft mir klagen' just wash over you like a tidal wave of Baroque brilliance.",
+            "Close them peepers and let the soundscape I cooked up take you on a journey through all the shades of sorrow and hope I packed in there.",
+            "It's an experience, my dude, like a sonic painting that you hear with your ears, your heart, and your very soul.",
+            "Lean back, soak it in, and let the story unfold, 'cause this ain't just music\u2014it's a full-on emotional odyssey."
         ]
     ],
     "listen-guide-2": [
         [
-            "### Essence: Bachin' Up into the Feels",
-            "And, boom, ya hit play on 'Erbarme dich, mein Gott', a movement from our ol' pal Bach's St Matthew's Passion, and it's like yer heart gets sucker punched right in the feels.",
-            "This ain't just some random ditty; it\u2019s like a mega catharsis bomb, pounding your soul with waves of regret, repentance and pleas for mercy.",
-            "Forewarning here, peeps: this is not your 'put on while washing the dishes' type tune.",
-            "This devotional banger demands your full attention - it ain't background dinner party chit-chat vibes, it's more like 'sit in the dark and contemplate your existence' kinda jam."
+            "### When a Title Hits Just Right",
+            "I called the jam 'Erbarme dich, mein Gott' cause it's all about that deep plea for mercy, you know?",
+            "'Erbarme dich' means 'Have mercy' in German, and 'mein Gott' is 'my God', so put it together and it's like a sorrowful shoutout to the heavens.",
+            "It's about Peter weeping bitter tears after he realizes he's denied knowing me three times, which was a real low point for my main man Pete.",
+            "The title gives a heads up that you're in for a heart-wrenching ride, so better have some tissues handy."
         ],
         [
-            "### Explanation of the Title: What's in a Name, Bach?",
-            "'Erbarme dich, mein Gott' \u2013 sounds intense, right?",
-            "Well, strap in, 'cause it's gonna live up to that promise.",
-            "In English, this bad boy translates roughly to 'Have mercy, my God', and man, does it deliver the goods!",
-            "You've gotta picture our mate Bach, chillin' in the 1720s, totally vibing with the religious anguish and seeking mercy from the big guy upstairs.",
-            "This ain't just a title, it's a full-on mood setter; like 'Listeners, beware: feels inbound.'"
+            "### That Orchestral Flavor",
+            "In 'Erbarme dich, mein Gott', I rolled out the red carpet for a solo violin, an alto soloist, and your standard Baroque string ensemble, but with that extra oomph from the continuo.",
+            "The violin is the star of the show, serenading the heavens with its expressive, melodic lines, making hearts weep and spirits soar.",
+            "The strings and continuo lay down the harmonies and keep the groove, setting the stage for the alto's soulful plea; it's like a heartfelt convo where everyone's vibing off each other.",
+            "And those instrumental techniques? Let's just say that violin's got moves that'll make you forget all about your ex."
         ],
         [
-            "### Analysis of the Structure: Bach's Blueprint",
-            "Now, hold tight, 'cause this is where it gets juicy.",
-            "Our guy Bach was a smarty pants, right?",
-            "So, he's structured this movement in recitative-aria style, all smooth-like.",
-            "Think of it as a musical convo, dishing out some sweet monologue-action, full of twists and turns.",
-            "Also, notice the echoes of the main theme throughout?",
-            "Yeah, you ain\u2019t tripping.",
-            "That\u2019s Bach punching home the whole 'seeking mercy from above' theme."
+            "### Structuring the Feels",
+            "Now, 'Erbarme dich, mein Gott' ain't following the typical club bangers like sonata or rondo form; it's more like an ABA da capo aria, which is a fancy way of saying it's got a real nice 'bring it back' vibe.",
+            "We kick it off with a sad, soulful section (that's the A part), dip into a slightly different mood in the B section, then swing back to our A section to relive the feels all over again.",
+            "This way, the tune plants itself in your brain, and just when you think you're moving on, BAM, the A section hits you like 'Remember me?'",
+            "It's a classic case of musical d\u00e9j\u00e0 vu, with each return bringing you deeper into the emotional rabbit hole."
         ],
         [
-            "### Elaborating on Sections: Bach's Musical Chapters",
-            "This masterpiece ain't just one lump of sound, it's got different chapters, each telling its own story.",
-            "The opening recitative-aria combo almost feels like a cry from the wilderness, like our boy Bach's wringing out his heart to the heavens.",
-            "And don't get me started on that part where the key changes.",
-            "That\u2019s him flipping the script, interjecting a faint glimmer of hope amongst all that heavy sorrow."
+            "### Crafting the Saga: A Opening Section",
+            "The opening section of 'Erbarme dich' sets the mood with its minor key sorrow, making you feel like you're walking through a rainstorm of feelings without an umbrella.",
+            "Tempo-wise, we're taking a leisurely stroll here, no rush, giving you all the time you need to soak in those tearful vibes.",
+            "The violin's got this tender, weeping solo that's pure heartbreak material, tugging at those heartstrings like nobody's business.",
+            "And as for the mood, it's about as joyful as a tax audit; but hey, beauty can be found in the sadness, like finding a winning lotto ticket in a puddle."
         ],
         [
-            "### Role of Instruments: Bach\u2019s Orchestra Spitting Fire",
-            "If you listen closely, you can hear how Bach uses the instruments to bring it all home.",
-            "The violin - man, it drives that sorrow straight through you like a six-inch blade.",
-            "Then there\u2019s the oboes, sliding into the mix, adding some warmth to the icy woe.",
-            "And don\u2019t forget the basso continuo; our boy Bach\u2019s jab jab right hook combo, keeping the groove locked in tight."
+            "### B Section Blues",
+            "Then we slide into the B section, where I switch up the keys like a locksmith on a caffeine buzz, giving you a taste of something different without jumping ship completely.",
+            "The tempo sticks to the 'no sudden moves' policy, while the violin and vocals dance a slow tango of melancholic yet somehow hopeful melodies.",
+            "It's the kind of mood swing that's less 'teenager with attitude' and more 'poet pondering life's mysteries'.",
+            "We're exploring new emotional territory here, like a sad clown at a party realizing the balloon animals are actually pretty dope."
         ],
         [
-            "### Listen: Demunculus, Just Press Play!",
-            "Now stop reading my blab and go have a listen.",
-            "C\u2019mon, straight from the start, you\u2019re gonna feel it.",
-            "Maybe play it in a dark room, let it wash over you, let it find those cobweb corners of your soul.",
-            "Who knows, you might end up a Bach stan by the end of it - stranger things have happened, right?"
+            "### Return of the A",
+            "Now, the plot twist: we boomerang back to the A section, like a TV show rerun that you can't help but watch with the same zeal as the first time.",
+            "The violin busts out the same soul-stirring solo, giving you d\u00e9j\u00e0 vu in the best possible way, as if saying, 'Missed me?'",
+            "Tempo and key harken back to our starting line, as comfortable and familiar as your favorite pair of socks with the holes in them.",
+            "This return to the A section seals the deal on the musical narrative, stitching up the emotional journey with the finesse of a master tailor."
+        ],
+        [
+            "### Hit Play and Let the Magic Happen",
+            "After all that talk, there's nothing like hitting play and letting 'Erbarme dich, mein Gott' straight-up baptize your ears with its Baroque beauty.",
+            "Slap on some good headphones, shut your peepers, and just vibe with it; let those strings, that violin, and the alto's crooning wash over you like a monsoon of feels.",
+            "And don't forget those elements we gabbed about \u2014 the tempo, the key dances, and the mood swings; they'll hit different when you're in it.",
+            "So lean back, press play, and let the waves of 'Erbarme dich' take you on a ride that's part time machine, part soul-search, and 100% eargasmic."
         ]
     ],
     "listen-guide-3": [
         [
-            "### Introduction: Bach to Basics",
-            "Alright, folks. Let's dive into the world of Johann Sebastian Bach and his genius work 'Wir setzen uns mit Tr\u00e4nen nieder,' the last movement of his 'St Matthew Passion.' This bad boy is not just a piece of music, it's a whole universe of emotions packed into one hell of a spiritual roller-coaster ride. The piece is steeped with melancholic beauty that's gonna get those tears rolling, even on the stiffest upper lip."
+            "### Cry Me a River, Literally",
+            "I named the closing movement of my St. Matthew Passion 'Wir setzen uns mit Tr\u00e4nen nieder' because it's like the grand emotional finale, you know?",
+            "It's where all the feels come together, and you can practically hear the tears hitting the floor as the piece wraps up the whole epic story of the Passion.",
+            "It's about sitting down in profound grief, reflecting on the heaviness of the tale just told, and giving listeners a poignant ending to marinate in."
         ],
         [
-            "### Explanation of the Title: A Teary-eyed Sit-down",
-            "'Wir setzen uns mit Tr\u00e4nen nieder'- sounds heavy, doesn't it? Well, translate that from German to English and you get 'We Sit Down with Tears.' This title sets up the tone and feeling of the whole movement. Bach out here making us ride the emotional wave of mourning the Passion of Christ, and boy, he hit the nail right on the head. This ain't no happy-go-lucky pop song, guys. Historical context? The dude wrote this in the saddle of religious tension during the mid-1700s."
+            "### Orchestra Is My Canvas",
+            "In 'Wir setzen uns mit Tr\u00e4nen nieder,' you got a full deck of instruments playing this emotional game\u2014strings, woodwinds, the whole shebang.",
+            "The strings are like the glue, keeping it all together, while the woodwinds are painting these sorrowful strokes across the musical canvas.",
+            "There aren't showy solos here; it's all about blending, creating this rich tapestry of sound that's meant to hit you right in the feels.",
+            "Each instrument brings its own color to the mix, kinda like a painter using different shades to make you really feel that somber mood."
         ],
         [
-            "### Analysis of the Structure: German Engineering",
-            "So, what's cooking in this structured Bach's soup? Well, it's a respice (last section of a major piece) chorale, So don't expect some razzle-dazzle sonata or crazy rondo. This one is all about poise, harmony and tying up the Passion with emotional depth. There's a recurring theme of lamentation and hope, tied together with some killer transitions."
+            "### It's Not Just A Phase, It's A Chorale",
+            "The movement 'Wir setzen uns mit Tr\u00e4nen nieder' ain't a sonata or a rondo; it's a chorale fantasia, which is basically a fancy way of saying it's a reflective choir jam.",
+            "This bad boy is organized with the choir and orchestra bouncing off each other, playing with themes like a complex dance, creating a layered musical conversation.",
+            "It's got my signature counterpoint moves, where each musical line is like a thread in a tapestry, super important but part of a bigger picture.",
+            "Think of it like someone telling a story, but every so often, the crowd chimes in with 'Yeah, that's deep'\u2014that's the kind of vibe you're getting here."
         ],
         [
-            "### Elaborating on Sections: Emotional Ocean",
-            "Now, when you're sittin' in with them tears, the thing you'll notice is how each section blossoms with different moods. You start off in a contemplative state - slow, but intense. Then it builds to this climax of mournful sweetness that sends shivers up your spine. And just when you think it's peaked, it shifts gears, sinking into this calm but mournful mood as it wraps up. Trust me, you'll wish it'd never end."
+            "### Slow Burn to Salvation",
+            "The first section serves up some slow, deliberate tempos that set a heavy, contemplative tone.",
+            "There's no rush here; it's all about letting each note simmer and soak into your soul.",
+            "You can feel the key hanging out in the minor zone, which is basically music's way of saying 'Things be serious'.",
+            "The mood sticks to this path like glue, ensuring you're fully absorbed in the gravity and bittersweet vibes."
         ],
         [
-            "### Role of Instruments: Backing Band to Heaven",
-            "Can't discuss Bach without talking instruments, can we now? Be ready for a grand orchestral wave, because old man Bach was pulling out all the stops with this one. The Choir ain't just there for show - they form the emotional heart of the piece. But keep an ear out for them strings and oboes too, y'all. Those fellas drive the tension and bring that sweet, sweet melancholy to life."
+            "### Sighs in Strings, Whispers in Winds",
+            "As we roll into the middle bits, the strings keep weaving their melancholy magic, while the woodwinds whisper like they're letting you in on a sad secret.",
+            "The movement sticks with the somber themes, but the tempo eases up just enough to give you a moment to catch your breath\u2014like pausing mid-cry.",
+            "A gentle shift in keys might catch your ear, like a spark of hope in a dark room.",
+            "The texture of the music here is like fine lace\u2014detailed, intricate, and easy to get emotionally entangled in."
         ],
         [
-            "### Listen: All Ears on Deck",
-            "Now, after all that talk, you may reckon we're done, right? Heck, no! You've got your intro, your history and analysis. It's high time y'all hit that play button and go through this emotionally charged music ride. Remember to keep them ears open for all we've discussed. Or don't. Just let the music take you where it wants. As the man himself, Bach, said, 'Music is an agreeable harmony for the honor of God and the permissible delights of the soul.' Enjoy, folks!"
+            "### The Final Curtain Falls",
+            "Toward the end, the music doesn't suddenly go all happy-clappy; it stays true to the feels, concluding with a refined restraint that's heavy with emotion.",
+            "The tempo and mood are like the last few raindrops after a storm\u2014sparse, reflective, and ever so slowly giving way to silence.",
+            "Key-wise, we're not doing cartwheels; we're maintaining the minor ambiance to keep the meditative spirit until the very end.",
+            "It's like taking a long, deep sigh, knowing you've been part of something incredibly profound and it's time to let it go."
+        ],
+        [
+            "### Ready, Set, Emote",
+            "All right, if you're ready for a full-on emotional experience, better go ahead and press that play button on 'Wir setzen uns mit Tr\u00e4nen nieder.'",
+            "Make yourself comfy, maybe grab a tissue or two, 'cause this ain't your average easy-listening track\u2014this is deep stuff, my friend.",
+            "As the music starts to flow, keep in mind the layers, the interplay of instruments, and the way each note carries a piece of the story.",
+            "Let that music wash over you and really get into the nooks and crannies of your soul\u2014it's not just sound, it's a whole vibe."
         ]
-    ],
-    "tracksIntro": [
-        "### Sampling the Soul of Bach's St. Matthew Passion",
-        "Bach's 'St. Matthew Passion' is a musical giant, with each part and movement a universe in itself, full of deep arias and powerful choruses.",
-        "It's like a vast, intricate musical landscape. Covering every piece? That's a Herculean task.",
-        "So, we'll zoom in on just a few of its most resonant moments.",
-        "We're taking a quick tour through Bach's profound creation, but just remember, there's a whole world of passion we're just glimpsing at here!"
-    ],
-    "audio": {
-        "fragment-1": "/audio/compositions/bach-st-matthews-passion/fragment-1-200-260.mp3",
-        "fragment-2": "/audio/compositions/bach-st-matthews-passion/fragment-2-180-240.mp3",
-        "fragment-3": "/audio/compositions/bach-st-matthews-passion/fragment-3-150-210.mp3"
-    }
+    ]
 }

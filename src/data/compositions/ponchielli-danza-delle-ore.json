@@ -2,16 +2,23 @@
     "composer": "Ponchielli",
     "composition": "Danza delle Ore",
     "canonical": "/compositions/ponchielli-danza-delle-ore",
+    "src": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3",
+        "fragment-2": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-137-180.mp3",
+        "fragment-3": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-210-270.mp3"
+    },
     "spotify": "https://open.spotify.com/track/6W0aQK4Xuu17wjhOngXh5S",
     "header": [
-        "Clocking In with", "Ponchielli's Danza delle Ore"
+        "Clocking In with",
+        "Ponchielli's Danza delle Ore"
     ],
     "seo": {
-        "description": "Catch the lowdown on Ponchielli's banger, Danza delle Ore, and dive deep into the sickest parts of this jam. Get the 411 on the backstory and peep our guide to truly vibe with this classical masterpiece.",
-        "og:title": "Ponchielli's Lit 'Danza delle Ore' Breakdown - Get Schooled On The Classics!",
-        "og:description": "Get hip to the full deets of Ponchielli's Danza delle Ore. We spill the tea on the dopest moments and dish out a guide that'll school you on every beat of this timeless bop.",
-        "twitter:title": "\ud83c\udfb6 Droppin' Science on Ponchielli's Danza delle Ore \u2013 Classics Got Swag!",
-        "twitter:description": "Y'all ready to turn up on classical tunes? We're unwrapping the best bits of Ponchielli's Danza delle Ore, with all the juicy backstory and a listen guide for max enjoyment. Let's get classy!"
+        "description": "Yo, peep this! Dive deep into Ponchielli's hype track 'Danza delle Ore' as the composer himself breaks down the backstory, the dope moments, and hits you with an epic listen guide. It's classical jammin' with a twist!",
+        "og:title": "Behind the Scenes with Ponchielli's Banger 'Danza delle Ore'",
+        "og:description": "Get the lowdown on 'Danza delle Ore' straight from the source! Ponchielli dishes on the creation vibes, highlights the sickest parts, and serves up a guide to get ya head bobbin'. Tune in for a classic with swag!",
+        "twitter:title": "Ponchielli Spills Tea on 'Danza delle Ore' - A Classical Jam Sesh",
+        "twitter:description": "Hang tight as Ponchielli schools us on his masterpiece 'Danza delle Ore'. Catch the origin story, the standout bits, and get a bespoke listening walk-through. It's your ticket to ride the rhythm train on this orchestral epic!"
     },
     "annotations": {
         "Opera's High-Octane Highlight": "The 'Danza delle Ore' (Dance of the Hours) from Ponchielli's 'La Gioconda' rocks the stage with its high-spirited tempo and bombastic orchestration, delivering a hit that could make even the most tight-laced opera buffs tap their feet.",
@@ -40,106 +47,147 @@
         "Opera House Mosh Pit": "The section where the energy peaks and you can almost see the crowd surfing the crescendo.",
         "Courtly Conductor's Cardio Workout": "The 'Danza delle Ore' serves as a conductor's Zumba class, getting that heart rate up with every exuberant beat."
     },
+    "introduction": [
+        "Yo, I'm Ponchielli, and I'm about to school you on my jam, 'Danza delle Ore'."
+    ],
     "best-moments": [
         [
-            "### Intro: Crankin' the Clock with Danza delle Ore!",
-            "Yo, music aficionados! Let's take a trip down the classic lane with a jam so tight it'll have your grandparents feeling like teenagers. We're diving into 'Danza delle Ore' by the homie Amilcare Ponchielli, a piece so lit it's been the soundtrack to everything fancy from Bugs Bunny cartoons to your cousin's ritzy wedding. So slap on your best headphones and brace yourself for a whirlwind tour of three bomb-diggity moments in this orchestral bop that's got more flavor than grandma's secret spaghetti sauce."
+            "### 1. Once Upon a Morning: Dawn's Early Light Gets Funky",
+            "Yo, let me break it down about the kick-off of 'Danza delle Ore'.",
+            "Your ears get blessed with this elegant prelude that slides into a luxurious and serene adagio, like a dawn ballet where every sleepy star knows their moves."
         ],
         [
-            "### 1. Sunrise Serenade!",
-            "Aight, peeps, kick things off with that grand-slam opening of 'Danza delle Ore', dropping drama like your favorite reality TV show. Ponchielli hits 'em strong outta the gate with melodies that soar like an eagle on a Red Bull kick, rhythms that call to you like the smell of a fresh pizza pie, and a vibe so boujee it feels like your soul is waltzing through a palace. It's the wake-up call to end all wake-up calls, tossing the sleep right outta your eyes and getting you ready for the audio adventure ahead."
+            "### 2. Afternoon Delight: Siesta, But Make It Classy",
+            "Aight, peep this: the middle of the joint shifts gears with strings and woodwinds playing tag under a groove-tastic canopy.",
+            "The melody's like a graceful dance-off where the tunes are so fly, they could riff off each other's energy for days."
         ],
         [
-            "### 2. Afternoon Antics!",
-            "Middle of the piece, yo, and Ponchielli ain't playing! Picture this – you're chilling in a sunny park, right, and suddenly there's this flash mob of melodies throwing down a tune so catchy, even the squirrels stop and drop acorns. The harmonies are giggly, the rhythms are flirting, and the whole piece is a smooth operator. It's like being at the best dance party ever where the moves are notes, and these notes are busting out a choreography colder than winter in Wisconsin."
-        ],
-        [
-            "### 3. Evening Euphoria!",
-            "Hold up and lean in, 'cause we're hitting the climax that's all fire. This part of 'Danza delle Ore' is the Big Bang, the final countdown, the last round before the bell dings. The music goes all-out, blasting melodies like there's no tomorrow, with a vibe so electric it could light up Times Square. Picture the thrill of sticking the landing after a triple axel – that's the kind of pulse-pounding, showstopping vibe Ponchielli is throwing down. It's the mic-drop of music, leaving you all hyped up like you just downed a double-shot of espresso!"
+            "### 3. The Evening Rush: Nightfall's Boogie Bonanza",
+            "As things heat up towards the grand finale, we're talking peak vibes with the full orchestra getting lit.",
+            "The brass section is calling shots like it's their last night on Earth, throwing down with a fervor that'll have you on the edge of your seat like it's the conductor's wild rollercoaster."
         ]
     ],
     "backstory": [
         [
-            "### The Genesis: In the Groove with Ponchielli",
-            "Yo, listen up, 'cause I'm 'bout to spin the yarn on how Amilcare Ponchielli got lit and cooked up Danza delle Ore, that's the Dance of the Hours for y'all non-Italian speakers. Picture this - Italy in the 1870s, when everyone's getting their crinolines in a twist over Romantic music. Our man Ponchielli's marinating in this sauce of operatic fervor, right? He's vibing with the drama and the emotive highs when \u2013 boom \u2013 he gets this brainwave for a ballet intermezzo that\u2019s gonna be tighter than a snare drum at an opera called 'La Gioconda'. The personal bit? Word on the street is this cat had a thing for encapsulating the passing of time and the feels that came with it. Probably looked at his pocket watch and thought, 'Let's make these ticking hands jive!'"
+            "### A Leap into the Time Waltz",
+            "Yo, let me tell ya 'bout this catchy piece from my opera 'La Gioconda' called 'Danza delle Ore' or 'Dance of the Hours' if you ain't up on your Italian.",
+            "It's like this musical illustration of the day's 24 hours, all fancy-like with ballet dancers doin' their thing to represent mornin', day, evenin', and night.",
+            "Cooked it up back in 1876, and it's been getting toes tapping ever since, even snagging a spot in Disney's 'Fantasia,' you know, with the hippos and the gators gettin' down.",
+            "Didn't just throw this tune together on a whim; I was all strategic-like, making sure each tick of the clock had its own vibe."
         ],
         [
-            "### The Composer's Journey: Ponchielli's Mixtape of Life",
-            "Now, Amilcare was no scrub when this tune started bouncin' in his noggin; he was chillin' at the peak of his game with operas that slapped harder than a diva's scorn. But it wasn't all sonatas and serenades \u2013 dude had his share of the blues. Emotional roller coasters and the hustle of being a maestro in the cutthroat opera biz had him all kinds of stirred up. So, along comes Danza delle Ore, shining like a diamond in the rough of his life's playlist."
+            "### When the Orchestra Goes Brrr",
+            "Now listen up, each part of 'Danza delle Ore' is its own kind of party, letting instruments bring out the flavor of different times of day.",
+            "We start with the 'morning' movement, stretchin' out the strings nice and slow like a good yawn to wake you up.",
+            "Then 'daytime' picks up the pace, brass and woodwinds jump in, and things start popping off like a midday rush hour.",
+            "Rolling into 'evening,' the tempo dips, stuff gets a bit more lush and mellow before 'night' crashes the scene with a dramatic blast, wrapping it all up like a late-night snack."
         ],
         [
-            "### Musical Innovations: Whirls and Twirls with a Twist",
-            "Here's the real talk \u2013 Danza delle Ore ain't your average tick-tock tune. Ponchielli spiced it up with a dash of drama and a hefty scoop of orchestral color that makes it pop like fireworks on New Year's Eve. His genius play on rhythm and melody makes you wanna leap up and waltz with your shadow. This bad boy stood out like a sore thumb in an era crammed with musical monotony \u2013 Ponchielli came through with that innovative audio flavor that really cooks!"
+            "### A Not-So-Average Day at the Opera",
+            "I mean, sure, opera's can be all wild tales of love and tragedy, but sometimes you gotta break it down with an intermezzo that just vibes.",
+            "That's where my 'Danza delle Ore' slides in, nestled snug in the third act right before the drama cranks to eleven.",
+            "It ain't just a break for the singers to catch their breath, but a proper show-off moment for the dancers to give the audience some eye candy.",
+            "It's like hitting pause on the chaos to remind errybody that life's got rhythm, and even in an opera, you gotta keep time with it."
         ],
         [
-            "### Challenges and Triumphs: Climbin' Harmony Mountain",
-            "Composing may seem smooth as silk, but it's really like crankin' out reps at the gym \u2013 and Ponchielli had to flex hard. Figuring out this musical puzzle was trickier than sneaking a piccolo into a string quartet. Technical hurdles, the opera house drama, you name it \u2013 but our man powered through. The result? A piece so lit that it got folks twirling in the aisles and earned Ponchielli some serious street cred."
+            "### Tick-Tock Goes the Ponchielli Clock",
+            "Peep this: 'Danza delle Ore' ain't just about groovy tunes, it's also throwin' some educational vibes by representin' the passage of time.",
+            "I laid down a musical sundial, if you will, that chimes through the daytime groove into the twilight zone and out into the velvet night.",
+            "It's like your audible day-planner, complete with appointments for allegro foot-tapping and adagio head-nodding.",
+            "And, let's be real, who doesn't want a soundtrack for their daily hustle? I got you covered from your morning coffee to your late-night snack."
         ],
         [
-            "### Movement by Movement: Breakin' Down the Dance Steps",
-            "So check it, Danza delle Ore \u2013 it's like the showstopper in the middle of 'La Gioconda', each part doin' its own thing but still tight. If you ain't hip to what a movement is, think of it like episodes in your favorite binge-worthy show. You got the Introduction, silky smooth and setting the scene; the Morning, with the strings servin' up a fresh dawn vibe; then the Dusk, where the tempo picks up and the plot thickens like grandma's gravy; and don't even get me started on the Evening, where the brass busts in like they own the joint, and finally the Night, wrapping it all up in a sweet lullaby. Each movement flexes on its own, but together, they jigsaw into a primo ballet that's like an emotional joyride!"
+            "### Get Your Groove On with Ponchielli",
+            "When it comes to 'Danza delle Ore,' you can bet your last cannoli it's about more than just keeping time, it's about strutting your stuff.",
+            "Those fancy ballerinas in tutus ain't there for decoration; they're bustin' moves that reflect the different moods of the day like nobody's business.",
+            "It's like when you switch up your jam depending on whether you're cruising in your ride or chilling at home.",
+            "I crafted this piece to be the perfect backdrop for those primo dance moves that make you want to hop up and join the ballet posse."
         ],
         [
-            "### Cultural Tapestry: Symphony in the Social Fabric",
-            "You gotta see the big picture to get how Danza delle Ore got woven into the cultural get-up of the time. We're talking about Italy during the Risorgimento \u2013 that's the Italian Renaissance remix with a flavor of nationalism and a quest for unity. Artists were all up in their feels, looking to stitch their work into the country's reawakened pride. So when Ponchielli dropped this banger, he wasn't just laying down notes; he was tailoring a sonic suit that fit the Italian vibe like a glove!"
+            "### Ponchielli's Parade of the Hours",
+            "Aight, so you gotta imagine the scene when 'Danza delle Ore' hits the stage: it's like this elegant parade float made of notes, gliding through the day.",
+            "Each section of the piece struts its stuff with a unique character, like watching a musical fashion show where each model's rockin' a different time of day.",
+            "From the delicate pirouettes of 'morning' to the bold spins of 'night,' it's a full-on extravaganza of clock-inspired couture.",
+            "And, no lie, by the time 'night' rolls up, the orchestra's goin\u2019 so wild, you'd think it was a New Year's Eve bash throwin' down the beats."
         ],
         [
-            "### Aliases and Epithets: AKA 'That One Ballet Tune'",
-            "Real talk, Danza delle Ore been called so many things it's got more identities than a spy on a covert op. Audiences jived with it so hard, they started referring to it as 'that opera ballet piece' \u2013 not mighty creative, but it stuck like glue. Then the cartoon 'Fantasia' with Mickey Mouse as the sorcerer's apprentice hit the scene and, bam! It blew up like dynamite under the name 'The Hippo Ballet.' Seriously, nicknames popping up left and right \u2013 a testament to how Ponchielli's groove just can't be caged!"
+            "### Ballet With a Side of Humor",
+            "Don't get it twisted, 'Danza delle Ore' ain't your granny\u2019s dusty old record; it\u2019s got jokes, man.",
+            "With my musical pen, I scribbled some whimsical lines that had them fancy folks chuckling in their opera glasses, all classy-like.",
+            "It's like slipping on a banana peel but, you know, in a ballet, making it high-brow comedy that even your monocle-poppin' uncle would spit out his tea to.",
+            "Lace up your pointe shoes and get ready for a chuckle, \u2018cause this tune\u2019s got more laughs than a tickling competition."
         ],
         [
-            "### The Premiere: Opening Night, Turn Up the Lights",
-            "Aight, when Danza delle Ore hit the stage for the first time, it was like dropping the bass at the club \u2013 the joint was jumping! Critics were scribbling furiously, glasses in the opera house fogging up from the heat. It was a smash hit from the word go, with folks begging for encores like kids after candy. Ponchielli? My dude just took a bow, cool as a cucumber in a freezer."
+            "### Ponchielli\u2019s Pie Chart of Tunes",
+            "If you're thinkin' of 'Danza delle Ore' as a pizza, each movement's a flavor-blasted slice representin' a chunk of the day, served up hot 'n fresh.",
+            "Like, 'morning' is your classic margherita, easy and comforting; 'day' is the spicy pepperoni hittin' you with that energy boost.",
+            "'Evening' slips in all smooth, like a white pizza with them fancy truffles, and 'night' comes at you dark and rich like a deep dish loaded with everything.",
+            "So basically, I'm servin' up a full day\u2019s menu of melodies that'll satisfy your musical appetite from dawn 'til dusk."
         ],
         [
-            "### Legacy and Influence: The Beat Goes On",
-            "Danza delle Ore didn't just sit pretty in history books; it threw down the gauntlet for the future of music. Composers clocked it and caught the fever, adding some Ponchielli pizzazz to their own gigs. From ballet to film scores, the ripples of this jig have tickled eardrums for generations. To this day, homies are still finding new ways to serve up this classic on a platter of modern beats \u2013 it\u2019s like the gift that keeps on givin'!"
+            "### Ponchielli Pops the Culture Cherry",
+            "Yo, 'Danza delle Ore' ain't just for the opera crowd, it went full crossover, popping up in movies, cartoons, and even them catchy TV jingles.",
+            "It's the kind of tune that creeps into your brain and sets up camp, like that one commercial song you can't stop humming at the bus stop.",
+            "I mean, it's been a minute, and peeps are still sampling Pony-boy\u2019s beats\u2014ain't no frosty respect here, just proof that some tunes are timeless.",
+            "You know you made it when you're the guy that wrote the soundtrack for hippos in tutus; that\u2019s living the dream my friend."
+        ],
+        [
+            "### A Diva Needs Her Rest",
+            "In the grand scheme, 'Danza delle Ore' is like the hype man for 'La Gioconda,\u2019 revvin\u2019 up the crowd before the diva sashays back with her high notes.",
+            "It's the perfect interlude, givin' folks a minute to whisper 'bout the dancers and sneak a bite of their candy before the spotlight swings back to the drama queen.",
+            "A legit pause button in the opera, letting the audience catch their breath with some primo ballet action before the grand finale.",
+            "Plus, it lets your boy take a backstage bow while everyone's distracted by leaps and twirls\u2014sly like a fox, Ponch is."
         ]
     ],
     "listen-guide": [
         [
-            "### Essence: Kickstartin' the Clockwork Soiree",
-            "Yo, check it! When you pump up Ponchielli's 'Dance of the Hours', you ain't just hitting play, you're crankin' the handle to a whimsical, tick-tockin' musical fiesta.",
-            "This bad boy has got more ups and downs than a rollercoaster at Coney Island, with its swank elegance that'll get even the stiffest of wallflowers toe-tappin'.",
-            "Pure musical theatrics, my friends\u2014Ponchielli's jam is like a soundtrack to the swankest, most lively gathering of the fanciest-temporal-spirits you could ever imagine."
+            "### The Orchestral Rolodex in 'Danza delle Ore'",
+            "Yo, when you're vibing to 'Danza delle Ore', you're gonna hear a whole squad of instruments throwing it down.",
+            "The strings keep it classy, always the backbone with their lush harmonies, while the woodwinds, like those flutes and oboes, sprinkle atop some sassy flavor with their airy melodies.",
+            "Brass comes in hard with that royal vibe, and the percussion? Well, they\u2019re the heartbeat, keeping everyone on their tippy-toes with those snazzy rhythms.",
+            "Don't sleep on those solos, especially when the violins are spitting fire, and that glockenspiel that straight-up adds sparkles to the sound, like bling for your ears!"
         ],
         [
-            "### Explanation of the Title: Name-Droppin' the Time Troop",
-            "Let's rap about 'Danza delle Ore', which is Italian for 'Dance of the Hours.' This slick title springboards right off the sheet music and plants the image of Father Time gettin' jiggy with every tick and tock.",
-            "Ponchielli must've been clockin' some serious feels for the ephemeral nature of our daily hustle, infusing his tune with a rhythm that mirrors the relentless hustle from dawn to dusk.",
-            "The title's a straight-up hat tip to how the music's struttin' across the hours, dolling out an audacious vibe of time's inevitable jam session."
+            "### The Symphonic Roadmap",
+            "So here's the 411 on the structure of 'Danza delle Ore': it's not your everyday pop song format.",
+            "It's a ballet scene from 'La Gioconda' and rockin\u2019 that ABA (or ternary) form, where it's like you start at home, take a trip, and boomerang right back.",
+            "This bad boy opens up with a theme, dives into a contrasting theme for a change of scenery, then circles back to the original jam, making you feel like you just took a musical roundtrip.",
+            "Clever, right? It\u2019s like storytelling with beats and notes instead of words."
         ],
         [
-            "### Analysis of the Structure: Blueprint of a Beat-Infused Bonanza",
-            "Ready for a structural safari? Ponchielli's orchestral outing ain't following the garden-variety blueprint\u2014it's more freestyle than a jazz riff on Bourbon Street.",
-            "Think of it like a day in the life, only with more pizzazz and fewer coffee breaks\u2014it takes you on a journey from mornin' to night with all the drama of a soap opera in between.",
-            "Peep the transitions and recurring themes that are like thematic breadcrumbs, leading you through the hustle of daytime antics to the swish evening gown hour."
+            "### The Dawn of a Musical Day",
+            "Okay, slappin' the bass is fun, but let's dive into the first section of 'Danza delle Ore', called the morning dawn, yo.",
+            "The tempo is like your lazy Sunday morning, all easy and gradual with those mellow strings painting a pastel sunrise in your mind.",
+            "Then, the mood shifts as the key changes, winding up the atmosphere, and you can just picture the sun doing its slow climb up the sky.",
+            "High-key, the morning scene sets the stage with vibes that say, 'Hey, the day's got potential, so let\u2019s roll with it.'"
         ],
         [
-            "### Elaborating on Sections: Chapter-Hoppin' the Horological Hoedown",
-            "Dawn's breaking, and Ponchielli ain't snoozing through the sunrise\u2014the opening melodies got that fresh, energizing zest like a splash of OJ in the AM.",
-            "Midday rolls around, and 'bam!'\u2014the tempo's picking up steam, serving up a sonic banquet fit for a king, with every instrument getting a slice of the action.",
-            "As the sun dips and dusk settles in, things get sultry and introspective, like retrospective velvet taking you on a nostalgic night stroll.",
-            "Nighttime's the grand finale, folks\u2014full of rambunctious, all-in joie de vivre, like a New Year's Eve bash where every note's dropping the ball in Times Square."
+            "### Afternoon Delight",
+            "Slide into the afternoon, and the music's picking up speed like when you realize you\u2019ve only got a few hours of daylight left to get stuff done.",
+            "The tempo\u2019s quicker, the mood\u2019s like that first sip of coffee\u2014energy levels are buzzin', and the orchestra\u2019s firing off themes like there\u2019s no tomorrow.",
+            "Suddenly, you hit a majestic vibe as the strings and brass throw down a key change, and you\u2019re all like, 'Whoa, is it epic adventure time?'",
+            "It's a musical espresso shot that's got you ready to conquer the world, or at least your to-do list."
         ],
         [
-            "### Role of Instruments: The Orchestral Entourage",
-            "This track's instrument lineup\u2019s as finely tuned as a Swiss watch\u2014each player's crucial, from the commanding strings to the bold brass standoff, and don\u2019t get me started on that cheeky woodwind dialogue.",
-            "It's like every section of the orchestra got the memo to bring their A-game, creating an opulent sound carpet that wraps 'round your ears like a velvet throw.",
-            "And when the flute steps into the spotlight for its solo... man, that's smoother than a buttered-up trombone slide.",
-            "The percussion? Oh, they're the heartbeat, the clock's tick-tock, keepin' everyone stepping lively as if Old Mother Time herself was conducting the show!"
+            "### Evening Eleganza",
+            "When evening hits in 'Danza delle Ore', it's like the orchestra decides to put on its fancy pants.",
+            "The tempo's got that graceful glide, like you're dancing through the last rays of sunshine, and the emotional strings and woodwinds hand you a glass of fine wine in sonic form.",
+            "But don't get too comfy in this velvety key, 'cause mood shifts are coming, turning your twilight waltz into a starlight tango.",
+            "The orchestra\u2019s like, 'We're gonna slow it down, then BAM, change it up,' to keep you on your toes like a ballerina in rush hour."
         ],
         [
-            "### Listen: Droppin' the Needle on Time's Turntable",
-            "Alright, enough of my yammering\u2014hit that play button and dive ear-first into 'Dance of the Hours'.",
-            "Keep a keen ear out for them aural confections I've been spielin' about, and let Ponchielli's magnum opus wrap around you like a warm, musical hug from time itself.",
-            "Set your imagination antenna on high gain, close those peepers if you gotta, and let the time-tastic tune sweep you off your feet as you waltz through the hours 'til the curtain drops."
+            "### The Wild Night",
+            "Now, for the grand finale, 'Danza delle Ore' rips into the night with all the drama of a season cliffhanger of your favorite TV show.",
+            "Pace picks up like a thriller's plot twist, key changes be wilding out, and every instrument is in on the action, throwing down like there's no curfew.",
+            "Moods swing from mysterious whispers to triumphant shouts, as the orchestra rolls deep through the musical fog, led by the piercing shine of those full blast brass and strings.",
+            "The night is young, the vibes are electric, and Ponchielli\u2019s saying, 'Hold on to your hats, folks, it\u2019s gonna be a bumpy ride!'"
+        ],
+        [
+            "### Hit That Play Button",
+            "Alright, here\u2019s your cue to crank up 'Danza delle Ore' and let the waves of Ponchielli\u2019s genius wash over you.",
+            "Hit up that play button, drop into the sound like it's a musical jacuzzi, and just soak in the symphonic goodness we've been chit-chatting about.",
+            "Let them textures and colors from the instruments paint your mind's canvas while keeping an ear out for those sly solos and slick techniques.",
+            "And hey, see if you can catch the story these notes are spinning \u2013 it's like a film for your eardrums, no popcorn needed!"
         ]
-    ],
-    "audio": {
-        "fragment-1": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3",
-        "fragment-2": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-137-180.mp3",
-        "fragment-3": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-210-270.mp3"
-    },
-    "src": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3"
+    ]
 }

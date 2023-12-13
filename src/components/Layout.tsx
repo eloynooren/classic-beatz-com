@@ -167,6 +167,10 @@ export const Paragraph: React.FC<ParagraphProps> = ({sentences, classNames}) => 
         if (classNames.includes('paragraphHugeBottom')) {
             className.push(styles.paragraphHugeBottom)
         }
+
+        if (classNames.includes('paragraphHugeTop')) {
+            className.push(styles.paragraphHugeTop)
+        }
     }
 
     const html = textFormatter(sentences)

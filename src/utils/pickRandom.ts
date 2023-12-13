@@ -1,5 +1,5 @@
 
-function pickRandom<T>(arr: T[], n?: number): T[] | T {
+export function pickRandom<T>(arr: T[], n?: number): T[] | T {
     if (n !== undefined && n > arr.length) {
         throw new Error("Cannot pick more elements than the array length.");
     }

@@ -157,6 +157,17 @@ h3 {
     margin-bottom: 25px;
 }
 
+.paragraph-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.paragraph-huge-top {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
 .paragraph-huge-bottom {
     margin-top: 25px;
     margin-bottom: 100px;

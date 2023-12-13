@@ -22,6 +22,12 @@
         }
     },
     "src": "/audio/compositions/brahms-symphony-no-1/fragment-4-120-180.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/brahms-symphony-no-1/fragment-1-0-60.mp3",
+        "fragment-2": "/audio/compositions/brahms-symphony-no-1/fragment-2-0-60.mp3",
+        "fragment-3": "/audio/compositions/brahms-symphony-no-1/fragment-3-0-60.mp3",
+        "fragment-4": "/audio/compositions/brahms-symphony-no-1/fragment-4-120-180.mp3"
+    },
     "spotify": {
         "1": "https://open.spotify.com/track/1R3qEUwwggtivCYBD5uNkD",
         "2": "https://open.spotify.com/track/7gZGSwGUBwCI6MfuBzPQwA",
@@ -33,259 +39,334 @@
         " Brahms's Symphony No 1"
     ],
     "seo": {
-        "description": "Yo, peep this! We're vibin' with Brahms's Symphony No 1. Saucy moments, dope backstory, and an ill listen guide. Don't sleep on it, fam.",
-        "og:title": "Brahms's Symphony No 1: The Ultimate Jam | Catch the Wave, Bro!",
-        "og:description": "Get the lowdown on Brahms's Symphony No 1. From chill moments to crazy backstory, plus a listen guide for all you music heads. Straight fire!",
-        "twitter:title": "Brahms's Symphony No 1: Unlock the Mystery | Music Hype Alert",
-        "twitter:description": "Got Brahms? We do! Score the inside scoop on Symphony No 1. Hittin' you up with prime moments, mad backstory and the tightest listen guide around. Sick!"
+        "description": "Get the lowdown on Brahms' epic Symphony No 1, unveiled straight from the man himself. Dive into the best bits, backstory, and a bangin' listen guide that'll school ya on this classic banger.",
+        "og:title": "Chop it up with Brahms: Symphony No 1 Unleashed",
+        "og:description": "Yo, catch the 411 as Brahms breaks down his Symphony No 1, dishin' out the juicy deets, historical hustle, and a wicked listen guide for all you symphony slayers out there!",
+        "twitter:title": "Brahms' Symphony No 1: The Dopest Symphony Tell-All",
+        "twitter:description": "Slide into the symphonic scene with Brahms as he spills the tea on his #1 symphony. Score the story, highlights, and a hit-by-hit guide to boost your classical game!"
     },
     "annotations": {
-        "The Auditory Mutton Chops of the 1870s": "A reference to Brahms's iconic whisker style, embodying the high drama and boggling complexity of Symphony No.1.",
-        "Century's Best Slow Burn": "A shoutout to the 14 years it took Brahms to nail this superfly symphony to utter perfection, no doubt.",
-        "The Storm in B Major": "'Cuz Brahms blew in a gale of intense power and emotional premise through the choicest B major, for true.",
-        "When The Good Times Rolled at 60 Beethoven": "Chunk of this symphony got nod from Beethoven\u2019s Ninth, making it a sonic equivalent of a backstage pass to the 19th century chartbusters.",
-        "The Retro Headphones of the 20th Century": "Symphony No.1 is so fly it\u2019s like a stand-in for a 19th-century Spotify playlist.",
-        "The Auditory Brandy of the Upper Crust": "With its full-bodied flavor, this Brahms delight is akin to a fine sippable IV line for the 19th-century posh and peachy.",
-        "Old School SoundCloud": "Make no bones, this dynamic piece be the livestream platform for the 19th-century cats and kittens, so to speak.",
-        "The Beats by Johannes": "A hat-tip to how Brahms totally amped up his creation, mixing in hot servings of energy and damping down the mellows. Wicked!",
-        "Victorian MTV Unplugged Special": "Referring to the symphony as an acoustic back-in-the-day version of a trending MTV gig with all classic accoutrements.",
-        "Track 1 on the Anthology of Badass": "Named as a star on the list of historical score-scorchers.",
-        "Floodgates of Fugue": "Highlighting the fugue in the finale, Brahms let loose an aural tidal wave that swept the 19th century music scene.",
-        "Top Biller in the Theatre of Time": "This bit of pomposity signifies the unshakeable position of Brahms's Symphony No.1 among other epochal compositions.",
-        "Bonnet and Bassoon Love Tale": "A melodramatic quirk stressing on the romance of the era, fed by the rich tones of Brahms's bassoon.",
-        "The Pinstripe Suit of Symphonies": "Like a dandy gent's attire, this number is where class collides with a funky catwalk of sounds.",
-        "Midnight Sonata in Broad Daylight": "A whimsical hint that Brahms's gushing night-inspired symphony rang out loud and clear in broad Victorian daylight.",
-        "Epic Breakup with Silence": "This punchy patter channels the emotional ebbs and flow of Brahms's First, ending the quietude with a searing score.",
-        "Riding Shotgun with Schubert": "The fiery strands of Symphony No.1 could be the power-packed shotgun rider to Franz Schubert's dreamy symphonic carriage.",
-        "Double Fudge Sundae to the Ears": "'Cause this hot-ticket symphony dishes out layers of sweetness, spice, and steaming emotion on the sonic palate.",
-        "The VIP Booth in Club Classic": "No two ways, Brahms's First is the velvet-rope enclosed pi\u00e8ce de r\u00e9sistance of music's most high-profile scene.",
-        "Bustling Bazaars of B Major": "Witness the bustling marketplace of aural delights that this composition unwraps in the charming and cheery B Major.",
-        "The Melodic Rebellion of the Romantic Era": "This piece is a straight thumbs-down to the 'been-there-sang-that' norm and kicks in the rising swell of Romantic movement.",
-        "The Gramophone Glory of 1876": "Much like the magical revolution brought about by the Gramophone in 1877, Symphony No.1 was the ear-bending marvel of its times.",
-        "Brahms's Opus Magnum": "Bringing to the fore the majestic importance of the First Symphony in Brahms's oeuvre.",
-        "The Velvet Melancholy of the Victorian Era": "Emphasizing the symphony\u2019s rich, underlying shade of blue that mirrors the inner world of the Victorian epoch.",
-        "High Tea with Half-notes": "A throwback to the refined ritual of tuning in to Brahms while enjoying a ritzy afternoon of teas, taffeta, and top hats.",
-        "Savory Prime Rib of Symphonies": "This hunk of music prowess is the juicy, delicious main course of the 19th-century symphonic fest."
+        "Beethoven's Heir Apparent": "Brahms's First Symphony has often been called 'Beethoven's Tenth' because of its perceived continuation of Beethoven's legacy.",
+        "The Slow Burn Masterpiece": "It took Brahms nearly 14 years to perfect this symphony, showing us that good things come to those who wait\u2014like, for real.",
+        "From Sketches to Symphony": "A testament to how a bunch of doodles and brainwaves can solidify into an epic auditory journey.",
+        "The Peak of Orchestral Prowess": "Brahms flexing his musical muscles with full orchestral forces, showing us what's up with the big guns.",
+        "The Mount Everest of Symphonies": "Climbing this composition is like scaling a musical summit\u2014challenging but oh-so rewarding.",
+        "Patience Is a Virtue": "Reminding us again how Brahms took his sweet time to ensure his first symphony was bonkers good.",
+        "Timpani Tremors": "Those timpani rolls that give you the good kind of shivers, like 'damn, that's some intense stuff'.",
+        "The Melancholic Motifs Mashup": "Brahms's ability to weave complex, soul-stirring themes is like putting all your feels into a blender.",
+        "The Unofficial Philosopher's Theme": "Because it makes you think deep thoughts, like 'what\u2019s for dinner' and 'where's my other sock?' but in a classy way.",
+        "The Ode to the Struggle": "Each movement represents the struggle Brahms went through, making us nod in respect for keeping it real.",
+        "The Horn of Plenty": "That French horn solo is like a cornucopia of musical majesty, overflowing with pure, unadulterated skill.",
+        "The Alpine Adventure": "Conjuring images of grand vistas\u2014an auditory hike through nature's splendors.",
+        "The Conductor's Gauntlet": "Worthy of any maestro\u2019s skills, it\u2019s serious business to conduct this bad boy, no cap.",
+        "The Bassoons' Burden": "Representing the gravity and depth that these oft-overlooked wooden pipes bring to the table.",
+        "The Fiddle on Fire": "Violins carrying melodies so lit, you can't help but wonder whether they'll burst into flames.",
+        "The Soundtrack of Soul-Searching": "Making you reflect on your life choices, like, 'should I really have had that second piece of cake?'",
+        "The Not-So-Mini Mini Symphony": "Packing a punch that belies its 'No. 1' status\u2014it's a heavyweight from the jump.",
+        "The Reason Music Stands Were Invented": "Because sheet music for this beast won't just hold itself up, you dig?",
+        "The Maestro's Marathon": "An epic endurance test for any musician. Running shoes? Nah, fam, bring your best bow arm.",
+        "Brahmsian Blues Basher": "Got the blues? Brahms's Symphony No. 1 has enough uplift to clear those clouds away.",
+        "The Thunderous Theme Park": "A rollercoaster of dynamics, tempo, and texture\u2014keep all hands and instruments inside the ride at all times.",
+        "The Lyrical Labyrinth": "Navigating through the intricate melodies is like a maze only the dopest musical Theseus could solve.",
+        "The Quintessential Quill-Quoted Quintessence": "As if each note were meticulously inscribed by Brahms with an old-timey quill, 'cause why not make it sound fancy?",
+        "The Velvet Violin Voyage": "A journey through the warm, rich, velvety sounds of the strings that'll make you go, 'Damn, that's smooth.'",
+        "The Harmonic Hallelujah": "When all parts come together in perfect harmony, angels somewhere are high-fiving each other big time."
     },
+    "introduction": [
+        "Yo, it's your main man Brahms here, and I'm 'bout to drop some serious deets on my Symphony No. 1, so buckle up."
+    ],
     "best-moments": [
         [
-            "Yo, so you wanna get amped on some classical jams? Well, buckle up, buttercup 'cause you're about to get schooled on Johannes Brahms's Symphony No. 1\u2014a true OG in the symphony game. This bad boy took ol' Johannes a whopping 21 years to drop, but man, was it worth the wait. Settle in and prepare for a knuckle ride through this four-movement masterpiece, where each note is drippin' with that old-school swag but still hits fresh like it was penned yesterday. We're about to break down this 19th-century banger, no degree in musicology required\u2014just an appetite for some serious beats. Let's get it!"
+            "### 1. I. Un poco sostenuto - Allegro: The Emotional Rollercoaster Begins",
+            "So, check it, my Symphony No. 1 kicks off with this 'I. Un poco sostenuto - Allegro,' which is like being strapped into a musical rollercoaster, you feel me?",
+            "It starts all mysterious and moody, building tension like your stomach's dropping before that first big dip; then bam, it hits you with that monumental Allegro full of drama and power, packing a punch that's got enough oomph to knock the powdered wig off a stuffy aristocrat."
         ],
         [
-            "### 1. Un poco sostenuto - Allegro - The 'Hold My Beer' Overture",
-            "Aight, so we kick off with what I like to call 'The 'Hold My Beer' Overture'.",
-            "From the word go, Brahms ain't playin'\u2014he lays down this thick, mysterious intro with a slow burn that'll tug on your soul strings somethin' fierce.",
-            "Then, like a beast unleashed, it bursts into this Allegro that's straight-up fire, all intense and powerful, like it's racing you to the finish line of feelings."
+            "### 2. II. Andante sostenuto: Grab Your Tissues",
+            "Moving on to the 'II. Andante sostenuto,' and let me tell ya, it's the part where you grab your tissues cause I'm dialing down the fireworks and serving you some feels.",
+            "This movement is all about that sweet, deep heart-to-heart convo with the orchestra, dishing out tender melodies that could make a grown man cry tears of joy into his beer mug."
         ],
         [
-            "### 2. Andante sostenuto - The 'Mellow Drama' Lullaby",
-            "Here come 'The 'Mellow Drama' Lullaby', where Brahms gets all up in his feels and decides to swaddle you in a blanket of warm, lush harmonies.",
-            "It's like he's serenading the stars, weaving this dreamy tune that makes you wanna close your eyes and sway, lost in the sauce of symphonic serenity.",
-            "This movement's all about that sweet, sweet melancholy\u2014like a tender whisper telling tales of heartache in the glow of twilight."
+            "### 3. III. Un poco allegretto e grazioso: The Sassy Middle Child",
+            "Then we hit up 'III. Un poco allegretto e grazioso,' the sassy middle child of my symphonic family, strutting its stuff with a light-hearted skip in its step.",
+            "It's got this playful, almost flirtatious vibe that'll make you wanna twirl your 'stache, wink at the moon, and forget all about the soul-crushing weight of the hefty Allegro that just steamrolled your senses."
         ],
         [
-            "### 3. Un poco allegretto e grazioso - The 'Cheeky Waltz' Whimsy",
-            "Next up, the 'The 'Cheeky Waltz' Whimsy', where Brahms decides to throw a little party in the midst of this symphonic saga.",
-            "This movement is like a palate cleanser\u2014light, airy, and a bit playful, as if the orchestra's tickling you with a feather under the chin just to see you smile.",
-            "The strings are doing this elegant dance with the winds, and it all feels like you\u2019re twirling through a grand ballroom decked out in your snazziest threads."
-        ],
-        [
-            "### 4. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio - The 'Epic Finale' Throwdown",
-            "And now, for the grand slam, the 'The 'Epic Finale' Throwdown', where Brahms pulls out all the stops and throws down the gauntlet.",
-            "We start with an adagio that's got more layers than your granny's famous lasagna, simmering with a kind of suspense that's thicker than molasses.",
-            "But then\u2014BAM!\u2014it hits you with that allegro non troppo and it's like the heavens open up, with the orchestra declaring victory in the name of all things epic and awesome."
+            "### 4. IV. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio: The Epic Finale",
+            "Last but certainly not the least, 'IV. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio' swoops in with the dramatic flair of a caped hero landing in the nick of time.",
+            "It's a behemoth of a finale, flinging you from broody adagios to glorious peaks with an energy so infectious, it'll have you pumping your fist in the air like you've just conquered Everest in a hot air balloon."
         ]
     ],
     "backstory": [
         [
-            "### The Genesis: Creating a Symphony from Scratch",
-            "So, Brahms, the man, the myth, the total troublemaker, was just chilling one day when the idea for Symphony No 1 hit him like a rogue wave at sea.",
-            "This ain't no fairy-tale, but word has it that old Johannes got the seed of inspiration while checking out Beethoven's works - an act of quasi-spiritual awakening, ya dig?",
-            "For Brahms, this revelation came at the height of a tumultuous period of social unrest and political upheaval, with Europe grappling with the aftershocks of the 1848 Revolutions.",
-            "All this noise and fury sure must've influenced the big man, injecting his score with an undercurrent of rebellion and hope."
+            "### The Epic Struggle of Creation",
+            "Yo, lemme kick it off with the 411 on my Symphony No. 1 \u2013 that bad boy was a tough nut to crack, for real.",
+            "It took me a good chunk of my life, we're talking like over 20 years, to get that masterpiece ready for the spotlight.",
+            "Honestly, your buddy here felt like he was cookin' a stew that just wouldn't simmer right, always tasting and adding spices.",
+            "The struggle was no joke, but you know what they say \u2013 good things take time, and this one's aged like fine wine."
         ],
         [
-            "### The Composer's Journey: Navigating the Brahmsian Labyrinth",
-            "At the time Brahms composed Symphony No 1, he was an artist in turmoil, grappling with the specter of Beethoven who kept looming large over his creative pursuits.",
-            "Add to this, his unenviable situation of being hyped up as the next big thing meant expectations were flying thicker and faster than arrows in a battle scene from 'Game of Thrones'.",
-            "But Brahms, being the boss he was, channelled all this pressure into his music, leading to an intensely personal and profoundly soul-stirring work of art.",
-            "His Symphony No 1 is a testament to the resilience of his spirit \u2013 a musical diamond forged under immense pressure."
+            "### Shadowboxing with Beethoven",
+            "So there I was, wrestling with the giant shadow of Ludwig van Beethoven \u2013 dude had the symphony game on lock.",
+            "Everyone expected me to step up and drop the next big thing, but following up Beethoven's Ninth? Talk about pressure.",
+            "I felt like a kid following in the footsteps of a giant, tip-toeing around so much that it probably took extra years off my life.",
+            "It's like playing the sequel to the world's greatest video game, and you're on the hardest difficulty with no cheat codes."
         ],
         [
-            "### Musical Innovations: Symphony No. 1 - The Brahmsian Revolution",
-            "What sets Symphony No 1 apart from other works of the period is this: it's a daringly innovative composition, breaking away from traditional rhythmic structures and harmonic rules.",
-            "Ya see, Brahms liked to play with the unexpected. Picture a maestro magician - while you're watching one hand, the other hand is pulling off some hocus pocus!",
-            "Just when you think you've got the rhythm figured out, he tosses in a syncopation or a hemiola to knock ya off balance.",
-            "And that's not all. Brahms explores a vivid emotional spectrum in the symphony, weaving in pathos and jubilation, despair and hope, in a way that tugs at ya heartstrings."
+            "### Movements: Like Four Friends at a Party",
+            "Alright, let's break down the squad: the four movements of Symphony No. 1 are like friends at a dope party, each one's got their own vibe.",
+            "First one's dramatic, like that brooding artist in the corner sippin' whisky and dropping deep quotes.",
+            "The second's all chill and lyrical, the kind of cat who's got stories for days and a laid-back laugh.",
+            "Third one's a bit of a joker, light on their feet, while the fourth brings down the house, like the DJ who turns the volume to eleven and gets everyone hyped."
         ],
         [
-            "### Challenges and Triumphs: Climbing the Compositional Mountain",
-            "Composing Symphony No 1 was akin to climbing Mount Everest without thermal gear - a seemingly insurmountable task.",
-            "The pressure to live up to the lofty expectations of his peers was a constant monkey on Brahms's back, coupled with his own fear of failure and bouts of perfectionism.",
-            "But remember, Brahms was no pushover. He tackled these challenges like a poker player with a royal flush - with undeniable confidence and unshakeable resolve.",
-            "The end result? A musical triumph that not just exceeded expectations, but practically threw them out the window!"
+            "### Titles Are for Books, Not Symphonies",
+            "You might notice I didn't slap on any fancy titles to this symphony, just plain ol' numbers, and I did that on purpose.",
+            "To me, music's like abstract art \u2013 it hits you in the feels without needing a name-tag, ya know?",
+            "So when cats asked me 'Yo, Brahms, what's this tune about?' I'd just say, 'It's about four movements \u2013 listen!'",
+            "Stickin' a title on it would be like telling you the flavor of a gum before you even chew it \u2013 ruins the surprise, man."
         ],
         [
-            "### Movement by Movement: Symphony in Four Acts",
-            "Like any good Netflix miniseries, Symphony No 1 is split into four binge-worthy movements, each part building on the last.",
-            "Think of it as a four-course meal at a posh restaurant - each dish bringing its own distinct flavors and yet contributing to a satisfying culinary symphony.",
-            "The first course \u2013 or the Un poco sostenuto \u2013 is a slow, dramatic beginning. Second, you've got the Andante sostenuto offering an emotional respite.",
-            "Then there's the Un poco allegretto e grazioso - a cheerful, whimsical little ditty to cleanse the musical palate. Lastly, the Adagio satisfyingly wraps everything up like the rich, decadent dessert, bringing the euphoric end to a symphonic saga."
+            "### A Roaring Start with a Twist",
+            "The opening of this jam is like a thunderstorm that sneaks up on you during a picnic.",
+            "It kicks off all mysterious and tense, you're on the edge of your seat wondering if you should pack up and bolt.",
+            "But then it smooths out, and you're like, 'Aight, maybe I'll just chill here and see what happens next.'",
+            "It's like the pilot episode of your favorite show that leaves you saying, 'Wait, that's it? I need more!'"
         ],
         [
-            "### Cultural Tapestry: Hitting the Right Notes in a Period of Unrest",
-            "The era in which Brahms lived was marked by unruly social and political waves, dramatically influencing the composition and reception of Symphony No 1.",
-            "Amidst war cries and whispers of rebellion, Brahms\u2019s symphony rang through concert halls like a beacon of hope.",
-            "Moreover, the Romantic era's trends gave a new perspective to Brahms's work, capturing the spirit of the age in its sweeping orchestral landscape.",
-            "In short, this masterpiece was the perfect storm of cultural, political and social expression."
+            "### The Melancholy Middle",
+            "Movin' on to the inner guts, the second movement is like that heartfelt convo you have at 2 AM with your bestie.",
+            "It's all emotional and stuff, makes you wanna pour another glass of wine and get deep.",
+            "I threw in some tender, lush strings that make you feel like you're wrapped up in the comfiest blanket.",
+            "It's the part where you can't help but let out a little 'Aww, bro,' cause it gets you right in the feels."
         ],
         [
-            "### Aliases and Epithets: Symphony or Beethoven's 10th?",
-            "Over the years, Symphony No 1 has picked up a funky nickname that further adds to its legacy: Beethoven's 10th.",
-            "Why, you ask? Well, this cheeky moniker came from one old music critic called Hans von B\u00fclow, who, after hearing the symphony, thought it sounded a whole lot like something Beethoven could have written post his 9th.",
-            "This alias has only added to the symphony's lore and charm, kidnapping audiences\u2019 hearts with its harmonious hostage taking.",
-            "And thus, the legacy of Beethoven lived on, wrapped up in Brahms's notes of innovation."
+            "### Picking Up the Pace",
+            "Now the third movement, don't even get me started \u2013 this one's the life of the party.",
+            "It pops in, all light-hearted and quick on its feet, like someone just turned up the beat and said 'Let's boogie!'",
+            "It's a jolt of espresso after a big meal, keeps you awake and bopping your head.",
+            "Definitely the kind of tune that makes you forget your ex texted you, at least for a little while."
         ],
         [
-            "### The Premiere: When Brahms Met the Audience",
-            "When Symphony No 1 premiered, it was a success of epic proportions, with the audience lapping it up like a bunch of kittens around spilt milk.",
-            "Critics and music connoisseurs alike were knocked off their feet by the boldness and virtuosity packed into the symphony.",
-            "Immediate outcome? An explosion of applause and a thunder of cheers that echoed across concert halls globally.",
-            "The music world had found its newest prodigy, and Brahms had cemented his place among the greats."
+            "### Finale: Dropping the Mic",
+            "Last, but definitely not least, is that finale \u2013 whew, this is where we go from zero to hero, my friend.",
+            "It starts with a nod to ol' Ludwig's 'Ode to Joy', like saying 'Respect, but watch this.'",
+            "Then it's full-steam ahead, and by the end, we're breaking out the fireworks and popping the champagne.",
+            "It's like the end of a superhero movie when the credits roll, and you're sitting there grinning, thinking, 'Yeah, they nailed it.'"
         ],
         [
-            "### Legacy and Influence: The Brahms Effect",
-            "Symphony No 1 by Brahms wasn\u2019t just a hit, it was a cultural tsunami, influencing countless composers and ushering in a new era of music.",
-            "Its revolutionary musicality redefined the parameters of classical composition, making Brahms the poster boy of the Romantic symphony.",
-            "In the years since its premiere, interpretations of the piece have run the gamut from chillingly austere to passionately vibrant.",
-            "Today, its legacy is undeniable - still spawning endless debates, inspiring new generations of musicians, and leaving audiences captivated."
+            "### The Never-ending Encore",
+            "Fun fact: when this symphony finally premiered, the crowd went wild, clappin' their hands raw.",
+            "It was like my own personal rock concert, except with more violins and less leather pants.",
+            "The peeps in the audience were hollerin' for an encore, but I was like, 'Chill out, y'all, gotta save some magic for next time!'",
+            "I felt like a chef who just got his first Michelin star, but instead of a fancy dinner, everyone's feasting on my tunes."
+        ],
+        [
+            "### Legacy of the First",
+            "Fast forward, and folks started calling my Symphony No. 1 'Beethoven's Tenth', which is both a sick compliment and a bit of shade.",
+            "But hey, I take it in stride \u2013 means I must've done something right if peeps think I\u2019m playin' in Beethoven's league.",
+            "And now, whenever young composers get all sweaty about their symphonic debuts, I\u2019m like the ghost of symphonies past, whispering, 'You got this.'",
+            "I guess in the end, my Symphony No. 1 ain't just a set of tunes \u2013 it's like a beacon of hope for the musical homies out there trying to make their mark."
         ]
     ],
     "listen-guide-1": [
         [
-            "### Essence: Un poco music, mucho feelin'",
-            "Yo, the first movement of Brahms's Symphony No. 1, titled 'Un poco sostenuto - Allegro,' is a bloody rollercoaster of emotion, man. It's like you're caught in this wild dance with joy, but there's a shadow of melancholy lurking in the scene, always.",
-            "This piece is about the yin and the yang, the darkness and the light, the uptown funk and the downtown blues. It sets the tone for the whole symphony, prepping you for a journey you ain't ever gonna forget."
+            "### It's All in the Name, Yo",
+            "Let me break it down why I spun the title 'I. Un poco sostenuto - Allegro' for this banging tune.",
+            "Un poco sostenuto means 'a little sustained,' hinting at a smooth, held-back vibe to kick things off.",
+            "Then, bam! We drop into the 'Allegro,' where things really start to sizzle with some zesty speed.",
+            "It's like going from zero to hero, classy style, keeping listeners on their toes waiting for the beat to drop."
         ],
         [
-            "### Explanation of the Title: Un poco sostenuto? More like totally sostenu-awesome!",
-            "'Un poco sostenuto' means 'a little sustained' so Brahms is kind of saying, 'Hold up, y'all - let's take it easy.'",
-            "But then hits you with an 'Allegro', meaning 'quick and lively.' So, it's as if Brahms is playin' hard to get, first pulling back, then going full on revelry.",
-            "Those were the days before social media, so Brahms had to make his drama somewhere, right?"
+            "### Instrumental Ensemble: Orchestral Jamboree",
+            "Now, the crew bringing this jam to life includes a full-blown orchestra, with strings, woodwinds, brass, and percussion.",
+            "The strings orchestrate the mood like party planners, laying the foundation with a rich and complex tapestry of sounds.",
+            "Woodwinds slide in some sophistication, brass throws down the drama, and the percussion? They're the heartbeat keeping everyone moving.",
+            "Note the timpani's slick solo that's lit like a firecracker, and the violin, coming through with finesse, strums up some serious celeb vibes."
         ],
         [
-            "### Analysis of the Structure: Sonata? I hardly even know her!",
-            "This movement has got it all figured out \u2013 it's structured as a sonata, babe.",
-            "That means it kicks off with an exposition (where the main themes get their swag on), followed by a development (the 'ain't it getting hot in here' phase), wrapped up by a recapitulation (giving us a sweet taste of that exposition once more).",
-            "It's like classical period MTV, babe!"
+            "### Form That Hooks You In",
+            "Now, when it comes to the structure of this banger, we're talking sonata form, which is like the hot blueprint for jams of my time.",
+            "It's got all these contrasting themes and keys that are like a roller coaster for your ears.",
+            "There's an exposition where themes strut their stuff, a development where they get all mixed and twisted, and a recap where they all come back for a final bow.",
+            "This ain't your grandma's knit pattern; it's a wild ride of symphonic proportions, fo' real."
         ],
         [
-            "### Elaborating on Sections: A Tale of Two Tempos",
-            "'Un poco sostenuto' starts all soft and smooth, letting the winds serenade us with the theme, before the strings join in and up the ante.",
-            "Then we sprint into the 'Allegro' part, and things get buck wild.",
-            "There's a dramatic energy when the orchestra jumps in, theme shootin' from sections like an epic relay race."
+            "### Curtain Rises: Mellow Drama",
+            "First off, we ease into this with a mellow, mighty intro, where it's all about setting the scene.",
+            "The tempo is chill, like a Sunday morning vibe, and the key? C minor, all moody and contemplative.",
+            "You can't help but lean back, stroke your beard (imaginary or not), and wonder, 'What's this maestro up to?'",
+            "But keep those ears perked, 'cause the switch-up is on the horizon, ready to flip the script."
         ],
         [
-            "### Role of Instruments: The Camaraderie Concerto",
-            "Brahms has the orchestra runnin' like a well-oiled machine in this movement.",
-            "The violins take the spotlight, but the rest of the gang ain't just backup singers - they're right there giving it the old razzle-dazzle, from the sassy clarinets to the trumpets' triumphant call."
+            "### Tempo Lift-Off: Hold My Metronome",
+            "Then we hit the gas, ramping up the tempo as the Allegro kicks in, and folks, it's a wild ride from there.",
+            "We're still in C minor, because why rush a good thing?",
+            "But the mood? It takes a leap from introspective to bouncing-off-the-walls levels of hype.",
+            "It feels like the sonic equivalent of that second cup of java in the morning, waking up every cell in your body."
         ],
         [
-            "### Listen: Un poco sostenuto - Down for it",
-            "So buckle up, buttercup, pop in your best headphones, press that play button, and prepare to be serenaded by Brahms and his sonic armada.",
-            "Let the music carry you across the timeless dance floor of notes and rhythms, and beyond."
+            "### Middle Mayhem: Thematic Throwdown",
+            "In the middle, we get down to business with the development, wrestling with themes like they're in a WWE smackdown.",
+            "Here's where the intricacies of the orchestra really show their chops, throwing in modulations like curveballs, keeping you guessing.",
+            "It's like a sonic labyrinth with each instrument carving out its path, bringing the drama and tension to a boiling point.",
+            "The energy is electric, buzzing through the air like a room full of neon lights at a discotheque."
+        ],
+        [
+            "### Homestretch Heroics: Strutting to the Finish Line",
+            "Finally, the recapitulation busts in, and it's like the return of the prodigal melody \u2013 everything feeling right as rain.",
+            "We're closing circles, bringing it home, presenting themes like they're walking down the red carpet, flashbulbs popping.",
+            "This combo showdown makes you want to give a standing ovation to an empty room, 'cause the music's that compelling.",
+            "And just when you think it's all said and done, there are those final flourishes, like the cherry on top of a gourmet sundae."
+        ],
+        [
+            "### Press Play, Get Swept Away",
+            "Alright, time to stop yapping and start clapping, 'cause this jam's about to roll.",
+            "Slap on those cans, crank up the volume, and let 'I. Un poco sostenuto - Allegro' take you for a spin.",
+            "Imagine dipping into each section like they're different rooms at the hottest club in town, each with its own flavor.",
+            "Hold onto these nuggets from our little chat, and who knows? You might just find yourself head-bobbing to some classical jams, homie."
         ]
     ],
     "listen-guide-2": [
         [
-            "### Essence: Brahms's Sophisticated Serenade",
-            "No BS, the 'Andante sostenuto' is an emotional banger. It's like Brahms took all the feels and packed 'em into this beautiful symphonic story. It's moody, brooding, and loaded with mystery. This ain't just any old piece, it's like the whole human experience, bound up in rhythm and melody. Strap in, it's gonna be a wild ride."
+            "### Why Such a Chill Name, Brahms?",
+            "Yo, I named my second movement 'Andante sostenuto' because it's got that steady yet easygoing pace that'll get you all up in your feels.",
+            "Andante is like taking a casual stroll\u2014think chill vibes, you know?\u2014and 'sostenuto' means I'm keeping the notes lingering a bit, like they're stickin' to your ribs.",
+            "This name sets the mood, gets you ready to kick back, and just let the music hit you right in the soul.",
+            "It's like your musical comfort food, served up Brahms-style."
         ],
         [
-            "### Explanation of the Title: Sostenuto Salsa",
-            "The title of this movement, 'Andante sostenuto', is no happenstance. It's a nod to the slow and steady pulse. Andante means at a slow tempo, and sostenuto? That's a command to sustain, sustain the notes, the phrases, sustain the feels, man. It's also a clue for what Brahms was going for\u2014a piece that captures the heart and don\u2019t let go 'til the final note fades."
+            "### Who's Making That Noise?",
+            "Alright, so in this laid-back jam, I got a bunch of instruments doing their thing.",
+            "The strings are like the backbone, man, they're painting this lush, rich tapestry of sound that's totally dreamy.",
+            "Then the woodwinds and brass come in, tossing solos back and forth like they\u2019re having a convo and adding layers of color to the mix.",
+            "Heads up for the oboe and French horn solos\u2014those will straight-up serenade your soul and leave you shook."
         ],
         [
-            "### Analysis of the Structure: Brahms-A-Lama-Ding-Dong",
-            "So, let's dish on the structure. We're dealing with a classic A-B-A form here, but Brahms, being the sly fox he is, tweaked it just a bit. He's sprinkled transition sections throughout, whipping up a musical feast that keeps you guessing. It's like trying to follow the plot of an M. Night Shyamalan movie\u2014just when you think you've got it nailed, BOOM. plot twist!"
+            "### Mapping Out the Andante Sostenuto's Crib",
+            "So the 'Andante sostenuto' ain't your typical crib; it's not strictly following one form like some other cookie-cutter tracks.",
+            "It's got its own unique flavor, mixing up sonata and rondo vibes, giving you a taste of something fresh yet familiar.",
+            "You'll find your mind tryna keep up with the themes being tossed around and developed, and just when you think you've got it, it slides into something new.",
+            "It's like a dope TV series where each episode leaves you hanging, just craving more."
         ],
         [
-            "### Elaborating on Sections: More Than Meets the Ears",
-            "Now, let's take a closer look at those juicy parts. Each section of 'Andante sostenuto' is a world unto itself, with its dynamics, secrets, and surprises. The first theme is all tingly suspense, the kind that gives ya chills. Then the middle section comes along, all sweet and peaceful, like a Sunday roast after a wild Saturday night. The final part, the recapitulation \u2013 that\u2019s where the drama and the rhythms get all jumbled up before it settles back down into a soft whisper. We start with a question, we go through the journey, and like, we finally get the answer."
+            "### Kicking off the Chill Fest",
+            "The opening is all about setting that mellow mood, easing you into it with a slow, rich tempo that's softer than a kitten's yawn.",
+            "The key is steady, hanging in the home base like it pays rent there, and there's no rush to leave.",
+            "Mood-wise, it's calm and reflective, like sitting by a window watching raindrops race, getting all introspective and stuff.",
+            "But don't get too comfy, 'cause it's just the pregame for the twists ahead."
         ],
         [
-            "### Role of Instruments: Brahms's Ensemble",
-            "From the get-go, it's the strings taking the spotlight, drenching the music in deep, rich syrupy goodness. Then, it\u2019s like tag team wrestling \u2013 in comes the oboe, tag, you\u2019re it, and bam! A gorgeous solo rips through that resonates right in your soul. The horns, the wind instruments, all chime in, weaving a tapestry of sound that Brahms was famous for. It\u2019s like everyone gets a shot at the title, but together they\u2019re creating this harmonious symphony."
+            "### Plot Twist with the Woodwinds",
+            "Next up, things get spicy when the woodwinds shoot their shot and take the lead, playing with the pace and pepping things up a bit.",
+            "Key changes hop in like unexpected guests, making the vibe shift from comfy to curious.",
+            "The mood goes from thoughtful to a bit more urgent, like you're suddenly late for a real important date but in a classy way.",
+            "This switch-up keeps you on your toes, balancing out the chill with a dash of oh snap!"
         ],
         [
-            "### Listen: Press Play. Approach with Caution. Experience Required.",
-            "Alright, time for y'all to quit readin' and start listenin'. Click that play button and let 'Andante sostenuto' do its thing. You gotta feel it, not just hear it \u2013 get soaked in the music."
+            "### The Sweet String Serenade",
+            "Cue the strings swooping back in, and they're all about that tender, soothing tempo, like a musical hug.",
+            "The key isn't jumping ship\u2014it's sticking around, keeping it stable, but it's definitely grown since the beginning, like it just got back from a soul-searching trip.",
+            "Mood-wise, you're back to a soft serenity, but it's deeper now, with feels piled on feels.",
+            "Them strings are plucking at your heartstrings like it's their job, and you're totally here for it."
+        ],
+        [
+            "### The Big, Bold Finale",
+            "Now hold up, 'cause we're headed for the grand finale where everything melds into a symphonic mic drop.",
+            "The tempo's got attitude now, confident and full, like it knows it's about to leave you breathless.",
+            "Major key alert\u2014everything's resolved like the end of a dope movie where all the storylines come together.",
+            "The mood's victorious, exultant, and you're just basking in the glow of this sonic masterpiece's conclusion, feeling all kinds of triumph."
+        ],
+        [
+            "### Hit Play and Let's Vibe",
+            "Alright, fam, it's time to quit the chitchat and dive headfirst into the delectable waves of 'Andante sostenuto'.",
+            "Go on and smash that play button to embark on this journey of auditory bliss\u2014trust me, it slaps in ways words can't describe.",
+            "As the tunes roll out, keep your ear holes tuned for those solo spots, those mood shifts, and the way all the pieces of the puzzle come together.",
+            "Lean back, chill, and let my symphonic brainchild take you on a trip through the halls of your own imagination."
         ]
     ],
     "listen-guide-3": [
         [
-            "### Essence: Baskin' in the Brahms",
-            "Let's take a vibes trip to the 'Un poco allegretto e grazioso' from Brahms's Symphony No 1. This bad boy is all about taking you places emotionally - it's like a sonic journey from start to finish. Imagine sippin on a cold one on a breezy summer afternoon, that's the vibescape of this piece. It's got these dance-like rhythms peppered with light, almost teasing motifs that are as bouncy as they are elegant."
+            "### Naming with a dash of charm",
+            "Ya know, I had to give this part of the masterpiece a name that really captures the light and charming nature of this movement\u2014thus, 'III. Un poco allegretto e grazioso' rolls out!",
+            "The 'un poco allegretto' bit means a little bit brisk, you get me, like a gentle trot through the park on a spring day.",
+            "And 'grazioso'? Pure elegance, my friends, because this movement is all about grace, like a swan doing pirouettes on a tranquil pond."
         ],
         [
-            "### Explanation of the Title: Clear as Day Brahms",
-            "The title, 'Un poco allegretto e grazioso', is Brahms talkin' to us straight. In plain speak - it's like moderately fast and graceful. Allegretto means a lil' quicker than walking speed and grazioso is all about that grace, baby. So Brahms is basically telling us he's about to serve up a smidgen of elegance with a side of speed. Now ain't that just like Brahms, keeping it 100 with his musical intentions."
+            "### A symphonic squad goals",
+            "Alright, so in 'III. Un poco allegretto e grazioso', it's like a party and everyone's invited\u2014strings, woodwinds, all bringing their own flavors to the buffet.",
+            "The strings, my homies, they lay down the lush carpet with their lyrical melodies, while the woodwinds, those cheeky characters, sprinkle in some playful interjections.",
+            "You've got to watch out for the clarinet and the oboe\u2014they're like the cool kids showing off with their solos, leaving everyone all like, 'Woah, that's smooth.'",
+            "The whole crew interacts like a finely tuned conversation, full of texture and color, making you want to lean in and catch every word."
         ],
         [
-            "### Analysis of the Structure: Architecture Brahms' Style",
-            "Now, this ain't your average bebop, folks. Brahms gives us a modified ternary form in this piece - it's like having a sandwich where the bread's the same but the fillings are different each time. The A section is all cheery, then the B section takes us to a stormy place with minor flavors, and the A section return is like the sun coming out after a rainstorm. So even though the themes are recurrent, Brahms is all about that variety spice."
+            "### Form it up, classical style",
+            "So this movement, 'III. Un poco allegretto e grazioso', it doesn't just freestyle\u2014it's got structure, a remix of the minuet and trio form, but with my own spin dough.",
+            "I like to play with expectations, so instead of keeping it too square, I toss in some variations that keep listeners on their toes, or ears, should I say.",
+            "It's classical, sure, but with a Brahmsian twist, because why just go with the flow when you can stir the pot, right?",
+            "Nah, it ain't a sonata or a rondo, homie, but it's a cozy chat among instruments that feels both fresh and familiar, like a favorite sweater that never goes out of style."
         ],
         [
-            "### Elaborating on Sections: Tastes of the Brahms Rainbow",
-            "In terms of sections, the piece starts off light - imagine bobbing on gentle waves, chill and carefree. But then shifts gears to a darker, more intense emotional scene. It's like Brahms is takin' us on a ride through an existential tunnel only to guide us back into the light. And, to sum it up, we see a return to the initial joyful theme, but with all these harmonic twists and turns that feel like a grand reveal in a mystery flick."
+            "### Kicking it off with a gentle flow",
+            "The beginning of the movement, it starts all mellow-like, setting the scene real smooth with these cozy, floating melodies.",
+            "We're talking a tempo that's just brisk enough to keep you interested but still lets you kick back and savor the vibes.",
+            "I was feeling cheeky, so there's key changes that give it some zing\u2014like a plot twist in a good book that keeps you flipping the pages.",
+            "The mood? Well, it's like a sunny afternoon chill session\u2014uplifting but with a touch of sweet nostalgia."
         ],
         [
-            "### Role of Instruments: Let's Hear it for the Band",
-            "Brahms really plays up the orchestra in this joujou. The strings are like the cool cats leading the charge, setting up the light-hearted tone with their sweet, sweet melodies. The woodwinds ain't no side show, they're stepping up with some colour commentary. But let's not forget the low brass, dropping some serious bass that's like the heartbeat of the piece. And the percussion? Brahms has 'em setting the rhythmo-meter to chill."
+            "### Middle's the New Twist",
+            "Then boom! We hit the middle section, and it's like we've stepped into a new, yet familiar room with a change in texture that makes you go, 'Hmm, what's happening here?'.",
+            "The tempo keeps it allegretto, but we dabble in minor keys, bringing a shade of contemplation and a whisper of drama.",
+            "It's all about contrast, baby\u2014these mood shifts are like unexpected guests at the party, you didn't see them coming, but now they've got everyone talking.",
+            "And then, just like that, the key twists back, and the bright mood floods in like the sun after a short rain, warming up everything again."
         ],
         [
-            "### Listen: Get on that Brahms Wave",
-            "Okay homies, now it's time to just ride out on that Brahms high. Press the blessed play button and let the 'Un poco allegretto e grazioso' wash over you; trust me, it's about to get lit. Remember to keep an ear out for all the goodies we just talked about - imagine you're a sonic detective uncovering all Brahms' secret sauce. Happy vibin'!"
+            "### Wrap it up and bring it home",
+            "As we cycle back to the start of the loop, the opening theme sneaks back in, like the best part of a song on repeat that you never get tired of hearing.",
+            "We ride on that allegretto pace again, giving the feels of a story coming full circle.",
+            "The thing about the end? It's satisfying but leaves room for more\u2014like a good season finale that nails the landing while making you itch for the next season.",
+            "I mix up the final bars with a flourish, so it's like saying 'catch ya later' with a wink and a smile, 'cause you know there's still the grand finale waiting in the wings."
+        ],
+        [
+            "### Come, take a seat in my musical ride",
+            "Let me shoot straight with ya, you've gotta press play and let 'III. Un poco allegretto e grazioso' envelop you like a warm hug.",
+            "Imagine yourself sinking into the deepest, comfiest armchair, where every note and harmony wraps around you like a snug blanket.",
+            "Keep those tidbits I dished out in mind as you cruise through the piece, and let the music paint its story in your imagination.",
+            "Trust your boy Brahms\u2014this ain't just music, it's a journey through sound that's sure to hit the spot and make your soul do the happy dance."
         ]
     ],
     "listen-guide-4": [
         [
-            "### Essence: The Grand Finale",
-            "A'ight, we talkin' about the final bow, the big showstopper, the 'Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio' from Brahms's Symphony No 1. This ain't just some casual tune, this is a journey, a monumental beast of a piece that goes from hushed whispers to thunderous declarations.",
-            "A melodic rollercoaster, painted with strokes of melancholy that hit you right in the feels, then push you into an energetic dance that feels like you've cracked open a bottle of life's bubbliest champagne.",
-            "This movement ain't just a coda, it's a stellar culmination of all that's come before, pulling the threads together into a glorious tapestry of sound."
+            "### Symphony in the Making: The Naming Hustle",
+            "So, why did I slap 'IV. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio' on this beauty of a movement?",
+            "Well, it's kind of like a musical road trip, starting all chill with the Adagio, kicking it into a higher gear with the Pi\u00f9 andante, and then finishing strong with that 'not too fast, but with oomph' Allegro.",
+            "It's about guiding you through the feels, you know, like a temperature dial that goes from 'cozy fireplace' vibes to 'sunbreak after a storm' excitement."
         ],
         [
-            "### Explanation of the Title: The Rhythm's gon' get you",
-            "Now, let's break down that fancy title real quick. 'Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio', this is some music buff terminology right here.",
-            " 'Adagio' means slow and stately, 'Pi\u00f9 andante' translates to somewhat faster, while 'Allegro non troppo, ma con brio' says quick, but not too quick, and play it with spirit. This ain't just a name, it's an instruction manual.",
-            "You get the sense of a slow, intimate dance that gradually gathers momentum, before exploding into a bouncy jive, so full of life it sweeps you right off your feet."
+            "### All the Players in the Orchestra Get Their Five Minutes of Fame",
+            "Which cool cats are throwing down in 'IV. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio', you ask?",
+            "We got the full squad: strings, woodwinds, brass, timpani - you name it, they're in there, each adding their own spice to the stew.",
+            "The strings might give you the warm fuzzies, the horns bring the heat, and don't even get me started on that rad trombone solo - dude's like the lead singer at a rock show."
         ],
         [
-            "### Analysis of the Structure: Architecture of Awe",
-            "Musically speaking, our main man Brahms is flexin' his innovation muscles here. This piece ain't structured like your everyday classical movement. It's something of a hybrid, a composite of forms, and critics argue whether to call it a sonata or a rondo or something else entirely.",
-            "In a mad twist, Brahms starts off slow, typically where you'd expect the finale to be full steam ahead. But ol' Johannes ain't about doing what's expected. He builds tension by gradually picking up the pace, expertly taking us from a somber adagio to a riveting allegro."
+            "### Putting the Puzzle Together: Form and Function",
+            "Let's talk shop about how this movement is structured, shall we?",
+            "It's got that old-school sonata vibe, but with a Brahmsian twist: multiple themes woven together like a tight braid, evolving and returning in new colors.",
+            "It's not just the backbeat of a song - it's like a full-on plot twist in a novel, each page turn revealing something new."
         ],
         [
-            "### Elaborating on Sections: Musical Mishmash",
-            "The adagio section kicks things off with a mournful conversation between strings and woodwinds, like a gentle rain on a grey afternoon. Then Brahms flips the script with the pi\u00f9 andante, introducing a heartfelt melody that feels as warm as a cozy fireside chat.",
-            "Key changes and modulations in this bit are so smooth, they're like butter on a hot biscuit. Last, but not least, the allegro non troppo. This section feels like a victory lap. Everybody's joining in, the whole orchestra jamming together, creating a feast of harmonious sound that envelops you like a comforting hug."
+            "### Slow Burn to Full Blaze: A Deep Dive into Each Part",
+            "The Adagio part is like starting a road trip at dawn, all mellow and introspective, with the wide-open road and the taste of anticipation.",
+            "Then we shift to the Pi\u00f9 andante, the sun's climbing, and so is the energy, like that second cup of coffee finally kicking in.",
+            "When we hit the Allegro non troppo, buckle up baby, 'cause it's like the moment in the concert when the band plays your jam; it's joyful but controlled chaos.",
+            "Throughout all these sections, I'm stirring the pot with tempo changes, key flips, and mood swings, just to keep you on your musical toes."
         ],
         [
-            "### Role of Instruments: Orchestral Orchestra",
-            "In this movement, Brahms gives each section of the orchestra its moment in the spotlight. The strings weave a melancholic line throughout the 'adagio', while the woodwinds infuse it with flashes of color.",
-            "The brass section, though, is the real MVP in the 'allegro non troppo', blaring triumphantly like a proud rooster at dawn. And let's not forget those timpani, firing away with rhythmic precision, the backbone of the piece's rhythmic structure."
-        ],
-        [
-            "### Listen: Turn Up the Volume and Tune in",
-            "Words can only do so much justice to this masterpiece. The true experience comes from immersing yourself in the music. So crank up the volume and let yourself sink into the ocean of sound that is 'Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio'.",
-            "Feel the ebb and flow of the melodies, let your heart beat in time with the rhythm, and allow Brahms to take you on a journey of profound emotion and triumphant joy. Guaranteed, it'll be one heck of a ride."
+            "### What's Next: The Personal Encounter",
+            "You made it through my TED Talk, now give this 'IV. Adagio - Pi\u00f9 andante - Allegro non troppo, ma con brio' a listen with your own ears.",
+            "Hit that play button and let the sound waves float you away, maybe even with your eyes shut to really get into the zone.",
+            "While the tunes are washing over you, keep in mind the ebb and flow, the instrumental banter and those righteous solos - it's like the soundtrack to a movie in your head.",
+            "Trust me, it slaps different when you're vibing it in 4D sensory overload mode."
         ]
-    ],
-    "audio": {
-        "fragment-1": "/audio/compositions/brahms-symphony-no-1/fragment-1-0-60.mp3",
-        "fragment-2": "/audio/compositions/brahms-symphony-no-1/fragment-2-0-60.mp3",
-        "fragment-3": "/audio/compositions/brahms-symphony-no-1/fragment-3-0-60.mp3",
-        "fragment-4": "/audio/compositions/brahms-symphony-no-1/fragment-4-120-180.mp3"
-    }
+    ]
 }

@@ -1,14 +1,24 @@
 {
-    "src": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-0-50.mp3",
     "composer": "Mozart",
     "composition": "Rondo Alla Turca",
     "canonical": "/compositions/mozart-rondo-alla-turca",
+    "src": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-0-50.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-0-50.mp3",
+        "fragment-2": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-76-106.mp3",
+        "fragment-3": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-165-195.mp3"
+    },
+    "spotify": "https://open.spotify.com/track/08Yc1KnIpFZ5QMpxENH8Ja",
+    "header": [
+        "Ottoman Tales with",
+        "Mozart's Rondo Alla Turca"
+    ],
     "seo": {
-        "description": "Yo, we're droppin' the 411 on Mozart's fly track, 'Rondo Alla Turca'. Come cop a squat and chillax while we serenade you with its sickest bits, a solid backstory, and a listen guide. Trust, you ain't heard nothin\u2019 like this.",
-        "og:title": "Ghostin' On Mozart\u2019s 'Rondo Alla Turca' - Backstory, Best Bits & Listen Guide",
-        "og:description": "Shout out to all the classical heads! Dive into the groove of Mozart\u2019s 'Rondo Alla Turca'; we're spillin' on its epic moments, dishing out its origin story, and guiding your vibe while listening. It\u2019s lit!",
-        "twitter:title": "Gettin\u2019 Down With Mozart\u2019s 'Rondo Alla Turca': Story, Top Beats & Listen Guide",
-        "twitter:description": "Slide in and vibe to Mozart's bounce, 'Rondo Alla Turca'. We're breakin' down its dopest moments, hookin\u2019 you up with the backdrop, and running a listen guide. This ain't your grandma\u2019s classical music rundown!"
+        "description": "Yo, peep this deep dive into Mozart's lit 'Rondo Alla Turca'. Get the 411 on the sickest parts, the real story behind the tune, and a dope listener's guide to catch every tight detail.",
+        "og:title": "Mozart Spills Tea on 'Rondo Alla Turca' | Tune In Now",
+        "og:description": "Mozart's laying down the lowdown on 'Rondo Alla Turca', with all the deets on its dopest moments. Learn the backstory and snag a fresh listener's guide to this banger.",
+        "twitter:title": "Mozart Gets Real About 'Rondo Alla Turca' \ud83c\udfb6",
+        "twitter:description": "Catch the vibe as Mozart drops knowledge on his 'Rondo Alla Turca'. Backstory, highlights, and pro tips to listen \u2013 it's all here, fam. Hit play on this classic."
     },
     "annotations": {
         "Turkish Delight Tickles": "The melody is as sweet and playful as a bite of the confectionery, Turkish Delight.",
@@ -37,131 +47,154 @@
         "Sufi's Spin on Sonata": "Imagines a Sufi mystic's spiritual spin interpreted into a sonata form.",
         "Harem's Keyboard Harmony": "The playful melody could be akin to the harmonious and exotic atmosphere of a sultan's harem."
     },
-    "buttonLabels": {
-        "best-moments": "Best Moments",
-        "backstory": "Backstory",
-        "listen-guide": "Listen Guide"
-    },
-    "header": [
-        "Ottoman Tales with",
-        "Mozart's Rondo Alla Turca"
+    "introduction": [
+        "Hey buddy, I'm the one and only Mozart, and I'm about to dish out the deets on the Rondo Alla Turca."
     ],
-    "spotify": "https://open.spotify.com/track/08Yc1KnIpFZ5QMpxENH8Ja",
     "best-moments": [
         [
-            "### Three Bewitching Moments in \"Rondo Alla Turca\"",
-            "Alright mate, buckle up as we're gonna blast off right into the mind of Mozart - a straight genius, and his little ditty, \"Rondo Alla Turca.\" We're workin' with just one movement here, so I'll give ya three spots that really tickle the ivories.",
-            "Remember, these snippets ain't just ear candy, they're like the heart and soul of the tune, each one wrapped up in a pretty little 30-second package.",
-            "Now, let's chew the fat:"
+            "### 1. Dropping the Beat like it's 1783",
+            "Let me tell you, the opening of Rondo Alla Turca hits you with that fresh, crisp keyboard energy that just screams 'party at Amadeus's place.'",
+            "It's got that upbeat vibe that'll make your wig flip and toes tap as if you stepped on hot coals\u2014talk about setting the mood for a banger."
         ],
         [
-            "### 1. Dazzling Start - The Turbo-Charged Prelude",
-            "This ain't no kiddie car ride - right off the bat, Mozart shoves you into the fast lane with this high-octane start.",
-            "A whirlwind of keys, like racers hittin' the tarmac, shoots out from the first bar.",
-            "It's an adrenaline-packed musical drag race with Mozart grinning in the driver's seat."
+            "### 2. Where the Notes Go Nuts",
+            "Okay, so when you hit the middle of this jam, the piano's doing this wild dance that's like fingers breakdancing on the keys.",
+            "It's a full-blown melody throwdown, with each note strutting its stuff harder than a peacock in mating season\u2014pure emotional rollercoaster, baby."
         ],
         [
-            "### 2. Dreamy Mid Section - The Peaceful Interlude",
-            "Slap-bang in the middle of this rollercoaster, Mozart slaps us over the head with a tranquility stick.",
-            "It seeps into your veins, this beautiful 30-second stretch of harmony and grace.",
-            "It's like Mozza's saying, \"Take a breather, soak up the view.\" If the starter's some crazy race, this bit's your breezy country motoring."
-        ],
-        [
-            "### 3. Fiery Finish - The Grand Finale",
-            "Just as we're cruisin' along, Mozart drops the hammer and rockets us into a fiery finish.",
-            "This scorching minute of music shows Mozza really bossing the keyboard, lacing high-speed melody with playful bass.",
-            "It's him setting off the fireworks, one last bonza display to twang at your eardrums and spark up your noggin."
+            "### 3. Climax Crescendo Coming Through!",
+            "Now, as we cruise into the grand finale, Rondo Alla Turca ramps up like it's been guzzling espresso shots.",
+            "We're talking a high-octane, key-smashing climax that'll make your heart race like a carriage horse dodging pedestrians in Vienna\u2014yeah, it's that intense."
         ]
     ],
     "backstory": [
-        ["### The Genesis: That Eureka Moment, Yo!",
-            "Picture it: Vienna, late 1700s, a groovy vibe with fancy wigs and folks gettin' down to harpsichord jams. In walks Wolfgang Amadeus Mozart, a genius on a bad hair day (well, every day with those wigs). He's chillin' with a cup of joe when suddenly, kaboom! Inspiration strikes!",
-            "Mozart's been all ears about the Ottoman Empire, 'cause everyone's wild about all things Turkish. Cultural appropriation wasn't even a thing yet. So, he decides to add a bit of exotic spice to his tunes. That's when Rondo Alla Turca pops into his head, a musical cocktail with a twist of Eastern zest.",
-            "The melodies are like a Turkish bazaar in his mind: colorful, bustling, and hella catchy. And just like that, his piano sonata gets a grand finale that's about to become everyone's encore fave. That's the birth story of Rondo Alla Turca, right off Mozart’s whimsical noggin."
+        [
+            "### Movin' to the Music \u2013 A Symphony in Three Parts",
+            "Alright, let me break down this musical feast for ya, like a three-course meal that's easy on the ears.",
+            "First, you've got the 'Allegro,' your zesty appetizer that's all about getting you pumped and ready for the flavors to come.",
+            "Then, there's the 'Adagio,' the creamy soup in the middle, slow and rich, letting you savor each spoonful.",
+            "And lastly, the 'Rondo Alla Turca,' the sweet dessert, lively and full of exotic spice to end on a high note \u2013 that's the jam I'm dishing out today."
         ],
-        ["### The Composer's Journey: Mozzy's Ups and Downs",
-            "So there's Wolfgang, right in the middle of his game, but the guy wasn't exactly living his best life. Dude was still a certified prodigy, but managing his finances? Not so much.",
-            "At the time he's scribblin' down Rondo Alla Turca, he's knee-deep in debt and fighting for his rep. But, lo and behold, this piece's got 'em turnin' heads and snapping fingers!",
-            "His personal life? A bumpy ride on an emotional roller coaster with his fam and posse influencing his work. But Maestro Mozart, he channels all that drama straight into his keys, and voila! Every note of Rondo Alla Turca is dripping with his life's roller coaster juice."
+        [
+            "### Pianos and Turbans \u2013 A Cultural Mashup",
+            "Now, your homie here didn't just wake up one day and decide to spice up the keys with some Middle Eastern flair.",
+            "We're talking about a time when Europe was all about that 'Turkish' vibe \u2013 from fashion to music, everyone wanted a piece.",
+            "I rocked a Turkish march because, why not? It's catchy, it's hip, and let's face it, it's a banger that tickles the fancy of highbrows and common folk alike.",
+            "It was the 18th-century version of going viral; play a tune that's got a touch of the exotic, and boom, you're the talk of the town."
         ],
-        ["### Musical Innovations: Breaking the Mold",
-            "Now, you gotta understand, Rondo Alla Turca wasn't just your regular run-of-the-mill classical ditty. It was like Mozart threw a musical curveball at the posh crowd.",
-            "Other composers were all about the standard gig, but Mozart? He taps into this Turkish groove and it's a whole new ball game. He's throwing down a vibe with a catchy rhythm that's got more hooks than a fisherman's tackle box.",
-            "What sets it apart? That snappy tempo, for starters. Then there's the crescendo that hits you like a wave. Dude basically crafted a piece so lit, it's like fireworks for your ears!"
+        [
+            "### A Pinch of Exotic, A Dash of Familiar",
+            "So, what's the deal with the 'Turkish' sound that's got people buzzing about Rondo Alla Turca?",
+            "Picture a band of Janissary soldiers, those Ottoman dudes, banging on drums and cymbals, it's their military band sound that's the hot ingredient here.",
+            "I took those spicy rhythms and harmonies, served them on a silver piano platter, all while keeping it cool with a Western twist.",
+            "The result? A piece that's both foreign and familiar, like ordering a kebab at your local diner \u2013 unexpected but oh-so-satisfying."
         ],
-        ["### Challenges and Triumphs: Mozzy Battles the Odds",
-            "It ain't a cakewalk wearing powdered wigs and composing bangers – Wolfgang had his fair share of headaches. The man's slinging notes during the day and hustling gigs at night to keep the wolves from the door.",
-            "As for the Rondo Alla Turca, the biggest pickle was getting peeps to catch the Turkish vibes without crossing the line into straight-up pastiche. It's a tightrope walk, and Mozart's doing it in heels, metaphorically speaking.",
-            "In the end, though, he crushes it. The piece bounces from a struggle bus to triumph with each measure. When Mozart serves this Turkish delight, he not only sticks the landing but also does it with a wink and a nod."
+        [
+            "### Tickling the Ivories with a Sultan's Swagger",
+            "Now don't get it twisted, playing Rondo Alla Turca isn't just about smashing keys like you're in a street brawl with a piano.",
+            "It's about precision, grace, and a touch of swagger \u2013 you gotta make those keys dance the horon with rhythm in their step.",
+            "Every note's got to pop, each rest has to breathe \u2013 it's like orchestrating a courtship dance between sound and silence.",
+            "Your fingers become storytellers, weaving a tale of distant lands and lively markets, all on eighty-eight black and white steps."
         ],
-        ["### Cultural Tapestry: The Turkish Craze",
-            "Back in Mozart's day, Vienna was like the cultural Coachella, and everyone was jonesing for a piece of that 'Turkish delight'. I'm talking paintings, clothes, and even Turkish-style coffeehouses.",
-            "The Turkish influence was like a viral dance craze but for highbrow art. It's called 'Turquerie', and it's the cultural wallpaper of the era.",
-            "Mozart, that clever fox, doesn't miss a beat. He whips up Rondo Alla Turca with a side of 'Turquerie' and it's a direct hit. It's almost like he's got his finger on the pulse of the Viennese tickle spot!"
+        [
+            "### Not Just a Pretty Tune \u2013 It's Got Brains, Too",
+            "See, this catchy ditty isn't just ear candy, it's a smarty-pants at heart \u2013 the form's as tight as a drum.",
+            "Rondo form's all about coming back home after a nice stroll; you start with a theme, wander off, but always circle back to your musical pad.",
+            "The Alla Turca roams through different keys and ideas, showing off some fancy harmonic footwork, but always returns to that familiar 'A' section.",
+            "It's like playing fetch with your dog: no matter how far you throw the stick, that good boy's coming back with it \u2013 same with the Rondo theme."
         ],
-        ["### Aliases and Epithets: The Nickname Game",
-            "A banger like Rondo Alla Turca, you better believe it's got nicknames for days. 'The Turkish March', that's what folks come to call it, 'cause it sounds like an Ottoman army's comin' down the block – all pomp and swagger.",
-            "Some say a critic with a flair for the dramatic coined 'The Turkish March' after the very first show. Others reckon it's from an anecdote about Mozart daydreaming of leading a parade while banging out the tune.",
-            "Whatever the case, these funky monikers stick like gum on a theater seat, adding layers of intrigue and keeping the legend of the piece fresher than a mint mojito on a hot day."
+        [
+            "### From Sultans to Salzburg \u2013 A Global Fusion",
+            "The wild thing is, your buddy Mozart hadn't even set foot in Turkey when the magic happened \u2013 it was all from the noggin!",
+            "The love for all things Turkish was so lit in Vienna, my hometown Salzburg caught the fever, too, and I was there spinning the discs.",
+            "Just goes to show, you don't need to travel miles to bring the world into your art, sometimes inspiration's just knocking at your door.",
+            "So, I opened the door, and voil\u00e0, out popped Rondo Alla Turca \u2013 a slice of Istanbul served with a side of Austrian grace."
         ],
-        ["### The Premiere: Droppin' the Beat in Vienna",
-            "The scene: a swanky salon in Vienna, the air's thick with anticipation. The piano's polished, the audience's powdered, and Mozart strides in, his confidence swaggering two steps ahead.",
-            "He lays his fingers on the ivories, and bam! Rondo Alla Turca hits the room like a glitter bomb. The audience is shook, drinks spill, wigs are askew – it's a proper musical shindig.",
-            "Critics fall over themselves gushing about it, the piece's a viral hit before 'viral' was even a thing. It's like Mozart dropped the mic but with a piano, and Vienna's never the same after."
+        [
+            "### Tick Tock, the Creative Clock",
+            "Creating a masterpiece doesn't always mean locking yourself in a tower waiting for lightning to strike \u2013 sometimes it's a nine-to-five job.",
+            "I churned out Rondo Alla Turca as part of a larger gig, the Piano Sonata No. 11 in A major, working that composer grind.",
+            "The whole sonata had to be top-shelf, but it's the Rondo that hit the high note and took a life of its own \u2013 talk about stealing the show!",
+            "It's like when you're in a band and the bassist suddenly drops a riff so sick, it ends up defining the whole song \u2013 that's my rondo for ya."
         ],
-        ["### Legacy and Influence: Rondo Alla Turca's Timeless Groove",
-            "Fast-forward a few hundred years, and Rondo Alla Turca's still rolling like a boss. Musicians and composers tip their hats to this gem, drawing inspiration for their own tunes.",
-            "You've got cats like Beethoven and Liszt tipping their quills in homage, playin' off those spicy Turkish rhythms and using them to toss their own salads of musical genius.",
-            "The impact? It's like a pebble in a pond, baby – the ripples just keep spreading. This piece becomes the cool older sibling every aspiring classic jam wants to hang with."
+        [
+            "### You've Heard It Even If You Think You Haven't",
+            "Let's be real \u2013 Rondo Alla Turca is the kind of track you've heard, even if you don't know your Beethoven from your Bieber.",
+            "It's in movies, on commercials, and it's a rite of passage for every piano student \u2013 it's basically the 'Stairway to Heaven' of classical music.",
+            "Picture a kid at a piano recital busting out the Rondo \u2013 parents beaming, grandma's tearing up \u2013 it's that tune that unites the crowd.",
+            "It's the sound of victory, the anthem of 'I nailed it' \u2013 and let's face it, it's the ultimate mic drop for any piano prodigy out there."
+        ],
+        [
+            "### A Legacy That Lives On \u2013 Thanks, Mozart!",
+            "Fast forward a couple of centuries, and your main man Mozart's mix is still on fire, inspiring folks left and right.",
+            "There's no escaping its reach \u2013 from orchestras to jazz bands, and even electronic remixes, the Alla Turca's got legs, and it knows how to use 'em.",
+            "But here's the kicker: when I wrote it, I had no clue it would become the icon it is today \u2013 I was just having fun cooking up a toe-tapper.",
+            "Talk about a pleasant surprise \u2013 it's like throwing a party and having it become the social event of the season, centuries after you're gone."
+        ],
+        [
+            "### It Ain't Over 'Til the Fat Lady Sings \u2013 or Plays",
+            "So there you have it, the 411 on Rondo Alla Turca, straight from the horse's mouth \u2013 or should I say, the composer's quill?",
+            "It's got the charm of the East, the finesse of the West, and a beat that'll get your grandma up and groovin' faster than you can say 'Amadeus'.",
+            "Whether you're chilling with your pals or showing off at high tea with pianoforte skills, it's the perfect jam to set the mood.",
+            "Just remember, when the crowd goes wild and the encore calls, it's all thanks to this bop from the past \u2013 no autographs, please, just keep the applause coming!"
         ]
     ],
     "listen-guide": [
         [
-            "### Essence: A Whole New Turc: A Turkish Delight Without The Calories",
-            "Alright, so check it, you're chillin' and suddenly, your eardrums get blessed with the dope tunes of Mozart's 'Rondo Alla Turca', and it's like straight-up auditory bliss, fam.",
-            "This bad boy transports you right to the bustling streets of some old-world bazaar – it's energetic, it's exotic, it's got more bounce than a trampoline convention.",
-            "It's the kind of tune that'll make you wanna rock an oversized wig and get down with your bad 18th-century self.",
-            "Drop the needle on this track, and you'll feel the vibe go from zero to hero as Wolfgang channels his inner Eastern muse, turning the room into an impromptu harem dance-off."
+            "### Striking The Right Keys in 'Rondo Alla Turca'",
+            "Yo, when you jam to 'Rondo Alla Turca', you're basking in the pure, unadulterated sounds of a single, yet mighty, piano.",
+            "I hooked up those keys to do everything - they're handling the melody, harmony, and rhythm all at once, like a one-man band.",
+            "There ain't no room for slacking here, with the rapid finger work and dynamic contrasts painting all the textures and colors you need.",
+            "It's like a solo flight with no copilot, where the piano\u2019s fancy ornaments and trills show off its acrobatic prowess."
         ],
         [
-            "### Explanation of the Title: What's in a Name? It's All Greek (or Turkish) to Me",
-            "Now the title, 'Rondo Alla Turca', is Wolfgang gettin' all fancy with the Italian, saying it's a rondo in the Turkish style – and it's got more swagger than a pirate with a parrot.",
-            "Back in Wolfie's day, the Ottoman vibes were all the rage in Europe, kinda like how everyone today is all about that K-pop spice.",
-            "So, the 'Turkish' bit is Mozart flexing his compositional muscles, showing he can throw down with the best of 'em and giving folks at home a taste of the East without leaving their plush parlour seats.",
-            "Heads up, though: this is more Turkish delight than authentic Anatolia; it's Amadeus rocking the 'Turkish' scales and percussion like he's the original cultural remix king."
+            "### Organizing the Musical Feast",
+            "'Rondo Alla Turca' ain't just any old piece, it's a flex in the rondo form from your truly's piano sonata No. 11.",
+            "The title's giving you a hint, pal \u2013 a rondo is like a merry-go-round of tunes, with the main theme popping back in for 'Hello' after each new section.",
+            "This one's got a banging main theme that keeps bouncing back, alternating with different melodies to keep things spiced up.",
+            "And it's all wrapped up neatly \u2013 you start where you began, like ending a wild night out back in your own bed."
         ],
         [
-            "### Analysis of the Structure: Form and Fancy Footwork",
-            "The structure of this banger is like classical architecture – sturdy, symmetrical, and slick, with enough spins to keep you hooked.",
-            "It's a rondo for sure, which in music slang means it's got a catchy theme that keeps coming back at ya like a boomerang after every fresh set of beats.",
-            "Mozart ain't playing no games here; he's all about that A-B-A-C-A-D-A pattern, which is like your favorite chorus dropping in multiple times during a song but with a classical twist.",
-            "He sprinkles in transitions smoother than a Casanova's chat-up lines, keeping the energy level so high you'd think the notes had chugged a couple of espressos."
+            "### Start Your Engines: A Section",
+            "The A section kicks off with a catchy theme that's jaunty and brisk, making it impossible not to bob your head to.",
+            "We're in A minor here, which adds a touch of exotic spice \u2013 like a dash of paprika on your eggs.",
+            "The tempo's marked 'Allegretto', which means I'm not letting your heart rest, but I'm not throwing it into overdrive either.",
+            "It's the perfect warm-up, hooking you right in and setting the stage for the sonic odyssey ahead."
         ],
         [
-            "### Elaborating on Sections: Breakdown of the Beat",
-            "Let's shimmy into the sections: the main theme is all kinds of snazzy, doing the audio equivalent of somersaults and landings stickier than maple syrup.",
-            "Then the joint switches up, slippin' into a minor key like it's sneaking out the back door for a midnight rendezvous, all pensive and moody.",
-            "But before you can say 'blue' Mozart flips the script, bringing back the major joy with that infectious main theme like the Kool-Aid Man busting through the wall.",
-            "Each section brings the drama, dishing out shade and shine, leading to a finale that's so riveting, you'll be hailing taxis in your living room."
+            "### The Spice of Contrast: B Section",
+            "Switching gears, we glide into the B section, where things mellow down but keep you on your toes with a sense of curiosity.",
+            "Now, I let the architecture of the music breathe in E major, giving off a brighter, more uplifting vibe.",
+            "This part's sauntering at the same pace, but with a more lyrical and smooth demeanor, like going from a sprint to a cheeky sashay.",
+            "You can almost smell the sea air of the Mediterranean as you're whisked away to a realm that's both familiar and novel."
         ],
         [
-            "### Role of Instruments: The Sound of One Hand Clapping",
-            "Mozart's 'Rondo Alla Turca' is typically a solo mission for keyboard warriors, showcasing the piano's ability to spit fire and caress your soul all in the same breath.",
-            "The piano in this jam is like a Swiss Army knife of sound – it's got the melodic moves, the rhythmic grooves, and even imitates Turkish percussion, because why not?",
-            "You can almost see the piano's keys dancing under the fingers of a virtuoso, spinning yarns of silk and spices and all things nice.",
-            "There's no need for a backup band; the piano's going full beast mode, taking the spotlight and leaving the audience straight-up beguiled, baby."
+            "### Return to Thematic Home: A1 Section",
+            "Then bam! We're back to the A section, but don't think for a second it's a copy-paste job.",
+            "It's the same tune, but it's like I've cooked it with fresh herbs this time \u2013 it's got subtle variations that make all the difference.",
+            "The tempo remains steady; we're running at 'Allegretto' again, cruising with confidence as you recognize the twist I've thrown in.",
+            "This reprise is like catching up with an old friend who just got back from an adventure \u2013 familiar yet full of new tales."
         ],
         [
-            "### Listen: Ears to the Ground, Volume High",
-            "Now don't just take my word for it, throw on this track and let Mozart do the talking.",
-            "You gotta crank up the volume and let those crisp, catchy beats lace your soul with the magic of a musical genius doing his thing.",
-            "Imagine the notes like flavorful spices, each one tinged with the essence of a far-off land wrapped up in a neat, sophisticated European bow.",
-            "So lean back, or better yet, get up and throw your own royal get-down – 'cause when 'Alla Turca' hits, it's not just music; it's an all-out cultural soiree for your senses."
+            "### Smooth Switch-up: C Section",
+            "Hold your horses, 'cause here comes the C section, the part where things get intimate and a tad serious.",
+            "We've shifted to A major and the air feels different - it's like stepping into a sunlit courtyard after a mysterious tour of a castle.",
+            "The vibe's all elegant and decorous now; it's like the piano's got its pinky out while sipping a fine teacup of harmonies.",
+            "This stroll in a different tonal park is a breath of fresh air, prepping your soul for the homecoming that's about to drop."
+        ],
+        [
+            "### Full Circle: A2 Section",
+            "Slamming right back into A minor, we hit the final A section \u2013 but hold up, it's got some added pizzazz and frills.",
+            "The pace is the same, but it's like we're tying up all the loose ends with a golden ribbon.",
+            "Your fingers would be dancin' with precision over those keys to nail the same catchy theme that's been the star of the show.",
+            "It's the grand finale, with all the energetic flair of the opening act, making sure the crowd goes wild at the curtain call."
+        ],
+        [
+            "### Time to Hit Play: Live the 'Rondo'",
+            "Alright, it's time to park those peepers on the music and let your ears take a ride on 'Rondo Alla Turca'.",
+            "Hit that play button and let the waves of piano chords and melodies wash over you, with all the colors and textures still echoing in your mind.",
+            "Imagine the fingers flying, the keys a blur, and all the while, you're catching the shifts in scenery from moody A minor to sunny E major, and back like a seasoned traveler.",
+            "Lean back, let that music envelop you, and just... vibe with it; this rondo's about to take you places."
         ]
-    ],
-    "audio": {
-        "fragment-1": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-0-50.mp3",
-        "fragment-2": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-76-106.mp3",
-        "fragment-3": "/audio/compositions/mozart-rondo-alla-turca/fragment-1-165-195.mp3"
-    }
+    ]
 }

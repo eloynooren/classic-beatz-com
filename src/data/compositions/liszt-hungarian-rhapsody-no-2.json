@@ -1,14 +1,24 @@
 {
-    "src": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",
     "composer": "Liszt",
     "composition": "Hungarian Rhapsody No 2",
     "canonical": "/compositions/liszt-hungarian-rhapsody-no-2",
+    "src": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",
+    "audio": {
+        "fragment-1": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",
+        "fragment-2": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-369-420.mp3",
+        "fragment-3": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-717-777.mp3"
+    },
+    "spotify": "https://open.spotify.com/track/48phxtyY4jOBB0VtEVRGRv",
+    "header": [
+        "Gypsy Tales to Liszt's",
+        "Hungarian Rhapsody No. 2"
+    ],
     "seo": {
-        "description": "Yo, check out the rap on Liszt's Hungarian Rhapsody No 2 - we spillin' the tea on its dope moments, servin'  the backstory, and givin' ya a listen guide. Its classical music, but not as you know it.",
-        "og:title": "Liszt's Hungarian Rhapsody No 2: Dope Moments, Backstory & Listening Guide",
-        "og:description": "Step into the world of Liszt's Hungarian Rhapsody No 2. We're highlightin' them bangin' moments, tellin' its tale and helpin' you jam to it. Peep this beat of classical music in a fresh way, bruh.",
-        "twitter:title": "A Deep Dive into Liszt's Hungarian Rhapsody No 2 - Peep the Highlights, Story & Guide",
-        "twitter:description": "Yo, we're unpackin' Liszt's Hungarian Rhapsody No 2 - all the bomb moments, the dope backstory, n' a solid listen guide. Get ready to see classical music in a whole new light, fam."
+        "description": "Yo, catch the lowdown on Liszt's iconic Hungarian Rhapsody No 2 - the backstory, dope highlights, and a jam sesh guide that's gonna blow your mind!",
+        "og:title": "Hangin' with Liszt: Dive into the Epic Saga of Hungarian Rhapsody No 2",
+        "og:description": "Liszt spills the tea on Hungarian Rhapsody No 2. From its roots to the sickest parts, get the full story and an exclusive listen-through breakdown!",
+        "twitter:title": "Liszt's Tell-All: Unwrapping the Magic of Hungarian Rhapsody No 2",
+        "twitter:description": "Get the inside track with Liszt on his banger, Hungarian Rhapsody No 2 - the origins, the hype and your ultimate listening roadmap!"
     },
     "annotations": {
         "Goulash of Grandioso": "The piece is as rich and varied as a traditional Hungarian stew, full of flavor and zest.",
@@ -34,142 +44,133 @@
         "Piano's Peasant Dance Off": "Imagines the piano keys engaging in a peasant's dance, characteristic of Hungarian folk.",
         "Harmony in Hungarian Heels": "The piece dances through harmonies as if in traditional Hungarian heeled boots."
     },
-    "buttonLabels": {
-        "best-moments": "Best Moments",
-        "backstory": "Backstory",
-        "listen-guide": "Listen Guide"
-    },
-    "header": [
-        "Gypsy Tales to Liszt's",
-        "Hungarian Rhapsody No. 2"
+    "introduction": [
+        "Yo, I'm Liszt, and I'm about to drop some deets on the dope track 'Hungarian Rhapsody No 2.'"
     ],
-    "spotify": "https://open.spotify.com/track/48phxtyY4jOBB0VtEVRGRv",
     "best-moments": [
         [
-            "### Diggin' into Liszt's Hungarian Rhapsody No 2: Three Bangin' Beats",
-            "Just like a spin around the best nightclub in Budapest, Liszt's Hungarian Rhapsody No 2 takes you on a wild journey of exhilarating peaks and poignant valleys.",
-            "Hold onto your sheet music folks, 'cause we're about dive into three of the most impressive \"bars\" in this masterpiece."
+            "### 1. Strolling in with swag like a Hungarian cowboy",
+            "Hungarian Rhapsody No 2 kicks off with this Lassan section, where I serve up a brooding, mysterious vibe fit for a candlelit dinner with Dracula.",
+            "It's all about dramatic flair, with a slow tempo that rises and falls like the mood swings of a prima donna \u2013 it's enough to give anyone the chills, really."
         ],
         [
-            "### 1. The Cadenza Conversation",
-            "Startin' with the cadenza, this part hits you like a spicy paprika - unexpected but oh-so-good.",
-            "It goes from inspirational to a real stormer, with the pianist spinning out a dazzling array of sounds and rhythms that are as flamboyant as Liszt's own showmanship.",
-            "It's like breaking bread with the maestro, a musical catch-up that's both intimate and attention-grabbing."
+            "### 2. Things just got real \u2013 the plot thickens!",
+            "Then we strut into this Friska section\u2014we're talking a sonic rollercoaster that's like a caffeinated dance off between the piano and itself.",
+            "The melody zigzags faster than a gossip in a small town, all while dropping emotional bombs that can make grown men weep into their mustaches."
         ],
         [
-            "### 2. The Friska Fire",
-            "Fasten your seatbelts for the friska, that part of the rhapsody that rouses itself into a thrilling, mad romp.",
-            "It's got all the pulse-racing exhilaration of a horse-drawn carriage ride through the cobbled streets of old Pest.",
-            "Watch out for those nimble fingers flying on the piano, 'cause they ain't stoppin' for anyone until we all get to that breakneck conclusion."
-        ],
-        [
-            "### 3. The Virtuosic Victory",
-            "This bit is Liszt puttin' the final stamp on his musical passport with a triumphant final stanza that leaves no doubt about the journey we've been on.",
-            "The main theme re-emerges, re-energized and as vibrant as the River Danube on a clear day.",
-            "You can almost see Liszt himself, sittin' at his grand piano, one foot on the pedal and a mischievous grin on his face, daring us to keep up.",
-            "Fo' sure, this ain't just a conclusion, it's a victory lap, and buddy, it's a rip-roaring ride."
+            "### 3. Hold onto your hats, the grand finale!",
+            "No joke, as we hit the climax, it's like a piano thunderstorm with lightning fingers and thunderous octaves that could wake the dead.",
+            "This powerhouse ending grabs you by the lapels and doesn't let go, leaving you breathless as if you've just run with the bulls\u2014keyboard-style."
         ]
     ],
     "backstory": [
         [
-            "### The Genesis: Liszt's Lightbulb Moment",
-            "So, ya know, Franz Liszt wasn't just any old virtuoso tickling the ivories; dude was straight-up inventing stuff left and right.",
-            "Picture this: it's the mid-19th century, and Liszt's chilling after a dope concert, feeling all inspired by the folk tunes his Hungarian homies were jamming out.",
-            "He's like, 'Hold my beerachino, Imma blend some of that fiery Magyar essence with my wicked piano skills.'",
-            "That's when Hungarian Rhapsody No. 2, the sequel to all sequels, started cooking in his musical kitchen, seasoned with a sprinkle of national pride and a dash of romanticism."
+            "### The Spicy Goulash of Tunes",
+            "Alright, so check it, Hungarian Rhapsody No. 2 is basically the rockstar of classical piano pieces.",
+            "I whipped up this beauty in 1847, and man, it's like I put all the flavors of Hungary into a musical blender.",
+            "It\u2019s got so much spice\u2014catchy melodies, wild rhythms, and it even makes piano players sweat bullets trying to keep up.",
+            "Pianists go gaga over it because it's both a showpiece and a technical monster, like playing musical chess while wrestling a bear."
         ],
         [
-            "### The Composer's Journey: Liszt's Rollercoaster",
-            "At the time when Liszt was crafting this banger, he was riding life's emotional merry-go-round like a boss.",
-            "His career? Sky-high, my friend - he was the rock star of his day, with fans swooning faster than a soufflé in a sledgehammer factory.",
-            "Relationship-wise, Franz was juggling romances that could light a match under a kettle, yet it was his love for Hungary that steamed up Hungarian Rhapsody No. 2 like a hot bowl of goulash."
+            "### Movements Like Jagger",
+            "So, let's break it down for those not in the know: this rhapsody has got two main movements\u2014lassan (slow) and friska (fast), like the tortoise and the hare of tunes.",
+            "In the lassan, I kick things off all moody and dramatic, like a brooding vampire staring out over the Carpathian Mountains.",
+            "Then BAM! The friska rolls in hotter than a chili pepper at a salsa contest, picking up speed until fingers are just a blur.",
+            "It's like starting with a slow, dreamy dance with your crush, then suddenly you're both doing the cha-cha on a Formula 1 race track."
         ],
         [
-            "### Musical Innovations: That New New in No. 2",
-            "What makes Hungarian Rhapsody No. 2 the absolute top dog of Liszt's hit parade, you ask?",
-            "Well, it's got all the feels - drama, passion, and a touch of playfulness - kind of like a musical triple-threat.",
-            "Liszt was throwing down new tricks, slapping the keyboard with novel techniques and Hungarian-flavored scales that made other composers look like they were playing dress-up with their grandma's sheet music.",
-            "Basically, it's the rhapsody that put the 'rapturous' in 'Rhapsody,' making pianists sweat bullets ever since."
+            "### The Remix Before Remixes Were Cool",
+            "Now, I gotta tell you, I wasn't just sitting around munching on strudel when I cooked up this composition.",
+            "It's actually the second in a set of 19 Hungarian Rhapsodies, where I was spinning traditional Romani tunes into fancy piano pieces.",
+            "Think of it like the original remix\u2014taking those sick folk beats from the street and turning them into high-class jams for the fancy folk.",
+            "And let's be real, nobody was doing mashups like this back then; I was basically the DJ Khaled of the 19th century, 'Another one!'"
         ],
         [
-            "### Challenges and Triumphs: Liszt Conquers the World",
-            "Plottin' this piece wasn't a walk in the park; Liszt had to face the music and some real talk.",
-            "Technical wizardry? He had it on lock, but blending a classical steez with Hungarian street-cred without creating a hot mess? That's where the tightrope walk came in.",
-            "But when he dropped this track, it was game over - people lost their minds like their seats were on fire, and Franz was standing tall sipping that sweet nectar of victory."
+            "### The Paganini of the Piano Strikes Again",
+            "I had a rep for being the Paganini of the piano, and Hungarian Rhapsody No. 2 was my party trick.",
+            "Every time I played it, the crowd went wild, like I cleared the final level in a game and fireworks were exploding.",
+            "I mean, people knew I had chops, but this piece was like a victory lap with my hair on fire\u2014metaphorically speaking, of course.",
+            "It's the kind of tune that could make a statue tap its foot and nod its head, assuming statues could jam."
         ],
         [
-            "### Movement by Movement: The Symphony's Jigsaw",
-            "Let me break it down - Hungarian Rhapsody No. 2 ain't just a one-hit wonder; it's like a sonic saga with chapters.",
-            "Think of a movement in music as an episode in a Netflix binge-worthy series - each one's got its own vibe but hooks you into the bigger story.",
-            "You've got the Lassan, the slow burn intro where Liszt sets the scene with some moody melody.",
-            "Then BAM! The Friska hits you with a high-speed chase of finger-flippin' mayhem, wrapping up the full experience like a musical burrito full of peppered notes."
+            "### Not Just A One-Trick Pony",
+            "Don't think Hungarian Rhapsody No. 2 is just for solo piano, oh no\u2014it's been dressed up and taken out in full orchestral drag too.",
+            "The orchestral version slaps different, with all the strings, brass, and woodwinds adding layers to my tasty piano cake.",
+            "It's like going from a mono to stereo, where you suddenly hear colors\u2014yeah, it's that trippy.",
+            "The full ensemble gets your whole body in on the action, and before you know it, you're conducting the air with your fork at dinner."
         ],
         [
-            "### Cultural Tapestry: Painting with Notes",
-            "Now, let's lay down some context - the 19th century was poppin' with revolutions and a hunger for expressing national identities.",
-            "Liszt was all about that life, throwing his music into the cultural melting pot where the Romantic era's emotional depth met a patriotic kick.",
-            "So when Hungarian Rhapsody No. 2 strutted into the scene, it was more than just a collection of notes; it was a high-definition oil painting of Hungary's soul, complete with all the flourishes."
+            "### When Cartoons Got Classical",
+            "You might even know this rhapsody without realizing it\u2014'cause it got Hollywood famous, starring in classic cartoons.",
+            "Imagine, looney tunes like Bugs Bunny and Tom and Jerry throwing down to my composition; I didn't see that coming when I wrote it.",
+            "It's like I composed a soundtrack for animated hijinks before animation was even a thing!",
+            "Seeing those furry critters tickle the ivories to my magnum opus is a hoot\u2014it\u2019s like they understood the assignment."
         ],
         [
-            "### Aliases and Epithets: Catchy Nicknames Galore",
-            "Hungarian Rhapsody No. 2? More like 'Everybody's Favorite' or 'That One from Tom and Jerry,' am I right?",
-            "Audiences just couldn't help themselves - they'd whisper sweet nothings and slap nicknames on this piece so fast, it was like a race.",
-            "Thanks to those catchy pseudonyms, Liszt's masterwork was no wallflower; it became a pop culture icon, turning classical newbies into die-hard fans overnight."
+            "### The Global Sound of Hungary",
+            "You see, Hungarian Rhapsody No. 2 became like an unofficial anthem of Hungarian vibes.",
+            "It rolled out the red carpet for Hungarian music on the global stage, and boy, did it make an entrance.",
+            "Every time someone plays it, it's like I'm serving up a heaping plate of cultural pride\u2014extra paprika, please!",
+            "It's the musical equivalent of shouting from the rooftops, 'Yo, world! Check out these Hungarian beats!'"
         ],
         [
-            "### The Premiere: A Star is Born",
-            "When Hungarian Rhapsody No. 2 hit the stage for the first time, it was more lit than a barrel of fireworks.",
-            "Critics were tripping over their words, spitting out praises like a busted sprinkler, and the audience? They were in a frenzy, clapping hard enough to make thunder jealous.",
-            "This wasn't just a debut; it was the dawn of a legend, and everyone from the nosebleed seats to the velvet curtain felt it in their bones."
+            "### Conquering The Impossible",
+            "For pianists, this piece is the Everest you want to conquer wearing a blindfold and with one hand tied behind your back.",
+            "The technical demands are nutty; it's like playing hopscotch during an earthquake\u2014on stilts.",
+            "You gotta have fingers of steel and the stamina of a marathon runner to nail it.",
+            "But when you do, you strut off stage like you've just dropped the mic at the rap battle of the century."
         ],
         [
-            "### Legacy and Influence: Liszt's Enduring Echo",
-            "Fast forward to now, and Hungarian Rhapsody No. 2's still got its swagger, leaving an imprint on everything from symphonies to cartoons.",
-            "Other composers were like, 'Yo, we gotta get in on this,' serving up their own spicy takes inspired by Liszt's hot recipe.",
-            "Its legacy is like the beat that don't stop; musicians of all strips cover, remix, and tip their hats to this timeless jam."
+            "### The Surprise Inside",
+            "Now, let me spill the tea on a little surprise inside Hungarian Rhapsody No. 2\u2014you might miss it if you're not sharp.",
+            "Right in the thick of it, there's a sneaky little section called the 'cadenza' where pianists can show off their personal style.",
+            "It's like a freestyle rap solo smack in the middle of a classical concert\u2014except instead of rhymes, you're spitting arpeggios and trills.",
+            "Whip out a unique cadenza and you're not just playing Liszt, you're having a moment with ol' Franz himself."
+        ],
+        [
+            "### Lasting Legacy",
+            "In the end, Hungarian Rhapsody No. 2 didn't just buzz and fade away\u2014it's hung around like the smell of a good perfume in a concert hall.",
+            "It's inspired other composers, seduced pianists for generations, and even now, it's dropping jaws in conservatories and YouTube vids alike.",
+            "Like a fine wine, it seems to get better with time, or maybe folks are just now catching up to my 19th-century swag.",
+            "And let's face it, every time those keys start firing up the lassan and friska, I'm up there smiling, dropping beats like they're hot\u2014it's the gift that keeps on giving."
         ]
     ],
     "listen-guide": [
         [
-            "### Essence: The Virtuoso's Roller Coaster",
-            "Y'all buckle up for Franz Liszt's Hungarian Rhapsody No. 2 – this ain't your average classical ditty, it's a rip-roaring roller coaster of emotions packed into one hella epic piece!",
-            "Picture this: You're kicking back in the 19th century, and Liszt hits you with a piece so fire, it's like the piano's got a mind of its own, dancing between elegance and a wild hoedown.",
-            "It's a piece that can make your heart weep with its soulful melodies and then get your toes tappin' faster than a cat on a hot tin roof with those thunderous, gotcha-grinnin' bursts of speed."
+            "### Them Keys Be Ticklin' Fancy",
+            "So check it out, when you dive into 'Hungarian Rhapsody No 2', you'll mostly hear the grand ol' piano struttin' its stuff, flying solo.",
+            "This ain't just your average keyboard mashing, though; the piano lays down a smorgasbord of sonic flavors, from thunderous octaves to delicate trills that'll make your hair stand on end.",
+            "In the mix, we got mad contrasts between the silky and smooth lyricals and the ferocious, finger-breaking cadenzas.",
+            "Speakin' of showing off, don't miss the cimbalom effects\u2014those rapid-fire runs and dead-stops\u2014pretending to be that funky hammered dulcimer, adding a sprinkle of Hungarian spice to the feast."
         ],
         [
-            "### Explanation of the Title: What's in a Name?",
-            "So, 'Hungarian Rhapsody No. 2' ain't exactly what you’d call a spicy title, but don't let that fool ya – it's loaded with zest.",
-            "Liszt was all about reppin' his Hungarian roots, and 'Rhapsody' is like a shout-out to his homeland's folk vibes – think gypsy jams meets classical glam.",
-            "The 'No. 2' part? It's like serving up the second dish in a gourmet meal of 19 bangers, each Rhapsody tastier than the last and telling a story of Hungary, through thick and thin, that Liszt felt deep in his bones."
+            "### Structured like a Fine Hungarian Goulash",
+            "Now, let's talk shape\u2014'Hungarian Rhapsody No 2' ain\u2019t your textbook sonata or a simple rondo; it's a tasty two-parter, a lassan and a friska.",
+            "The lassan kicks things off with a leisurely, improvisation-like vibe\u2014a real slow burn before the fireworks.",
+            "Then comes the friska, where things really explode into a full gallop, all daredevil speed and acrobatics, making you wanna leap up and dance like nobody's watching.",
+            "It all adds up to a rollercoaster of sound that's more thrilling than finding a twenty in your old coat pocket."
         ],
         [
-            "### Analysis of the Structure: Piece It Together, Maestro",
-            "Now let’s dissect this musical beast: it ain't a sonata or a rondo, it's more freewheelin', a bonafide rhapsody that's basically Liszt flexin' his compositional muscles.",
-            "It kicks off with a lil’ 'lassan' – all broody and thoughtful, like you're wandering through your long lost love's memory lane.",
-            "Then - boom! It flips the script with a 'friska' that's faster than a caffeinated squirrel, shredding up the keys with a frenzy, before tying the knot with a flashy grand finale that might just blow your top off."
+            "### Just a Slow Jam to Start",
+            "The Lassan section is like that smooth-talking charmer at the start of a epic night out, easing you in with its mellow and dramatic tunes.",
+            "We're talkin' a sultry, mysterious little intro that builds up with passionate emotion and intense drama as it rolls out its themes.",
+            "Rhythms start getting all syncopated, and melodies get twisty, making the tension rise like the suspense in a killer whodunnit.",
+            "You\u2019ll feel the piece pulling on your heartstrings before switching gears into a wild ride\u2014you can almost see them Hungarian folks getting ready to stir it up."
         ],
         [
-            "### Elaborating on Sections: Diving Deep into the Dream",
-            "Let's dive into the depths of the 'lassan' – it's introspective, with a heavy dollop of melancholy, like sippin' whisky alone by the fire, just you and your thoughts.",
-            "But don't get too comfy in your feels, 'cause the 'friska' jumps out like a jack-in-the-box, a whirling dervish of a tune with enough twists and turns to make you dizzy with delight.",
-            "Each section swaps keys like partners in a do-si-do, teasing drama and suspense before swooping into a major key hootenanny that has everyone clappin' along."
+            "### Crank Up the Tempo, It's Party Time",
+            "After that smooth intro, the Friska is like the DJ dropping the beat at peak hour.",
+            "Suddenly, it's like the sun\u2019s cracked the sky open, and everyone\u2019s up and dancing; the tempo kicks it up a notch to a rollicking, toe-tapping pace that'll have your fingers twitchin' to air-piano along.",
+            "Clever key changes throw some curveballs, keepin' it fresh and unpredictable, while that mood zooms from jubilant to straight-up electric.",
+            "No chill here, folks, just full-throttle, adrenaline-pumping joy that\u2019ll leave you both breathless and begging for more, cause this is where the piano really shows you what it's got."
         ],
         [
-            "### Role of Instruments: The Sound-Smasher Showdown",
-            "Now peep the lineup: this ain't a symphony, but the piano - oh, the piano is the VIP, the grandmaster, the whole shebang.",
-            "Liszt treats the ivories like a canvas, painting sonic pictures with colors ranging from 'lowdown bluesy' to 'shimmering starlight', and every dang shade in between.",
-            "Special shoutout goes to those high-flying arpeggios and thundering octaves that turn the piano into a one-man-band, making it sing, shout, and practically leap outta the concert hall!"
-        ],
-        [
-            "### Listen: Press Play, It's a Trip",
-            "Alrighty folks, time to drop the chit-chat and give your ears the present they deserve: hit play on Hungarian Rhapsody No. 2 and let Liszt take you for a spin.",
-            "Keep your ears peeled for the drama, the passion, and those hair-raising moments when the piano goes from zero to sixty in the blink of an eye.",
-            "Dive into this fantastical sound-scape with all the insights you've just scored, and remember – this ain't just music, it's a straight-up odyssey of the audible variety!"
+            "### Press Play and Embrace the Wild Side",
+            "Alright, it's time to toss this conversation aside, grab the best seat in the house, and let 'Hungarian Rhapsody No 2' do the rest.",
+            "Hit play, close your peepers, and let those fingers dance across the black and whites, conjuring the magic and mayhem only a beast like this can unleash.",
+            "Feel each note, harmony, and tempo shift as they pull you through a whirlwind of a musical story\u2014no passport needed, just your imagination and a love for thrillin' tunes.",
+            "Soak in the drama, sway with the rhythm, and who knows\u2014by the end, you might wanna leap up and start your own Hungarian dance party, right there in your living room."
         ]
-    ],
-    "audio": {
-        "fragment-1": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",
-        "fragment-2": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-369-420.mp3",
-        "fragment-3": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-717-777.mp3"
-    }
+    ]
 }
