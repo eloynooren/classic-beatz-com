@@ -209,6 +209,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
         stopTimer()
         pairs.current = pairsMakerObj.get(numRounds)
         setScore(0)
+        setRound(0)
         setState('running')
         setExplanations([])
     }
@@ -223,7 +224,7 @@ const Pairs: React.FC<PairsProps> = ({ buttonLabel, instruction, pairsMakerObj }
                 <div className={styles.stats}>
                     <div>
                         <span className={styles.statsLabel}>Round: </span>
-                        <span className={styles.statsValue}>{round+1}</span>
+                        <span className={styles.statsValue}>{round+1} of {numRounds}</span>
                     </div>
                     <div>
                         <span className={styles.statsLabel}>Score: </span>
