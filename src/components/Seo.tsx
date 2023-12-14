@@ -18,11 +18,11 @@ function Seo({ arg, title, description, image, url, lang = "en" }) {
             content: `en_US`,
         },
         {
-            name: `twitter:card`,
+            property: `twitter:card`,
             content: `summary_large_image`,
         },
         {
-            name: `twitter:creator`,
+            property: `twitter:creator`,
             content: 'Classical Beatz',
         },
     ]
