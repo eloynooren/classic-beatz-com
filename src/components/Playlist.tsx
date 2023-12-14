@@ -139,13 +139,13 @@ export const Playlist: React.FC<MixPageProps> = ({data, imageElement}) => {
     let seo = data.seo
 
     if (data.canonical && data.canonical == '/') {
-        seo['og:url'] = "https://classicalbeatz.com"
-        seo['og:image'] = "https://classicalbeatz.com/images/index-4096.jpg"
-        seo['twitter:image'] = "https://classicalbeatz.com/images/index.jpg"
+        seo['og:url'] = "https://www.classicalbeatz.com"
+        seo['og:image'] = "https://www.classicalbeatz.com/images/index-4096.jpg"
+        seo['twitter:image'] = "https://www.classicalbeatz.com/images/index.jpg"
     } else {
-        seo['og:url'] = "https://classicalbeatz.com/" + data.canonical
-        seo['og:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
-        seo['twitter:image'] = "https://classicalbeatz.com/images/" + data.canonical + ".jpg"
+        seo['og:url'] = "https://www.classicalbeatz.com/" + data.canonical
+        seo['og:image'] = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
+        seo['twitter:image'] = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
     }
 
     return (
