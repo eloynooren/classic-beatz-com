@@ -39,18 +39,12 @@ export const Section: React.FC<SectionProps> = ({ paragraphs, type, audio , imag
 
             for (let i = 0; i < paragraphs.length; i++) {
                 const sentences = paragraphs[i];
-                if (type === 'best-moments' && sentences.length && /^#+\s?\d+/.test(sentences[0]) && audio) {
-                    const number = parseInt(sentences[0].match(/\d+/)[0], 10); // Extract the number
-
-                    let m = /^(#+ )\d\. ((I|II|III|IV|V|VI)\. .+)/.exec(sentences[0])
-
-                    if (m) {
-                        sentences[0] = m[1] + m[2]
-                    }
+                if (type === 'best-moments') {
+                    const number = i + 1
 
                     elements.push(
                         <AudioFragment
-                            key={`audio-fragment-${i}`}
+                            key={`audio-fragment-${number}`}
                             heading={sentences[0]}
                             text={sentences.slice(1)}
                             src={audio["fragment-" + number.toString()]}
