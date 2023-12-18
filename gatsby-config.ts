@@ -33,13 +33,13 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site and the image should be at least 512x512px
         // Other options like 'crossOrigin' and 'include_favicon' can also be specified here.
       },
-//    },
-//    {
-//      resolve: `gatsby-plugin-google-gtag`,
-//      options: {
-//        trackingIds: ["G-7F63QQE4M7"],
-//        pluginConfig: {head: true}
-//      }
+      },
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+        trackingIds: ["G-7F63QQE4M7"],
+          pluginConfig: {head: true}
+      }
     }
   ]
 }
