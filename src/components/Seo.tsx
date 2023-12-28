@@ -29,7 +29,7 @@ function Seo({ arg, title, description, image, url, lang = "en" }) {
 
     if (arg) {
         for (const name in arg) {
-            if (name.startsWith("og:") {
+            if (name.startsWith("og:")) {
                 meta.push({ property: name, content: arg[name] })
             } else {
                 meta.push({ name: name, content: arg[name]})
