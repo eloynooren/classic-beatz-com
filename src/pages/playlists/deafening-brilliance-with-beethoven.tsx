@@ -11,6 +11,7 @@ const imageElement = [
         key="image-1"
         src="../../images/beethoven-in-vienna.jpg"
         alt="Beethoven in Vienna"
+        loading="eager"
     />,
     <StaticImage
         key="image-2"

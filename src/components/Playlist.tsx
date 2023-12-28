@@ -149,7 +149,7 @@ export const Playlist: React.FC<MixPageProps> = ({data, imageElement}) => {
     }
 
     return (
-        <Layout pageTitle="Classical Beatz" headerTitle={data.title} seo={seo}>
+        <Layout pageTitle={data.title} headerTitle={data.title} seo={seo}>
             <MixSection data={data} imageElement={imageElement}/>
         </Layout>
     )
