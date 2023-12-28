@@ -18,18 +18,22 @@ function Seo({ arg, title, description, image, url, lang = "en" }) {
             content: `en_US`,
         },
         {
-            property: `twitter:card`,
+            name: `twitter:card`,
             content: `summary_large_image`,
         },
         {
-            property: `twitter:creator`,
+            name: `twitter:creator`,
             content: 'Classical Beatz',
         },
     ]
 
     if (arg) {
         for (const name in arg) {
-            meta.push({ property: name, content: arg[name] })
+            if (name.startsWith("og:") {
+                meta.push({ property: name, content: arg[name] })
+            } else {
+                meta.push({ name: name, content: arg[name]})
+            }
         }
     }
 
