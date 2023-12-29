@@ -11,7 +11,7 @@ function Seo({ data }) {
 
 
     if (data && 'seo' in data) {
-        url = "https://www.classicalbeatz.com/" + data.canonical
+        url = "https://www.classicalbeatz.com/" + data.canonical + '/'
         image = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
 
         if (data.canonical && data.canonical == '/') {
