@@ -24,6 +24,34 @@ body {
 }
 
 
+/* Base styles */
+.layout-header, .layout-bottom-menu {
+    text-align: center;
+}
+
+.layout-top-menu {
+    padding: 10px;
+}
+
+/* Styles for device width >= 768px */
+@media (min-width: 768px) {
+    .layout-header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .layout-bottom-menu {
+        display: none; /* Hide bottom menu */
+    }
+}
+
+/* Styles for device width < 768px */
+@media (max-width: 767px) {
+    .layout-top-menu {
+        display: none; /* Hide top menu */
+    }
+}
 
 
 header {

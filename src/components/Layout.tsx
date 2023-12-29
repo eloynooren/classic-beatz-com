@@ -345,33 +345,39 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
         <div>
             {seo ? <Seo data={seo} title={pageTitle}/> : <Seo title={pageTitle}/>}
             <header>
-                {deviceWidth < 768 ? (
+                <div className={styles.layoutHeader}>
+                    <Link url='/'>
+                        <StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/>
+                    </Link>
+                    <div className={styles.layoutTopMenu}>
+                        <TopMenu current={pageLabel ? pageLabel : ''}/>
+                    </div>
+                </div>
+
+                {/* {deviceWidth < 768 ? (
                     <div>
                         <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/></Link>
                     </div>
                 ) : (
                     <div className={styles.layoutLogoAndMenu}>
                         <div>
-                            <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"}/></Link>
+                            <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/></Link>
                         </div>
                         <TopMenu current={pageLabel ? pageLabel : ''}/>
                     </div>
-                )}
+                )*/}
 
             </header>
             <main>
                 <h1>
-                    {deviceWidth < 99999 ? (
-                        headerTitle.map((part, index) => [part.toUpperCase(), <br key={index}/>, ' ']).flat().slice(0, -2)
-                    ) : (
-                        headerTitle.map((part, index) => [part.toUpperCase(), <wbr key={index}/>, ' ']).flat().slice(0, -2)
-                    )}
+                    {headerTitle.map((part, index) => [part.toUpperCase(), <br key={index}/>, ' ']).flat().slice(0, -2)}
                 </h1>
                 <div className={styles.layoutContent}>{children}</div>
                 <div className={styles.layoutFiller}/>
-                {deviceWidth < 768 && <BottomMenu/>}
+                <div className={styles.layoutBottomMenu}>
+                    <BottomMenu/>
+                </div>
             </main>
-
         </div>
     )
 }
