@@ -138,18 +138,8 @@ interface MixPageProps {
 export const Playlist: React.FC<MixPageProps> = ({data, imageElement}) => {
     let seo = data.seo
 
-    if (data.canonical && data.canonical == '/') {
-        seo['og:url'] = "https://www.classicalbeatz.com"
-        seo['og:image'] = "https://www.classicalbeatz.com/images/index-4096.jpg"
-        seo['twitter:image'] = "https://www.classicalbeatz.com/images/index.jpg"
-    } else {
-        seo['og:url'] = "https://www.classicalbeatz.com/" + data.canonical
-        seo['og:image'] = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
-        seo['twitter:image'] = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
-    }
-
     return (
-        <Layout pageTitle={data.title} headerTitle={data.title} seo={seo}>
+        <Layout pageTitle={data.title} headerTitle={data.title} seo={data}>
             <MixSection data={data} imageElement={imageElement}/>
         </Layout>
     )

@@ -129,13 +129,8 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
         }
     }
 
-    let seo = 'seo' in data ? data.seo : {}
-    seo['og:url'] = "https://classicalbeatz.com" + data.canonical
-    seo['og:image'] = "https://classicalbeatz.com/images" + data.canonical + ".jpg"
-    seo['twitter:image'] = "https://classicalbeatz.com/images" + data.canonical + ".jpg"
-
     return (
-        <Layout pageTitle={data.composer + ": " + data.composition} headerTitle={data.header} seo={seo}>
+        <Layout pageTitle={data.composer + ": " + data.composition} headerTitle={data.header} seo={data}>
             <Dispatcher>
                 <Flex>
                     <Image image={imageElements['best-moments']}/>

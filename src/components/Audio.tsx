@@ -63,12 +63,12 @@ export const OneButtonAudioPlayer: React.FC<OneButtonAudioPlayerProps> = ({ src 
 
     return (
         <div className={styles.oneButtonAudioPlayer}>
-            <audio
+            {/*<audio
                 ref={audioRef}
                 src={src}
                 preload='none'
                 onEnded={stop}
-            />
+            />*/}
             {error ? (
                 <Tooltip text={error}>
                     <IoWarningOutline className={styles.audioButton} />
@@ -181,14 +181,14 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({tracks}) => {
 
     return (
         <div className={styles.audioPlayer}>
-            <audio
-                src={tracks[trackIndex].src}
-                ref={audioRef}
-                preload='none'
-                onEnded={handleNext}
-            />
             {isPlaying ? (
                 <div>
+                    {/*<audio
+                        src={tracks[trackIndex].src}
+                        ref={audioRef}
+                        preload='none'
+                        onEnded={handleNext}
+                    />*/}
                     <div className={styles.annotation}>
                         {annotation}
                     </div>
