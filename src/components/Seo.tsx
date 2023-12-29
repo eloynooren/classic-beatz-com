@@ -94,7 +94,7 @@ function Seo({ data }) {
             }
         ]
 
-        const link = [
+        link = [
             {
                 rel: "canonical",
                 href: url
