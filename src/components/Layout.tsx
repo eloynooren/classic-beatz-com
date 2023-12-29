@@ -343,7 +343,7 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
 
     return (
         <div>
-            {seo ? <Seo arg={seo} title={pageTitle}/> : <Seo title={pageTitle}/>}
+            {seo ? <Seo data={seo} title={pageTitle}/> : <Seo title={pageTitle}/>}
             <header>
                 {deviceWidth < 768 ? (
                     <div>
