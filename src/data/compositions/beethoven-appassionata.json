@@ -1,7 +1,7 @@
 {
     "composer": "Beethoven",
     "composition": "Appasionnata",
-    "canonical": "/compositions/beethoven-appassionata",
+    "canonical": "/compositions/beethoven-appassionata/",
     "trackType": "movement",
     "tracks": {
         "1": {

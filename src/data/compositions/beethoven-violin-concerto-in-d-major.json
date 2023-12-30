@@ -1,7 +1,7 @@
 {
     "composer": "Beethoven",
     "composition": "Violin Concerto in D Major",
-    "canonical": "/compositions/beethoven-violin-concerto-in-d-major",
+    "canonical": "/compositions/beethoven-violin-concerto-in-d-major/",
     "trackType": "movement",
     "tracks": {
         "1": {

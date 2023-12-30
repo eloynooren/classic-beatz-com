@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Don Giovanni",
-    "canonical": "/compositions/mozart-don-giovanni",
+    "canonical": "/compositions/mozart-don-giovanni/",
     "trackType": "movement",
     "acts": 2,
     "tracks": {

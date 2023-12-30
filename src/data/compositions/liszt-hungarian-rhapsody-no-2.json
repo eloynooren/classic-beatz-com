@@ -1,7 +1,7 @@
 {
     "composer": "Liszt",
     "composition": "Hungarian Rhapsody No 2",
-    "canonical": "/compositions/liszt-hungarian-rhapsody-no-2",
+    "canonical": "/compositions/liszt-hungarian-rhapsody-no-2/",
     "src": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/liszt-hungarian-rhapsody-no-2/fragment-1-30-90.mp3",

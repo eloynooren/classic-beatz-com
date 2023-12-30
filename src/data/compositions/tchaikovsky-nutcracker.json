@@ -1,7 +1,7 @@
 {
     "composer": "Tchaikovsky",
     "composition": "Nutcracker",
-    "canonical": "/compositions/tchaikovsky-nutcracker",
+    "canonical": "/compositions/tchaikovsky-nutcracker/",
     "trackType": "movement",
     "acts": 2,
     "tracks": {

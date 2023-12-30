@@ -1,7 +1,7 @@
 {
     "composer": "Chopin",
     "composition": "Nocturne in E flat major",
-    "canonical": "/compositions/chopin-nocturne-in-e-flat-major",
+    "canonical": "/compositions/chopin-nocturne-in-e-flat-major/",
     "src": "/audio/compositions/chopin-nocturne-in-e-flat-major/fragment-1-0-60.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/chopin-nocturne-in-e-flat-major/fragment-1-0-60.mp3",

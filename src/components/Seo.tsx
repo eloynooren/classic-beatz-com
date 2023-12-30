@@ -11,8 +11,12 @@ function Seo({ data }) {
 
 
     if (data && 'seo' in data) {
-        url = "https://www.classicalbeatz.com/" + data.canonical + '/'
-        image = "https://www.classicalbeatz.com/images/" + data.canonical + ".jpg"
+        if (!(data.canonical.startsWith('/') && data.canonical.endsWith('/'))) {
+            throw new Error(`Canonical ${data.canonical} not starting or ending with a slash`)
+        }
+
+        url = "https://www.classicalbeatz.com" + data.canonical + '/'
+        image = "https://www.classicalbeatz.com/images" + data.canonical + ".jpg"
 
         if (data.canonical && data.canonical == '/') {
             url = "https://www.classicalbeatz.com"

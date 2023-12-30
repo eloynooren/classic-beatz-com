@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Die Zauberfl\u00f6te",
-    "canonical": "/compositions/mozart-die-zauberflote",
+    "canonical": "/compositions/mozart-die-zauberflote/",
     "trackType": "movement",
     "acts": 2,
     "tracks": {

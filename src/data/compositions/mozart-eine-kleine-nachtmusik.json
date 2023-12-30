@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Eine kleine Nachtmusik",
-    "canonical": "/compositions/mozart-eine-kleine-nachtmusik",
+    "canonical": "/compositions/mozart-eine-kleine-nachtmusik/",
     "trackType": "movement",
     "tracks": {
         "1": {

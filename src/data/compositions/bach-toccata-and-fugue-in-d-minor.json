@@ -1,7 +1,7 @@
 {
     "composer": "Bach",
     "composition": "Toccata and Fugue in D Minor",
-    "canonical": "/compositions/bach-toccata-and-fugue-in-d-minor",
+    "canonical": "/compositions/bach-toccata-and-fugue-in-d-minor/",
     "src": "/audio/compositions/bach-toccata-and-fugue-in-d-minor/fragment-1-0-30.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/bach-toccata-and-fugue-in-d-minor/fragment-1-0-30.mp3",

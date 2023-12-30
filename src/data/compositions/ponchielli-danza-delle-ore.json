@@ -1,7 +1,7 @@
 {
     "composer": "Ponchielli",
     "composition": "Danza delle Ore",
-    "canonical": "/compositions/ponchielli-danza-delle-ore",
+    "canonical": "/compositions/ponchielli-danza-delle-ore/",
     "src": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/ponchielli-danza-delle-ore/fragment-1-0-60.mp3",

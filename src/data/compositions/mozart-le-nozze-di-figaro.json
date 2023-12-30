@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Le Nozze di Figaro",
-    "canonical": "/compositions/mozart-le-nozze-di-figaro",
+    "canonical": "/compositions/mozart-le-nozze-di-figaro/",
     "trackType": "movement",
     "acts": 4,
     "tracks": {

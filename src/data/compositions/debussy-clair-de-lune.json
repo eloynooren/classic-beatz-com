@@ -1,7 +1,7 @@
 {
     "composer": "Debussy",
     "composition": "Clair de Lune",
-    "canonical": "/compositions/debussy-clair-de-lune",
+    "canonical": "/compositions/debussy-clair-de-lune/",
     "src": "/audio/compositions/debussy-clair-de-lune/fragment-1-30-75.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/debussy-clair-de-lune/fragment-1-30-75.mp3",

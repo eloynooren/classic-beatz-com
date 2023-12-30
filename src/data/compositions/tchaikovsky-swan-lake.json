@@ -1,7 +1,7 @@
 {
     "composer": "Tchaikovsky",
     "composition": "Swan Lake",
-    "canonical": "/compositions/tchaikovsky-swan-lake",
+    "canonical": "/compositions/tchaikovsky-swan-lake/",
     "trackType": "movement",
     "acts": 4,
     "tracks": {

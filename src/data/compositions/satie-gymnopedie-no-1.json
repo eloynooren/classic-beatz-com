@@ -1,7 +1,7 @@
 {
     "composer": "Satie",
     "composition": "Gymnopedie No 1",
-    "canonical": "/compositions/satie-gymnopedie-no-1",
+    "canonical": "/compositions/satie-gymnopedie-no-1/",
     "src": "/audio/compositions/satie-gymnopedie-no-1/fragment-1-0-45.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/satie-gymnopedie-no-1/fragment-1-0-45.mp3",

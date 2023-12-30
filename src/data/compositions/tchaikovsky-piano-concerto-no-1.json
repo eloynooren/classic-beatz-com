@@ -1,7 +1,7 @@
 {
     "composer": "Tchaikovsky",
     "composition": "Piano Concerto No 1",
-    "canonical": "/compositions/tchaikovsky-piano-concerto-no-1",
+    "canonical": "/compositions/tchaikovsky-piano-concerto-no-1/",
     "trackType": "movement",
     "tracks": {
         "1": {

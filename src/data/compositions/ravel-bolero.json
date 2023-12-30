@@ -1,7 +1,7 @@
 {
     "composer": "Ravel",
     "composition": "Bolero",
-    "canonical": "/compositions/ravel-bolero",
+    "canonical": "/compositions/ravel-bolero/",
     "src": "/audio/compositions/ravel-bolero/fragment-1-360-420.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/ravel-bolero/fragment-1-60-120.mp3",

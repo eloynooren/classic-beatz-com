@@ -1,7 +1,7 @@
 {
     "composer": "Prokofiev",
     "composition": "Romeo & Juliet",
-    "canonical": "/compositions/prokofiev-romeo-and-juliet",
+    "canonical": "/compositions/prokofiev-romeo-and-juliet/",
     "trackType": "movement",
     "acts": 4,
     "tracks": {

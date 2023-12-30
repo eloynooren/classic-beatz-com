@@ -1,7 +1,7 @@
 {
     "composer": "H\u00e4ndel",
     "composition": "Hallelujah",
-    "canonical": "/compositions/handel-hallelujah",
+    "canonical": "/compositions/handel-hallelujah/",
     "src": "/audio/compositions/handel-hallelujah/fragment-1-0-60.mp3",
     "audio": {
         "fragment-1": "/audio/compositions/handel-hallelujah/fragment-1-0-60.mp3",

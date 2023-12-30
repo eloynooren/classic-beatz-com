@@ -1,7 +1,7 @@
 {
     "composer": "Beethoven",
     "composition": "Moonlight Sonata",
-    "canonical": "/compositions/beethoven-moonlight-sonata",
+    "canonical": "/compositions/beethoven-moonlight-sonata/",
     "trackType": "movement",
     "tracks": {
         "1": {

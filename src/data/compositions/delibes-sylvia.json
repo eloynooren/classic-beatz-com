@@ -1,7 +1,7 @@
 {
     "composer": "Delibes",
     "composition": "Sylvia",
-    "canonical": "/compositions/delibes-sylvia",
+    "canonical": "/compositions/delibes-sylvia/",
     "trackType": "movement",
     "acts": 3,
     "tracks": {

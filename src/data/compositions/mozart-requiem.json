@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Requiem",
-    "canonical": "/compositions/mozart-requiem",
+    "canonical": "/compositions/mozart-requiem/",
     "trackType": "movement",
     "tracks": {
         "1": {

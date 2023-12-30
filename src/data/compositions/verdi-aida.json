@@ -1,7 +1,7 @@
 {
     "composer": "Verdi",
     "composition": "Aida",
-    "canonical": "/compositions/verdi-aida",
+    "canonical": "/compositions/verdi-aida/",
     "trackType": "movement",
     "acts": 4,
     "tracks": {

@@ -3,13 +3,10 @@ import ReactDOMServer from 'react-dom/server';
 import {Link as GatsbyLink} from "gatsby";
 import { Tooltip as ReactTooltip } from 'react-tooltip';
 import makeRandomHtmlId from '../utils/makeRandomHtmlId'
-import useDeviceWidth from './UseDeviceWidth';
 import * as styles from './Layout.module.css'
 import { StaticImage } from "gatsby-plugin-image"
-import {Tab, TabList, TabPanel} from "react-tabs";
 import Seo from "./Seo";
 import {IoAdd, IoMan, IoHome, IoMusicalNote, IoMusicalNotes, IoArrowForward} from "react-icons/io5";
-import {clearCurrentlyHandledPendingQueryRuns} from "gatsby/dist/state-machines/query-running/actions";
 
 
 interface ButtonProps {
@@ -339,8 +336,6 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabel, seo, children }) => {
-    const [deviceWidth, windowWidth] = useDeviceWidth();
-
     return (
         <div>
             {seo ? <Seo data={seo} title={pageTitle}/> : <Seo title={pageTitle}/>}
@@ -353,19 +348,6 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
                         <TopMenu current={pageLabel ? pageLabel : ''}/>
                     </div>
                 </div>
-
-                {/* {deviceWidth < 768 ? (
-                    <div>
-                        <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/></Link>
-                    </div>
-                ) : (
-                    <div className={styles.layoutLogoAndMenu}>
-                        <div>
-                            <Link url='/'><StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/></Link>
-                        </div>
-                        <TopMenu current={pageLabel ? pageLabel : ''}/>
-                    </div>
-                )*/}
 
             </header>
             <main>

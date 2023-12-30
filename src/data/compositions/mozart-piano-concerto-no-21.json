@@ -1,7 +1,7 @@
 {
     "composer": "Mozart",
     "composition": "Piano Concerto No 21",
-    "canonical": "/compositions/mozart-piano-concerto-no-21",
+    "canonical": "/compositions/mozart-piano-concerto-no-21/",
     "trackType": "movement",
     "tracks": {
         "1": {
