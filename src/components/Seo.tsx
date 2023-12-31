@@ -15,8 +15,8 @@ function Seo({ data }) {
             throw new Error(`Canonical ${data.canonical} not starting or ending with a slash`)
         }
 
-        url = "https://www.classicalbeatz.com" + data.canonical + '/'
-        image = "https://www.classicalbeatz.com/images" + data.canonical + ".jpg"
+        url = "https://www.classicalbeatz.com" + data.canonical
+        image = "https://www.classicalbeatz.com/images" + data.canonical.slice(0, -1) + ".jpg"
 
         if (data.canonical && data.canonical == '/') {
             url = "https://www.classicalbeatz.com"
