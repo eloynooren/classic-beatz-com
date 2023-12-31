@@ -135,7 +135,7 @@ export const CompositionPage: React.FC<CompositionPageProps> = ({data, imageElem
                 <Flex>
                     <Image image={imageElements['best-moments']}/>
                     {'introduction' in data && <div className={styles.caption}>{data['introduction']}</div>}
-                    <Tabs selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
+                    <Tabs forceRenderTabPanel={true} selectedTabClassName={styles.selectedTab}  className={styles.tabs}>
                         <TabList className={styles.tabList}>
                             {'best-moments' in data && <Tab className={styles.tab}>Best Moments</Tab>}
                             {'backstory' in data && <Tab className={styles.tab}>Backstory</Tab>}
