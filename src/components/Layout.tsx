@@ -342,7 +342,7 @@ export const Layout: React.FC<LayoutProps> = ({ pageTitle, headerTitle, pageLabe
             <header>
                 <div className={styles.layoutHeader}>
                     <Link url='/'>
-                        <StaticImage src="../images/logo.png" alt={"logo"} loading="eager"/>
+                        <StaticImage src="../images/logo.png" alt={"Classical Beatz logo"} loading="eager"/>
                     </Link>
                     <div className={styles.layoutTopMenu}>
                         <TopMenu current={pageLabel ? pageLabel : ''}/>

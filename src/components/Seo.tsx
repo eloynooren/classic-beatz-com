@@ -2,6 +2,47 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
 
+
+function makeTitle(data: any) {
+    let title = ''
+    if ('title' in data.seo) {
+        title = data.seo.title
+    } else if ('title' in data) {
+        title = data.title
+        if (Array.isArray(title)) {
+            title = title.join(" ");
+        }
+    } else if ('composer' in data &&  'composition' in data ) {
+        title = data.composer + ": " + data.composition
+
+        const suffixMaxLen = 60 - title.length
+        console.log(suffixMaxLen)
+
+        const suffixes = [
+            " | Street Edition: Quick & Edgy",
+            " | Street Style Guide & Facts",
+            " | Urban Style Guide & Facts",
+            " | Streetwise Breakdown",
+            " | Street Style Guide",
+            " | Urban Style Guide",
+            " | Street Edition",
+            " | Hip Insights",
+            " | Lowdown",
+            " | 411"
+        ]
+
+        for (const suffix of suffixes) {
+            if (suffix.length <= suffixMaxLen) {
+                title += suffix;
+                break;
+            }
+        }
+    }
+
+    return title
+}
+
+
 function Seo({ data }) {
     let image = ''
     let url = ''
@@ -23,17 +64,7 @@ function Seo({ data }) {
             image = "https://www.classicalbeatz.com/images/index-4096.jpg"
         }
 
-        if ('title' in data.seo) {
-            title = data.seo.title
-        } else if ('title' in data) {
-            title = data.title
-        } else if ('composer' in data &&  'composition' in data ) {
-            title = data.composer + ": " + data.composition
-        }
-
-        if (Array.isArray(title)) {
-            title = title.join(" ");
-        }
+        title = makeTitle(data)
 
         meta = [
             {
